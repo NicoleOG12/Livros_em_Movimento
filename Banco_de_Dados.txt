@@ -1,0 +1,32 @@
+create database Gerenciamento;
+use Gerenciamento;
+
+create table usuário (
+ID_usuário integer,
+nome_usuário varchar(50),
+email_usuário varchar(50),
+senha varchar(50),
+gêneros_de_interesse varchar (100),
+primary key (ID_usuário)
+);
+
+create table livros (
+ID_livros integer,
+nome_livro varchar(50),
+autor_livro varchar(50),
+gênero varchar(50),
+ID_usuário INT not null auto_increment,
+disponibilidade boolean,
+primary key (ID_livros)
+);
+
+create table empréstimo (
+ID_empréstimo integer,
+ID_livro int ,
+ID_solicitação int ,
+data_de_solicitação int  ,
+ID_usuário INT ,
+status_da_solicitação enum('pendente', 'aceito', 'recusado'),
+data_de_devolução int, 
+primary key (ID_empréstimo)
+);
