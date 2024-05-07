@@ -14,5 +14,5 @@ Notificações: O sistema envia notificações aos usuários sobre solicitaçõe
 
 Avaliações e Comentários: Após a conclusão do empréstimo/troca, os usuários podem avaliar e deixar comentários sobre a sua experiência.
 
-Alunas: Eduarda Barbosa e Nicole Oliveira 
+Alunas: Eduarda Barbosa e Nicole Oliveira/
 Grupo ADM: Maria Marcena, Sthe e Júlia Aparecida
