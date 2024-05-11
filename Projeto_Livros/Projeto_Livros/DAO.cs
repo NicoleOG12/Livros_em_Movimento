@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace Projeto_Livros
 {
-    public class Program
+    internal class DAO
     {
-        static void Main(string[] args)
-        {
+        public DAO() 
+        { 
+
         }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Projeto_Livros
 {
-    internal class Avaliação
+    public class Avaliação
     {
     }
 }

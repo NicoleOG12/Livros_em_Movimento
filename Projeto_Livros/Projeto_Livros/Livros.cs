@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Projeto_Livros
 {
-    internal class Livro
+    public class Livros
     {
+        protected int id;
         protected string titulo;
         protected string autor;
         protected string genero;
@@ -21,11 +22,8 @@ namespace Projeto_Livros
             this.autor = Console.ReadLine();
             Console.WriteLine("Digite o gênero");
             this.genero = Console.ReadLine();
-           
-          
+            Console.WriteLine("");
+
         }
     }
-}
-
-
 }
