@@ -1,7 +1,0 @@
-C:\Users\nicole\Downloads\Projeto_Livros\Projeto_Livros\bin\Debug\Projeto_Livros.exe.config
-C:\Users\nicole\Downloads\Projeto_Livros\Projeto_Livros\bin\Debug\Projeto_Livros.exe
-C:\Users\nicole\Downloads\Projeto_Livros\Projeto_Livros\bin\Debug\Projeto_Livros.pdb
-C:\Users\nicole\Downloads\Projeto_Livros\Projeto_Livros\obj\Debug\Projeto_Livros.csproj.AssemblyReference.cache
-C:\Users\nicole\Downloads\Projeto_Livros\Projeto_Livros\obj\Debug\Projeto_Livros.csproj.CoreCompileInputs.cache
-C:\Users\nicole\Downloads\Projeto_Livros\Projeto_Livros\obj\Debug\Projeto_Livros.exe
-C:\Users\nicole\Downloads\Projeto_Livros\Projeto_Livros\obj\Debug\Projeto_Livros.pdb
