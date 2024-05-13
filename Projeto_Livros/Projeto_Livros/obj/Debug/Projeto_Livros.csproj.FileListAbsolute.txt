@@ -1,0 +1,14 @@
+C:\Users\Tecnico\Downloads\Projeto\Projeto_Livros\Projeto_Livros\bin\Debug\Projeto_Livros.exe.config
+C:\Users\Tecnico\Downloads\Projeto\Projeto_Livros\Projeto_Livros\bin\Debug\Projeto_Livros.exe
+C:\Users\Tecnico\Downloads\Projeto\Projeto_Livros\Projeto_Livros\bin\Debug\Projeto_Livros.pdb
+C:\Users\Tecnico\Downloads\Projeto\Projeto_Livros\Projeto_Livros\bin\Debug\MySql.Data.dll
+C:\Users\Tecnico\Downloads\Projeto\Projeto_Livros\Projeto_Livros\bin\Debug\System.Memory.dll
+C:\Users\Tecnico\Downloads\Projeto\Projeto_Livros\Projeto_Livros\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Tecnico\Downloads\Projeto\Projeto_Livros\Projeto_Livros\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Tecnico\Downloads\Projeto\Projeto_Livros\Projeto_Livros\bin\Debug\System.Buffers.dll
+C:\Users\Tecnico\Downloads\Projeto\Projeto_Livros\Projeto_Livros\bin\Debug\MySql.Data.xml
+C:\Users\Tecnico\Downloads\Projeto\Projeto_Livros\Projeto_Livros\obj\Debug\Projeto_Livros.csproj.AssemblyReference.cache
+C:\Users\Tecnico\Downloads\Projeto\Projeto_Livros\Projeto_Livros\obj\Debug\Projeto_Livros.csproj.CoreCompileInputs.cache
+C:\Users\Tecnico\Downloads\Projeto\Projeto_Livros\Projeto_Livros\obj\Debug\Projeto_.9F08F99B.Up2Date
+C:\Users\Tecnico\Downloads\Projeto\Projeto_Livros\Projeto_Livros\obj\Debug\Projeto_Livros.exe
+C:\Users\Tecnico\Downloads\Projeto\Projeto_Livros\Projeto_Livros\obj\Debug\Projeto_Livros.pdb
