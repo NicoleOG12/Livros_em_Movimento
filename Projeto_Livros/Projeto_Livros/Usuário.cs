@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Projeto_Livros
 {
-    internal class Usuário
+    public class Usuário
     {
         protected int id;
         protected string nome;
@@ -23,6 +23,7 @@ namespace Projeto_Livros
             Console.WriteLine("Digite sua senha:");
             this.senha = Console.ReadLine();
             Console.WriteLine("Gêneros de interesse:");
+            this.generos_de_interesse = Console.ReadLine();
         }
 
 

@@ -18,7 +18,8 @@ namespace Projeto_Livros
  
         public void verificacaoDisponibilidade()
         {
-            Console.WriteLine("Nome do livro:" + nomeLivro);
+            Console.WriteLine("Nome do livro:");
+            this.nomeLivro = Console.ReadLine();
 
             bool disponibilidade = true;
             if (disponibilidade==true)
