@@ -11,7 +11,7 @@ namespace Projeto_Livros
         protected int id;
         protected string nome;
         protected string email;
-        private string senha;
+        protected string senha;
         protected string generos_de_interesse;
 
         public void cadastrar()
