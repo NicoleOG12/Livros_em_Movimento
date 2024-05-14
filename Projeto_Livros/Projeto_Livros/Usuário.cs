@@ -30,7 +30,7 @@ namespace Projeto_Livros
         public void mostrarDados()
         {
             Console.WriteLine("Nome:" + nome);
-            Console.WriteLine("Email:{0}", email);
+            Console.WriteLine("Email:"+ email);
             Console.WriteLine("Senha:" + senha);
             Console.WriteLine("Gêneros de interesse" + generos_de_interesse);
         }

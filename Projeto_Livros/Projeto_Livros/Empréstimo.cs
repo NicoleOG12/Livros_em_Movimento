@@ -24,7 +24,7 @@ namespace Projeto_Livros
             bool disponibilidade = true;
             if (disponibilidade==true)
             {
-                Console.WriteLine("Solicitação de empréstimo");
+                Console.WriteLine("Solicitação de empréstimo" );
                 Console.WriteLine("Id do Usuário:" + nomeUsuario);
                 Console.WriteLine("Nome do Livro:" + nomeLivro);
             }
