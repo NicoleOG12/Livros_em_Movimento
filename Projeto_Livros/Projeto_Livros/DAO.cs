@@ -12,9 +12,8 @@ namespace Projeto_Livros
     {
         MySqlConnection conn;
         MySqlCommand cmd;
-        MySqlDataReader rd;
         string comandoSql;
-        string connection = "server=localhost;port=3306;Database=Gerenciamento;uid=root;pwd='';";
+        string connection = "server=localhost;port=3306;Database=gerenciamento;uid=root;pwd=''";
 
        public void conectar()
          {
