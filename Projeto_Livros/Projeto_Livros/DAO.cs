@@ -8,31 +8,39 @@ using System.Threading.Tasks;
 
 namespace Projeto_Livros
 {
-    internal class DAO
+    public class DAO
     {
         MySqlConnection conn;
         MySqlCommand cmd;
+        string comandoSql;
+        string connection = "server=localhost;port=3306;Database=Gerenciamento;uid=root;pwd='';";
 
-            string sql;
-            string command = "";
-            string connection = "server=localhost;port=3306;Database=Gerenciamento;uid=root;pwd='';";
+       public void conectar()
+         {
+            conn = new MySqlConnection(connection);
+            conn.Open();
+         }
 
-            public void conexão()
+       public void Execucao(string comandoSql)
+         {
+            cmd = new MySqlCommand(comandoSql, conn);
+            cmd.ExecuteNonQuery();
+              
+         }
+
+       public void lerDados()
+         {
+            cmd = new MySqlCommand(comandoSql, conn);
+            MySqlDataReader rd = cmd.ExecuteReader();
+
+            while (rd.Read()) 
             {
-                conn = new MySqlConnection(connection);
-                conn.Open();
 
             }
 
-            public void selecionar()
-            {
-                cmd = new MySqlCommand(command, conn);
-            }
+            rd.Close(); 
 
-            public void ler()
-            {
-
-            }
+         }
         }
     }
 

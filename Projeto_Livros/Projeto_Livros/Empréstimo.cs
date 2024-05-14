@@ -9,29 +9,34 @@ namespace Projeto_Livros
     public class Empréstimo
     {
         protected int id;
-        protected int idUsuario;
+        protected int nomeUsuario;
         protected string nomeLivro;
         protected DateTime dataSolicitacao;
         protected bool disponibilidade;
         protected DateTime dataDevolucao;
 
  
-        public void disponibilidadeDoLivro()
+        public void verificacaoDisponibilidade()
         {
             Console.WriteLine("Nome do livro:" + nomeLivro);
-            Console.WriteLine("Disponibilidade:" + disponibilidade);
-        }
 
-        //public void SolicitacaoDeEmprestimo()
-        //{
-          //  Console.WriteLine("Id do Usuário:" + idUsuario);
-          //  Console.WriteLine("Nome do Livro:");
-        //}
+            bool disponibilidade = true;
+            if (disponibilidade==true)
+            {
+                Console.WriteLine("Solicitação de empréstimo");
+                Console.WriteLine("Id do Usuário:" + nomeUsuario);
+                Console.WriteLine("Nome do Livro:" + nomeLivro);
+            }
+            else 
+            {
+                Console.WriteLine("Livro indisponivel");
+            }
+        }
 
 
         public void mostrarDados()
         {
-            Console.WriteLine("Id do Usuário:" + idUsuario);
+            Console.WriteLine("Id do Usuário:" + nomeUsuario);
             Console.WriteLine("Nome do Livro:" + nomeLivro);
             Console.WriteLine("Data da Solicitação:" + dataSolicitacao);
         }
