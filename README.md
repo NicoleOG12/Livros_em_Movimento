@@ -12,7 +12,5 @@ Sistema de Empréstimo: Os usuários podem solicitar empréstimos e troca de liv
 
 Notificações: O sistema envia notificações aos usuários sobre solicitações de empréstimo/troca, confirmações de empréstimo/troca, datas de devolução e etc.
 
-Avaliações e Comentários: Após a conclusão do empréstimo/troca, os usuários podem avaliar e deixar comentários sobre a sua experiência.
-
 Alunas: Eduarda Barbosa e Nicole Oliveira/
 Grupo ADM: Maria Marcena, Sthe e Júlia Aparecida
