@@ -14,7 +14,7 @@ namespace Projeto_Livros
         protected string autor;
         protected string genero;
 
-        public void cadastro_livro()
+        public void cadastroLivro()
         {
             Console.WriteLine("Digite o título");
             this.titulo = Console.ReadLine();

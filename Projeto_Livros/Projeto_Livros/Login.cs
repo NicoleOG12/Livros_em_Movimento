@@ -9,7 +9,7 @@ namespace Projeto_Livros
     internal class Login
     {
         protected string email;
-        private string senha;
+        protected string senha;
 
         public void login()
         {
