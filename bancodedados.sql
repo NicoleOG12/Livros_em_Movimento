@@ -49,14 +49,3 @@ statusDaSolicitacao enum('pendente', 'aceito', 'recusado'),
 dataDeDevolução date, 
 primary key (id)
 );
-
-create table Avaliacoes (
-id integer auto_increment unique,
-idUsuarioAvaliador int,
-comentario varchar (100),
-classificação int,
-primary key (id),
-constraint foreign key (idUsuarioAvaliador) references Usuario (id)
-);
-
-
