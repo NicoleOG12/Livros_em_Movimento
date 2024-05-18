@@ -12,24 +12,42 @@ namespace Projeto_Livros
     {
         static void Main(string[] args)
         {
+           
+            Console.WriteLine("\n-----------------------------------------------------------------------------Bem vindo ao-------------------------------------------------------------------------------\n");
+            Console.WriteLine("Já possui uma conta? S/N");
+            string resposta = Console.ReadLine();
 
-            //teste
-            Console.WriteLine("Faça seu cadastro");
+            if (resposta.ToUpper() == "S")
+            {
+                Console.WriteLine("\nFaça seu login\n");
+                Usuário existente = new Usuário();
+                existente.login();
+            }
+            else
+            {
+                Console.WriteLine("\nFaça seu cadastro\n");
+                Usuário novo = new Usuário();
+                novo.cadastrar();
+            }
+        
 
-            Usuário um= new Usuário();
-            um.cadastrar();
+        //teste
+        //Console.WriteLine("Faça seu cadastro");
 
-            Console.WriteLine("Cadastro feito com sucesso!");
+           // Usuário um= new Usuário();
+           // um.cadastrar();
 
-            Console.WriteLine("Cadastre seu livro");
+           // Console.WriteLine("Cadastro feito com sucesso!");
 
-            Livros livroum = new Livros();
-            livroum.cadastroLivro();
+           // Console.WriteLine("Cadastre seu livro");
 
-            Console.WriteLine("Cadastro feito com sucesso!");
+           // Livros livroum = new Livros();
+           // livroum.cadastroLivro();
 
-            Empréstimo dois= new Empréstimo();
-            dois.verificacaoDisponibilidade();
+           // Console.WriteLine("Cadastro feito com sucesso!");
+
+           // Empréstimo dois= new Empréstimo();
+           // dois.verificacaoDisponibilidade();
         }
     }
 }
