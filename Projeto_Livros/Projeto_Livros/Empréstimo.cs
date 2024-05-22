@@ -8,15 +8,15 @@ namespace Projeto_Livros
 {
     public class Empréstimo
     {
-        protected int id;
-        protected int nomeUsuario;
-        protected string nomeLivro;
-        protected DateTime dataSolicitacao;
-        protected bool disponibilidade;
-        protected DateTime dataDevolucao;
+        public int id;
+        public int nomeUsuario;
+        public string nomeLivro;
+        public DateTime dataSolicitacao;
+        public bool disponibilidade;
+        public DateTime dataDevolucao;
 
  
-        public void verificacaoDisponibilidade()
+        public void VerificacaoDisponibilidade()
         {
             Console.WriteLine("Nome do livro:");
             this.nomeLivro = Console.ReadLine();
@@ -35,7 +35,7 @@ namespace Projeto_Livros
         }
 
 
-        public void mostrarDados()
+        public void MostrarDados()
         {
             Console.WriteLine("Id do Usuário:" + nomeUsuario);
             Console.WriteLine("Nome do Livro:" + nomeLivro);

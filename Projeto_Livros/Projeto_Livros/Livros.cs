@@ -8,16 +8,15 @@ namespace Projeto_Livros
 {
     internal class Livros
     {
-        protected int id;
-        protected string nomeLivro;
-        protected string titulo;
-        protected string autor;
-        protected string genero;
+        public int id;
+        public string nomeLivro;
+        public string autor;
+        public string genero;
 
-        public void cadastroLivro()
+        public void CadastroLivro()
         {
-            Console.WriteLine("Digite o título");
-            this.titulo = Console.ReadLine();
+            Console.WriteLine("Digite o nome do livro");
+            this.nomeLivro = Console.ReadLine();
             Console.WriteLine("Digite o autor");
             this.autor = Console.ReadLine();
             Console.WriteLine("Digite o gênero");
@@ -25,9 +24,9 @@ namespace Projeto_Livros
      
         }
 
-        public void pesquisa()
+        public void Pesquisa()
         {
-            Console.WriteLine("Digite o nome do livro:");
+            Console.WriteLine("O que você procura?");
             this.nomeLivro = Console.ReadLine();
         }
 

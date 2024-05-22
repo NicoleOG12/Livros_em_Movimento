@@ -8,13 +8,13 @@ namespace Projeto_Livros
 {
     public class Usuário
     {
-        protected int id;
-        protected string nome;
-        protected string email;
-        protected string senha;
-        protected string generos_de_interesse;
+        public int id;
+        public string nome;
+        public string email;
+        public string senha;
+        public string generos_de_interesse;
 
-        public void cadastrar()
+        public void Cadastrar()
         {
             Console.WriteLine("Digite seu nome completo:");
             this.nome = Console.ReadLine();
@@ -26,7 +26,7 @@ namespace Projeto_Livros
             this.generos_de_interesse = Console.ReadLine();
         }
 
-        public void login()
+        public void Login()
         {
             Console.WriteLine("Digite seu email");
             this.email = Console.ReadLine();
@@ -35,7 +35,7 @@ namespace Projeto_Livros
         }
 
 
-        public void mostrarDados()
+        public void MostrarDados()
         {
             Console.WriteLine("Nome:" + nome);
             Console.WriteLine("Email:"+ email);

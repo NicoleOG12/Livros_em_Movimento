@@ -1,26 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto_Livros\\",
+  "WorkspaceRootPath": "C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto_Livros\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|c:\\users\\nicole\\downloads\\projeto\\projeto_livros\\projeto_livros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|c:\\users\\tecnico\\downloads\\projeto\\projeto_livros\\projeto_livros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|solutionrelative:projeto_livros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|C:\\Users\\nicole\\Downloads\\Projeto\\Projeto_Livros\\projeto_livros\\usu\u00E1rio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto_Livros\\projeto_livros\\usu\u00E1rio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|solutionrelative:projeto_livros\\usu\u00E1rio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|C:\\Users\\nicole\\Downloads\\Projeto\\Projeto_Livros\\projeto_livros\\dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|c:\\users\\tecnico\\downloads\\projeto\\projeto_livros\\projeto_livros\\pesquisa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|solutionrelative:projeto_livros\\pesquisa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto_Livros\\projeto_livros\\dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|solutionrelative:projeto_livros\\dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|C:\\Users\\nicole\\Downloads\\Projeto\\Projeto_Livros\\projeto_livros\\empr\u00E9stimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto_Livros\\projeto_livros\\empr\u00E9stimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|solutionrelative:projeto_livros\\empr\u00E9stimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|C:\\Users\\nicole\\Downloads\\Projeto\\Projeto_Livros\\projeto_livros\\livros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto_Livros\\projeto_livros\\livros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|solutionrelative:projeto_livros\\livros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|c:\\users\\tecnico\\downloads\\projeto\\projeto_livros\\projeto_livros\\solicita\u00E7\u00E3o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|solutionrelative:projeto_livros\\solicita\u00E7\u00E3o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,65 +38,99 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Livros.cs",
-              "DocumentMoniker": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\Livros.cs",
-              "RelativeDocumentMoniker": "Projeto_Livros\\Livros.cs",
-              "ToolTip": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\Livros.cs",
-              "RelativeToolTip": "Projeto_Livros\\Livros.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAAAgAAAAJAAAA",
+              "DocumentIndex": 2,
+              "Title": "Pesquisa.cs",
+              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\Pesquisa.cs",
+              "RelativeDocumentMoniker": "Projeto_Livros\\Pesquisa.cs",
+              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\Pesquisa.cs",
+              "RelativeToolTip": "Projeto_Livros\\Pesquisa.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T19:33:32.178Z"
+              "WhenOpened": "2024-05-22T20:01:48.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Solicita\u00E7\u00E3o.cs",
+              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\Solicita\u00E7\u00E3o.cs",
+              "RelativeDocumentMoniker": "Projeto_Livros\\Solicita\u00E7\u00E3o.cs",
+              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\Solicita\u00E7\u00E3o.cs",
+              "RelativeToolTip": "Projeto_Livros\\Solicita\u00E7\u00E3o.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T19:46:38.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Livros.cs",
+              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\Livros.cs",
+              "RelativeDocumentMoniker": "Projeto_Livros\\Livros.cs",
+              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\Livros.cs",
+              "RelativeToolTip": "Projeto_Livros\\Livros.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAqwA0AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T19:33:32.178Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Usu\u00E1rio.cs",
-              "DocumentMoniker": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\Usu\u00E1rio.cs",
+              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\Usu\u00E1rio.cs",
               "RelativeDocumentMoniker": "Projeto_Livros\\Usu\u00E1rio.cs",
-              "ToolTip": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\Usu\u00E1rio.cs",
+              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\Usu\u00E1rio.cs",
               "RelativeToolTip": "Projeto_Livros\\Usu\u00E1rio.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAIwCMAAAAAAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwA4AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T19:38:49.706Z"
+              "WhenOpened": "2024-05-13T19:38:49.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Empr\u00E9stimo.cs",
+              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\Empr\u00E9stimo.cs",
+              "RelativeDocumentMoniker": "Projeto_Livros\\Empr\u00E9stimo.cs",
+              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\Empr\u00E9stimo.cs",
+              "RelativeToolTip": "Projeto_Livros\\Empr\u00E9stimo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T19:32:14.636Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Empr\u00E9stimo.cs",
-              "DocumentMoniker": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\Empr\u00E9stimo.cs",
-              "RelativeDocumentMoniker": "Projeto_Livros\\Empr\u00E9stimo.cs",
-              "ToolTip": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\Empr\u00E9stimo.cs",
-              "RelativeToolTip": "Projeto_Livros\\Empr\u00E9stimo.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAYwCcAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T19:32:14.636Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "DAO.cs",
-              "DocumentMoniker": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\DAO.cs",
+              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\DAO.cs",
               "RelativeDocumentMoniker": "Projeto_Livros\\DAO.cs",
-              "ToolTip": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\DAO.cs",
+              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\DAO.cs",
               "RelativeToolTip": "Projeto_Livros\\DAO.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAowBUAAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T19:30:21.605Z"
+              "WhenOpened": "2024-05-13T19:30:21.605Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\Program.cs",
               "RelativeDocumentMoniker": "Projeto_Livros\\Program.cs",
-              "ToolTip": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\Program.cs",
+              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\Program.cs",
               "RelativeToolTip": "Projeto_Livros\\Program.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwB8AAAAIAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAwDEAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-13T19:29:32.232Z",
               "EditorCaption": ""

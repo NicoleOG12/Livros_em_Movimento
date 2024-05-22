@@ -12,7 +12,7 @@ namespace Projeto_Livros
     {
         static void Main(string[] args)
         {
-           
+
             Console.WriteLine("\n-----------------------------------------------------------------------------Bem vindo ao-------------------------------------------------------------------------------\n");
             Console.WriteLine("Já possui uma conta? S/N");
             string resposta = Console.ReadLine();
@@ -21,33 +21,78 @@ namespace Projeto_Livros
             {
                 Console.WriteLine("\nFaça seu login\n");
                 Usuário existente = new Usuário();
-                existente.login();
+                existente.Login();
             }
             else
             {
                 Console.WriteLine("\nFaça seu cadastro\n");
                 Usuário novo = new Usuário();
-                novo.cadastrar();
+                novo.Cadastrar();
             }
-        
+            string opcao;
+            while (true)
+            {
+                Console.WriteLine("Escolha uma das opções:");
+                Console.WriteLine("\n 1- Cadastrar livro" +
+                                  "\n 2- Ver minhas solicitações" +
+                                  "\n 3- Pesquisar" +
+                                  "\n 4- Notificações" +
+                                  "\n 5- Meu Perfil" +
+                                  "\n 6- Loja" +
+                                  "\n 7- Sair");
 
-        //teste
-        //Console.WriteLine("Faça seu cadastro");
+                opcao = Console.ReadLine();
 
-           // Usuário um= new Usuário();
-           // um.cadastrar();
+                switch (opcao)
+                {
+                    case "1":
+                        Console.Clear();
+                        ConsoleColor = ConsoleColor.Green;
+                        Console.WriteLine("\nCadastro de livros\n");
+                        Livros novoLivro = new Livros();
+                        novoLivro.CadastroLivro();
+                        Console.WriteLine("Livro cadastrado com sucesso!");
+                        break;
 
-           // Console.WriteLine("Cadastro feito com sucesso!");
+                    case "2":
+                        Console.Clear();
+                        Console.WriteLine("Solicitações");
+                        Solicitação minhasSolicitacoes = new Solicitação();
+                        minhasSolicitacoes.MinhaSolicitacao();
+                        break;
 
-           // Console.WriteLine("Cadastre seu livro");
+                    case "3":
+                        Console.Clear();
+                        Console.WriteLine("Pesquisa");
+                        Pesquisa novaPesquisa = new Pesquisa();
+                        novaPesquisa.MinhaPesquisa();
+                        break;
 
-           // Livros livroum = new Livros();
-           // livroum.cadastroLivro();
+                    case "4":
+                        Console.Clear();
+                        Console.WriteLine("Notificações");
+                        break;
 
-           // Console.WriteLine("Cadastro feito com sucesso!");
+                    case "5":
+                        Console.Clear();
+                        Console.WriteLine("Perfil");
+                        break;
 
-           // Empréstimo dois= new Empréstimo();
-           // dois.verificacaoDisponibilidade();
+                    case "6":
+                        Console.Clear();
+                        Console.WriteLine("Loja");
+                        break;
+
+                    case "7":
+                        Environment.Exit(0);
+                        break;
+
+                    default:
+                        Console.WriteLine("\n Opção inválida! Tente novamente");
+                        break;
+                }
+
+            }
         }
     }
 }
