@@ -49,3 +49,9 @@ statusDaSolicitacao enum('pendente', 'aceito', 'recusado'),
 dataDeDevolução date, 
 primary key (id)
 );
+
+create table Produtos (
+id integer auto_increment unique,
+nome varchar(50) not null,
+valor decimal(6,2) not null
+);
