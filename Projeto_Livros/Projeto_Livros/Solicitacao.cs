@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Projeto_Livros
 {
-    public class Empréstimo
+    public class Solicitacao
     {
         public int id;
         public int nomeUsuario;
