@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace Projeto_Livros
 {
-    public class Pesquisa
+    public class Pedido
     {
-        public void MinhaPesquisa() { }
     }
 }

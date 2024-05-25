@@ -12,35 +12,33 @@ namespace Projeto_Livros
     {
         MySqlConnection conn;
         MySqlCommand cmd;
-        string comandoSql;
-        string connection = "server=localhost;port=3306;Database=gerenciamento;uid=root;pwd=''";
+        string connection = "server=localhost;port=3306;database=gerenciamento;uid=root;pwd=''";
 
-       public void conectar()
-         {
+        public void Conectar()
+        {
             conn = new MySqlConnection(connection);
             conn.Open();
-         }
+        }
 
-       public void Execucao(string comandoSql)
-         {
-            cmd = new MySqlCommand(comandoSql, conn);
-            cmd.ExecuteNonQuery();
-              
-         }
+        public void Desconectar()
+        {
+            conn.Close();
+        }
 
-       public void lerDados()
-         {
-            cmd = new MySqlCommand(comandoSql, conn);
-            MySqlDataReader rd = cmd.ExecuteReader();
-
-            while (rd.Read()) 
+        public void ExecutarComando(string comandoSql)
+        {
+            using (cmd = new MySqlCommand(comandoSql, conn))
             {
-
+                cmd.ExecuteNonQuery();
             }
+        }
 
-            rd.Close(); 
-
-         }
+        public MySqlDataReader LerDados(string comandoSql)
+        {
+            cmd = new MySqlCommand(comandoSql, conn);
+            return cmd.ExecuteReader();
         }
     }
+}
+
 

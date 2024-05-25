@@ -57,8 +57,8 @@ namespace Projeto_Livros
                     case "2":
                         Console.Clear();
                         Console.WriteLine("Solicitações");
-                        Solicitação minhasSolicitacoes = new Solicitação();
-                        minhasSolicitacoes.MinhaSolicitacao();
+                        //Solicitação minhasSolicitacoes = new Solicitação();
+                        //minhasSolicitacoes.MinhaSolicitacao();
                         break;
 
                     case "3":
@@ -81,6 +81,8 @@ namespace Projeto_Livros
                     case "6":
                         Console.Clear();
                         Console.WriteLine("Loja");
+                        Produtos novosP = new Produtos();
+                        novosP.ListarProdutos();
                         break;
 
                     case "7":

@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto_Livros\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|C:\\Users\\nicole\\Downloads\\Projeto\\Projeto_Livros\\projeto_livros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|solutionrelative:projeto_livros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|c:\\users\\nicole\\downloads\\projeto\\projeto_livros\\projeto_livros\\usu\u00E1rio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|solutionrelative:projeto_livros\\usu\u00E1rio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|c:\\users\\nicole\\downloads\\projeto\\projeto_livros\\projeto_livros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|solutionrelative:projeto_livros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|c:\\users\\nicole\\downloads\\projeto\\projeto_livros\\projeto_livros\\produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|solutionrelative:projeto_livros\\produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|c:\\users\\nicole\\downloads\\projeto\\projeto_livros\\projeto_livros\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|c:\\users\\nicole\\downloads\\projeto\\projeto_livros\\projeto_livros\\pesquisa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|solutionrelative:projeto_livros\\pesquisa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|c:\\users\\nicole\\downloads\\projeto\\projeto_livros\\projeto_livros\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|solutionrelative:projeto_livros\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|C:\\Users\\nicole\\Downloads\\Projeto\\Projeto_Livros\\projeto_livros\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|solutionrelative:projeto_livros\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|c:\\users\\nicole\\downloads\\projeto\\projeto_livros\\projeto_livros\\dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{570CF336-D183-4068-9A79-D45C93E093B4}|Projeto_Livros\\Projeto_Livros.csproj|solutionrelative:projeto_livros\\dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,37 +38,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Pesquisa.cs",
+              "DocumentMoniker": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\Pesquisa.cs",
+              "RelativeDocumentMoniker": "Projeto_Livros\\Pesquisa.cs",
+              "ToolTip": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\Pesquisa.cs",
+              "RelativeToolTip": "Projeto_Livros\\Pesquisa.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T20:10:49.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DAO.cs",
+              "DocumentMoniker": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\DAO.cs",
+              "RelativeDocumentMoniker": "Projeto_Livros\\DAO.cs",
+              "ToolTip": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\DAO.cs",
+              "RelativeToolTip": "Projeto_Livros\\DAO.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwCkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T19:34:48.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Produtos.cs",
+              "DocumentMoniker": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\Produtos.cs",
+              "RelativeDocumentMoniker": "Projeto_Livros\\Produtos.cs",
+              "ToolTip": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\Produtos.cs",
+              "RelativeToolTip": "Projeto_Livros\\Produtos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T19:34:40.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\Pedido.cs",
+              "RelativeDocumentMoniker": "Projeto_Livros\\Pedido.cs",
+              "ToolTip": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\Pedido.cs",
+              "RelativeToolTip": "Projeto_Livros\\Pedido.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T19:34:16.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\Program.cs",
               "RelativeDocumentMoniker": "Projeto_Livros\\Program.cs",
               "ToolTip": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\Program.cs",
               "RelativeToolTip": "Projeto_Livros\\Program.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAgwDgAAAAdAAAA",
+              "ViewState": "AQIAADQAAAAAAAAAAAAgwEMAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-25T19:30:13.509Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Usu\u00E1rio.cs",
               "DocumentMoniker": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\Usu\u00E1rio.cs",
               "RelativeDocumentMoniker": "Projeto_Livros\\Usu\u00E1rio.cs",
               "ToolTip": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\Usu\u00E1rio.cs",
               "RelativeToolTip": "Projeto_Livros\\Usu\u00E1rio.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBIAAAA7AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-25T19:20:49.83Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto_Livros\\Projeto_Livros\\Login.cs",
               "RelativeDocumentMoniker": "Projeto_Livros\\Login.cs",
