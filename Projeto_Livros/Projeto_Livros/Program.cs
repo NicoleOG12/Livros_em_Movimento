@@ -20,8 +20,8 @@ namespace Projeto_Livros
             if (resposta.ToUpper() == "S")
             {
                 Console.WriteLine("\nFaça seu login\n");
-                Usuário existente = new Usuário();
-                existente.Login();
+                Login existente = new Login();
+                existente.FazerLogin();
             }
             else
             {
@@ -47,7 +47,7 @@ namespace Projeto_Livros
                 {
                     case "1":
                         Console.Clear();
-                        ConsoleColor = ConsoleColor.Green;
+                        
                         Console.WriteLine("\nCadastro de livros\n");
                         Livros novoLivro = new Livros();
                         novoLivro.CadastroLivro();

@@ -26,14 +26,6 @@ namespace Projeto_Livros
             this.generos_de_interesse = Console.ReadLine();
         }
 
-        public void Login()
-        {
-            Console.WriteLine("Digite seu email");
-            this.email = Console.ReadLine();
-            Console.WriteLine("Digite sua senha");
-            this.senha = Console.ReadLine();
-        }
-
 
         public void MostrarDados()
         {
