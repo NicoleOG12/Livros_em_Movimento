@@ -23,7 +23,7 @@ namespace Projeto_Livros
         public void CadastrarProduto()
         {
             dao.Conectar();
-            string comandoSql = $"INSERT INTO produtos (nome, descricao, valor) VALUES ('{Nome}', '{Descricao}', {Valor})";
+            string comandoSql = $"Insert into produtos (nome, descricao, valor) VALUES ('{Nome}', '{Descricao}', {Valor})";
             dao.ExecutarComando(comandoSql); 
             dao.Desconectar(); 
         }

@@ -8,7 +8,6 @@ namespace Projeto_Livros
 {
     public class Usuário
     {
-        public int id;
         public string nome;
         public string email;
         public string senha;
@@ -24,15 +23,20 @@ namespace Projeto_Livros
             this.senha = Console.ReadLine();
             Console.WriteLine("Gêneros de interesse:");
             this.generos_de_interesse = Console.ReadLine();
-        }
 
+            DAO dao = new DAO();
+            dao.Conectar();
+            string comandoSql = $"Insert into Usuario (nome, email, senha, generosdeinteresse) values ('{nome}', '{email}', '{senha}', '{generos_de_interesse}')";
+            dao.ExecutarComando(comandoSql);
+            dao.Desconectar();
+        }
 
         public void MostrarDados()
         {
             Console.WriteLine("Nome:" + nome);
             Console.WriteLine("Email:"+ email);
-            Console.WriteLine("Senha:" + senha);
             Console.WriteLine("Gêneros de interesse" + generos_de_interesse);
+
         }
     }
 }
