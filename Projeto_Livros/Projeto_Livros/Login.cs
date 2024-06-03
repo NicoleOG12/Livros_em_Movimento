@@ -11,12 +11,30 @@ namespace Projeto_Livros
         public string email;
         public string senha;
       
-        public void FazerLogin()
+        public bool FazerLogin()
         {
             Console.WriteLine("Digite seu email");
             this.email = Console.ReadLine();
             Console.WriteLine("Digite sua senha");
             this.senha = Console.ReadLine();
+
+            DAO dao = new DAO();
+            dao.Conectar();
+            string comandoSql = $"SELECT COUNT(*) FROM usuario WHERE email = '{email}' AND senha = '{senha}'";
+            var resultado = dao.LerDados(comandoSql);
+            resultado.Read();
+            int count = resultado.GetInt32(0);
+            resultado.Close();
+            dao.Desconectar();
+
+            if (count > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }
