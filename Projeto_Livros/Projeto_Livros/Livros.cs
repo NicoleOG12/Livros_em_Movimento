@@ -8,28 +8,47 @@ namespace Projeto_Livros
 {
     internal class Livros
     {
-        public int id;
-        public string nomeLivro;
+        public string nome;
         public string autor;
         public string genero;
 
-        public void CadastroLivro()
+        public void CadastroLivro(int idUsuario)
         {
             Console.WriteLine("Digite o nome do livro");
-            this.nomeLivro = Console.ReadLine();
+            this.nome = Console.ReadLine();
             Console.WriteLine("Digite o autor");
             this.autor = Console.ReadLine();
             Console.WriteLine("Digite o gênero");
             this.genero = Console.ReadLine();
-     
+
+            DAO dao = new DAO();
+            dao.Conectar(); 
+            string comandoSql = $"INSERT INTO livros (idUsuario, nome, autor, genero) VALUES ('{nome}', '{autor}', '{genero}')";
+            dao.ExecutarComando(comandoSql);
+            dao.Desconectar();
+
         }
 
         public void Pesquisa()
         {
-            Console.WriteLine("O que você procura?");
-            this.nomeLivro = Console.ReadLine();
-        }
+            Console.WriteLine("Digite o nome do livro que você procura:");
+            string livroPesquisado = Console.ReadLine();
 
+            DAO dao = new DAO();
+            dao.Conectar();
+            string comandoSql = $"SELECT * FROM livros WHERE nome = '{livroPesquisado}'";
+            var resultado = dao.LerDados(comandoSql); 
+
+            while (resultado.Read())
+            {
+                Console.WriteLine($"Nome: {resultado["nome"]}, Autor: {resultado["autor"]}, Gênero: {resultado["genero"]}");
+            }
+
+            resultado.Close();
+            dao.Desconectar();
+        }
     }
+
+   
 }
  
