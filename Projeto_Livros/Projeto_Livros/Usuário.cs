@@ -26,7 +26,7 @@ namespace Projeto_Livros
 
             DAO dao = new DAO();
             dao.Conectar();
-            string comandoSql = $"Insert into Usuario (nome, email, senha_hash, generosdeinteresse) values ('{nome}', '{email}', '{senha}', '{generos_de_interesse}')";
+            string comandoSql = $"Insert into Usuario (nome, email, senha, generosdeinteresse) values ('{nome}', '{email}', '{senha}', '{generos_de_interesse}')";
             dao.ExecutarComando(comandoSql);
             dao.Desconectar();
         }

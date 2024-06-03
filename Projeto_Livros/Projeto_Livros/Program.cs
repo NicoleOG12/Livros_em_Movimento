@@ -51,7 +51,8 @@ namespace Projeto_Livros
                         Console.WriteLine("\nCadastro de livros\n");
                         Livros novoLivro = new Livros();
                         int idUsuario =1 ;
-                        novoLivro.CadastroLivro(idUsuario);
+                        int idGenero=1 ;
+                        novoLivro.CadastroLivro(idUsuario, idGenero);
                         Console.WriteLine("Livro cadastrado com sucesso!");
                         break;
 
@@ -65,8 +66,8 @@ namespace Projeto_Livros
                     case "3":
                         Console.Clear();
                         Console.WriteLine("Pesquisa");
-                        Pesquisa novaPesquisa = new Pesquisa();
-                        novaPesquisa.MinhaPesquisa();
+                       // Pesquisa novaPesquisa = new Pesquisa();
+                        //novaPesquisa.MinhaPesquisa();
                         break;
 
                     case "4":

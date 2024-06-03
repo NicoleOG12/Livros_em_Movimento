@@ -12,7 +12,7 @@ namespace Projeto_Livros
         public string autor;
         public string genero;
 
-        public void CadastroLivro(int idUsuario)
+        public void CadastroLivro(int idUsuario, int idGenero)
         {
             Console.WriteLine("Digite o nome do livro");
             this.nome = Console.ReadLine();
@@ -23,7 +23,7 @@ namespace Projeto_Livros
 
             DAO dao = new DAO();
             dao.Conectar(); 
-            string comandoSql = $"INSERT INTO livros (idUsuario, nome, autor, genero) VALUES ('{nome}', '{autor}', '{genero}')";
+            string comandoSql = $"INSERT INTO livros (idUsuario,idGenero, nome, autor, genero) VALUES ('{idUsuario}', '{idGenero}','{nome}', '{autor}', '{genero}')";
             dao.ExecutarComando(comandoSql);
             dao.Desconectar();
 
