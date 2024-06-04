@@ -50,9 +50,8 @@ namespace Projeto_Livros
                         
                         Console.WriteLine("\nCadastro de livros\n");
                         Livros novoLivro = new Livros();
-                        int idUsuario =1 ;
-                        int idGenero=1 ;
-                        novoLivro.CadastroLivro(idUsuario, idGenero);
+                        int idUsuario = 0;
+                        novoLivro.CadastroLivro(idUsuario);
                         Console.WriteLine("Livro cadastrado com sucesso!");
                         break;
 
