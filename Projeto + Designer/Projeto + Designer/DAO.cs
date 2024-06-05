@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Projeto_Livros
+namespace Projeto___Designer
 {
     public class DAO
     {

@@ -19,9 +19,17 @@ namespace Projeto___Designer
 
         private void Form1_Load(object sender, EventArgs e)
         {
+
         }
 
         private void cadastrarUsuario(object sender, EventArgs e)
+        {
+            Cadastro cadastro = new Cadastro();
+            cadastro.ShowDialog();
+            this.Close();
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
         }
