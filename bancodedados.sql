@@ -31,19 +31,6 @@ constraint foreign key (idUsuario) references Usuario (id),
 constraint foreign key (id) references Genero (id)
 );
 
-create table Genero (
-id int auto_increment unique not null,
-nome varchar(25) not null
-);
-
-create table LivroGenero(
-id int auto_increment unique,
-idLivros int not null,
-idGenero int not null,
-constraint foreign key (idLivros) references Livros (id),
-constraint foreign key (idGenero) references Genero (id)
-);
-
 create table Solicitacao (
 id int auto_increment unique not null,
 idUsuario int not null,
