@@ -34,3 +34,4 @@ C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debu
 C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto + Designer.pdb
 C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Login.resources
 C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Tela_Principal.resources
+C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Tela_Inicial.resources

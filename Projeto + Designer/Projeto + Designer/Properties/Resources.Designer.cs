@@ -193,6 +193,16 @@ namespace Projeto___Designer.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap IMG_20240606_WA0014 {
+            get {
+                object obj = ResourceManager.GetObject("IMG-20240606-WA0014", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap wallpaperflare_com_wallpaper {
             get {
                 object obj = ResourceManager.GetObject("wallpaperflare.com_wallpaper", resourceCulture);

@@ -16,5 +16,12 @@ namespace Projeto___Designer
         {
             InitializeComponent();
         }
+
+        private void Continuar_btn_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.ShowDialog();
+            this.Close();
+        }
     }
 }

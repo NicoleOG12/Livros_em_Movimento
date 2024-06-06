@@ -114,6 +114,9 @@
     <EmbeddedResource Include="Loja.resx">
       <DependentUpon>Loja.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Tela Inicial.resx">
+      <DependentUpon>Tela Inicial.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -168,6 +171,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\314 Sem Título_20240606183254.jpg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG-20240606-WA0014.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
