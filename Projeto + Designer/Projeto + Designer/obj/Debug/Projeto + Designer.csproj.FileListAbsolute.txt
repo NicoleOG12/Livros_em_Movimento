@@ -16,3 +16,20 @@ C:\Users\Tecnico\Downloads\Projeto\Projeto + Designer\Projeto + Designer\bin\Deb
 C:\Users\Tecnico\Downloads\Projeto\Projeto + Designer\Projeto + Designer\bin\Debug\MySql.Data.xml
 C:\Users\Tecnico\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto .D0265652.Up2Date
 C:\Users\Tecnico\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Cadastro.resources
+C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\bin\Debug\Projeto + Designer.exe.config
+C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\bin\Debug\Projeto + Designer.exe
+C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\bin\Debug\Projeto + Designer.pdb
+C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\bin\Debug\System.Memory.dll
+C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\bin\Debug\System.Buffers.dll
+C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\bin\Debug\MySql.Data.xml
+C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto + Designer.csproj.AssemblyReference.cache
+C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Cadastro.resources
+C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Form1.resources
+C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Properties.Resources.resources
+C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto + Designer.csproj.GenerateResource.cache
+C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto + Designer.csproj.CoreCompileInputs.cache
+C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto .D0265652.Up2Date
+C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto + Designer.exe
+C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto + Designer.pdb

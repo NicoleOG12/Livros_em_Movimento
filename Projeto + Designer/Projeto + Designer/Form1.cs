@@ -33,5 +33,20 @@ namespace Projeto___Designer
         {
 
         }
+
+        private void Login_txt_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Email_txt_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
