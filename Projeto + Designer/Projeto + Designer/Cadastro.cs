@@ -66,5 +66,12 @@ namespace Projeto___Designer
         {
 
         }
+
+        private void Entrar(object sender, EventArgs e)
+        {
+            Tela_Principal tela_Principal = new Tela_Principal();
+            tela_Principal.ShowDialog();
+            this.Close();
+        }
     }
 }

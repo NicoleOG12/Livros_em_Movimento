@@ -63,6 +63,36 @@ namespace Projeto___Designer.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _314_Sem_Título_20240606183241 {
+            get {
+                object obj = ResourceManager.GetObject("314 Sem Título_20240606183241", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _314_Sem_Título_20240606183254 {
+            get {
+                object obj = ResourceManager.GetObject("314 Sem Título_20240606183254", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _314_Sem_Título_20240606183254_jpg {
+            get {
+                object obj = ResourceManager.GetObject("314 Sem Título_20240606183254.jpg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _3212f01a7c5fc4ea862619d0df8773e2 {
             get {
                 object obj = ResourceManager.GetObject("3212f01a7c5fc4ea862619d0df8773e2", resourceCulture);
@@ -86,6 +116,16 @@ namespace Projeto___Designer.Properties {
         internal static System.Drawing.Bitmap _43b7935382387078936b19c756c9429e {
             get {
                 object obj = ResourceManager.GetObject("43b7935382387078936b19c756c9429e", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_preview {
+            get {
+                object obj = ResourceManager.GetObject("image_preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

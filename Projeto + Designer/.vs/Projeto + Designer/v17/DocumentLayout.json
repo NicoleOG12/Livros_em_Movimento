@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto \u002B Designer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|c:\\users\\nicole\\downloads\\projeto\\projeto \u002B designer\\projeto \u002B designer\\tela principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\tela principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|c:\\users\\nicole\\downloads\\projeto\\projeto \u002B designer\\projeto \u002B designer\\tela inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\tela inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|c:\\users\\nicole\\downloads\\projeto\\projeto \u002B designer\\projeto \u002B designer\\perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,13 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Tela Principal.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto \u002B Designer\\Projeto \u002B Designer\\Tela Principal.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Tela Principal.cs",
-              "ToolTip": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto \u002B Designer\\Projeto \u002B Designer\\Tela Principal.cs [Design]",
-              "RelativeToolTip": "Projeto \u002B Designer\\Tela Principal.cs [Design]",
+              "Title": "Tela Inicial.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto \u002B Designer\\Projeto \u002B Designer\\Tela Inicial.cs",
+              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Tela Inicial.cs",
+              "ToolTip": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto \u002B Designer\\Projeto \u002B Designer\\Tela Inicial.cs [Design]",
+              "RelativeToolTip": "Projeto \u002B Designer\\Tela Inicial.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T19:58:37.034Z",
+              "WhenOpened": "2024-06-06T21:50:46.307Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Perfil.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto \u002B Designer\\Projeto \u002B Designer\\Perfil.cs",
+              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Perfil.cs",
+              "ToolTip": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto \u002B Designer\\Projeto \u002B Designer\\Perfil.cs [Design]",
+              "RelativeToolTip": "Projeto \u002B Designer\\Perfil.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T21:49:35.891Z",
               "EditorCaption": " [Design]"
             }
           ]

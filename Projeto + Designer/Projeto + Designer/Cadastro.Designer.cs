@@ -28,159 +28,160 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.cadastro_txt = new System.Windows.Forms.Label();
-            this.nome_txt = new System.Windows.Forms.Label();
-            this.email_txt = new System.Windows.Forms.Label();
-            this.senha_txt = new System.Windows.Forms.Label();
-            this.nome_box = new System.Windows.Forms.TextBox();
-            this.email_box = new System.Windows.Forms.TextBox();
-            this.senha_box = new System.Windows.Forms.TextBox();
-            this.btncadastrar = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.generoInteresse = new System.Windows.Forms.ComboBox();
-            this.groupBox1.SuspendLayout();
+            this.Cadastro_txt = new System.Windows.Forms.Label();
+            this.Nome_txt = new System.Windows.Forms.Label();
+            this.Email_txt = new System.Windows.Forms.Label();
+            this.Senha_txt = new System.Windows.Forms.Label();
+            this.Nome_box = new System.Windows.Forms.TextBox();
+            this.Email_box = new System.Windows.Forms.TextBox();
+            this.Senha_box = new System.Windows.Forms.TextBox();
+            this.Cadastrar_btn = new System.Windows.Forms.Button();
+            this.CaixaBranca = new System.Windows.Forms.GroupBox();
+            this.GeneroInteresse = new System.Windows.Forms.ComboBox();
+            this.CaixaRoxa = new System.Windows.Forms.GroupBox();
+            this.CaixaBranca.SuspendLayout();
             this.SuspendLayout();
             // 
-            // cadastro_txt
+            // Cadastro_txt
             // 
-            this.cadastro_txt.AutoSize = true;
-            this.cadastro_txt.BackColor = System.Drawing.Color.Transparent;
-            this.cadastro_txt.Font = new System.Drawing.Font("MV Boli", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cadastro_txt.ForeColor = System.Drawing.Color.MediumPurple;
-            this.cadastro_txt.Location = new System.Drawing.Point(136, 16);
-            this.cadastro_txt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.cadastro_txt.Name = "cadastro_txt";
-            this.cadastro_txt.Size = new System.Drawing.Size(131, 34);
-            this.cadastro_txt.TabIndex = 0;
-            this.cadastro_txt.Text = "Cadastro";
-            this.cadastro_txt.Click += new System.EventHandler(this.cadastro_txt_Click);
+            this.Cadastro_txt.AutoSize = true;
+            this.Cadastro_txt.BackColor = System.Drawing.Color.Transparent;
+            this.Cadastro_txt.Font = new System.Drawing.Font("MV Boli", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Cadastro_txt.ForeColor = System.Drawing.Color.MediumPurple;
+            this.Cadastro_txt.Location = new System.Drawing.Point(136, 16);
+            this.Cadastro_txt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Cadastro_txt.Name = "Cadastro_txt";
+            this.Cadastro_txt.Size = new System.Drawing.Size(131, 34);
+            this.Cadastro_txt.TabIndex = 0;
+            this.Cadastro_txt.Text = "Cadastro";
+            this.Cadastro_txt.Click += new System.EventHandler(this.cadastro_txt_Click);
             // 
-            // nome_txt
+            // Nome_txt
             // 
-            this.nome_txt.AutoSize = true;
-            this.nome_txt.BackColor = System.Drawing.Color.GhostWhite;
-            this.nome_txt.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nome_txt.ForeColor = System.Drawing.Color.MediumPurple;
-            this.nome_txt.Location = new System.Drawing.Point(65, 62);
-            this.nome_txt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.nome_txt.Name = "nome_txt";
-            this.nome_txt.Size = new System.Drawing.Size(47, 17);
-            this.nome_txt.TabIndex = 1;
-            this.nome_txt.Text = "Nome:";
-            this.nome_txt.Click += new System.EventHandler(this.nome_txt_Click);
+            this.Nome_txt.AutoSize = true;
+            this.Nome_txt.BackColor = System.Drawing.Color.GhostWhite;
+            this.Nome_txt.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Nome_txt.ForeColor = System.Drawing.Color.MediumPurple;
+            this.Nome_txt.Location = new System.Drawing.Point(65, 62);
+            this.Nome_txt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Nome_txt.Name = "Nome_txt";
+            this.Nome_txt.Size = new System.Drawing.Size(47, 17);
+            this.Nome_txt.TabIndex = 1;
+            this.Nome_txt.Text = "Nome:";
+            this.Nome_txt.Click += new System.EventHandler(this.nome_txt_Click);
             // 
-            // email_txt
+            // Email_txt
             // 
-            this.email_txt.AutoSize = true;
-            this.email_txt.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.email_txt.ForeColor = System.Drawing.Color.MediumPurple;
-            this.email_txt.Location = new System.Drawing.Point(65, 119);
-            this.email_txt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.email_txt.Name = "email_txt";
-            this.email_txt.Size = new System.Drawing.Size(44, 17);
-            this.email_txt.TabIndex = 4;
-            this.email_txt.Text = "Email:";
-            this.email_txt.Click += new System.EventHandler(this.email_txt_Click);
+            this.Email_txt.AutoSize = true;
+            this.Email_txt.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Email_txt.ForeColor = System.Drawing.Color.MediumPurple;
+            this.Email_txt.Location = new System.Drawing.Point(65, 119);
+            this.Email_txt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Email_txt.Name = "Email_txt";
+            this.Email_txt.Size = new System.Drawing.Size(44, 17);
+            this.Email_txt.TabIndex = 4;
+            this.Email_txt.Text = "Email:";
+            this.Email_txt.Click += new System.EventHandler(this.email_txt_Click);
             // 
-            // senha_txt
+            // Senha_txt
             // 
-            this.senha_txt.AutoSize = true;
-            this.senha_txt.BackColor = System.Drawing.Color.Transparent;
-            this.senha_txt.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.senha_txt.ForeColor = System.Drawing.Color.MediumPurple;
-            this.senha_txt.Location = new System.Drawing.Point(65, 176);
-            this.senha_txt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.senha_txt.Name = "senha_txt";
-            this.senha_txt.Size = new System.Drawing.Size(47, 17);
-            this.senha_txt.TabIndex = 5;
-            this.senha_txt.Text = "Senha:";
-            this.senha_txt.Click += new System.EventHandler(this.senha_txt_Click);
+            this.Senha_txt.AutoSize = true;
+            this.Senha_txt.BackColor = System.Drawing.Color.Transparent;
+            this.Senha_txt.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Senha_txt.ForeColor = System.Drawing.Color.MediumPurple;
+            this.Senha_txt.Location = new System.Drawing.Point(65, 176);
+            this.Senha_txt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Senha_txt.Name = "Senha_txt";
+            this.Senha_txt.Size = new System.Drawing.Size(47, 17);
+            this.Senha_txt.TabIndex = 5;
+            this.Senha_txt.Text = "Senha:";
+            this.Senha_txt.Click += new System.EventHandler(this.senha_txt_Click);
             // 
-            // nome_box
+            // Nome_box
             // 
-            this.nome_box.BackColor = System.Drawing.SystemColors.Menu;
-            this.nome_box.Location = new System.Drawing.Point(68, 82);
-            this.nome_box.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.nome_box.Name = "nome_box";
-            this.nome_box.Size = new System.Drawing.Size(266, 20);
-            this.nome_box.TabIndex = 6;
-            this.nome_box.TextChanged += new System.EventHandler(this.nome_box_TextChanged);
+            this.Nome_box.BackColor = System.Drawing.SystemColors.Menu;
+            this.Nome_box.Location = new System.Drawing.Point(68, 82);
+            this.Nome_box.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Nome_box.Name = "Nome_box";
+            this.Nome_box.Size = new System.Drawing.Size(266, 20);
+            this.Nome_box.TabIndex = 6;
+            this.Nome_box.TextChanged += new System.EventHandler(this.nome_box_TextChanged);
             // 
-            // email_box
+            // Email_box
             // 
-            this.email_box.BackColor = System.Drawing.SystemColors.Menu;
-            this.email_box.Location = new System.Drawing.Point(68, 139);
-            this.email_box.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.email_box.Name = "email_box";
-            this.email_box.Size = new System.Drawing.Size(266, 20);
-            this.email_box.TabIndex = 7;
+            this.Email_box.BackColor = System.Drawing.SystemColors.Menu;
+            this.Email_box.Location = new System.Drawing.Point(68, 139);
+            this.Email_box.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Email_box.Name = "Email_box";
+            this.Email_box.Size = new System.Drawing.Size(266, 20);
+            this.Email_box.TabIndex = 7;
             // 
-            // senha_box
+            // Senha_box
             // 
-            this.senha_box.BackColor = System.Drawing.SystemColors.Menu;
-            this.senha_box.Location = new System.Drawing.Point(68, 196);
-            this.senha_box.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.senha_box.Name = "senha_box";
-            this.senha_box.Size = new System.Drawing.Size(266, 20);
-            this.senha_box.TabIndex = 8;
+            this.Senha_box.BackColor = System.Drawing.SystemColors.Menu;
+            this.Senha_box.Location = new System.Drawing.Point(68, 196);
+            this.Senha_box.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Senha_box.Name = "Senha_box";
+            this.Senha_box.Size = new System.Drawing.Size(266, 20);
+            this.Senha_box.TabIndex = 8;
             // 
-            // btncadastrar
+            // Cadastrar_btn
             // 
-            this.btncadastrar.BackColor = System.Drawing.Color.MediumPurple;
-            this.btncadastrar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btncadastrar.Location = new System.Drawing.Point(142, 278);
-            this.btncadastrar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.btncadastrar.Name = "btncadastrar";
-            this.btncadastrar.Size = new System.Drawing.Size(145, 34);
-            this.btncadastrar.TabIndex = 9;
-            this.btncadastrar.Text = "Entrar\r\n";
-            this.btncadastrar.UseVisualStyleBackColor = false;
+            this.Cadastrar_btn.BackColor = System.Drawing.Color.MediumPurple;
+            this.Cadastrar_btn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Cadastrar_btn.Location = new System.Drawing.Point(142, 278);
+            this.Cadastrar_btn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Cadastrar_btn.Name = "Cadastrar_btn";
+            this.Cadastrar_btn.Size = new System.Drawing.Size(145, 34);
+            this.Cadastrar_btn.TabIndex = 9;
+            this.Cadastrar_btn.Text = "Entrar\r\n";
+            this.Cadastrar_btn.UseVisualStyleBackColor = false;
+            this.Cadastrar_btn.Click += new System.EventHandler(this.Entrar);
             // 
-            // groupBox1
+            // CaixaBranca
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.GhostWhite;
-            this.groupBox1.Controls.Add(this.btncadastrar);
-            this.groupBox1.Controls.Add(this.generoInteresse);
-            this.groupBox1.Controls.Add(this.nome_txt);
-            this.groupBox1.Controls.Add(this.email_box);
-            this.groupBox1.Controls.Add(this.cadastro_txt);
-            this.groupBox1.Controls.Add(this.senha_box);
-            this.groupBox1.Controls.Add(this.nome_box);
-            this.groupBox1.Controls.Add(this.email_txt);
-            this.groupBox1.Controls.Add(this.senha_txt);
-            this.groupBox1.Location = new System.Drawing.Point(349, 52);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(399, 318);
-            this.groupBox1.TabIndex = 10;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            this.CaixaBranca.BackColor = System.Drawing.Color.GhostWhite;
+            this.CaixaBranca.Controls.Add(this.Cadastrar_btn);
+            this.CaixaBranca.Controls.Add(this.GeneroInteresse);
+            this.CaixaBranca.Controls.Add(this.Nome_txt);
+            this.CaixaBranca.Controls.Add(this.Email_box);
+            this.CaixaBranca.Controls.Add(this.Cadastro_txt);
+            this.CaixaBranca.Controls.Add(this.Senha_box);
+            this.CaixaBranca.Controls.Add(this.Nome_box);
+            this.CaixaBranca.Controls.Add(this.Email_txt);
+            this.CaixaBranca.Controls.Add(this.Senha_txt);
+            this.CaixaBranca.Location = new System.Drawing.Point(349, 52);
+            this.CaixaBranca.Name = "CaixaBranca";
+            this.CaixaBranca.Size = new System.Drawing.Size(399, 318);
+            this.CaixaBranca.TabIndex = 10;
+            this.CaixaBranca.TabStop = false;
+            this.CaixaBranca.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // groupBox2
+            // GeneroInteresse
             // 
-            this.groupBox2.BackColor = System.Drawing.Color.MediumPurple;
-            this.groupBox2.Location = new System.Drawing.Point(28, 52);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(325, 317);
-            this.groupBox2.TabIndex = 11;
-            this.groupBox2.TabStop = false;
-            // 
-            // generoInteresse
-            // 
-            this.generoInteresse.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.generoInteresse.ForeColor = System.Drawing.Color.MediumPurple;
-            this.generoInteresse.FormattingEnabled = true;
-            this.generoInteresse.Items.AddRange(new object[] {
+            this.GeneroInteresse.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GeneroInteresse.ForeColor = System.Drawing.Color.MediumPurple;
+            this.GeneroInteresse.FormattingEnabled = true;
+            this.GeneroInteresse.Items.AddRange(new object[] {
             "Comédia",
             "Drama",
             "Ficção",
             "Romance",
             "Outros"});
-            this.generoInteresse.Location = new System.Drawing.Point(68, 235);
-            this.generoInteresse.Name = "generoInteresse";
-            this.generoInteresse.Size = new System.Drawing.Size(156, 24);
-            this.generoInteresse.TabIndex = 10;
-            this.generoInteresse.Text = "Gênero de interesse";
+            this.GeneroInteresse.Location = new System.Drawing.Point(68, 235);
+            this.GeneroInteresse.Name = "GeneroInteresse";
+            this.GeneroInteresse.Size = new System.Drawing.Size(156, 24);
+            this.GeneroInteresse.TabIndex = 10;
+            this.GeneroInteresse.Text = "Gênero de interesse";
+            // 
+            // CaixaRoxa
+            // 
+            this.CaixaRoxa.BackColor = System.Drawing.Color.MediumPurple;
+            this.CaixaRoxa.Location = new System.Drawing.Point(28, 52);
+            this.CaixaRoxa.Name = "CaixaRoxa";
+            this.CaixaRoxa.Size = new System.Drawing.Size(325, 317);
+            this.CaixaRoxa.TabIndex = 11;
+            this.CaixaRoxa.TabStop = false;
             // 
             // Cadastro
             // 
@@ -189,30 +190,30 @@
             this.BackColor = System.Drawing.Color.Lavender;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(760, 416);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.CaixaRoxa);
+            this.Controls.Add(this.CaixaBranca);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "Cadastro";
             this.Text = "Cadastro";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.CaixaBranca.ResumeLayout(false);
+            this.CaixaBranca.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label cadastro_txt;
-        private System.Windows.Forms.Label nome_txt;
-        private System.Windows.Forms.Label email_txt;
-        private System.Windows.Forms.Label senha_txt;
-        private System.Windows.Forms.TextBox nome_box;
-        private System.Windows.Forms.TextBox email_box;
-        private System.Windows.Forms.TextBox senha_box;
-        private System.Windows.Forms.Button btncadastrar;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.ComboBox generoInteresse;
+        private System.Windows.Forms.Label Cadastro_txt;
+        private System.Windows.Forms.Label Nome_txt;
+        private System.Windows.Forms.Label Email_txt;
+        private System.Windows.Forms.Label Senha_txt;
+        private System.Windows.Forms.TextBox Nome_box;
+        private System.Windows.Forms.TextBox Email_box;
+        private System.Windows.Forms.TextBox Senha_box;
+        private System.Windows.Forms.Button Cadastrar_btn;
+        private System.Windows.Forms.GroupBox CaixaBranca;
+        private System.Windows.Forms.GroupBox CaixaRoxa;
+        private System.Windows.Forms.ComboBox GeneroInteresse;
     }
 }

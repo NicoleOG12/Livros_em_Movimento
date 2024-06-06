@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Projeto___Designer
 {
-    public partial class Tela_Principal : Form
+    public partial class Troca_de_Livros : Form
     {
-        public Tela_Principal()
+        public Troca_de_Livros()
         {
             InitializeComponent();
         }

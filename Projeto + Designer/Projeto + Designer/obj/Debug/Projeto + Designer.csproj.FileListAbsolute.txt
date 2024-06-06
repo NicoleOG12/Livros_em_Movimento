@@ -26,10 +26,11 @@ C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\bin\Debu
 C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\bin\Debug\MySql.Data.xml
 C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto + Designer.csproj.AssemblyReference.cache
 C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Cadastro.resources
-C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Form1.resources
 C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Properties.Resources.resources
 C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto + Designer.csproj.GenerateResource.cache
 C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto + Designer.csproj.CoreCompileInputs.cache
 C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto .D0265652.Up2Date
 C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto + Designer.exe
 C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto + Designer.pdb
+C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Login.resources
+C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Tela_Principal.resources

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Projeto___Designer
 {
-    public partial class Form1 : Form
+    public partial class Login : Form
     {
-        public Form1()
+        public Login()
         {
             InitializeComponent();
         }
@@ -41,12 +41,20 @@ namespace Projeto___Designer
 
         private void Email_txt_Click(object sender, EventArgs e)
         {
-
+        
         }
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+
+        }
+
+        private void Logar(object sender, EventArgs e)
+        {
+            Tela_Principal tela_Principal = new Tela_Principal();
+            tela_Principal.ShowDialog();
+            this.Close();
         }
     }
 }

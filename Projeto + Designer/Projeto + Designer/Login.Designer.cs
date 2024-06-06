@@ -1,6 +1,6 @@
 ﻿namespace Projeto___Designer
 {
-    partial class Form1
+    partial class Login
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -28,38 +28,38 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.senha_box = new System.Windows.Forms.TextBox();
+            this.email_box = new System.Windows.Forms.TextBox();
             this.senha_txt = new System.Windows.Forms.Label();
             this.Login_txt = new System.Windows.Forms.Label();
             this.btn_cadastrar = new System.Windows.Forms.Button();
             this.caixalogin = new System.Windows.Forms.GroupBox();
-            this.email = new System.Windows.Forms.Label();
-            this.Logar = new System.Windows.Forms.Button();
+            this.Login_btn = new System.Windows.Forms.Button();
+            this.email_txt = new System.Windows.Forms.Label();
             this.caixalogin2 = new System.Windows.Forms.GroupBox();
-            this.semcadastro = new System.Windows.Forms.Label();
+            this.semcadastro_txt = new System.Windows.Forms.Label();
             this.caixalogin.SuspendLayout();
             this.caixalogin2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // textBox1
+            // senha_box
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.Menu;
-            this.textBox1.Location = new System.Drawing.Point(71, 157);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(173, 20);
-            this.textBox1.TabIndex = 0;
+            this.senha_box.BackColor = System.Drawing.SystemColors.Menu;
+            this.senha_box.Location = new System.Drawing.Point(71, 157);
+            this.senha_box.Margin = new System.Windows.Forms.Padding(2);
+            this.senha_box.Name = "senha_box";
+            this.senha_box.Size = new System.Drawing.Size(173, 20);
+            this.senha_box.TabIndex = 0;
             // 
-            // textBox2
+            // email_box
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.Menu;
-            this.textBox2.Location = new System.Drawing.Point(71, 104);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(173, 20);
-            this.textBox2.TabIndex = 1;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.email_box.BackColor = System.Drawing.SystemColors.Menu;
+            this.email_box.Location = new System.Drawing.Point(71, 104);
+            this.email_box.Margin = new System.Windows.Forms.Padding(2);
+            this.email_box.Name = "email_box";
+            this.email_box.Size = new System.Drawing.Size(173, 20);
+            this.email_box.TabIndex = 1;
+            this.email_box.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // senha_txt
             // 
@@ -84,7 +84,6 @@
             this.Login_txt.Size = new System.Drawing.Size(68, 28);
             this.Login_txt.TabIndex = 4;
             this.Login_txt.Text = "Login";
-            this.Login_txt.Click += new System.EventHandler(this.Login_txt_Click);
             // 
             // btn_cadastrar
             // 
@@ -103,47 +102,48 @@
             // caixalogin
             // 
             this.caixalogin.BackColor = System.Drawing.Color.GhostWhite;
-            this.caixalogin.Controls.Add(this.Logar);
-            this.caixalogin.Controls.Add(this.email);
+            this.caixalogin.Controls.Add(this.Login_btn);
+            this.caixalogin.Controls.Add(this.email_txt);
             this.caixalogin.Controls.Add(this.Login_txt);
             this.caixalogin.Controls.Add(this.senha_txt);
-            this.caixalogin.Controls.Add(this.textBox2);
-            this.caixalogin.Controls.Add(this.textBox1);
+            this.caixalogin.Controls.Add(this.email_box);
+            this.caixalogin.Controls.Add(this.senha_box);
             this.caixalogin.Location = new System.Drawing.Point(258, 71);
             this.caixalogin.Name = "caixalogin";
             this.caixalogin.Size = new System.Drawing.Size(302, 244);
             this.caixalogin.TabIndex = 7;
             this.caixalogin.TabStop = false;
             // 
-            // email
+            // Login_btn
             // 
-            this.email.AutoSize = true;
-            this.email.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.email.ForeColor = System.Drawing.Color.MediumPurple;
-            this.email.Location = new System.Drawing.Point(70, 85);
-            this.email.Name = "email";
-            this.email.Size = new System.Drawing.Size(64, 17);
-            this.email.TabIndex = 5;
-            this.email.Text = "Seu email";
+            this.Login_btn.BackColor = System.Drawing.Color.MediumPurple;
+            this.Login_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.Login_btn.CausesValidation = false;
+            this.Login_btn.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Login_btn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Login_btn.Location = new System.Drawing.Point(73, 204);
+            this.Login_btn.Name = "Login_btn";
+            this.Login_btn.Size = new System.Drawing.Size(158, 34);
+            this.Login_btn.TabIndex = 6;
+            this.Login_btn.Text = "Logar";
+            this.Login_btn.UseVisualStyleBackColor = false;
+            this.Login_btn.Click += new System.EventHandler(this.Logar);
             // 
-            // Logar
+            // email_txt
             // 
-            this.Logar.BackColor = System.Drawing.Color.MediumPurple;
-            this.Logar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.Logar.CausesValidation = false;
-            this.Logar.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Logar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Logar.Location = new System.Drawing.Point(73, 204);
-            this.Logar.Name = "Logar";
-            this.Logar.Size = new System.Drawing.Size(158, 34);
-            this.Logar.TabIndex = 6;
-            this.Logar.Text = "Logar";
-            this.Logar.UseVisualStyleBackColor = false;
+            this.email_txt.AutoSize = true;
+            this.email_txt.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.email_txt.ForeColor = System.Drawing.Color.MediumPurple;
+            this.email_txt.Location = new System.Drawing.Point(70, 85);
+            this.email_txt.Name = "email_txt";
+            this.email_txt.Size = new System.Drawing.Size(64, 17);
+            this.email_txt.TabIndex = 5;
+            this.email_txt.Text = "Seu email";
             // 
             // caixalogin2
             // 
             this.caixalogin2.BackColor = System.Drawing.Color.MediumPurple;
-            this.caixalogin2.Controls.Add(this.semcadastro);
+            this.caixalogin2.Controls.Add(this.semcadastro_txt);
             this.caixalogin2.Controls.Add(this.btn_cadastrar);
             this.caixalogin2.Location = new System.Drawing.Point(258, 315);
             this.caixalogin2.Name = "caixalogin2";
@@ -151,19 +151,19 @@
             this.caixalogin2.TabIndex = 8;
             this.caixalogin2.TabStop = false;
             // 
-            // semcadastro
+            // semcadastro_txt
             // 
-            this.semcadastro.AutoSize = true;
-            this.semcadastro.BackColor = System.Drawing.Color.MediumPurple;
-            this.semcadastro.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.semcadastro.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.semcadastro.Location = new System.Drawing.Point(7, 16);
-            this.semcadastro.Name = "semcadastro";
-            this.semcadastro.Size = new System.Drawing.Size(175, 17);
-            this.semcadastro.TabIndex = 6;
-            this.semcadastro.Text = "Ainda não possui uma conta?";
+            this.semcadastro_txt.AutoSize = true;
+            this.semcadastro_txt.BackColor = System.Drawing.Color.MediumPurple;
+            this.semcadastro_txt.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.semcadastro_txt.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.semcadastro_txt.Location = new System.Drawing.Point(7, 16);
+            this.semcadastro_txt.Name = "semcadastro_txt";
+            this.semcadastro_txt.Size = new System.Drawing.Size(175, 17);
+            this.semcadastro_txt.TabIndex = 6;
+            this.semcadastro_txt.Text = "Ainda não possui uma conta?";
             // 
-            // Form1
+            // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -175,7 +175,7 @@
             this.Controls.Add(this.caixalogin);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "Form1";
+            this.Name = "Login";
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.caixalogin.ResumeLayout(false);
@@ -188,16 +188,16 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox senha_box;
+        private System.Windows.Forms.TextBox email_box;
         private System.Windows.Forms.Label senha_txt;
         private System.Windows.Forms.Label Login_txt;
         private System.Windows.Forms.Button btn_cadastrar;
         private System.Windows.Forms.GroupBox caixalogin;
-        private System.Windows.Forms.Label email;
-        private System.Windows.Forms.Button Logar;
+        private System.Windows.Forms.Label email_txt;
+        private System.Windows.Forms.Button Login_btn;
         private System.Windows.Forms.GroupBox caixalogin2;
-        private System.Windows.Forms.Label semcadastro;
+        private System.Windows.Forms.Label semcadastro_txt;
     }
 }
 
