@@ -118,14 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="images 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="3212f01a7c5fc4ea862619d0df8773e2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3212f01a7c5fc4ea862619d0df8773e2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="3d-background-purple-background-abstract-background-windows-2560x1080-8292" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\3d-background-purple-background-abstract-background-windows-2560x1080-8292.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="3212f01a7c5fc4ea862619d0df8773e2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3212f01a7c5fc4ea862619d0df8773e2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="314 Sem Título_20240606183254" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\314 Sem Título_20240606183254.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -133,20 +130,32 @@
   <data name="43b7935382387078936b19c756c9429e" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\43b7935382387078936b19c756c9429e.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Troca de Livros" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Troca de Livros.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG-20240606-WA0014" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG-20240606-WA0014.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="images1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="images 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images 4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="314 Sem Título_20240606183254.jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\314 Sem Título_20240606183254.jpg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lupa (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lupa (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fundo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fundo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lupa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lupa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="wallpaperflare.com_wallpaper" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wallpaperflare.com_wallpaper.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="images 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="314 Sem Título_20240606183254.jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\314 Sem Título_20240606183254.jpg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="314 Sem Título_20240606183241" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\314 Sem Título_20240606183241.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,13 +163,19 @@
   <data name="images 21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images 21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="images 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="image_preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image_preview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IMG-20240606-WA0014" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IMG-20240606-WA0014.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Sacola" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sacola.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

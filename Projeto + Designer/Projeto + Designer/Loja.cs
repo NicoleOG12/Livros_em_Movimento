@@ -15,8 +15,13 @@ namespace Projeto___Designer
         public Tela_Principal()
         {
             InitializeComponent();
+            Image image = new Bitmap("C:/Users/Tecnico/Downloads/Projeto/lupa (2).jpg");
+            pb_teste.Image = image;
         }
 
-       
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace Projeto___Designer
 {
@@ -17,61 +18,23 @@ namespace Projeto___Designer
             InitializeComponent();
         }
 
-        private void cadastro_txt_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void nome_txt_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void caixa_generos_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void generos_txt_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void email_txt_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void senha_txt_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void nome_box_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void Entrar(object sender, EventArgs e)
         {
+            DAO dao = new DAO();
+            dao.Conectar();
+            string comandoSql = $"Insert into Usuario (nome, email, senha, generosdeinteresse) values ('{Nome_box.Text}', '{Email_box.Text}','{Senha_box.Text}','{GeneroInteresse.Text}')";
+            dao.ExecutarComando(comandoSql);
+            dao.Desconectar();
             Tela_Principal tela_Principal = new Tela_Principal();
             tela_Principal.ShowDialog();
             this.Close();
         }
     }
+   
 }

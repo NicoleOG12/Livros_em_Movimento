@@ -1,14 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto \u002B Designer\\",
+  "WorkspaceRootPath": "C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto \u002B Designer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|c:\\users\\nicole\\downloads\\projeto\\projeto \u002B designer\\projeto \u002B designer\\tela inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|c:\\users\\tecnico\\downloads\\projeto\\projeto \u002B designer\\projeto \u002B designer\\loja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\loja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|c:\\users\\tecnico\\downloads\\projeto\\projeto \u002B designer\\projeto \u002B designer\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|c:\\users\\tecnico\\downloads\\projeto\\projeto \u002B designer\\projeto \u002B designer\\tela inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\tela inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|c:\\users\\nicole\\downloads\\projeto\\projeto \u002B designer\\projeto \u002B designer\\tela inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto \u002B Designer\\projeto \u002B designer\\tela inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\tela inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|c:\\users\\tecnico\\downloads\\projeto\\projeto \u002B designer\\projeto \u002B designer\\loja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\loja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|c:\\users\\tecnico\\downloads\\projeto\\projeto \u002B designer\\projeto \u002B designer\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|c:\\users\\tecnico\\downloads\\projeto\\projeto \u002B designer\\projeto \u002B designer\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|c:\\users\\tecnico\\downloads\\projeto\\projeto \u002B designer\\projeto \u002B designer\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,28 +42,111 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Loja.cs",
+              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto \u002B Designer\\Projeto \u002B Designer\\Loja.cs",
+              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Loja.cs",
+              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto \u002B Designer\\Projeto \u002B Designer\\Loja.cs",
+              "RelativeToolTip": "Projeto \u002B Designer\\Loja.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAkwBgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T18:23:18.189Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Loja.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto \u002B Designer\\Projeto \u002B Designer\\Loja.cs",
+              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Loja.cs",
+              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto \u002B Designer\\Projeto \u002B Designer\\Loja.cs [Design]",
+              "RelativeToolTip": "Projeto \u002B Designer\\Loja.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T18:23:15.807Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto \u002B Designer\\Projeto \u002B Designer\\Login.cs",
+              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Login.cs",
+              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto \u002B Designer\\Projeto \u002B Designer\\Login.cs",
+              "RelativeToolTip": "Projeto \u002B Designer\\Login.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAmwEkAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T17:44:07.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto \u002B Designer\\Projeto \u002B Designer\\Login.cs",
+              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Login.cs",
+              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto \u002B Designer\\Projeto \u002B Designer\\Login.cs [Design]",
+              "RelativeToolTip": "Projeto \u002B Designer\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T17:44:05.223Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Cadastro.cs",
+              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto \u002B Designer\\Projeto \u002B Designer\\Cadastro.cs",
+              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Cadastro.cs",
+              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto \u002B Designer\\Projeto \u002B Designer\\Cadastro.cs",
+              "RelativeToolTip": "Projeto \u002B Designer\\Cadastro.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAADwvyMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T17:05:12.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cadastro.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto \u002B Designer\\Projeto \u002B Designer\\Cadastro.cs",
+              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Cadastro.cs",
+              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto \u002B Designer\\Projeto \u002B Designer\\Cadastro.cs [Design]",
+              "RelativeToolTip": "Projeto \u002B Designer\\Cadastro.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T17:05:09.956Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Tela Inicial.cs",
-              "DocumentMoniker": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto \u002B Designer\\Projeto \u002B Designer\\Tela Inicial.cs",
+              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto \u002B Designer\\Projeto \u002B Designer\\Tela Inicial.cs",
               "RelativeDocumentMoniker": "Projeto \u002B Designer\\Tela Inicial.cs",
-              "ToolTip": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto \u002B Designer\\Projeto \u002B Designer\\Tela Inicial.cs",
+              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto \u002B Designer\\Projeto \u002B Designer\\Tela Inicial.cs",
               "RelativeToolTip": "Projeto \u002B Designer\\Tela Inicial.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAnwBcAAAAZAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T21:59:32.826Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Tela Inicial.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto \u002B Designer\\Projeto \u002B Designer\\Tela Inicial.cs",
+              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto \u002B Designer\\Projeto \u002B Designer\\Tela Inicial.cs",
               "RelativeDocumentMoniker": "Projeto \u002B Designer\\Tela Inicial.cs",
-              "ToolTip": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto \u002B Designer\\Projeto \u002B Designer\\Tela Inicial.cs [Design]",
+              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Projeto\\Projeto \u002B Designer\\Projeto \u002B Designer\\Tela Inicial.cs [Design]",
               "RelativeToolTip": "Projeto \u002B Designer\\Tela Inicial.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T21:50:46.307Z",

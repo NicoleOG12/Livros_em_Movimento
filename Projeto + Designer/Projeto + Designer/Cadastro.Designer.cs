@@ -54,7 +54,6 @@
             this.Cadastro_txt.Size = new System.Drawing.Size(131, 34);
             this.Cadastro_txt.TabIndex = 0;
             this.Cadastro_txt.Text = "Cadastro";
-            this.Cadastro_txt.Click += new System.EventHandler(this.cadastro_txt_Click);
             // 
             // Nome_txt
             // 
@@ -68,7 +67,6 @@
             this.Nome_txt.Size = new System.Drawing.Size(47, 17);
             this.Nome_txt.TabIndex = 1;
             this.Nome_txt.Text = "Nome:";
-            this.Nome_txt.Click += new System.EventHandler(this.nome_txt_Click);
             // 
             // Email_txt
             // 
@@ -81,7 +79,6 @@
             this.Email_txt.Size = new System.Drawing.Size(44, 17);
             this.Email_txt.TabIndex = 4;
             this.Email_txt.Text = "Email:";
-            this.Email_txt.Click += new System.EventHandler(this.email_txt_Click);
             // 
             // Senha_txt
             // 
@@ -95,7 +92,6 @@
             this.Senha_txt.Size = new System.Drawing.Size(47, 17);
             this.Senha_txt.TabIndex = 5;
             this.Senha_txt.Text = "Senha:";
-            this.Senha_txt.Click += new System.EventHandler(this.senha_txt_Click);
             // 
             // Nome_box
             // 
@@ -155,7 +151,6 @@
             this.CaixaBranca.Size = new System.Drawing.Size(399, 318);
             this.CaixaBranca.TabIndex = 10;
             this.CaixaBranca.TabStop = false;
-            this.CaixaBranca.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // GeneroInteresse
             // 
