@@ -53,5 +53,45 @@ namespace Projeto___Designer
             this.Close();
         }
 
+
+        private void Livro1_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void Livro2_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void Livro3_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void Livro4_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void Livro5_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void Livro6_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void Livro7_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void Livro8_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
     }
 }

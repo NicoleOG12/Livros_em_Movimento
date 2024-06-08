@@ -103,6 +103,16 @@ namespace Projeto___Designer.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _3703693f_2eb2_4de1_89d4_a3092c038ef5 {
+            get {
+                object obj = ResourceManager.GetObject("3703693f-2eb2-4de1-89d4-a3092c038ef5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _3d_background_purple_background_abstract_background_windows_2560x1080_8292 {
             get {
                 object obj = ResourceManager.GetObject("3d-background-purple-background-abstract-background-windows-2560x1080-8292", resourceCulture);
@@ -116,6 +126,46 @@ namespace Projeto___Designer.Properties {
         internal static System.Drawing.Bitmap _43b7935382387078936b19c756c9429e {
             get {
                 object obj = ResourceManager.GetObject("43b7935382387078936b19c756c9429e", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _51jiQtSEwDL {
+            get {
+                object obj = ResourceManager.GetObject("51jiQtSEwDL", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _81LRk6_p1HL__AC_UF1000_1000_QL80_ {
+            get {
+                object obj = ResourceManager.GetObject("81LRk6+p1HL._AC_UF1000,1000_QL80_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _81LTEfXYgcL {
+            get {
+                object obj = ResourceManager.GetObject("81LTEfXYgcL", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap alem_da_fumaca {
+            get {
+                object obj = ResourceManager.GetObject("alem_da_fumaca", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -233,6 +283,16 @@ namespace Projeto___Designer.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap livros_de_romance_como_eu_era_antes_de_voce_20240326165339 {
+            get {
+                object obj = ResourceManager.GetObject("livros-de-romance-como-eu-era-antes-de-voce-20240326165339", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap lupa {
             get {
                 object obj = ResourceManager.GetObject("lupa", resourceCulture);
@@ -253,9 +313,29 @@ namespace Projeto___Designer.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap memorias_postumas_bras_cubas {
+            get {
+                object obj = ResourceManager.GetObject("memorias-postumas-bras-cubas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Notificações {
             get {
                 object obj = ResourceManager.GetObject("Notificações", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap o_duque_e_eu {
+            get {
+                object obj = ResourceManager.GetObject("o-duque-e-eu", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
