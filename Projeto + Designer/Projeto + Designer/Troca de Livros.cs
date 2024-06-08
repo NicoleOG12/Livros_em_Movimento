@@ -10,10 +10,11 @@ using System.Windows.Forms;
 
 namespace Projeto___Designer
 {
-    public partial class Tela_Principal : Form
+    public partial class Troca_de_livros : Form
     {
-        public Tela_Principal()
+        public Troca_de_livros()
         {
+
             InitializeComponent();
          
         }
@@ -53,8 +54,17 @@ namespace Projeto___Designer
             this.Close();
         }
 
+        private void Memórias_Póstumas_Click(object sender, EventArgs e)
+        {
+
+        }
 
         private void Livro1_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void Mais_que_amigos_Click(object sender, EventArgs e)
         {
 
         }
@@ -64,7 +74,17 @@ namespace Projeto___Designer
 
         }
 
+        private void A_hipótese_do_amor_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void Livro3_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void É_assim_que_começa_Click(object sender, EventArgs e)
         {
 
         }
@@ -74,7 +94,17 @@ namespace Projeto___Designer
 
         }
 
+        private void Além_da_fumaça_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void Livro5_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void Bridgerton_Click(object sender, EventArgs e)
         {
 
         }
@@ -84,7 +114,17 @@ namespace Projeto___Designer
 
         }
 
+        private void A_garota_do_lago_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void Livro7_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void Como_eu_era_antes_de_você_Click(object sender, EventArgs e)
         {
 
         }

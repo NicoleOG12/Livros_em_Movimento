@@ -1,6 +1,6 @@
 ﻿namespace Projeto___Designer
 {
-    partial class Perfil
+    partial class Carrinho
     {
         /// <summary>
         /// Required designer variable.
@@ -30,10 +30,12 @@
         {
             this.Carrinho_Box = new System.Windows.Forms.PictureBox();
             this.Perfil_Box = new System.Windows.Forms.PictureBox();
+            this.Solicitação_Box = new System.Windows.Forms.PictureBox();
             this.Sacola_Box = new System.Windows.Forms.PictureBox();
             this.Troca_de_livros_box = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.Carrinho_Box)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Perfil_Box)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Solicitação_Box)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Sacola_Box)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Troca_de_livros_box)).BeginInit();
             this.SuspendLayout();
@@ -61,6 +63,18 @@
             this.Perfil_Box.TabStop = false;
             this.Perfil_Box.Click += new System.EventHandler(this.Perfil_Click);
             // 
+            // Solicitação_Box
+            // 
+            this.Solicitação_Box.BackColor = System.Drawing.Color.Transparent;
+            this.Solicitação_Box.Image = global::Projeto___Designer.Properties.Resources.Notificações;
+            this.Solicitação_Box.Location = new System.Drawing.Point(717, 24);
+            this.Solicitação_Box.Name = "Solicitação_Box";
+            this.Solicitação_Box.Size = new System.Drawing.Size(47, 46);
+            this.Solicitação_Box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Solicitação_Box.TabIndex = 3;
+            this.Solicitação_Box.TabStop = false;
+            this.Solicitação_Box.Click += new System.EventHandler(this.Solicitações_Click);
+            // 
             // Sacola_Box
             // 
             this.Sacola_Box.BackColor = System.Drawing.Color.Transparent;
@@ -85,7 +99,7 @@
             this.Troca_de_livros_box.TabStop = false;
             this.Troca_de_livros_box.Click += new System.EventHandler(this.Troca_de_livros_Click);
             // 
-            // Perfil
+            // Carrinho
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -94,13 +108,14 @@
             this.ClientSize = new System.Drawing.Size(800, 734);
             this.Controls.Add(this.Carrinho_Box);
             this.Controls.Add(this.Perfil_Box);
+            this.Controls.Add(this.Solicitação_Box);
             this.Controls.Add(this.Sacola_Box);
             this.Controls.Add(this.Troca_de_livros_box);
-            this.Name = "Perfil";
-            this.Text = "Tela_Principal";
-            this.Load += new System.EventHandler(this.Tela_Principal_Load);
+            this.Name = "Carrinho";
+            this.Text = "Carrinho";
             ((System.ComponentModel.ISupportInitialize)(this.Carrinho_Box)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Perfil_Box)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Solicitação_Box)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Sacola_Box)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Troca_de_livros_box)).EndInit();
             this.ResumeLayout(false);
@@ -110,6 +125,7 @@
         #endregion
         private System.Windows.Forms.PictureBox Troca_de_livros_box;
         private System.Windows.Forms.PictureBox Sacola_Box;
+        private System.Windows.Forms.PictureBox Solicitação_Box;
         private System.Windows.Forms.PictureBox Perfil_Box;
         private System.Windows.Forms.PictureBox Carrinho_Box;
     }

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto \u002B Designer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|c:\\users\\nicole\\downloads\\projeto\\projeto \u002B designer\\projeto \u002B designer\\troca de livros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\troca de livros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|c:\\users\\nicole\\downloads\\projeto\\projeto \u002B designer\\projeto \u002B designer\\carrinho .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\carrinho .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|c:\\users\\nicole\\downloads\\projeto\\projeto \u002B designer\\projeto \u002B designer\\troca de livros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\troca de livros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|c:\\users\\nicole\\downloads\\projeto\\projeto \u002B designer\\projeto \u002B designer\\carrinho .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\carrinho .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,26 +23,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Troca de Livros.cs",
-              "DocumentMoniker": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto \u002B Designer\\Projeto \u002B Designer\\Troca de Livros.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Troca de Livros.cs",
-              "ToolTip": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto \u002B Designer\\Projeto \u002B Designer\\Troca de Livros.cs",
-              "RelativeToolTip": "Projeto \u002B Designer\\Troca de Livros.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAqwDYAAAAAAAAA",
+              "Title": "Carrinho .cs",
+              "DocumentMoniker": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto \u002B Designer\\Projeto \u002B Designer\\Carrinho .cs",
+              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Carrinho .cs",
+              "ToolTip": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto \u002B Designer\\Projeto \u002B Designer\\Carrinho .cs",
+              "RelativeToolTip": "Projeto \u002B Designer\\Carrinho .cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAnwCUAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T00:30:41.195Z",
+              "WhenOpened": "2024-06-08T18:47:36.092Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Troca de Livros.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto \u002B Designer\\Projeto \u002B Designer\\Troca de Livros.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Troca de Livros.cs",
-              "ToolTip": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto \u002B Designer\\Projeto \u002B Designer\\Troca de Livros.cs [Design]",
-              "RelativeToolTip": "Projeto \u002B Designer\\Troca de Livros.cs [Design]",
+              "Title": "Carrinho .cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto \u002B Designer\\Projeto \u002B Designer\\Carrinho .cs",
+              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Carrinho .cs",
+              "ToolTip": "C:\\Users\\nicole\\Downloads\\Projeto\\Projeto \u002B Designer\\Projeto \u002B Designer\\Carrinho .cs [Design]",
+              "RelativeToolTip": "Projeto \u002B Designer\\Carrinho .cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T00:15:12.599Z",
+              "WhenOpened": "2024-06-08T18:47:32.22Z",
               "EditorCaption": " [Design]"
             }
           ]

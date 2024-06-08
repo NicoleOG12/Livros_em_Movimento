@@ -31,8 +31,8 @@ namespace Projeto___Designer
             string comandoSql = $"Insert into Usuario (nome, email, senha, generosdeinteresse) values ('{Nome_box.Text}', '{Email_box.Text}','{Senha_box.Text}','{GeneroInteresse.Text}')";
             dao.ExecutarComando(comandoSql);
             dao.Desconectar();
-            Tela_Principal tela_Principal = new Tela_Principal();
-            tela_Principal.ShowDialog();
+            Troca_de_livros troca_de_livros = new Troca_de_livros();
+            troca_de_livros.ShowDialog();
             this.Close();
         }
     }

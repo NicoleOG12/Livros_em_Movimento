@@ -32,8 +32,11 @@ C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debu
 C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto + Designer.exe
 C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto + Designer.pdb
 C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Login.resources
-C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Tela_Principal.resources
 C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Tela_Inicial.resources
 C:\Users\Tecnico\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Login.resources
 C:\Users\Tecnico\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Tela_Principal.resources
 C:\Users\Tecnico\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Tela_Inicial.resources
+C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Loja.resources
+C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Carrinho.resources
+C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Perfil.resources
+C:\Users\nicole\Downloads\Projeto\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Troca_de_livros.resources

@@ -10,18 +10,13 @@ using System.Windows.Forms;
 
 namespace Projeto___Designer
 {
-    public partial class Perfil : Form
+    public partial class Carrinho : Form
     {
-        public Perfil()
+        public Carrinho()
         {
 
             InitializeComponent();
          
-        }
-
-        private void Tela_Principal_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void Troca_de_livros_Click(object sender, EventArgs e)
@@ -42,7 +37,7 @@ namespace Projeto___Designer
 
         private void Solicitações_Click(object sender, EventArgs e)
         {
-            Solicitações solicitações= new Solicitações();
+            Solicitações solicitações = new Solicitações();
             solicitações.ShowDialog();
             this.Close();
         }
@@ -54,5 +49,11 @@ namespace Projeto___Designer
             this.Close();
         }
 
+        private void Solicitações_Click(object sender, EventArgs e)
+        {
+            Solicitações solicitações = new Solicitações();
+            solicitações.ShowDialog();
+            this.Close();
+        }
     }
 }

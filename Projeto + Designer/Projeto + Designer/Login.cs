@@ -62,9 +62,8 @@ namespace Projeto___Designer
 
             if (count > 0)
             {
-                
-                Tela_Principal tela_Principal = new Tela_Principal();
-                tela_Principal.ShowDialog();
+                Troca_de_livros troca_de_livros= new Troca_de_livros();
+                troca_de_livros.ShowDialog();
                 this.Close();
             }
             else
