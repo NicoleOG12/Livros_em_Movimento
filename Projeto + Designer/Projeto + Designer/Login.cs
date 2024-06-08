@@ -59,8 +59,6 @@ namespace Projeto___Designer
             var resultado = dao.LerDados(comandoSql);
             resultado.Read();
             int count = resultado.GetInt32(0);
-            resultado.Close();
-            dao.Desconectar();
 
             if (count > 0)
             {
@@ -71,7 +69,9 @@ namespace Projeto___Designer
             }
             else
             {
-               
+
+                resultado.Close();
+                dao.Desconectar();
             }
 
          

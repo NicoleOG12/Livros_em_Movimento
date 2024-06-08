@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace Projeto___Designer
 {
-    public partial class Tela_Principal : Form
+    public partial class Loja : Form
     {
-        public Tela_Principal()
+        public Loja()
         {
             InitializeComponent();
-            Image image = new Bitmap("C:/Users/Tecnico/Downloads/Projeto/lupa (2).jpg");
-            pb_teste.Image = image;
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

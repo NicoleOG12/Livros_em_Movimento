@@ -96,6 +96,7 @@
             // Nome_box
             // 
             this.Nome_box.BackColor = System.Drawing.SystemColors.Menu;
+            this.Nome_box.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Nome_box.Location = new System.Drawing.Point(68, 82);
             this.Nome_box.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Nome_box.Name = "Nome_box";

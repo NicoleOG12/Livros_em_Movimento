@@ -123,9 +123,29 @@ namespace Projeto___Designer.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Carrinho {
+            get {
+                object obj = ResourceManager.GetObject("Carrinho", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fundo {
             get {
                 object obj = ResourceManager.GetObject("fundo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fundo_tela_principal {
+            get {
+                object obj = ResourceManager.GetObject("fundo tela principal", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -226,6 +246,26 @@ namespace Projeto___Designer.Properties {
         internal static System.Drawing.Bitmap lupa__2_ {
             get {
                 object obj = ResourceManager.GetObject("lupa (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Notificações {
+            get {
+                object obj = ResourceManager.GetObject("Notificações", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Perfil {
+            get {
+                object obj = ResourceManager.GetObject("Perfil", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

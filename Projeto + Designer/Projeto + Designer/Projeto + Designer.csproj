@@ -63,11 +63,17 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Notificações.cs">
+    <Compile Include="Loja.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Notificações.Designer.cs">
-      <DependentUpon>Notificações.cs</DependentUpon>
+    <Compile Include="Loja.Designer.cs">
+      <DependentUpon>Loja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Solicitações.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Solicitações.Designer.cs">
+      <DependentUpon>Solicitações.cs</DependentUpon>
     </Compile>
     <Compile Include="Perfil.cs">
       <SubType>Form</SubType>
@@ -77,23 +83,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Loja.cs">
+    <Compile Include="Troca de Livros.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Loja.Designer.cs">
-      <DependentUpon>Loja.cs</DependentUpon>
+    <Compile Include="Troca de Livros.Designer.cs">
+      <DependentUpon>Troca de Livros.cs</DependentUpon>
     </Compile>
     <Compile Include="Tela Inicial.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Tela Inicial.Designer.cs">
       <DependentUpon>Tela Inicial.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Troca de Livros.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Troca de Livros.Designer.cs">
-      <DependentUpon>Troca de Livros.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Cadastro.resx">
       <DependentUpon>Cadastro.cs</DependentUpon>
@@ -111,8 +111,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Loja.resx">
-      <DependentUpon>Loja.cs</DependentUpon>
+    <EmbeddedResource Include="Troca de Livros.resx">
+      <DependentUpon>Troca de Livros.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tela Inicial.resx">
       <DependentUpon>Tela Inicial.cs</DependentUpon>
@@ -189,6 +189,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Sacola.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo tela principal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Notificações.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Perfil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carrinho.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

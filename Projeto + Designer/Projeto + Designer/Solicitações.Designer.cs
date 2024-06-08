@@ -1,6 +1,6 @@
 ﻿namespace Projeto___Designer
 {
-    partial class Notificações
+    partial class Solicitações
     {
         /// <summary>
         /// Required designer variable.

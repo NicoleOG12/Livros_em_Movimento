@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Projeto___Designer
 {
-    public partial class Notificações : Form
+    public partial class Solicitações : Form
     {
-        public Notificações()
+        public Solicitações()
         {
             InitializeComponent();
         }
