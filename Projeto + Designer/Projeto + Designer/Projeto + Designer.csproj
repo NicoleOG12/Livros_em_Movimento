@@ -57,6 +57,12 @@
       <DependentUpon>Cadastro.cs</DependentUpon>
     </Compile>
     <Compile Include="DAO.cs" />
+    <Compile Include="Livros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros.Designer.cs">
+      <DependentUpon>Livros.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,8 +110,14 @@
     <EmbeddedResource Include="Cadastro.resx">
       <DependentUpon>Cadastro.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Livros.resx">
+      <DependentUpon>Livros.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Solicitações.resx">
+      <DependentUpon>Solicitações.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -146,16 +158,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\43b7935382387078936b19c756c9429e.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\images.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\images1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\3d-background-purple-background-abstract-background-windows-2560x1080-8292.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\images 2.jpg" />
@@ -164,37 +170,10 @@
     <None Include="Resources\images 3.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\images 4.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\wallpaperflare.com_wallpaper.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\images 21.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\3212f01a7c5fc4ea862619d0df8773e2.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\image_preview.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\314 Sem Título_20240606183241.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\314 Sem Título_20240606183254.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\314 Sem Título_20240606183254.jpg.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\IMG-20240606-WA0014.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\lupa.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\lupa %282%29.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Troca de Livros.png" />
@@ -216,30 +195,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Carrinho.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\memorias-postumas-bras-cubas.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\3703693f-2eb2-4de1-89d4-a3092c038ef5.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\81LTEfXYgcL.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\51jiQtSEwDL.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\alem_da_fumaca.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\o-duque-e-eu.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\81LRk6+p1HL._AC_UF1000,1000_QL80_.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\livros-de-romance-como-eu-era-antes-de-voce-20240326165339.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

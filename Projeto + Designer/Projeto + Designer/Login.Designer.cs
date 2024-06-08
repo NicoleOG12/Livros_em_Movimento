@@ -59,7 +59,6 @@
             this.email_box.Name = "email_box";
             this.email_box.Size = new System.Drawing.Size(173, 20);
             this.email_box.TabIndex = 1;
-            this.email_box.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // senha_txt
             // 
@@ -97,7 +96,7 @@
             this.btn_cadastrar.TabIndex = 5;
             this.btn_cadastrar.Text = "Cadastre-se";
             this.btn_cadastrar.UseVisualStyleBackColor = false;
-            this.btn_cadastrar.Click += new System.EventHandler(this.cadastrarUsuario);
+            this.btn_cadastrar.Click += new System.EventHandler(this.Cadastro_btn);
             // 
             // caixalogin
             // 
@@ -127,7 +126,7 @@
             this.Login_btn.TabIndex = 6;
             this.Login_btn.Text = "Logar";
             this.Login_btn.UseVisualStyleBackColor = false;
-            this.Login_btn.Click += new System.EventHandler(this.Logar);
+            this.Login_btn.Click += new System.EventHandler(this.Logar_btn);
             // 
             // email_txt
             // 
@@ -177,7 +176,6 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Login";
             this.Text = "Login";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.caixalogin.ResumeLayout(false);
             this.caixalogin.PerformLayout();
             this.caixalogin2.ResumeLayout(false);

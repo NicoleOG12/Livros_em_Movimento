@@ -59,6 +59,8 @@
             this.Livro2_txt = new System.Windows.Forms.LinkLabel();
             this.Livro3_txt = new System.Windows.Forms.LinkLabel();
             this.linkLabel5 = new System.Windows.Forms.LinkLabel();
+            this.new_txt = new System.Windows.Forms.Label();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
@@ -81,6 +83,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Lupa_box)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             this.SuspendLayout();
             // 
             // Pesquisa_barra
@@ -247,6 +250,7 @@
             this.Carrinho_Box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Carrinho_Box.TabIndex = 6;
             this.Carrinho_Box.TabStop = false;
+            this.Carrinho_Box.Click += new System.EventHandler(this.Carrinho_Click);
             // 
             // Perfil_Box
             // 
@@ -461,13 +465,34 @@
             this.linkLabel5.VisitedLinkColor = System.Drawing.Color.MediumPurple;
             this.linkLabel5.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Livro4_Clicked);
             // 
-            // Tela_Principal
+            // new_txt
+            // 
+            this.new_txt.AutoSize = true;
+            this.new_txt.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.new_txt.ForeColor = System.Drawing.Color.MediumPurple;
+            this.new_txt.Location = new System.Drawing.Point(64, 97);
+            this.new_txt.Name = "new_txt";
+            this.new_txt.Size = new System.Drawing.Size(66, 31);
+            this.new_txt.TabIndex = 36;
+            this.new_txt.Text = "New";
+            // 
+            // pictureBox17
+            // 
+            this.pictureBox17.BackColor = System.Drawing.Color.MediumPurple;
+            this.pictureBox17.Location = new System.Drawing.Point(45, 131);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(728, 520);
+            this.pictureBox17.TabIndex = 37;
+            this.pictureBox17.TabStop = false;
+            // 
+            // Troca_de_livros
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 734);
+            this.Controls.Add(this.new_txt);
             this.Controls.Add(this.linkLabel5);
             this.Controls.Add(this.Livro3_txt);
             this.Controls.Add(this.Livro2_txt);
@@ -499,9 +524,9 @@
             this.Controls.Add(this.Troca_de_livros_box);
             this.Controls.Add(this.Lupa_box);
             this.Controls.Add(this.pictureBox3);
-            this.Name = "Tela_Principal";
-            this.Text = "Tela_Principal";
-            this.Load += new System.EventHandler(this.Tela_Principal_Load);
+            this.Controls.Add(this.pictureBox17);
+            this.Name = "Troca_de_livros";
+            this.Text = "Troca_de_livros";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
@@ -524,6 +549,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Lupa_box)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -562,5 +588,7 @@
         private System.Windows.Forms.LinkLabel Livro2_txt;
         private System.Windows.Forms.LinkLabel Livro3_txt;
         private System.Windows.Forms.LinkLabel linkLabel5;
+        private System.Windows.Forms.Label new_txt;
+        private System.Windows.Forms.PictureBox pictureBox17;
     }
 }

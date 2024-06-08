@@ -18,12 +18,6 @@ namespace Projeto___Designer
             InitializeComponent();
         }
 
-
-        private void nome_box_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void Entrar(object sender, EventArgs e)
         {
             DAO dao = new DAO();

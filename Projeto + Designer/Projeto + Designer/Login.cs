@@ -18,40 +18,14 @@ namespace Projeto___Designer
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void cadastrarUsuario(object sender, EventArgs e)
+        private void Cadastro_btn(object sender, EventArgs e)
         {
             Cadastro cadastro = new Cadastro();
             cadastro.ShowDialog();
             this.Close();
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Login_txt_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Email_txt_Click(object sender, EventArgs e)
-        {
-        
-        }
-
-        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-
-        }
-
-        private void Logar(object sender, EventArgs e)
+        private void Logar_btn(object sender, EventArgs e)
         {
             DAO dao = new DAO();
             dao.Conectar();
@@ -68,7 +42,9 @@ namespace Projeto___Designer
             }
             else
             {
-
+                Login login = new Login();
+                login.ShowDialog();
+                this.Close();
                 resultado.Close();
                 dao.Desconectar();
             }

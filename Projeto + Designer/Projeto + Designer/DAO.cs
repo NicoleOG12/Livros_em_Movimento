@@ -38,6 +38,8 @@ namespace Projeto___Designer
             cmd = new MySqlCommand(comandoSql, conn);
             return cmd.ExecuteReader();
         }
+
+
     }
 }
 

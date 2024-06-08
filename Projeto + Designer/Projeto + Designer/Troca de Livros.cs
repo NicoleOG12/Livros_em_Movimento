@@ -19,18 +19,12 @@ namespace Projeto___Designer
          
         }
 
-        private void Tela_Principal_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void Troca_de_livros_Click(object sender, EventArgs e)
         {
-            /* Troca_de_Livros troca_de_livros = new Troca_de_Livros();
+            Troca_de_livros troca_de_livros = new Troca_de_livros();
             troca_de_livros.ShowDialog();
-            this.Close();*/
+            this.Close();
 
-            
         }
 
         private void Sacola_Click(object sender, EventArgs e)
@@ -39,29 +33,39 @@ namespace Projeto___Designer
             loja.ShowDialog();
             this.Close();
         }
-
-        private void Solicitações_Click(object sender, EventArgs e)
+        private void Carrinho_Click(object sender, EventArgs e)
         {
-            Solicitações solicitações= new Solicitações();
-            solicitações.ShowDialog();
+            Carrinho carrinho = new Carrinho();
+            carrinho.ShowDialog();
             this.Close();
         }
 
         private void Perfil_Click(object sender, EventArgs e)
         {
-            Perfil perfil= new Perfil();
+            Perfil perfil = new Perfil();
             perfil.ShowDialog();
+            this.Close();
+        }
+
+        private void Solicitações_Click(object sender, EventArgs e)
+        {
+            Solicitações solicitações = new Solicitações();
+            solicitações.ShowDialog();
             this.Close();
         }
 
         private void Memórias_Póstumas_Click(object sender, EventArgs e)
         {
-
+            Livros livros = new Livros();
+            livros.ShowDialog();
+            this.Close();
         }
 
         private void Livro1_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            Livros livros = new Livros();
+            livros.ShowDialog();
+            this.Close();
         }
 
         private void Mais_que_amigos_Click(object sender, EventArgs e)
@@ -133,5 +137,6 @@ namespace Projeto___Designer
         {
 
         }
+
     }
 }

@@ -50,6 +50,7 @@
             this.Carrinho_Box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Carrinho_Box.TabIndex = 6;
             this.Carrinho_Box.TabStop = false;
+            this.Carrinho_Box.Click += new System.EventHandler(this.Carrinho_Click);
             // 
             // Perfil_Box
             // 

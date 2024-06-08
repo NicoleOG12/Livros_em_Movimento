@@ -24,7 +24,6 @@ namespace Projeto___Designer
             Troca_de_livros troca_de_livros = new Troca_de_livros();
             troca_de_livros.ShowDialog();
             this.Close();
-
             
         }
 
@@ -35,10 +34,10 @@ namespace Projeto___Designer
             this.Close();
         }
 
-        private void Solicitações_Click(object sender, EventArgs e)
+        private void Carrinho_Click(object sender, EventArgs e)
         {
-            Solicitações solicitações = new Solicitações();
-            solicitações.ShowDialog();
+            Carrinho carrinho = new Carrinho();
+            carrinho.ShowDialog();
             this.Close();
         }
 
@@ -55,5 +54,6 @@ namespace Projeto___Designer
             solicitações.ShowDialog();
             this.Close();
         }
+
     }
 }

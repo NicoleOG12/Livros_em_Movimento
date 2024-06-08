@@ -247,6 +247,7 @@
             this.Carrinho_Box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Carrinho_Box.TabIndex = 6;
             this.Carrinho_Box.TabStop = false;
+            this.Carrinho_Box.Click += new System.EventHandler(this.Carrinho_Click);
             // 
             // Perfil_Box
             // 
@@ -461,7 +462,7 @@
             this.linkLabel5.VisitedLinkColor = System.Drawing.Color.MediumPurple;
             this.linkLabel5.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Livro4_Clicked);
             // 
-            // Tela_Principal
+            // Loja
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -499,9 +500,8 @@
             this.Controls.Add(this.Troca_de_livros_box);
             this.Controls.Add(this.Lupa_box);
             this.Controls.Add(this.pictureBox3);
-            this.Name = "Tela_Principal";
-            this.Text = "Tela_Principal";
-            this.Load += new System.EventHandler(this.Tela_Principal_Load);
+            this.Name = "Loja";
+            this.Text = "Loja";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();

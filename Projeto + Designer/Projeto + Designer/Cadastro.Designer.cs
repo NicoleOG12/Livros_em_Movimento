@@ -102,7 +102,6 @@
             this.Nome_box.Name = "Nome_box";
             this.Nome_box.Size = new System.Drawing.Size(266, 20);
             this.Nome_box.TabIndex = 6;
-            this.Nome_box.TextChanged += new System.EventHandler(this.nome_box_TextChanged);
             // 
             // Email_box
             // 

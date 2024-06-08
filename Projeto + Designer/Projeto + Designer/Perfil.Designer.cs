@@ -48,6 +48,7 @@
             this.Carrinho_Box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Carrinho_Box.TabIndex = 6;
             this.Carrinho_Box.TabStop = false;
+            this.Carrinho_Box.Click += new System.EventHandler(this.Carrinho_Click);
             // 
             // Perfil_Box
             // 
@@ -97,8 +98,7 @@
             this.Controls.Add(this.Sacola_Box);
             this.Controls.Add(this.Troca_de_livros_box);
             this.Name = "Perfil";
-            this.Text = "Tela_Principal";
-            this.Load += new System.EventHandler(this.Tela_Principal_Load);
+            this.Text = "Perfil";
             ((System.ComponentModel.ISupportInitialize)(this.Carrinho_Box)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Perfil_Box)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Sacola_Box)).EndInit();
