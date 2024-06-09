@@ -165,5 +165,85 @@ namespace Projeto___Designer
             livros.ShowDialog();
             this.Close();
         }
+
+        private void MarcaPágina1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MarcaPágina1_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void MarcaPágina2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MarcaPágina2_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void MarcaPágina3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MarcaPágina3_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void MarcaPágina4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MarcaPágina4_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void MarcaPágina5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MarcaPágina5_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void MarcaPágina6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MarcaPágina6_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void MarcaPágina7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MarcaPágina7_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void MarcaPágina8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MarcaPágina8_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
     }
 }
