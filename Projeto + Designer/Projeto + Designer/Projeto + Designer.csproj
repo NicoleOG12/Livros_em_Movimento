@@ -81,6 +81,30 @@
     <Compile Include="Além_da_Fumaça.Designer.cs">
       <DependentUpon>Além_da_Fumaça.cs</DependentUpon>
     </Compile>
+    <Compile Include="Loja_MarcaTexto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loja_MarcaTexto.Designer.cs">
+      <DependentUpon>Loja_MarcaTexto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loja_MarcaPáginas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loja_MarcaPáginas.Designer.cs">
+      <DependentUpon>Loja_MarcaPáginas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loja_Livros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loja_Livros.Designer.cs">
+      <DependentUpon>Loja_Livros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loja.Designer.cs">
+      <DependentUpon>Loja.cs</DependentUpon>
+    </Compile>
     <Compile Include="É_assim_que_começa.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -157,6 +181,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Além_da_Fumaça.resx">
       <DependentUpon>Além_da_Fumaça.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loja_MarcaTexto.resx">
+      <DependentUpon>Loja_MarcaTexto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loja_MarcaPáginas.resx">
+      <DependentUpon>Loja_MarcaPáginas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loja_Livros.resx">
+      <DependentUpon>Loja_Livros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loja.resx">
+      <DependentUpon>Loja.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="É_assim_que_começa.resx">
       <DependentUpon>É_assim_que_começa.cs</DependentUpon>

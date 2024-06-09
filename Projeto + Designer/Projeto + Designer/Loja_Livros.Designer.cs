@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Loja_Livros));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Loja));
             this.Pesquisa_barra = new System.Windows.Forms.TextBox();
             this.Livro5_txt = new System.Windows.Forms.LinkLabel();
             this.Livro6_txt = new System.Windows.Forms.LinkLabel();
@@ -490,7 +490,7 @@
             this.pictureBox17.TabIndex = 37;
             this.pictureBox17.TabStop = false;
             // 
-            // Loja_Livros
+            // Loja
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -531,8 +531,8 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox17);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Loja_Livros";
-            this.Text = "Loja Livros";
+            this.Name = "Loja";
+            this.Text = "Loja";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();

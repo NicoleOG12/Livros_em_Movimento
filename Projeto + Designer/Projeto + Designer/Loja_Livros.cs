@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Projeto___Designer
 {
-    public partial class Loja_Livros: Form
+    public partial class Loja_Livros : Form
     {
         public Loja_Livros()
         {

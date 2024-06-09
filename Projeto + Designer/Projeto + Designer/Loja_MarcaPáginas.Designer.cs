@@ -1,6 +1,6 @@
 ﻿namespace Projeto___Designer
 {
-    partial class 
+    partial class Loja_MarcaPáginas
     {
         /// <summary>
         /// Required designer variable.

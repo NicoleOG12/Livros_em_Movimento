@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Projeto___Designer
 {
-    public partial class Loja_MarcaTexto : Form
+    public partial class Loja : Form
     {
-        public Loja_MarcaTexto()
+        public Loja()
         {
 
             InitializeComponent();
