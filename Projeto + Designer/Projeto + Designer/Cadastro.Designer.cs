@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cadastro));
             this.Cadastro_txt = new System.Windows.Forms.Label();
             this.Nome_txt = new System.Windows.Forms.Label();
             this.Email_txt = new System.Windows.Forms.Label();
@@ -39,7 +40,11 @@
             this.CaixaBranca = new System.Windows.Forms.GroupBox();
             this.GeneroInteresse = new System.Windows.Forms.ComboBox();
             this.CaixaRoxa = new System.Windows.Forms.GroupBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.CaixaBranca.SuspendLayout();
+            this.CaixaRoxa.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // Cadastro_txt
@@ -97,6 +102,7 @@
             // 
             this.Nome_box.BackColor = System.Drawing.SystemColors.Menu;
             this.Nome_box.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Nome_box.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nome_box.Location = new System.Drawing.Point(68, 82);
             this.Nome_box.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Nome_box.Name = "Nome_box";
@@ -106,6 +112,7 @@
             // Email_box
             // 
             this.Email_box.BackColor = System.Drawing.SystemColors.Menu;
+            this.Email_box.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Email_box.Location = new System.Drawing.Point(68, 139);
             this.Email_box.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Email_box.Name = "Email_box";
@@ -115,6 +122,7 @@
             // Senha_box
             // 
             this.Senha_box.BackColor = System.Drawing.SystemColors.Menu;
+            this.Senha_box.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Senha_box.Location = new System.Drawing.Point(68, 196);
             this.Senha_box.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Senha_box.Name = "Senha_box";
@@ -172,11 +180,35 @@
             // CaixaRoxa
             // 
             this.CaixaRoxa.BackColor = System.Drawing.Color.MediumPurple;
+            this.CaixaRoxa.Controls.Add(this.label1);
+            this.CaixaRoxa.Controls.Add(this.pictureBox1);
             this.CaixaRoxa.Location = new System.Drawing.Point(28, 52);
             this.CaixaRoxa.Name = "CaixaRoxa";
             this.CaixaRoxa.Size = new System.Drawing.Size(325, 317);
             this.CaixaRoxa.TabIndex = 11;
             this.CaixaRoxa.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Projeto___Designer.Properties.Resources._315_Sem_Título_202406082354022;
+            this.pictureBox1.Location = new System.Drawing.Point(75, 128);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(167, 102);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label1.Font = new System.Drawing.Font("MV Boli", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Azure;
+            this.label1.Location = new System.Drawing.Point(73, 68);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(169, 34);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Bem Vindo!";
             // 
             // Cadastro
             // 
@@ -188,11 +220,15 @@
             this.Controls.Add(this.CaixaRoxa);
             this.Controls.Add(this.CaixaBranca);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "Cadastro";
             this.Text = "Cadastro";
             this.CaixaBranca.ResumeLayout(false);
             this.CaixaBranca.PerformLayout();
+            this.CaixaRoxa.ResumeLayout(false);
+            this.CaixaRoxa.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -210,5 +246,7 @@
         private System.Windows.Forms.GroupBox CaixaBranca;
         private System.Windows.Forms.GroupBox CaixaRoxa;
         private System.Windows.Forms.ComboBox GeneroInteresse;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
     }
 }

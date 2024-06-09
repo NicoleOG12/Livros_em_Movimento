@@ -61,6 +61,9 @@ C:\Users\nicole\Livros_em_Movimento\Projeto + Designer\Projeto + Designer\bin\De
 C:\Users\nicole\Livros_em_Movimento\Projeto + Designer\Projeto + Designer\bin\Debug\System.Numerics.Vectors.dll
 C:\Users\nicole\Livros_em_Movimento\Projeto + Designer\Projeto + Designer\bin\Debug\System.Buffers.dll
 C:\Users\nicole\Livros_em_Movimento\Projeto + Designer\Projeto + Designer\bin\Debug\MySql.Data.xml
-C:\Users\nicole\Livros_em_Movimento\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Livros.resources
 C:\Users\nicole\Livros_em_Movimento\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Solicitações.resources
 C:\Users\nicole\Livros_em_Movimento\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto .D0265652.Up2Date
+C:\Users\nicole\Livros_em_Movimento\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Livro1.resources
+C:\Users\nicole\Livros_em_Movimento\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Livro4.resources
+C:\Users\nicole\Livros_em_Movimento\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Livro3.resources
+C:\Users\nicole\Livros_em_Movimento\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Livro2.resources

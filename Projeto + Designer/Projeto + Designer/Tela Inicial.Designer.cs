@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tela_Inicial));
             this.Continuar_btn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -53,6 +54,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(690, 494);
             this.Controls.Add(this.Continuar_btn);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Tela_Inicial";
             this.Text = "Tela_Inicial";
             this.ResumeLayout(false);

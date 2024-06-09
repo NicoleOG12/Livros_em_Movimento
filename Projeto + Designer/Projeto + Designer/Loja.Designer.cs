@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Loja));
             this.Pesquisa_barra = new System.Windows.Forms.TextBox();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
@@ -500,6 +501,7 @@
             this.Controls.Add(this.Troca_de_livros_box);
             this.Controls.Add(this.Lupa_box);
             this.Controls.Add(this.pictureBox3);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Loja";
             this.Text = "Loja";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();

@@ -57,11 +57,53 @@
       <DependentUpon>Cadastro.cs</DependentUpon>
     </Compile>
     <Compile Include="DAO.cs" />
-    <Compile Include="Livros.cs">
+    <Compile Include="Livro8.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Livros.Designer.cs">
-      <DependentUpon>Livros.cs</DependentUpon>
+    <Compile Include="Livro8.Designer.cs">
+      <DependentUpon>Livro8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Livro7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livro7.Designer.cs">
+      <DependentUpon>Livro7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Livro6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livro6.Designer.cs">
+      <DependentUpon>Livro6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Livro5 .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livro5 .Designer.cs">
+      <DependentUpon>Livro5 .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Livro4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livro4.Designer.cs">
+      <DependentUpon>Livro4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Livro3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livro3.Designer.cs">
+      <DependentUpon>Livro3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Livro2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livro2.Designer.cs">
+      <DependentUpon>Livro2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Livro1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livro1.Designer.cs">
+      <DependentUpon>Livro1.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -110,8 +152,29 @@
     <EmbeddedResource Include="Cadastro.resx">
       <DependentUpon>Cadastro.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Livros.resx">
-      <DependentUpon>Livros.cs</DependentUpon>
+    <EmbeddedResource Include="Livro8.resx">
+      <DependentUpon>Livro8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Livro7.resx">
+      <DependentUpon>Livro7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Livro6.resx">
+      <DependentUpon>Livro6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Livro5 .resx">
+      <DependentUpon>Livro5 .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Livro4.resx">
+      <DependentUpon>Livro4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Livro3.resx">
+      <DependentUpon>Livro3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Livro2.resx">
+      <DependentUpon>Livro2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Livro1.resx">
+      <DependentUpon>Livro1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -195,6 +258,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Carrinho.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\315 Sem Título_20240608235402.jpg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\315 Sem Título_20240608235402.jpg1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\315 Sem Título_20240608235402.jpg2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

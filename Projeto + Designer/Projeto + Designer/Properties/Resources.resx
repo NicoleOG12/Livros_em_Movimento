@@ -154,6 +154,9 @@
   <data name="81LRk6+p1HL._AC_UF1000,1000_QL80_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\81LRk6+p1HL._AC_UF1000,1000_QL80_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="livros-de-romance-como-eu-era-antes-de-voce-20240326165339" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\livros-de-romance-como-eu-era-antes-de-voce-20240326165339.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="wallpaperflare.com_wallpaper" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wallpaperflare.com_wallpaper.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -184,6 +187,9 @@
   <data name="alem_da_fumaca" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\alem_da_fumaca.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="315 Sem Título_20240608235402.jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\315 Sem Título_20240608235402.jpg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -208,10 +214,13 @@
   <data name="fundo tela principal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fundo tela principal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="315 Sem Título_202406082354021" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\315 Sem Título_20240608235402.jpg1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="IMG-20240606-WA0014" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IMG-20240606-WA0014.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="livros-de-romance-como-eu-era-antes-de-voce-20240326165339" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\livros-de-romance-como-eu-era-antes-de-voce-20240326165339.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="315 Sem Título_202406082354022" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\315 Sem Título_20240608235402.jpg2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

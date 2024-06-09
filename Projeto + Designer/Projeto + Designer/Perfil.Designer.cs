@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Perfil));
             this.Carrinho_Box = new System.Windows.Forms.PictureBox();
             this.Perfil_Box = new System.Windows.Forms.PictureBox();
             this.Sacola_Box = new System.Windows.Forms.PictureBox();
@@ -97,6 +98,7 @@
             this.Controls.Add(this.Perfil_Box);
             this.Controls.Add(this.Sacola_Box);
             this.Controls.Add(this.Troca_de_livros_box);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Perfil";
             this.Text = "Perfil";
             ((System.ComponentModel.ISupportInitialize)(this.Carrinho_Box)).EndInit();
