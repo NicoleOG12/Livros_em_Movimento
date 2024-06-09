@@ -123,6 +123,16 @@ namespace Projeto___Designer.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _315_Sem_Título_20240609164634 {
+            get {
+                object obj = ResourceManager.GetObject("315 Sem Título_20240609164634", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _3212f01a7c5fc4ea862619d0df8773e2 {
             get {
                 object obj = ResourceManager.GetObject("3212f01a7c5fc4ea862619d0df8773e2", resourceCulture);
@@ -313,6 +323,16 @@ namespace Projeto___Designer.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap livro7 {
+            get {
+                object obj = ResourceManager.GetObject("livro7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap livros_de_romance_como_eu_era_antes_de_voce_20240326165339 {
             get {
                 object obj = ResourceManager.GetObject("livros-de-romance-como-eu-era-antes-de-voce-20240326165339", resourceCulture);
@@ -393,6 +413,56 @@ namespace Projeto___Designer.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap marca_página6 {
+            get {
+                object obj = ResourceManager.GetObject("marca página6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap marca_página7 {
+            get {
+                object obj = ResourceManager.GetObject("marca página7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap marca_página8 {
+            get {
+                object obj = ResourceManager.GetObject("marca página8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap marca_texto_bic {
+            get {
+                object obj = ResourceManager.GetObject("marca texto bic", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap marca_texto_cis_fun {
+            get {
+                object obj = ResourceManager.GetObject("marca texto cis fun", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap marca_texto_faber_castell {
             get {
                 object obj = ResourceManager.GetObject("marca texto faber-castell", resourceCulture);
@@ -423,9 +493,29 @@ namespace Projeto___Designer.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap marca_texto_mentos {
+            get {
+                object obj = ResourceManager.GetObject("marca texto mentos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap marca_texto_stabilo {
             get {
                 object obj = ResourceManager.GetObject("marca texto stabilo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap marca_texto_stabilo1 {
+            get {
+                object obj = ResourceManager.GetObject("marca texto stabilo1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

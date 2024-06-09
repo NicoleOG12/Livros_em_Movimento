@@ -1,6 +1,6 @@
 ﻿namespace Projeto___Designer
 {
-    partial class 
+    partial class Loja_MarcaTexto
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Loja));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Loja_MarcaTexto));
             this.Pesquisa_barra = new System.Windows.Forms.TextBox();
             this.Livro5_txt = new System.Windows.Forms.LinkLabel();
             this.Livro6_txt = new System.Windows.Forms.LinkLabel();
@@ -241,14 +241,14 @@
             this.new_txt.ForeColor = System.Drawing.Color.MediumPurple;
             this.new_txt.Location = new System.Drawing.Point(64, 85);
             this.new_txt.Name = "new_txt";
-            this.new_txt.Size = new System.Drawing.Size(66, 31);
+            this.new_txt.Size = new System.Drawing.Size(168, 31);
             this.new_txt.TabIndex = 36;
-            this.new_txt.Text = "New";
+            this.new_txt.Text = "Marca Texto";
             // 
             // pictureBox16
             // 
             this.pictureBox16.BackColor = System.Drawing.Color.MediumPurple;
-            this.pictureBox16.Image = global::Projeto___Designer.Properties.Resources.livros_de_romance_como_eu_era_antes_de_voce_20240326165339;
+            this.pictureBox16.Image = global::Projeto___Designer.Properties.Resources.marca_texto_bic;
             this.pictureBox16.Location = new System.Drawing.Point(624, 415);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(103, 144);
@@ -260,7 +260,7 @@
             // pictureBox15
             // 
             this.pictureBox15.BackColor = System.Drawing.Color.MediumPurple;
-            this.pictureBox15.Image = global::Projeto___Designer.Properties.Resources._81LRk6_p1HL__AC_UF1000_1000_QL80_;
+            this.pictureBox15.Image = global::Projeto___Designer.Properties.Resources._315_Sem_Título_20240609164634;
             this.pictureBox15.Location = new System.Drawing.Point(450, 415);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(103, 144);
@@ -272,7 +272,7 @@
             // pictureBox14
             // 
             this.pictureBox14.BackColor = System.Drawing.Color.MediumPurple;
-            this.pictureBox14.Image = global::Projeto___Designer.Properties.Resources.o_duque_e_eu;
+            this.pictureBox14.Image = global::Projeto___Designer.Properties.Resources.marca_texto_mentos;
             this.pictureBox14.Location = new System.Drawing.Point(269, 415);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(103, 144);
@@ -284,7 +284,7 @@
             // pictureBox13
             // 
             this.pictureBox13.BackColor = System.Drawing.Color.MediumPurple;
-            this.pictureBox13.Image = global::Projeto___Designer.Properties.Resources.alem_da_fumaca;
+            this.pictureBox13.Image = global::Projeto___Designer.Properties.Resources.marca_texto_cis_fun;
             this.pictureBox13.Location = new System.Drawing.Point(86, 415);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(103, 144);
@@ -331,7 +331,7 @@
             // 
             // pictureBox8
             // 
-            this.pictureBox8.Image = global::Projeto___Designer.Properties.Resources._51jiQtSEwDL;
+            this.pictureBox8.Image = global::Projeto___Designer.Properties.Resources.marca_texto_masterprint;
             this.pictureBox8.Location = new System.Drawing.Point(624, 168);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(101, 144);
@@ -342,7 +342,7 @@
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Image = global::Projeto___Designer.Properties.Resources._81LTEfXYgcL;
+            this.pictureBox7.Image = global::Projeto___Designer.Properties.Resources.marca_texto_faber_castell;
             this.pictureBox7.Location = new System.Drawing.Point(450, 168);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(101, 144);
@@ -353,7 +353,7 @@
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Image = global::Projeto___Designer.Properties.Resources._3703693f_2eb2_4de1_89d4_a3092c038ef5;
+            this.pictureBox6.Image = global::Projeto___Designer.Properties.Resources.marca_texto_masterprint_pastel;
             this.pictureBox6.Location = new System.Drawing.Point(269, 168);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(101, 144);
@@ -392,7 +392,7 @@
             // Memórias_Póstumas_de_Brás_Cubas
             // 
             this.Memórias_Póstumas_de_Brás_Cubas.BackColor = System.Drawing.Color.MediumPurple;
-            this.Memórias_Póstumas_de_Brás_Cubas.Image = global::Projeto___Designer.Properties.Resources.memorias_postumas_bras_cubas;
+            this.Memórias_Póstumas_de_Brás_Cubas.Image = global::Projeto___Designer.Properties.Resources.marca_texto_stabilo1;
             this.Memórias_Póstumas_de_Brás_Cubas.Location = new System.Drawing.Point(85, 168);
             this.Memórias_Póstumas_de_Brás_Cubas.Name = "Memórias_Póstumas_de_Brás_Cubas";
             this.Memórias_Póstumas_de_Brás_Cubas.Size = new System.Drawing.Size(103, 144);
@@ -490,7 +490,7 @@
             this.pictureBox17.TabIndex = 37;
             this.pictureBox17.TabStop = false;
             // 
-            // Loja
+            // Loja_MarcaTexto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -531,7 +531,7 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox17);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Loja";
+            this.Name = "Loja_MarcaTexto";
             this.Text = "Loja";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();

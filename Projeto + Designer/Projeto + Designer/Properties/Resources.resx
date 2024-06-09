@@ -118,11 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="livro7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\livro7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="81LTEfXYgcL" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\81LTEfXYgcL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="memorias-postumas-bras-cubas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\memorias-postumas-bras-cubas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="marca texto mentos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\marca texto mentos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="314 Sem Título_20240606183254.jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\314 Sem Título_20240606183254.jpg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -135,6 +138,9 @@
   </data>
   <data name="images 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="memorias-postumas-bras-cubas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\memorias-postumas-bras-cubas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="marca página2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\marca página2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -150,6 +156,9 @@
   </data>
   <data name="marca página3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\marca página3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="marca texto bic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\marca texto bic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Notificações" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Notificações.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,8 +181,14 @@
   <data name="marca página1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\marca página1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="marca página6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\marca página6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="marca texto masterprint pastel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\marca texto masterprint pastel.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="marca texto cis fun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\marca texto cis fun.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="lupa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lupa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -184,11 +199,14 @@
   <data name="Perfil" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Perfil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Sacola" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sacola.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="marca texto masterprint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\marca texto masterprint.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="images1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="marca página7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\marca página7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="marca texto faber-castell" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\marca texto faber-castell.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -220,11 +238,20 @@
   <data name="51jiQtSEwDL" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\51jiQtSEwDL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="marca texto stabilo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\marca texto stabilo1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="3212f01a7c5fc4ea862619d0df8773e2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\3212f01a7c5fc4ea862619d0df8773e2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="images 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images 4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="marca página8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\marca página8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sacola" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sacola.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="3d-background-purple-background-abstract-background-windows-2560x1080-8292" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\3d-background-purple-background-abstract-background-windows-2560x1080-8292.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -247,7 +274,7 @@
   <data name="IMG-20240606-WA0014" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IMG-20240606-WA0014.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="marca texto masterprint" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\marca texto masterprint.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="315 Sem Título_20240609164634" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\315 Sem Título_20240609164634.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -295,5 +295,32 @@
   <ItemGroup>
     <None Include="Resources\315 Sem Título_20240608235402.jpg2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marca página6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\livro7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marca página7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marca página8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marca texto stabilo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marca texto cis fun.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marca texto mentos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marca texto bic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\315 Sem Título_20240609164634.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

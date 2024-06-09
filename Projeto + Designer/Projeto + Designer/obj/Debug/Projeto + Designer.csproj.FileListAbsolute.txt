@@ -98,3 +98,6 @@ C:\Users\nicole\Downloads\Livros_em_Movimento\Projeto + Designer\Projeto + Desig
 C:\Users\nicole\Downloads\Livros_em_Movimento\Projeto + Designer\Projeto + Designer\bin\Debug\System.Buffers.dll
 C:\Users\nicole\Downloads\Livros_em_Movimento\Projeto + Designer\Projeto + Designer\bin\Debug\MySql.Data.xml
 C:\Users\nicole\Downloads\Livros_em_Movimento\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto .D0265652.Up2Date
+C:\Users\nicole\Downloads\Livros_em_Movimento\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Loja_MarcaTexto.resources
+C:\Users\nicole\Downloads\Livros_em_Movimento\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Loja_MarcaPáginas.resources
+C:\Users\nicole\Downloads\Livros_em_Movimento\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Loja_Livros.resources
