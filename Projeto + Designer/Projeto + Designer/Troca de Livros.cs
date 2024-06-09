@@ -56,115 +56,114 @@ namespace Projeto___Designer
 
         private void Memórias_Póstumas_Click(object sender, EventArgs e)
         {
-            Livro1 livros = new Livro1();
+            Memórias_Póstumas_de_Brás_Cubas livros = new Memórias_Póstumas_de_Brás_Cubas();
             livros.ShowDialog();
             this.Close();
         }
 
         private void Livro1_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Livro1 livros = new Livro1();
+            Memórias_Póstumas_de_Brás_Cubas livros = new Memórias_Póstumas_de_Brás_Cubas();
             livros.ShowDialog();
             this.Close();
         }
 
         private void Mais_que_amigos_Click(object sender, EventArgs e)
         {
-            Livro2 livros = new Livro2();
+            Mais_que_amigos livros = new Mais_que_amigos();
             livros.ShowDialog();
             this.Close();
         }
 
         private void Livro2_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Livro2 livros = new Livro2();
+            Mais_que_amigos livros = new Mais_que_amigos();
             livros.ShowDialog();
             this.Close();
         }
 
         private void A_hipótese_do_amor_Click(object sender, EventArgs e)
         {
-            Livro3 livros = new Livro3();
+            A_hipótese_do_amor livros = new A_hipótese_do_amor();
             livros.ShowDialog();
             this.Close();
         }
 
         private void Livro3_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Livro3 livros = new Livro3();
+            A_hipótese_do_amor livros = new A_hipótese_do_amor();
             livros.ShowDialog();
             this.Close();
         }
 
         private void É_assim_que_começa_Click(object sender, EventArgs e)
         {
-            Livro4 livros = new Livro4();
+            É_assim_que_começa livros = new É_assim_que_começa();
             livros.ShowDialog();
             this.Close();
         }
 
         private void Livro4_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Livro4 livros = new Livro4();
+            É_assim_que_começa livros = new É_assim_que_começa();
             livros.ShowDialog();
             this.Close();
         }
 
         private void Além_da_fumaça_Click(object sender, EventArgs e)
         {
-            Livro5 livros = new Livro5();
+            Além_da_Fumaça livros = new Além_da_Fumaça();
             livros.ShowDialog();
             this.Close();
         }
 
         private void Livro5_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Livro5 livros = new Livro5();
+            Além_da_Fumaça livros = new Além_da_Fumaça();
             livros.ShowDialog();
             this.Close();
         }
 
         private void Bridgerton_Click(object sender, EventArgs e)
         {
-            Livro6 livros = new Livro6();
+            BridgertonO_Duque_e_Eu livros = new BridgertonO_Duque_e_Eu();
             livros.ShowDialog();
             this.Close();
         }
 
         private void Livro6_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Livro6 livros = new Livro6();
+            BridgertonO_Duque_e_Eu livros = new BridgertonO_Duque_e_Eu();
             livros.ShowDialog();
             this.Close();
         }
 
         private void A_garota_do_lago_Click(object sender, EventArgs e)
         {
-            Livro7 livros = new Livro7();
+            A_Garota_do_Lago livros = new A_Garota_do_Lago();
             livros.ShowDialog();
             this.Close();
         }
 
         private void Livro7_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Livro7 livros = new Livro7();
+            A_Garota_do_Lago livros = new A_Garota_do_Lago();
             livros.ShowDialog();
             this.Close();
         }
 
         private void Como_eu_era_antes_de_você_Click(object sender, EventArgs e)
         {
-            Livro8 livros = new Livro8();
+            Como_Eu_Era_Antes_de_Você livros = new Como_Eu_Era_Antes_de_Você();
             livros.ShowDialog();
             this.Close();
         }
 
         private void Livro8_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Livro8 livros = new Livro8();
+            Como_Eu_Era_Antes_de_Você livros = new Como_Eu_Era_Antes_de_Você();
             livros.ShowDialog();
             this.Close();
         }
-
     }
 }

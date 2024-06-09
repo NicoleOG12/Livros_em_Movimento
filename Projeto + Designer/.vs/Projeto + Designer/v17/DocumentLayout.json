@@ -1,22 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nicole\\Livros_em_Movimento\\Projeto \u002B Designer\\",
+  "WorkspaceRootPath": "C:\\Users\\nicole\\Downloads\\Livros_em_Movimento\\Projeto \u002B Designer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|c:\\users\\nicole\\livros_em_movimento\\projeto \u002B designer\\projeto \u002B designer\\livro6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\livro6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|c:\\users\\nicole\\downloads\\livros_em_movimento\\projeto \u002B designer\\projeto \u002B designer\\loja_marcap\u00E1gina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\loja_marcap\u00E1gina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|c:\\users\\nicole\\livros_em_movimento\\projeto \u002B designer\\projeto \u002B designer\\livro6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\livro6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|c:\\users\\nicole\\livros_em_movimento\\projeto \u002B designer\\projeto \u002B designer\\livro8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\livro8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|c:\\users\\nicole\\livros_em_movimento\\projeto \u002B designer\\projeto \u002B designer\\livro7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\livro7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|c:\\users\\nicole\\downloads\\livros_em_movimento\\projeto \u002B designer\\projeto \u002B designer\\loja_marcatexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\loja_marcatexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Livro6.cs",
-              "DocumentMoniker": "C:\\Users\\nicole\\Livros_em_Movimento\\Projeto \u002B Designer\\Projeto \u002B Designer\\Livro6.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Livro6.cs",
-              "ToolTip": "C:\\Users\\nicole\\Livros_em_Movimento\\Projeto \u002B Designer\\Projeto \u002B Designer\\Livro6.cs",
-              "RelativeToolTip": "Projeto \u002B Designer\\Livro6.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAnwCEAAAAAAAAA",
+              "Title": "Loja_MarcaTexto.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nicole\\Downloads\\Livros_em_Movimento\\Projeto \u002B Designer\\Projeto \u002B Designer\\Loja_MarcaTexto.cs",
+              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Loja_MarcaTexto.cs",
+              "ToolTip": "C:\\Users\\nicole\\Downloads\\Livros_em_Movimento\\Projeto \u002B Designer\\Projeto \u002B Designer\\Loja_MarcaTexto.cs [Design]",
+              "RelativeToolTip": "Projeto \u002B Designer\\Loja_MarcaTexto.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T03:57:30.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Livro8.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nicole\\Livros_em_Movimento\\Projeto \u002B Designer\\Projeto \u002B Designer\\Livro8.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Livro8.cs",
-              "ToolTip": "C:\\Users\\nicole\\Livros_em_Movimento\\Projeto \u002B Designer\\Projeto \u002B Designer\\Livro8.cs [Design]",
-              "RelativeToolTip": "Projeto \u002B Designer\\Livro8.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T03:50:57.367Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Livro7.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nicole\\Livros_em_Movimento\\Projeto \u002B Designer\\Projeto \u002B Designer\\Livro7.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Livro7.cs",
-              "ToolTip": "C:\\Users\\nicole\\Livros_em_Movimento\\Projeto \u002B Designer\\Projeto \u002B Designer\\Livro7.cs [Design]",
-              "RelativeToolTip": "Projeto \u002B Designer\\Livro7.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T03:50:43.448Z",
+              "WhenOpened": "2024-06-09T21:13:31.146Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Livro6.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nicole\\Livros_em_Movimento\\Projeto \u002B Designer\\Projeto \u002B Designer\\Livro6.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Livro6.cs",
-              "ToolTip": "C:\\Users\\nicole\\Livros_em_Movimento\\Projeto \u002B Designer\\Projeto \u002B Designer\\Livro6.cs [Design]",
-              "RelativeToolTip": "Projeto \u002B Designer\\Livro6.cs [Design]",
+              "Title": "Loja_MarcaP\u00E1gina.cs",
+              "DocumentMoniker": "C:\\Users\\nicole\\Downloads\\Livros_em_Movimento\\Projeto \u002B Designer\\Projeto \u002B Designer\\Loja_MarcaP\u00E1gina.cs",
+              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Loja_MarcaP\u00E1gina.cs",
+              "ToolTip": "C:\\Users\\nicole\\Downloads\\Livros_em_Movimento\\Projeto \u002B Designer\\Projeto \u002B Designer\\Loja_MarcaP\u00E1gina.cs",
+              "RelativeToolTip": "Projeto \u002B Designer\\Loja_MarcaP\u00E1gina.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T03:49:23.703Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-09T21:13:07.903Z",
+              "EditorCaption": ""
             }
           ]
         }

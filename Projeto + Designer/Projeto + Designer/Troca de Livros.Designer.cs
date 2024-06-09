@@ -30,14 +30,14 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Troca_de_livros));
             this.Pesquisa_barra = new System.Windows.Forms.TextBox();
-            this.livro5_txt = new System.Windows.Forms.LinkLabel();
+            this.Livro5_txt = new System.Windows.Forms.LinkLabel();
             this.Livro6_txt = new System.Windows.Forms.LinkLabel();
-            this.livro7_txt = new System.Windows.Forms.LinkLabel();
-            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.Livro7_txt = new System.Windows.Forms.LinkLabel();
+            this.Livro8_txt = new System.Windows.Forms.LinkLabel();
             this.Livro1_txt = new System.Windows.Forms.LinkLabel();
             this.Livro2_txt = new System.Windows.Forms.LinkLabel();
             this.Livro3_txt = new System.Windows.Forms.LinkLabel();
-            this.linkLabel5 = new System.Windows.Forms.LinkLabel();
+            this.Livro4_txt = new System.Windows.Forms.LinkLabel();
             this.new_txt = new System.Windows.Forms.Label();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
@@ -53,7 +53,7 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Memórias_Póstumas_de_Brás_Cubas = new System.Windows.Forms.PictureBox();
             this.Carrinho_Box = new System.Windows.Forms.PictureBox();
             this.Perfil_Box = new System.Windows.Forms.PictureBox();
             this.Solicitação_Box = new System.Windows.Forms.PictureBox();
@@ -76,7 +76,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Memórias_Póstumas_de_Brás_Cubas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Carrinho_Box)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Perfil_Box)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Solicitação_Box)).BeginInit();
@@ -95,22 +95,22 @@
             this.Pesquisa_barra.Size = new System.Drawing.Size(404, 29);
             this.Pesquisa_barra.TabIndex = 5;
             // 
-            // livro5_txt
+            // Livro5_txt
             // 
-            this.livro5_txt.ActiveLinkColor = System.Drawing.Color.MediumPurple;
-            this.livro5_txt.AutoSize = true;
-            this.livro5_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
-            this.livro5_txt.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.livro5_txt.LinkColor = System.Drawing.Color.MediumPurple;
-            this.livro5_txt.Location = new System.Drawing.Point(83, 577);
-            this.livro5_txt.Name = "livro5_txt";
-            this.livro5_txt.Size = new System.Drawing.Size(115, 17);
-            this.livro5_txt.TabIndex = 28;
-            this.livro5_txt.TabStop = true;
-            this.livro5_txt.Text = "Além da Fumaça\r\n";
-            this.livro5_txt.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.livro5_txt.VisitedLinkColor = System.Drawing.Color.MediumPurple;
-            this.livro5_txt.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Livro5_Clicked);
+            this.Livro5_txt.ActiveLinkColor = System.Drawing.Color.MediumPurple;
+            this.Livro5_txt.AutoSize = true;
+            this.Livro5_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
+            this.Livro5_txt.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Livro5_txt.LinkColor = System.Drawing.Color.MediumPurple;
+            this.Livro5_txt.Location = new System.Drawing.Point(83, 577);
+            this.Livro5_txt.Name = "Livro5_txt";
+            this.Livro5_txt.Size = new System.Drawing.Size(115, 17);
+            this.Livro5_txt.TabIndex = 28;
+            this.Livro5_txt.TabStop = true;
+            this.Livro5_txt.Text = "Além da Fumaça\r\n";
+            this.Livro5_txt.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.Livro5_txt.VisitedLinkColor = System.Drawing.Color.MediumPurple;
+            this.Livro5_txt.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Livro5_Clicked);
             // 
             // Livro6_txt
             // 
@@ -128,40 +128,43 @@
             this.Livro6_txt.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.Livro6_txt.UseMnemonic = false;
             this.Livro6_txt.VisitedLinkColor = System.Drawing.Color.MediumPurple;
+            this.Livro6_txt.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Livro6_Clicked);
             // 
-            // livro7_txt
+            // Livro7_txt
             // 
-            this.livro7_txt.ActiveLinkColor = System.Drawing.Color.MediumPurple;
-            this.livro7_txt.AutoSize = true;
-            this.livro7_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
-            this.livro7_txt.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.livro7_txt.LinkColor = System.Drawing.Color.MediumPurple;
-            this.livro7_txt.Location = new System.Drawing.Point(464, 562);
-            this.livro7_txt.Name = "livro7_txt";
-            this.livro7_txt.Size = new System.Drawing.Size(72, 34);
-            this.livro7_txt.TabIndex = 30;
-            this.livro7_txt.TabStop = true;
-            this.livro7_txt.Text = "A garota \r\ndo lago\r\n";
-            this.livro7_txt.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.livro7_txt.UseMnemonic = false;
-            this.livro7_txt.VisitedLinkColor = System.Drawing.Color.MediumPurple;
+            this.Livro7_txt.ActiveLinkColor = System.Drawing.Color.MediumPurple;
+            this.Livro7_txt.AutoSize = true;
+            this.Livro7_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
+            this.Livro7_txt.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Livro7_txt.LinkColor = System.Drawing.Color.MediumPurple;
+            this.Livro7_txt.Location = new System.Drawing.Point(464, 562);
+            this.Livro7_txt.Name = "Livro7_txt";
+            this.Livro7_txt.Size = new System.Drawing.Size(72, 34);
+            this.Livro7_txt.TabIndex = 30;
+            this.Livro7_txt.TabStop = true;
+            this.Livro7_txt.Text = "A garota \r\ndo lago\r\n";
+            this.Livro7_txt.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.Livro7_txt.UseMnemonic = false;
+            this.Livro7_txt.VisitedLinkColor = System.Drawing.Color.MediumPurple;
+            this.Livro7_txt.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Livro7_Clicked);
             // 
-            // linkLabel2
+            // Livro8_txt
             // 
-            this.linkLabel2.ActiveLinkColor = System.Drawing.Color.MediumPurple;
-            this.linkLabel2.AutoSize = true;
-            this.linkLabel2.DisabledLinkColor = System.Drawing.Color.MediumPurple;
-            this.linkLabel2.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel2.LinkColor = System.Drawing.Color.MediumPurple;
-            this.linkLabel2.Location = new System.Drawing.Point(621, 562);
-            this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(113, 34);
-            this.linkLabel2.TabIndex = 31;
-            this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "Bridgerton \r\n(O duque e eu)";
-            this.linkLabel2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.linkLabel2.UseMnemonic = false;
-            this.linkLabel2.VisitedLinkColor = System.Drawing.Color.MediumPurple;
+            this.Livro8_txt.ActiveLinkColor = System.Drawing.Color.MediumPurple;
+            this.Livro8_txt.AutoSize = true;
+            this.Livro8_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
+            this.Livro8_txt.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Livro8_txt.LinkColor = System.Drawing.Color.MediumPurple;
+            this.Livro8_txt.Location = new System.Drawing.Point(628, 562);
+            this.Livro8_txt.Name = "Livro8_txt";
+            this.Livro8_txt.Size = new System.Drawing.Size(99, 34);
+            this.Livro8_txt.TabIndex = 31;
+            this.Livro8_txt.TabStop = true;
+            this.Livro8_txt.Text = "Como eu era\r\nantes de você";
+            this.Livro8_txt.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.Livro8_txt.UseMnemonic = false;
+            this.Livro8_txt.VisitedLinkColor = System.Drawing.Color.MediumPurple;
+            this.Livro8_txt.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Livro8_Clicked);
             // 
             // Livro1_txt
             // 
@@ -214,22 +217,22 @@
             this.Livro3_txt.VisitedLinkColor = System.Drawing.Color.MediumPurple;
             this.Livro3_txt.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Livro3_Clicked);
             // 
-            // linkLabel5
+            // Livro4_txt
             // 
-            this.linkLabel5.ActiveLinkColor = System.Drawing.Color.MediumPurple;
-            this.linkLabel5.AutoSize = true;
-            this.linkLabel5.DisabledLinkColor = System.Drawing.Color.MediumPurple;
-            this.linkLabel5.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel5.LinkColor = System.Drawing.Color.MediumPurple;
-            this.linkLabel5.Location = new System.Drawing.Point(631, 316);
-            this.linkLabel5.Name = "linkLabel5";
-            this.linkLabel5.Size = new System.Drawing.Size(79, 32);
-            this.linkLabel5.TabIndex = 35;
-            this.linkLabel5.TabStop = true;
-            this.linkLabel5.Text = "É assim que\r\ncomeça\r\n";
-            this.linkLabel5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.linkLabel5.VisitedLinkColor = System.Drawing.Color.MediumPurple;
-            this.linkLabel5.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Livro4_Clicked);
+            this.Livro4_txt.ActiveLinkColor = System.Drawing.Color.MediumPurple;
+            this.Livro4_txt.AutoSize = true;
+            this.Livro4_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
+            this.Livro4_txt.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Livro4_txt.LinkColor = System.Drawing.Color.MediumPurple;
+            this.Livro4_txt.Location = new System.Drawing.Point(631, 316);
+            this.Livro4_txt.Name = "Livro4_txt";
+            this.Livro4_txt.Size = new System.Drawing.Size(79, 32);
+            this.Livro4_txt.TabIndex = 35;
+            this.Livro4_txt.TabStop = true;
+            this.Livro4_txt.Text = "É assim que\r\ncomeça\r\n";
+            this.Livro4_txt.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.Livro4_txt.VisitedLinkColor = System.Drawing.Color.MediumPurple;
+            this.Livro4_txt.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Livro4_Clicked);
             // 
             // new_txt
             // 
@@ -386,17 +389,17 @@
             this.pictureBox2.TabIndex = 10;
             this.pictureBox2.TabStop = false;
             // 
-            // pictureBox1
+            // Memórias_Póstumas_de_Brás_Cubas
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.MediumPurple;
-            this.pictureBox1.Image = global::Projeto___Designer.Properties.Resources.memorias_postumas_bras_cubas;
-            this.pictureBox1.Location = new System.Drawing.Point(85, 168);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(103, 144);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.Memórias_Póstumas_Click);
+            this.Memórias_Póstumas_de_Brás_Cubas.BackColor = System.Drawing.Color.MediumPurple;
+            this.Memórias_Póstumas_de_Brás_Cubas.Image = global::Projeto___Designer.Properties.Resources.memorias_postumas_bras_cubas;
+            this.Memórias_Póstumas_de_Brás_Cubas.Location = new System.Drawing.Point(85, 168);
+            this.Memórias_Póstumas_de_Brás_Cubas.Name = "Memórias_Póstumas_de_Brás_Cubas";
+            this.Memórias_Póstumas_de_Brás_Cubas.Size = new System.Drawing.Size(103, 144);
+            this.Memórias_Póstumas_de_Brás_Cubas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Memórias_Póstumas_de_Brás_Cubas.TabIndex = 7;
+            this.Memórias_Póstumas_de_Brás_Cubas.TabStop = false;
+            this.Memórias_Póstumas_de_Brás_Cubas.Click += new System.EventHandler(this.Memórias_Póstumas_Click);
             // 
             // Carrinho_Box
             // 
@@ -495,14 +498,14 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 700);
             this.Controls.Add(this.new_txt);
-            this.Controls.Add(this.linkLabel5);
+            this.Controls.Add(this.Livro4_txt);
             this.Controls.Add(this.Livro3_txt);
             this.Controls.Add(this.Livro2_txt);
             this.Controls.Add(this.Livro1_txt);
-            this.Controls.Add(this.linkLabel2);
-            this.Controls.Add(this.livro7_txt);
+            this.Controls.Add(this.Livro8_txt);
+            this.Controls.Add(this.Livro7_txt);
             this.Controls.Add(this.Livro6_txt);
-            this.Controls.Add(this.livro5_txt);
+            this.Controls.Add(this.Livro5_txt);
             this.Controls.Add(this.pictureBox16);
             this.Controls.Add(this.pictureBox15);
             this.Controls.Add(this.pictureBox14);
@@ -517,7 +520,7 @@
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.Memórias_Póstumas_de_Brás_Cubas);
             this.Controls.Add(this.Carrinho_Box);
             this.Controls.Add(this.Pesquisa_barra);
             this.Controls.Add(this.Perfil_Box);
@@ -544,7 +547,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Memórias_Póstumas_de_Brás_Cubas)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Carrinho_Box)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Perfil_Box)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Solicitação_Box)).EndInit();
@@ -567,7 +570,7 @@
         private System.Windows.Forms.PictureBox Perfil_Box;
         private System.Windows.Forms.TextBox Pesquisa_barra;
         private System.Windows.Forms.PictureBox Carrinho_Box;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox Memórias_Póstumas_de_Brás_Cubas;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox4;
@@ -582,15 +585,15 @@
         private System.Windows.Forms.PictureBox pictureBox14;
         private System.Windows.Forms.PictureBox pictureBox15;
         private System.Windows.Forms.PictureBox pictureBox16;
-        private System.Windows.Forms.LinkLabel livro5_txt;
+        private System.Windows.Forms.LinkLabel Livro5_txt;
         private System.Windows.Forms.LinkLabel Livro6_txt;
         private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.LinkLabel livro7_txt;
-        private System.Windows.Forms.LinkLabel linkLabel2;
+        private System.Windows.Forms.LinkLabel Livro7_txt;
+        private System.Windows.Forms.LinkLabel Livro8_txt;
         private System.Windows.Forms.LinkLabel Livro1_txt;
         private System.Windows.Forms.LinkLabel Livro2_txt;
         private System.Windows.Forms.LinkLabel Livro3_txt;
-        private System.Windows.Forms.LinkLabel linkLabel5;
+        private System.Windows.Forms.LinkLabel Livro4_txt;
         private System.Windows.Forms.Label new_txt;
         private System.Windows.Forms.PictureBox pictureBox17;
     }
