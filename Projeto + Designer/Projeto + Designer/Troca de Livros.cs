@@ -54,115 +54,116 @@ namespace Projeto___Designer
             this.Close();
         }
 
-        private void Memórias_Póstumas_Click(object sender, EventArgs e)
+
+        private void Para_além_do_diário_de_Anne_Frank_Click(object sender, EventArgs e)
         {
-            Memórias_Póstumas_de_Brás_Cubas livros = new Memórias_Póstumas_de_Brás_Cubas();
-            livros.ShowDialog();
+            Para_além_do_diário_de_Anne_Frank livro1= new Para_além_do_diário_de_Anne_Frank();
+            livro1.ShowDialog();
             this.Close();
         }
 
         private void Livro1_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Memórias_Póstumas_de_Brás_Cubas livros = new Memórias_Póstumas_de_Brás_Cubas();
-            livros.ShowDialog();
+            Para_além_do_diário_de_Anne_Frank livro1 = new Para_além_do_diário_de_Anne_Frank();
+            livro1.ShowDialog();
             this.Close();
         }
 
-        private void Mais_que_amigos_Click(object sender, EventArgs e)
+        private void A_mente_de_Adolf_Hitler_Click(object sender, EventArgs e)
         {
-            Mais_que_amigos livros = new Mais_que_amigos();
-            livros.ShowDialog();
+            A_mente_de_Adolf_Hitler livro2 = new A_mente_de_Adolf_Hitler();
+            livro2.ShowDialog();
             this.Close();
         }
 
         private void Livro2_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Mais_que_amigos livros = new Mais_que_amigos();
-            livros.ShowDialog();
+            A_mente_de_Adolf_Hitler livro2 = new A_mente_de_Adolf_Hitler();
+            livro2.ShowDialog();
             this.Close();
         }
 
-        private void A_hipótese_do_amor_Click(object sender, EventArgs e)
+        private void Assinato_na_casa_do_pastor_Click(object sender, EventArgs e)
         {
-            A_hipótese_do_amor livros = new A_hipótese_do_amor();
-            livros.ShowDialog();
+            Assinato_na_casa_do_pastor livro3 = new Assinato_na_casa_do_pastor();
+            livro3.ShowDialog();
             this.Close();
         }
 
         private void Livro3_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            A_hipótese_do_amor livros = new A_hipótese_do_amor();
-            livros.ShowDialog();
+            Assinato_na_casa_do_pastor livro3 = new Assinato_na_casa_do_pastor();
+            livro3.ShowDialog();
             this.Close();
         }
 
-        private void É_assim_que_começa_Click(object sender, EventArgs e)
+        private void E_não_sobrou_ninguém_Click(object sender, EventArgs e)
         {
-            É_assim_que_começa livros = new É_assim_que_começa();
-            livros.ShowDialog();
+            E_não_sobrou_ninguém livro4 = new E_não_sobrou_ninguém();
+            livro4.ShowDialog();
             this.Close();
         }
 
         private void Livro4_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            É_assim_que_começa livros = new É_assim_que_começa();
-            livros.ShowDialog();
+            E_não_sobrou_ninguém livro4 = new E_não_sobrou_ninguém();
+            livro4.ShowDialog();
             this.Close();
         }
 
-        private void Além_da_fumaça_Click(object sender, EventArgs e)
+        private void O_homem_de_giz_Click(object sender, EventArgs e)
         {
-            Além_da_Fumaça livros = new Além_da_Fumaça();
-            livros.ShowDialog();
+            O_homem_de_giz livro5 = new O_homem_de_giz();
+            livro5.ShowDialog();
             this.Close();
         }
 
         private void Livro5_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Além_da_Fumaça livros = new Além_da_Fumaça();
-            livros.ShowDialog();
+            O_homem_de_giz livro5 = new O_homem_de_giz();
+            livro5.ShowDialog();
             this.Close();
         }
 
-        private void Bridgerton_Click(object sender, EventArgs e)
+        private void Pessoas_normais_Click(object sender, EventArgs e)
         {
-            BridgertonO_Duque_e_Eu livros = new BridgertonO_Duque_e_Eu();
-            livros.ShowDialog();
+            Pessoas_normais livro6= new Pessoas_normais();
+            livro6.ShowDialog();
             this.Close();
         }
 
         private void Livro6_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            BridgertonO_Duque_e_Eu livros = new BridgertonO_Duque_e_Eu();
-            livros.ShowDialog();
+            Pessoas_normais livro6 = new Pessoas_normais();
+            livro6.ShowDialog();
             this.Close();
         }
 
-        private void A_garota_do_lago_Click(object sender, EventArgs e)
+        private void A_vida_invisível_de_Addie_Larue_Click(object sender, EventArgs e)
         {
-            A_Garota_do_Lago livros = new A_Garota_do_Lago();
-            livros.ShowDialog();
+            A_vida_invisível_de_Addie_Larue livro7 = new A_vida_invisível_de_Addie_Larue();
+            livro7.ShowDialog();
             this.Close();
         }
 
         private void Livro7_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            A_Garota_do_Lago livros = new A_Garota_do_Lago();
-            livros.ShowDialog();
+            A_vida_invisível_de_Addie_Larue livro7 = new A_vida_invisível_de_Addie_Larue();
+            livro7.ShowDialog();
             this.Close();
         }
 
-        private void Como_eu_era_antes_de_você_Click(object sender, EventArgs e)
+        private void Um_de_nós_está_mentindo_Click(object sender, EventArgs e)
         {
-            Como_Eu_Era_Antes_de_Você livros = new Como_Eu_Era_Antes_de_Você();
-            livros.ShowDialog();
+            Um_de_nós_está_mentindo livro8 = new Um_de_nós_está_mentindo();
+            livro8.ShowDialog();
             this.Close();
         }
 
         private void Livro8_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Como_Eu_Era_Antes_de_Você livros = new Como_Eu_Era_Antes_de_Você();
-            livros.ShowDialog();
+            Um_de_nós_está_mentindo livro8 = new Um_de_nós_está_mentindo();
+            livro8.ShowDialog();
             this.Close();
         }
     }

@@ -57,29 +57,85 @@
       <DependentUpon>Cadastro.cs</DependentUpon>
     </Compile>
     <Compile Include="DAO.cs" />
-    <Compile Include="Como_Eu_Era_Antes_de_Você.cs">
+    <Compile Include="Livros_Loja\Como_Eu_Era_Antes_de_Você.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Como_Eu_Era_Antes_de_Você.Designer.cs">
+    <Compile Include="Livros_Loja\Como_Eu_Era_Antes_de_Você.Designer.cs">
       <DependentUpon>Como_Eu_Era_Antes_de_Você.cs</DependentUpon>
     </Compile>
-    <Compile Include="A_Garota_do_Lago.cs">
+    <Compile Include="Livros_Loja\A_Garota_do_Lago.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="A_Garota_do_Lago.Designer.cs">
+    <Compile Include="Livros_Loja\A_Garota_do_Lago.Designer.cs">
       <DependentUpon>A_Garota_do_Lago.cs</DependentUpon>
     </Compile>
-    <Compile Include="Bridgerton_O_Duque_e_Eu.cs">
+    <Compile Include="Livros_Loja\Bridgerton_O_Duque_e_Eu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Bridgerton_O_Duque_e_Eu.Designer.cs">
+    <Compile Include="Livros_Loja\Bridgerton_O_Duque_e_Eu.Designer.cs">
       <DependentUpon>Bridgerton_O_Duque_e_Eu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Além_da_Fumaça.cs">
+    <Compile Include="Livros_Loja\Além_da_Fumaça.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Além_da_Fumaça.Designer.cs">
+    <Compile Include="Livros_Loja\Além_da_Fumaça.Designer.cs">
       <DependentUpon>Além_da_Fumaça.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Livros_Troca\.Designer - Cópia %282%29.cs">
+      <DependentUpon>Assinato_na_casa_do_pastor.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Troca\.Designer - Cópia %283%29.cs">
+      <DependentUpon>E_não_sobrou_ninguém.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Troca\.Designer - Cópia %284%29.cs">
+      <DependentUpon>O_homem_de_giz.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Troca\.Designer - Cópia %285%29.cs">
+      <DependentUpon>Pessoas_normais.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Troca\.Designer - Cópia %286%29.cs">
+      <DependentUpon>A_vida_invisível_de_Addie_Larue.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Troca\.Designer - Cópia %287%29.cs">
+      <DependentUpon>Um_de_nós_está_mentindo.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Troca\.Designer - Cópia .cs">
+      <DependentUpon>A_mente_de_Adolf_Hitler.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Troca\Assinato_na_casa_do_pastor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Troca\E_não_sobrou_ninguém.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Troca\O_homem_de_giz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Troca\Pessoas_normais.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Troca\A_vida_invisível_de_Addie_Larue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Troca\Um_de_nós_está_mentindo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Troca\A_mente_de_Adolf_Hitler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Troca\Para_além_do_diário_de_Anne_Frank.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Troca\.Designer.cs">
+      <DependentUpon>Para_além_do_diário_de_Anne_Frank.cs</DependentUpon>
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Loja_MarcaTexto.cs">
       <SubType>Form</SubType>
@@ -105,28 +161,28 @@
     <Compile Include="Loja.Designer.cs">
       <DependentUpon>Loja.cs</DependentUpon>
     </Compile>
-    <Compile Include="É_assim_que_começa.cs">
+    <Compile Include="Livros_Loja\É_assim_que_começa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="É_assim_que_começa.Designer.cs">
+    <Compile Include="Livros_Loja\É_assim_que_começa.Designer.cs">
       <DependentUpon>É_assim_que_começa.cs</DependentUpon>
     </Compile>
-    <Compile Include="A_hipótese_do_amor.cs">
+    <Compile Include="Livros_Loja\A_hipótese_do_amor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="A_hipótese_do_amor.Designer.cs">
+    <Compile Include="Livros_Loja\A_hipótese_do_amor.Designer.cs">
       <DependentUpon>A_hipótese_do_amor.cs</DependentUpon>
     </Compile>
-    <Compile Include="Mais_que_amigos.cs">
+    <Compile Include="Livros_Loja\Mais_que_amigos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Mais_que_amigos.Designer.cs">
+    <Compile Include="Livros_Loja\Mais_que_amigos.Designer.cs">
       <DependentUpon>Mais_que_amigos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Memórias_Póstumas_de_Brás_Cubas.cs">
+    <Compile Include="Livros_Loja\Memórias_Póstumas_de_Brás_Cubas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Memórias_Póstumas_de_Brás_Cubas.Designer.cs">
+    <Compile Include="Livros_Loja\Memórias_Póstumas_de_Brás_Cubas.Designer.cs">
       <DependentUpon>Memórias_Póstumas_de_Brás_Cubas.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
@@ -134,6 +190,62 @@
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Marca_Páginas\.Designer - Cópia  - Cópia  - Cópia  - Cópia  - Cópia  - Cópia  - Cópia .cs">
+      <DependentUpon>MP8.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Páginas\.Designer - Cópia  - Cópia  - Cópia  - Cópia  - Cópia  - Cópia .cs">
+      <DependentUpon>MP7 .cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Páginas\.Designer - Cópia  - Cópia  - Cópia  - Cópia  - Cópia .cs">
+      <DependentUpon>MP6 .cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Páginas\.Designer - Cópia  - Cópia  - Cópia  - Cópia .cs">
+      <DependentUpon>MP5 .cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Páginas\.Designer - Cópia  - Cópia  - Cópia .cs">
+      <DependentUpon>MP4.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Páginas\.Designer - Cópia  - Cópia .cs">
+      <DependentUpon>MP3 .cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Páginas\.Designer - Cópia .cs">
+      <DependentUpon>MP2.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Páginas\MP8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Páginas\MP7 .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Páginas\MP6 .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Páginas\MP5 .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Páginas\MP4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Páginas\MP3 .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Páginas\MP2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Páginas\MP1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Páginas\.Designer.cs">
+      <DependentUpon>MP1.cs</DependentUpon>
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Solicitações.cs">
       <SubType>Form</SubType>
@@ -170,17 +282,41 @@
     <EmbeddedResource Include="Cadastro.resx">
       <DependentUpon>Cadastro.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Como_Eu_Era_Antes_de_Você.resx">
+    <EmbeddedResource Include="Livros_Loja\Como_Eu_Era_Antes_de_Você.resx">
       <DependentUpon>Como_Eu_Era_Antes_de_Você.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="A_Garota_do_Lago.resx">
+    <EmbeddedResource Include="Livros_Loja\A_Garota_do_Lago.resx">
       <DependentUpon>A_Garota_do_Lago.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Bridgerton_O_Duque_e_Eu.resx">
+    <EmbeddedResource Include="Livros_Loja\Bridgerton_O_Duque_e_Eu.resx">
       <DependentUpon>Bridgerton_O_Duque_e_Eu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Além_da_Fumaça.resx">
+    <EmbeddedResource Include="Livros_Loja\Além_da_Fumaça.resx">
       <DependentUpon>Além_da_Fumaça.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Livros_Troca\Assinato_na_casa_do_pastor.resx">
+      <DependentUpon>Assinato_na_casa_do_pastor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Livros_Troca\E_não_sobrou_ninguém.resx">
+      <DependentUpon>E_não_sobrou_ninguém.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Livros_Troca\O_homem_de_giz.resx">
+      <DependentUpon>O_homem_de_giz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Livros_Troca\Pessoas_normais.resx">
+      <DependentUpon>Pessoas_normais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Livros_Troca\A_vida_invisível_de_Addie_Larue.resx">
+      <DependentUpon>A_vida_invisível_de_Addie_Larue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Livros_Troca\Um_de_nós_está_mentindo.resx">
+      <DependentUpon>Um_de_nós_está_mentindo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Livros_Troca\A_mente_de_Adolf_Hitler.resx">
+      <DependentUpon>A_mente_de_Adolf_Hitler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Livros_Troca\Para_além_do_diário_de_Anne_Frank.resx">
+      <DependentUpon>Para_além_do_diário_de_Anne_Frank.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Loja_MarcaTexto.resx">
       <DependentUpon>Loja_MarcaTexto.cs</DependentUpon>
@@ -194,20 +330,44 @@
     <EmbeddedResource Include="Loja.resx">
       <DependentUpon>Loja.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="É_assim_que_começa.resx">
+    <EmbeddedResource Include="Livros_Loja\É_assim_que_começa.resx">
       <DependentUpon>É_assim_que_começa.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="A_hipótese_do_amor.resx">
+    <EmbeddedResource Include="Livros_Loja\A_hipótese_do_amor.resx">
       <DependentUpon>A_hipótese_do_amor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Mais_que_amigos.resx">
+    <EmbeddedResource Include="Livros_Loja\Mais_que_amigos.resx">
       <DependentUpon>Mais_que_amigos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Memórias_Póstumas_de_Brás_Cubas.resx">
+    <EmbeddedResource Include="Livros_Loja\Memórias_Póstumas_de_Brás_Cubas.resx">
       <DependentUpon>Memórias_Póstumas_de_Brás_Cubas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marca_Páginas\MP8.resx">
+      <DependentUpon>MP8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marca_Páginas\MP7 .resx">
+      <DependentUpon>MP7 .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marca_Páginas\MP6 .resx">
+      <DependentUpon>MP6 .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marca_Páginas\MP5 .resx">
+      <DependentUpon>MP5 .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marca_Páginas\MP4.resx">
+      <DependentUpon>MP4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marca_Páginas\MP3 .resx">
+      <DependentUpon>MP3 .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marca_Páginas\MP2.resx">
+      <DependentUpon>MP2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marca_Páginas\MP1.resx">
+      <DependentUpon>MP1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Solicitações.resx">
       <DependentUpon>Solicitações.cs</DependentUpon>
@@ -321,6 +481,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\315 Sem Título_20240609164634.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Marca_Texto\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Seta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\livro1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\livro2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\livro3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\livro4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\livro5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\livro6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\livro71.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\livro8.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

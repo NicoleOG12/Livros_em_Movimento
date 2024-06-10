@@ -54,196 +54,116 @@ namespace Projeto___Designer
             this.Close();
         }
 
-        private void Memórias_Póstumas_Click(object sender, EventArgs e)
-        {
-            Memórias_Póstumas_de_Brás_Cubas livros = new Memórias_Póstumas_de_Brás_Cubas();
-            livros.ShowDialog();
-            this.Close();
-        }
-
-        private void Livro1_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            Memórias_Póstumas_de_Brás_Cubas livros = new Memórias_Póstumas_de_Brás_Cubas();
-            livros.ShowDialog();
-            this.Close();
-        }
-
-        private void Mais_que_amigos_Click(object sender, EventArgs e)
-        {
-            Mais_que_amigos livros = new Mais_que_amigos();
-            livros.ShowDialog();
-            this.Close();
-        }
-
-        private void Livro2_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            Mais_que_amigos livros = new Mais_que_amigos();
-            livros.ShowDialog();
-            this.Close();
-        }
-
-        private void A_hipótese_do_amor_Click(object sender, EventArgs e)
-        {
-            A_hipótese_do_amor livros = new A_hipótese_do_amor();
-            livros.ShowDialog();
-            this.Close();
-        }
-
-        private void Livro3_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            A_hipótese_do_amor livros = new A_hipótese_do_amor();
-            livros.ShowDialog();
-            this.Close();
-        }
-
-        private void É_assim_que_começa_Click(object sender, EventArgs e)
-        {
-            É_assim_que_começa livros = new É_assim_que_começa();
-            livros.ShowDialog();
-            this.Close();
-        }
-
-        private void Livro4_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            É_assim_que_começa livros = new É_assim_que_começa();
-            livros.ShowDialog();
-            this.Close();
-        }
-
-        private void Além_da_fumaça_Click(object sender, EventArgs e)
-        {
-            Além_da_Fumaça livros = new Além_da_Fumaça();
-            livros.ShowDialog();
-            this.Close();
-        }
-
-        private void Livro5_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            Além_da_Fumaça livros = new Além_da_Fumaça();
-            livros.ShowDialog();
-            this.Close();
-        }
-
-        private void Bridgerton_Click(object sender, EventArgs e)
-        {
-            BridgertonO_Duque_e_Eu livros = new BridgertonO_Duque_e_Eu();
-            livros.ShowDialog();
-            this.Close();
-        }
-
-        private void Livro6_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            BridgertonO_Duque_e_Eu livros = new BridgertonO_Duque_e_Eu();
-            livros.ShowDialog();
-            this.Close();
-        }
-
-        private void A_garota_do_lago_Click(object sender, EventArgs e)
-        {
-            A_Garota_do_Lago livros = new A_Garota_do_Lago();
-            livros.ShowDialog();
-            this.Close();
-        }
-
-        private void Livro7_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            A_Garota_do_Lago livros = new A_Garota_do_Lago();
-            livros.ShowDialog();
-            this.Close();
-        }
-
-        private void Como_eu_era_antes_de_você_Click(object sender, EventArgs e)
-        {
-            Como_Eu_Era_Antes_de_Você livros = new Como_Eu_Era_Antes_de_Você();
-            livros.ShowDialog();
-            this.Close();
-        }
-
-        private void Livro8_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            Como_Eu_Era_Antes_de_Você livros = new Como_Eu_Era_Antes_de_Você();
-            livros.ShowDialog();
-            this.Close();
-        }
-
         private void MarcaPágina1_Click(object sender, EventArgs e)
         {
-
+            MP1 mP1 = new MP1();
+            mP1.ShowDialog();
+            this.Close();
         }
 
         private void MarcaPágina1_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            MP1 mP1 = new MP1();
+            mP1.ShowDialog();
+            this.Close();
         }
 
         private void MarcaPágina2_Click(object sender, EventArgs e)
         {
-
+            MP2 mP2 = new MP2();
+            mP2.ShowDialog();
+            this.Close();
         }
 
         private void MarcaPágina2_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            MP2 mp2 = new MP2();
+            mp2.ShowDialog();
+            this.Close();
         }
 
         private void MarcaPágina3_Click(object sender, EventArgs e)
         {
-
+            MP3 mp3 = new MP3();    
+            mp3.ShowDialog();
+            this.Close();
         }
 
         private void MarcaPágina3_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            MP3 mP3 = new MP3();
+            mP3.ShowDialog();
+            this.Close();
         }
 
         private void MarcaPágina4_Click(object sender, EventArgs e)
         {
-
+            MP4 mp4 = new MP4();
+            mp4.ShowDialog();
+            this.Close();
         }
 
         private void MarcaPágina4_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            MP4 mP4 = new MP4();
+            mP4.ShowDialog();
+            this.Close();
         }
 
         private void MarcaPágina5_Click(object sender, EventArgs e)
         {
-
+            MP5 mp5 = new MP5();    
+            mp5.ShowDialog();
+            this.Close();
         }
 
         private void MarcaPágina5_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            MP5 mP5 = new MP5();
+            mP5.ShowDialog();
+            this.Close();
         }
 
         private void MarcaPágina6_Click(object sender, EventArgs e)
         {
-
+            MP6 mp6 = new MP6();
+            mp6.ShowDialog();
+            this.Close();
         }
 
         private void MarcaPágina6_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            MP6 mp6 = new MP6();
+            mp6 .ShowDialog();
+            this.Close();
         }
 
         private void MarcaPágina7_Click(object sender, EventArgs e)
         {
-
+            MP7 mp7 = new MP7();
+            mp7.ShowDialog();
+            this.Close();
         }
 
         private void MarcaPágina7_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            MP7 mP7 = new MP7();
+            mP7.ShowDialog();
+            this.Close();
         }
 
         private void MarcaPágina8_Click(object sender, EventArgs e)
         {
-
+            MP8 mp8 = new MP8();
+            mp8.ShowDialog();
+            this.Close();
         }
 
         private void MarcaPágina8_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            MP8 mP8 = new MP8();
+            mP8.ShowDialog();
+            this.Close();
         }
     }
 }

@@ -53,7 +53,7 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.Memórias_Póstumas_de_Brás_Cubas = new System.Windows.Forms.PictureBox();
+            this.Para_além_do_diário_de_Anne_Frank = new System.Windows.Forms.PictureBox();
             this.Carrinho_Box = new System.Windows.Forms.PictureBox();
             this.Perfil_Box = new System.Windows.Forms.PictureBox();
             this.Solicitação_Box = new System.Windows.Forms.PictureBox();
@@ -76,7 +76,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Memórias_Póstumas_de_Brás_Cubas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Para_além_do_diário_de_Anne_Frank)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Carrinho_Box)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Perfil_Box)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Solicitação_Box)).BeginInit();
@@ -100,14 +100,14 @@
             this.Livro5_txt.ActiveLinkColor = System.Drawing.Color.MediumPurple;
             this.Livro5_txt.AutoSize = true;
             this.Livro5_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro5_txt.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Livro5_txt.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Livro5_txt.LinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro5_txt.Location = new System.Drawing.Point(83, 577);
+            this.Livro5_txt.Location = new System.Drawing.Point(95, 564);
             this.Livro5_txt.Name = "Livro5_txt";
-            this.Livro5_txt.Size = new System.Drawing.Size(115, 17);
+            this.Livro5_txt.Size = new System.Drawing.Size(68, 32);
             this.Livro5_txt.TabIndex = 28;
             this.Livro5_txt.TabStop = true;
-            this.Livro5_txt.Text = "Além da Fumaça\r\n";
+            this.Livro5_txt.Text = "O homem \r\nde giz";
             this.Livro5_txt.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.Livro5_txt.VisitedLinkColor = System.Drawing.Color.MediumPurple;
             this.Livro5_txt.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Livro5_Clicked);
@@ -119,12 +119,12 @@
             this.Livro6_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
             this.Livro6_txt.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Livro6_txt.LinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro6_txt.Location = new System.Drawing.Point(266, 562);
+            this.Livro6_txt.Location = new System.Drawing.Point(266, 579);
             this.Livro6_txt.Name = "Livro6_txt";
-            this.Livro6_txt.Size = new System.Drawing.Size(113, 34);
+            this.Livro6_txt.Size = new System.Drawing.Size(112, 17);
             this.Livro6_txt.TabIndex = 29;
             this.Livro6_txt.TabStop = true;
-            this.Livro6_txt.Text = "Bridgerton \r\n(O duque e eu)";
+            this.Livro6_txt.Text = "Pessoas normais";
             this.Livro6_txt.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.Livro6_txt.UseMnemonic = false;
             this.Livro6_txt.VisitedLinkColor = System.Drawing.Color.MediumPurple;
@@ -135,14 +135,14 @@
             this.Livro7_txt.ActiveLinkColor = System.Drawing.Color.MediumPurple;
             this.Livro7_txt.AutoSize = true;
             this.Livro7_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro7_txt.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Livro7_txt.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Livro7_txt.LinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro7_txt.Location = new System.Drawing.Point(464, 562);
+            this.Livro7_txt.Location = new System.Drawing.Point(449, 564);
             this.Livro7_txt.Name = "Livro7_txt";
-            this.Livro7_txt.Size = new System.Drawing.Size(72, 34);
+            this.Livro7_txt.Size = new System.Drawing.Size(104, 32);
             this.Livro7_txt.TabIndex = 30;
             this.Livro7_txt.TabStop = true;
-            this.Livro7_txt.Text = "A garota \r\ndo lago\r\n";
+            this.Livro7_txt.Text = "A vida invisível \r\nde Addie Larue";
             this.Livro7_txt.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.Livro7_txt.UseMnemonic = false;
             this.Livro7_txt.VisitedLinkColor = System.Drawing.Color.MediumPurple;
@@ -153,14 +153,14 @@
             this.Livro8_txt.ActiveLinkColor = System.Drawing.Color.MediumPurple;
             this.Livro8_txt.AutoSize = true;
             this.Livro8_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro8_txt.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Livro8_txt.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Livro8_txt.LinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro8_txt.Location = new System.Drawing.Point(628, 562);
+            this.Livro8_txt.Location = new System.Drawing.Point(631, 564);
             this.Livro8_txt.Name = "Livro8_txt";
-            this.Livro8_txt.Size = new System.Drawing.Size(99, 34);
+            this.Livro8_txt.Size = new System.Drawing.Size(93, 32);
             this.Livro8_txt.TabIndex = 31;
             this.Livro8_txt.TabStop = true;
-            this.Livro8_txt.Text = "Como eu era\r\nantes de você";
+            this.Livro8_txt.Text = "Um de nos \r\nestá mentindo\r\n";
             this.Livro8_txt.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.Livro8_txt.UseMnemonic = false;
             this.Livro8_txt.VisitedLinkColor = System.Drawing.Color.MediumPurple;
@@ -175,10 +175,10 @@
             this.Livro1_txt.LinkColor = System.Drawing.Color.MediumPurple;
             this.Livro1_txt.Location = new System.Drawing.Point(82, 322);
             this.Livro1_txt.Name = "Livro1_txt";
-            this.Livro1_txt.Size = new System.Drawing.Size(106, 22);
+            this.Livro1_txt.Size = new System.Drawing.Size(109, 22);
             this.Livro1_txt.TabIndex = 32;
             this.Livro1_txt.TabStop = true;
-            this.Livro1_txt.Text = "Memórias Póstumas\r\nde Brás Cubas";
+            this.Livro1_txt.Text = "Para além do diário \r\nde Anne Frank";
             this.Livro1_txt.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.Livro1_txt.VisitedLinkColor = System.Drawing.Color.MediumPurple;
             this.Livro1_txt.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Livro1_Clicked);
@@ -188,14 +188,14 @@
             this.Livro2_txt.ActiveLinkColor = System.Drawing.Color.MediumPurple;
             this.Livro2_txt.AutoSize = true;
             this.Livro2_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro2_txt.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Livro2_txt.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Livro2_txt.LinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro2_txt.Location = new System.Drawing.Point(290, 315);
+            this.Livro2_txt.Location = new System.Drawing.Point(277, 317);
             this.Livro2_txt.Name = "Livro2_txt";
-            this.Livro2_txt.Size = new System.Drawing.Size(66, 34);
+            this.Livro2_txt.Size = new System.Drawing.Size(83, 32);
             this.Livro2_txt.TabIndex = 33;
             this.Livro2_txt.TabStop = true;
-            this.Livro2_txt.Text = "Mais que\r\namigos?\r\n";
+            this.Livro2_txt.Text = "A mente de \r\nAdolf Hitler";
             this.Livro2_txt.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.Livro2_txt.VisitedLinkColor = System.Drawing.Color.MediumPurple;
             this.Livro2_txt.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Livro2_Clicked);
@@ -207,12 +207,12 @@
             this.Livro3_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
             this.Livro3_txt.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Livro3_txt.LinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro3_txt.Location = new System.Drawing.Point(464, 318);
+            this.Livro3_txt.Location = new System.Drawing.Point(455, 317);
             this.Livro3_txt.Name = "Livro3_txt";
-            this.Livro3_txt.Size = new System.Drawing.Size(78, 32);
+            this.Livro3_txt.Size = new System.Drawing.Size(96, 32);
             this.Livro3_txt.TabIndex = 34;
             this.Livro3_txt.TabStop = true;
-            this.Livro3_txt.Text = "A hipótese \r\ndo amor\r\n";
+            this.Livro3_txt.Text = "Assinato na \r\ncasa do pastor";
             this.Livro3_txt.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.Livro3_txt.VisitedLinkColor = System.Drawing.Color.MediumPurple;
             this.Livro3_txt.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Livro3_Clicked);
@@ -226,10 +226,10 @@
             this.Livro4_txt.LinkColor = System.Drawing.Color.MediumPurple;
             this.Livro4_txt.Location = new System.Drawing.Point(631, 316);
             this.Livro4_txt.Name = "Livro4_txt";
-            this.Livro4_txt.Size = new System.Drawing.Size(79, 32);
+            this.Livro4_txt.Size = new System.Drawing.Size(87, 32);
             this.Livro4_txt.TabIndex = 35;
             this.Livro4_txt.TabStop = true;
-            this.Livro4_txt.Text = "É assim que\r\ncomeça\r\n";
+            this.Livro4_txt.Text = "E não sobrou\r\nninguém";
             this.Livro4_txt.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.Livro4_txt.VisitedLinkColor = System.Drawing.Color.MediumPurple;
             this.Livro4_txt.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Livro4_Clicked);
@@ -248,50 +248,50 @@
             // pictureBox16
             // 
             this.pictureBox16.BackColor = System.Drawing.Color.MediumPurple;
-            this.pictureBox16.Image = global::Projeto___Designer.Properties.Resources.livros_de_romance_como_eu_era_antes_de_voce_20240326165339;
+            this.pictureBox16.Image = global::Projeto___Designer.Properties.Resources.livro8;
             this.pictureBox16.Location = new System.Drawing.Point(624, 415);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(103, 144);
             this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox16.TabIndex = 23;
             this.pictureBox16.TabStop = false;
-            this.pictureBox16.Click += new System.EventHandler(this.Como_eu_era_antes_de_você_Click);
+            this.pictureBox16.Click += new System.EventHandler(this.Um_de_nós_está_mentindo_Click);
             // 
             // pictureBox15
             // 
             this.pictureBox15.BackColor = System.Drawing.Color.MediumPurple;
-            this.pictureBox15.Image = global::Projeto___Designer.Properties.Resources._81LRk6_p1HL__AC_UF1000_1000_QL80_;
+            this.pictureBox15.Image = global::Projeto___Designer.Properties.Resources.livro71;
             this.pictureBox15.Location = new System.Drawing.Point(450, 415);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(103, 144);
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox15.TabIndex = 22;
             this.pictureBox15.TabStop = false;
-            this.pictureBox15.Click += new System.EventHandler(this.A_garota_do_lago_Click);
+            this.pictureBox15.Click += new System.EventHandler(this.A_vida_invisível_de_Addie_Larue_Click);
             // 
             // pictureBox14
             // 
             this.pictureBox14.BackColor = System.Drawing.Color.MediumPurple;
-            this.pictureBox14.Image = global::Projeto___Designer.Properties.Resources.o_duque_e_eu;
+            this.pictureBox14.Image = global::Projeto___Designer.Properties.Resources.livro6;
             this.pictureBox14.Location = new System.Drawing.Point(269, 415);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(103, 144);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox14.TabIndex = 21;
             this.pictureBox14.TabStop = false;
-            this.pictureBox14.Click += new System.EventHandler(this.Bridgerton_Click);
+            this.pictureBox14.Click += new System.EventHandler(this.Pessoas_normais_Click);
             // 
             // pictureBox13
             // 
             this.pictureBox13.BackColor = System.Drawing.Color.MediumPurple;
-            this.pictureBox13.Image = global::Projeto___Designer.Properties.Resources.alem_da_fumaca;
+            this.pictureBox13.Image = global::Projeto___Designer.Properties.Resources.livro5;
             this.pictureBox13.Location = new System.Drawing.Point(86, 415);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(103, 144);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox13.TabIndex = 20;
             this.pictureBox13.TabStop = false;
-            this.pictureBox13.Click += new System.EventHandler(this.Além_da_fumaça_Click);
+            this.pictureBox13.Click += new System.EventHandler(this.O_homem_de_giz_Click);
             // 
             // pictureBox12
             // 
@@ -331,36 +331,36 @@
             // 
             // pictureBox8
             // 
-            this.pictureBox8.Image = global::Projeto___Designer.Properties.Resources._51jiQtSEwDL;
+            this.pictureBox8.Image = global::Projeto___Designer.Properties.Resources.livro4;
             this.pictureBox8.Location = new System.Drawing.Point(624, 168);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(101, 144);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 15;
             this.pictureBox8.TabStop = false;
-            this.pictureBox8.Click += new System.EventHandler(this.É_assim_que_começa_Click);
+            this.pictureBox8.Click += new System.EventHandler(this.E_não_sobrou_ninguém_Click);
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Image = global::Projeto___Designer.Properties.Resources._81LTEfXYgcL;
+            this.pictureBox7.Image = global::Projeto___Designer.Properties.Resources.livro3;
             this.pictureBox7.Location = new System.Drawing.Point(450, 168);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(101, 144);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 14;
             this.pictureBox7.TabStop = false;
-            this.pictureBox7.Click += new System.EventHandler(this.A_hipótese_do_amor_Click);
+            this.pictureBox7.Click += new System.EventHandler(this.Assinato_na_casa_do_pastor_Click);
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Image = global::Projeto___Designer.Properties.Resources._3703693f_2eb2_4de1_89d4_a3092c038ef5;
+            this.pictureBox6.Image = global::Projeto___Designer.Properties.Resources.livro2;
             this.pictureBox6.Location = new System.Drawing.Point(269, 168);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(101, 144);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 13;
             this.pictureBox6.TabStop = false;
-            this.pictureBox6.Click += new System.EventHandler(this.Mais_que_amigos_Click);
+            this.pictureBox6.Click += new System.EventHandler(this.A_mente_de_Adolf_Hitler_Click);
             // 
             // pictureBox5
             // 
@@ -389,17 +389,17 @@
             this.pictureBox2.TabIndex = 10;
             this.pictureBox2.TabStop = false;
             // 
-            // Memórias_Póstumas_de_Brás_Cubas
+            // Para_além_do_diário_de_Anne_Frank
             // 
-            this.Memórias_Póstumas_de_Brás_Cubas.BackColor = System.Drawing.Color.MediumPurple;
-            this.Memórias_Póstumas_de_Brás_Cubas.Image = global::Projeto___Designer.Properties.Resources.memorias_postumas_bras_cubas;
-            this.Memórias_Póstumas_de_Brás_Cubas.Location = new System.Drawing.Point(85, 168);
-            this.Memórias_Póstumas_de_Brás_Cubas.Name = "Memórias_Póstumas_de_Brás_Cubas";
-            this.Memórias_Póstumas_de_Brás_Cubas.Size = new System.Drawing.Size(103, 144);
-            this.Memórias_Póstumas_de_Brás_Cubas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Memórias_Póstumas_de_Brás_Cubas.TabIndex = 7;
-            this.Memórias_Póstumas_de_Brás_Cubas.TabStop = false;
-            this.Memórias_Póstumas_de_Brás_Cubas.Click += new System.EventHandler(this.Memórias_Póstumas_Click);
+            this.Para_além_do_diário_de_Anne_Frank.BackColor = System.Drawing.Color.MediumPurple;
+            this.Para_além_do_diário_de_Anne_Frank.Image = global::Projeto___Designer.Properties.Resources.livro1;
+            this.Para_além_do_diário_de_Anne_Frank.Location = new System.Drawing.Point(85, 168);
+            this.Para_além_do_diário_de_Anne_Frank.Name = "Para_além_do_diário_de_Anne_Frank";
+            this.Para_além_do_diário_de_Anne_Frank.Size = new System.Drawing.Size(103, 144);
+            this.Para_além_do_diário_de_Anne_Frank.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Para_além_do_diário_de_Anne_Frank.TabIndex = 7;
+            this.Para_além_do_diário_de_Anne_Frank.TabStop = false;
+            this.Para_além_do_diário_de_Anne_Frank.Click += new System.EventHandler(this.Para_além_do_diário_de_Anne_Frank_Click);
             // 
             // Carrinho_Box
             // 
@@ -520,7 +520,7 @@
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.Memórias_Póstumas_de_Brás_Cubas);
+            this.Controls.Add(this.Para_além_do_diário_de_Anne_Frank);
             this.Controls.Add(this.Carrinho_Box);
             this.Controls.Add(this.Pesquisa_barra);
             this.Controls.Add(this.Perfil_Box);
@@ -547,7 +547,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Memórias_Póstumas_de_Brás_Cubas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Para_além_do_diário_de_Anne_Frank)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Carrinho_Box)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Perfil_Box)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Solicitação_Box)).EndInit();
@@ -570,7 +570,7 @@
         private System.Windows.Forms.PictureBox Perfil_Box;
         private System.Windows.Forms.TextBox Pesquisa_barra;
         private System.Windows.Forms.PictureBox Carrinho_Box;
-        private System.Windows.Forms.PictureBox Memórias_Póstumas_de_Brás_Cubas;
+        private System.Windows.Forms.PictureBox Para_além_do_diário_de_Anne_Frank;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox4;

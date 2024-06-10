@@ -137,7 +137,7 @@
             this.MarcaPágina7_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
             this.MarcaPágina7_txt.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MarcaPágina7_txt.LinkColor = System.Drawing.Color.MediumPurple;
-            this.MarcaPágina7_txt.Location = new System.Drawing.Point(456, 562);
+            this.MarcaPágina7_txt.Location = new System.Drawing.Point(464, 569);
             this.MarcaPágina7_txt.Name = "MarcaPágina7_txt";
             this.MarcaPágina7_txt.Size = new System.Drawing.Size(87, 32);
             this.MarcaPágina7_txt.TabIndex = 30;
