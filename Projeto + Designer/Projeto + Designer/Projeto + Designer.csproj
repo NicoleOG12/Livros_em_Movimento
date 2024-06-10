@@ -247,6 +247,62 @@
       <DependentUpon>MP1.cs</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Marca_Texto\.Designer - Cópia %282%29.cs">
+      <DependentUpon>MT3 .cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Texto\.Designer - Cópia %283%29.cs">
+      <DependentUpon>MT4 .cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Texto\.Designer - Cópia %284%29.cs">
+      <DependentUpon>MT5.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Texto\.Designer - Cópia %285%29.cs">
+      <DependentUpon>MT6 .cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Texto\.Designer - Cópia %286%29.cs">
+      <DependentUpon>MT7.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Texto\.Designer - Cópia %287%29.cs">
+      <DependentUpon>MT8.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Texto\.Designer - Cópia .cs">
+      <DependentUpon>MT2 .cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Texto\.Designer.cs">
+      <DependentUpon>MT1.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Texto\MT8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Texto\MT7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Texto\MT6 .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Texto\MT5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Texto\MT4 .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Texto\MT3 .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Texto\MT2 .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Texto\MT1.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Solicitações.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -369,6 +425,30 @@
     <EmbeddedResource Include="Marca_Páginas\MP1.resx">
       <DependentUpon>MP1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Marca_Texto\MT8.resx">
+      <DependentUpon>MT8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marca_Texto\MT7.resx">
+      <DependentUpon>MT7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marca_Texto\MT6 .resx">
+      <DependentUpon>MT6 .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marca_Texto\MT5.resx">
+      <DependentUpon>MT5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marca_Texto\MT4 .resx">
+      <DependentUpon>MT4 .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marca_Texto\MT3 .resx">
+      <DependentUpon>MT3 .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marca_Texto\MT2 .resx">
+      <DependentUpon>MT2 .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marca_Texto\MT1.resx">
+      <DependentUpon>MT1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Solicitações.resx">
       <DependentUpon>Solicitações.cs</DependentUpon>
     </EmbeddedResource>
@@ -483,7 +563,7 @@
     <None Include="Resources\315 Sem Título_20240609164634.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Marca_Texto\" />
+    <None Include="Resources\315 Sem Título_202406091646341.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Seta.png" />

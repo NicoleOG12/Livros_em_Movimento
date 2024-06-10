@@ -127,8 +127,8 @@
   <data name="marca texto mentos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\marca texto mentos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IMG-20240606-WA0014" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IMG-20240606-WA0014.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="livro71" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\livro71.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="314 Sem Título_20240606183254.jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\314 Sem Título_20240606183254.jpg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,9 +148,6 @@
   <data name="marca página2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\marca página2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="315 Sem Título_20240608235402.jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\315 Sem Título_20240608235402.jpg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="livro2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\livro2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -165,6 +162,9 @@
   </data>
   <data name="Seta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Seta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="315 Sem Título_202406082354021" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\315 Sem Título_20240608235402.jpg1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Notificações" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Notificações.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -183,9 +183,6 @@
   </data>
   <data name="wallpaperflare.com_wallpaper" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wallpaperflare.com_wallpaper.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="marca página5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\marca página5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="image_preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image_preview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -217,8 +214,8 @@
   <data name="marca texto masterprint" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\marca texto masterprint.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Troca de Livros" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Troca de Livros.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="marca página3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\marca página3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="marca página7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\marca página7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -238,14 +235,14 @@
   <data name="alem_da_fumaca" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\alem_da_fumaca.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="livro71" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\livro71.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="marca página3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\marca página3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="315 Sem Título_20240608235402.jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\315 Sem Título_20240608235402.jpg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="marca página5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\marca página5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="3703693f-2eb2-4de1-89d4-a3092c038ef5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\3703693f-2eb2-4de1-89d4-a3092c038ef5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -253,11 +250,17 @@
   <data name="livro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\livro1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="livro8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\livro8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="51jiQtSEwDL" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\51jiQtSEwDL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="images1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="81LRk6+p1HL._AC_UF1000,1000_QL80_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\81LRk6+p1HL._AC_UF1000,1000_QL80_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="315 Sem Título_202406082354022" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\315 Sem Título_20240608235402.jpg2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="marca texto stabilo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\marca texto stabilo1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -277,8 +280,8 @@
   <data name="3d-background-purple-background-abstract-background-windows-2560x1080-8292" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\3d-background-purple-background-abstract-background-windows-2560x1080-8292.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="315 Sem Título_202406082354021" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\315 Sem Título_20240608235402.jpg1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Troca de Livros" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Troca de Livros.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fundo tela principal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fundo tela principal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -292,16 +295,16 @@
   <data name="marca página4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\marca página4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="81LRk6+p1HL._AC_UF1000,1000_QL80_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\81LRk6+p1HL._AC_UF1000,1000_QL80_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="images1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="livro4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\livro4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="315 Sem Título_202406082354022" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\315 Sem Título_20240608235402.jpg2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IMG-20240606-WA0014" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG-20240606-WA0014.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="livro8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\livro8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="315 Sem Título_202406091646341" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\315 Sem Título_202406091646341.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

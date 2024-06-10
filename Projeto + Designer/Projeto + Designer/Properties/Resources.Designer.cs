@@ -133,6 +133,16 @@ namespace Projeto___Designer.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _315_Sem_Título_202406091646341 {
+            get {
+                object obj = ResourceManager.GetObject("315 Sem Título_202406091646341", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _3212f01a7c5fc4ea862619d0df8773e2 {
             get {
                 object obj = ResourceManager.GetObject("3212f01a7c5fc4ea862619d0df8773e2", resourceCulture);
