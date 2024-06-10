@@ -17,16 +17,14 @@ namespace Projeto___Designer
             InitializeComponent();
         }
 
-        private void Comprar_agora_Click(object sender, EventArgs e)
+        private void Solicitar_Troca_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void Adicionar_ao_carrinho_Click(object sender, EventArgs e)
+        private void Solicitar_empréstimo_Click(object sender, EventArgs e)
         {
-            Carrinho carrinho = new Carrinho();
-            carrinho.ShowDialog();
-            this.Close();
+
         }
     }
 }
