@@ -40,8 +40,8 @@
             this.CaixaBranca = new System.Windows.Forms.GroupBox();
             this.GeneroInteresse = new System.Windows.Forms.ComboBox();
             this.CaixaRoxa = new System.Windows.Forms.GroupBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.CaixaBranca.SuspendLayout();
             this.CaixaRoxa.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -169,6 +169,7 @@
             "Comédia",
             "Drama",
             "Ficção",
+            "Literatura",
             "Romance",
             "Outros"});
             this.GeneroInteresse.Location = new System.Drawing.Point(68, 235);
@@ -188,16 +189,6 @@
             this.CaixaRoxa.TabIndex = 11;
             this.CaixaRoxa.TabStop = false;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Projeto___Designer.Properties.Resources._315_Sem_Título_202406082354022;
-            this.pictureBox1.Location = new System.Drawing.Point(75, 128);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(167, 102);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -209,6 +200,16 @@
             this.label1.Size = new System.Drawing.Size(169, 34);
             this.label1.TabIndex = 1;
             this.label1.Text = "Bem Vindo!";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Projeto___Designer.Properties.Resources._315_Sem_Título_202406082354022;
+            this.pictureBox1.Location = new System.Drawing.Point(75, 128);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(167, 102);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // Cadastro
             // 

@@ -143,11 +143,11 @@
     <Compile Include="Loja_MarcaTexto.Designer.cs">
       <DependentUpon>Loja_MarcaTexto.cs</DependentUpon>
     </Compile>
-    <Compile Include="Loja_MarcaPáginas.cs">
+    <Compile Include="Loja_MarcaPágina.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Loja_MarcaPáginas.Designer.cs">
-      <DependentUpon>Loja_MarcaPáginas.cs</DependentUpon>
+    <Compile Include="Loja_MarcaPágina.Designer.cs">
+      <DependentUpon>Loja_MarcaPágina.cs</DependentUpon>
     </Compile>
     <Compile Include="Loja_Livros.cs">
       <SubType>Form</SubType>
@@ -321,8 +321,8 @@
     <EmbeddedResource Include="Loja_MarcaTexto.resx">
       <DependentUpon>Loja_MarcaTexto.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Loja_MarcaPáginas.resx">
-      <DependentUpon>Loja_MarcaPáginas.cs</DependentUpon>
+    <EmbeddedResource Include="Loja_MarcaPágina.resx">
+      <DependentUpon>Loja_MarcaPágina.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Loja_Livros.resx">
       <DependentUpon>Loja_Livros.cs</DependentUpon>

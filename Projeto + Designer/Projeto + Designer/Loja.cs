@@ -23,7 +23,7 @@ namespace Projeto___Designer
         {
             Troca_de_livros troca_de_livros = new Troca_de_livros();
             troca_de_livros.ShowDialog();
-            this.Close();
+            this.Hide();
 
         }
 
@@ -163,6 +163,20 @@ namespace Projeto___Designer
         {
             Como_Eu_Era_Antes_de_Você livros = new Como_Eu_Era_Antes_de_Você();
             livros.ShowDialog();
+            this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Loja_MarcaTexto loja = new Loja_MarcaTexto();
+            loja.ShowDialog();
+            this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Loja_MarcaPágina loja1 = new Loja_MarcaPágina();
+            loja1.ShowDialog();
             this.Close();
         }
     }

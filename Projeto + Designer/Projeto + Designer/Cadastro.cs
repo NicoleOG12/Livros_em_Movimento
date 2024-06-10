@@ -27,7 +27,7 @@ namespace Projeto___Designer
             dao.Desconectar();
             Troca_de_livros troca_de_livros = new Troca_de_livros();
             troca_de_livros.ShowDialog();
-            this.Close();
+            this.Hide();
         }
     }
    
