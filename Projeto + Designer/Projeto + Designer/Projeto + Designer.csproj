@@ -57,6 +57,24 @@
       <DependentUpon>Cadastro.cs</DependentUpon>
     </Compile>
     <Compile Include="DAO.cs" />
+    <Compile Include="Troca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Troca.Designer.cs">
+      <DependentUpon>Troca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tela Confirmação.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tela Confirmação.Designer.cs">
+      <DependentUpon>Tela Confirmação.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Empréstimo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empréstimo.Designer.cs">
+      <DependentUpon>Empréstimo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Livros_Loja\Como_Eu_Era_Antes_de_Você.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -323,11 +341,11 @@
     <Compile Include="Perfil.Designer.cs">
       <DependentUpon>Perfil.cs</DependentUpon>
     </Compile>
-    <Compile Include="Troca de Livros.cs">
+    <Compile Include="Feed Troca de Livros.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Troca de Livros.Designer.cs">
-      <DependentUpon>Troca de Livros.cs</DependentUpon>
+    <Compile Include="Feed Troca de Livros.Designer.cs">
+      <DependentUpon>Feed Troca de Livros.cs</DependentUpon>
     </Compile>
     <Compile Include="Tela Inicial.cs">
       <SubType>Form</SubType>
@@ -337,6 +355,15 @@
     </Compile>
     <EmbeddedResource Include="Cadastro.resx">
       <DependentUpon>Cadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Troca.resx">
+      <DependentUpon>Troca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela Confirmação.resx">
+      <DependentUpon>Tela Confirmação.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empréstimo.resx">
+      <DependentUpon>Empréstimo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Livros_Loja\Como_Eu_Era_Antes_de_Você.resx">
       <DependentUpon>Como_Eu_Era_Antes_de_Você.cs</DependentUpon>
@@ -468,8 +495,8 @@
     <EmbeddedResource Include="Perfil.resx">
       <DependentUpon>Perfil.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Troca de Livros.resx">
-      <DependentUpon>Troca de Livros.cs</DependentUpon>
+    <EmbeddedResource Include="Feed Troca de Livros.resx">
+      <DependentUpon>Feed Troca de Livros.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tela Inicial.resx">
       <DependentUpon>Tela Inicial.cs</DependentUpon>
@@ -591,6 +618,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\livro8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\314 Sem Título_20240610215324.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Seta1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

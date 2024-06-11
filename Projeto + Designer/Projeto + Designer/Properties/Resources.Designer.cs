@@ -93,6 +93,16 @@ namespace Projeto___Designer.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _314_Sem_Título_20240610215324 {
+            get {
+                object obj = ResourceManager.GetObject("314 Sem Título_20240610215324", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _315_Sem_Título_20240608235402_jpg {
             get {
                 object obj = ResourceManager.GetObject("315 Sem Título_20240608235402.jpg", resourceCulture);
@@ -226,6 +236,16 @@ namespace Projeto___Designer.Properties {
         internal static System.Drawing.Bitmap Carrinho {
             get {
                 object obj = ResourceManager.GetObject("Carrinho", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Check {
+            get {
+                object obj = ResourceManager.GetObject("Check", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -666,6 +686,16 @@ namespace Projeto___Designer.Properties {
         internal static System.Drawing.Bitmap Seta {
             get {
                 object obj = ResourceManager.GetObject("Seta", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Seta1 {
+            get {
+                object obj = ResourceManager.GetObject("Seta1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

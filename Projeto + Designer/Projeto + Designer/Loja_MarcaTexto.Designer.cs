@@ -30,14 +30,14 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Loja_MarcaTexto));
             this.Pesquisa_barra = new System.Windows.Forms.TextBox();
-            this.Livro5_txt = new System.Windows.Forms.LinkLabel();
-            this.Livro6_txt = new System.Windows.Forms.LinkLabel();
-            this.Livro7_txt = new System.Windows.Forms.LinkLabel();
-            this.Livro8_txt = new System.Windows.Forms.LinkLabel();
-            this.Livro1_txt = new System.Windows.Forms.LinkLabel();
-            this.Livro2_txt = new System.Windows.Forms.LinkLabel();
-            this.Livro3_txt = new System.Windows.Forms.LinkLabel();
-            this.Livro4_txt = new System.Windows.Forms.LinkLabel();
+            this.MT5_txt = new System.Windows.Forms.LinkLabel();
+            this.MT6_txt = new System.Windows.Forms.LinkLabel();
+            this.MT7_txt = new System.Windows.Forms.LinkLabel();
+            this.MT8_txt = new System.Windows.Forms.LinkLabel();
+            this.MT1_txt = new System.Windows.Forms.LinkLabel();
+            this.MT2_txt = new System.Windows.Forms.LinkLabel();
+            this.MT3_txt = new System.Windows.Forms.LinkLabel();
+            this.MT4_txt = new System.Windows.Forms.LinkLabel();
             this.new_txt = new System.Windows.Forms.Label();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
@@ -95,144 +95,144 @@
             this.Pesquisa_barra.Size = new System.Drawing.Size(404, 29);
             this.Pesquisa_barra.TabIndex = 5;
             // 
-            // Livro5_txt
+            // MT5_txt
             // 
-            this.Livro5_txt.ActiveLinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro5_txt.AutoSize = true;
-            this.Livro5_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro5_txt.Font = new System.Drawing.Font("MV Boli", 6.75F, System.Drawing.FontStyle.Bold);
-            this.Livro5_txt.LinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro5_txt.Location = new System.Drawing.Point(84, 567);
-            this.Livro5_txt.Name = "Livro5_txt";
-            this.Livro5_txt.Size = new System.Drawing.Size(110, 22);
-            this.Livro5_txt.TabIndex = 28;
-            this.Livro5_txt.TabStop = true;
-            this.Livro5_txt.Text = "Kit 6 marca textos \r\nfofo- Cis";
-            this.Livro5_txt.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Livro5_txt.VisitedLinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro5_txt.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Livro5_Clicked);
+            this.MT5_txt.ActiveLinkColor = System.Drawing.Color.MediumPurple;
+            this.MT5_txt.AutoSize = true;
+            this.MT5_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
+            this.MT5_txt.Font = new System.Drawing.Font("MV Boli", 6.75F, System.Drawing.FontStyle.Bold);
+            this.MT5_txt.LinkColor = System.Drawing.Color.MediumPurple;
+            this.MT5_txt.Location = new System.Drawing.Point(84, 567);
+            this.MT5_txt.Name = "MT5_txt";
+            this.MT5_txt.Size = new System.Drawing.Size(110, 22);
+            this.MT5_txt.TabIndex = 28;
+            this.MT5_txt.TabStop = true;
+            this.MT5_txt.Text = "Kit 6 marca textos \r\nfofo- Cis";
+            this.MT5_txt.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.MT5_txt.VisitedLinkColor = System.Drawing.Color.MediumPurple;
+            this.MT5_txt.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.MT5_Clicked);
             // 
-            // Livro6_txt
+            // MT6_txt
             // 
-            this.Livro6_txt.ActiveLinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro6_txt.AutoSize = true;
-            this.Livro6_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro6_txt.Font = new System.Drawing.Font("MV Boli", 6.5F, System.Drawing.FontStyle.Bold);
-            this.Livro6_txt.LinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro6_txt.Location = new System.Drawing.Point(255, 567);
-            this.Livro6_txt.Name = "Livro6_txt";
-            this.Livro6_txt.Size = new System.Drawing.Size(122, 22);
-            this.Livro6_txt.TabIndex = 29;
-            this.Livro6_txt.TabStop = true;
-            this.Livro6_txt.Text = "Kit 4 marca textos \r\ncom cheirinho- Mentos";
-            this.Livro6_txt.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Livro6_txt.UseMnemonic = false;
-            this.Livro6_txt.VisitedLinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro6_txt.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Livro6_Clicked);
+            this.MT6_txt.ActiveLinkColor = System.Drawing.Color.MediumPurple;
+            this.MT6_txt.AutoSize = true;
+            this.MT6_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
+            this.MT6_txt.Font = new System.Drawing.Font("MV Boli", 6.5F, System.Drawing.FontStyle.Bold);
+            this.MT6_txt.LinkColor = System.Drawing.Color.MediumPurple;
+            this.MT6_txt.Location = new System.Drawing.Point(255, 567);
+            this.MT6_txt.Name = "MT6_txt";
+            this.MT6_txt.Size = new System.Drawing.Size(122, 22);
+            this.MT6_txt.TabIndex = 29;
+            this.MT6_txt.TabStop = true;
+            this.MT6_txt.Text = "Kit 4 marca textos \r\ncom cheirinho- Mentos";
+            this.MT6_txt.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.MT6_txt.UseMnemonic = false;
+            this.MT6_txt.VisitedLinkColor = System.Drawing.Color.MediumPurple;
+            this.MT6_txt.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.MT6_Clicked);
             // 
-            // Livro7_txt
+            // MT7_txt
             // 
-            this.Livro7_txt.ActiveLinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro7_txt.AutoSize = true;
-            this.Livro7_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro7_txt.Font = new System.Drawing.Font("MV Boli", 6.75F, System.Drawing.FontStyle.Bold);
-            this.Livro7_txt.LinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro7_txt.Location = new System.Drawing.Point(448, 567);
-            this.Livro7_txt.Name = "Livro7_txt";
-            this.Livro7_txt.Size = new System.Drawing.Size(110, 22);
-            this.Livro7_txt.TabIndex = 30;
-            this.Livro7_txt.TabStop = true;
-            this.Livro7_txt.Text = "Kit 6 marca textos \r\npastel- Cis";
-            this.Livro7_txt.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Livro7_txt.UseMnemonic = false;
-            this.Livro7_txt.VisitedLinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro7_txt.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Livro7_Clicked);
+            this.MT7_txt.ActiveLinkColor = System.Drawing.Color.MediumPurple;
+            this.MT7_txt.AutoSize = true;
+            this.MT7_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
+            this.MT7_txt.Font = new System.Drawing.Font("MV Boli", 6.75F, System.Drawing.FontStyle.Bold);
+            this.MT7_txt.LinkColor = System.Drawing.Color.MediumPurple;
+            this.MT7_txt.Location = new System.Drawing.Point(448, 567);
+            this.MT7_txt.Name = "MT7_txt";
+            this.MT7_txt.Size = new System.Drawing.Size(110, 22);
+            this.MT7_txt.TabIndex = 30;
+            this.MT7_txt.TabStop = true;
+            this.MT7_txt.Text = "Kit 6 marca textos \r\npastel- Cis";
+            this.MT7_txt.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.MT7_txt.UseMnemonic = false;
+            this.MT7_txt.VisitedLinkColor = System.Drawing.Color.MediumPurple;
+            this.MT7_txt.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.MT7_Clicked);
             // 
-            // Livro8_txt
+            // MT8_txt
             // 
-            this.Livro8_txt.ActiveLinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro8_txt.AutoSize = true;
-            this.Livro8_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro8_txt.Font = new System.Drawing.Font("MV Boli", 6.75F, System.Drawing.FontStyle.Bold);
-            this.Livro8_txt.LinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro8_txt.Location = new System.Drawing.Point(627, 567);
-            this.Livro8_txt.Name = "Livro8_txt";
-            this.Livro8_txt.Size = new System.Drawing.Size(105, 22);
-            this.Livro8_txt.TabIndex = 31;
-            this.Livro8_txt.TabStop = true;
-            this.Livro8_txt.Text = "Kit 5 marca textos\r\nneon- Bic";
-            this.Livro8_txt.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Livro8_txt.UseMnemonic = false;
-            this.Livro8_txt.VisitedLinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro8_txt.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Livro8_Clicked);
+            this.MT8_txt.ActiveLinkColor = System.Drawing.Color.MediumPurple;
+            this.MT8_txt.AutoSize = true;
+            this.MT8_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
+            this.MT8_txt.Font = new System.Drawing.Font("MV Boli", 6.75F, System.Drawing.FontStyle.Bold);
+            this.MT8_txt.LinkColor = System.Drawing.Color.MediumPurple;
+            this.MT8_txt.Location = new System.Drawing.Point(627, 567);
+            this.MT8_txt.Name = "MT8_txt";
+            this.MT8_txt.Size = new System.Drawing.Size(105, 22);
+            this.MT8_txt.TabIndex = 31;
+            this.MT8_txt.TabStop = true;
+            this.MT8_txt.Text = "Kit 5 marca textos\r\nneon- Bic";
+            this.MT8_txt.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.MT8_txt.UseMnemonic = false;
+            this.MT8_txt.VisitedLinkColor = System.Drawing.Color.MediumPurple;
+            this.MT8_txt.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.MT8_Clicked);
             // 
-            // Livro1_txt
+            // MT1_txt
             // 
-            this.Livro1_txt.ActiveLinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro1_txt.AutoSize = true;
-            this.Livro1_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro1_txt.Font = new System.Drawing.Font("MV Boli", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Livro1_txt.LinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro1_txt.Location = new System.Drawing.Point(82, 322);
-            this.Livro1_txt.Name = "Livro1_txt";
-            this.Livro1_txt.Size = new System.Drawing.Size(105, 22);
-            this.Livro1_txt.TabIndex = 32;
-            this.Livro1_txt.TabStop = true;
-            this.Livro1_txt.Text = "Kit 6 marca textos\r\npastel- Stabilo\r\n";
-            this.Livro1_txt.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Livro1_txt.VisitedLinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro1_txt.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Livro1_Clicked);
+            this.MT1_txt.ActiveLinkColor = System.Drawing.Color.MediumPurple;
+            this.MT1_txt.AutoSize = true;
+            this.MT1_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
+            this.MT1_txt.Font = new System.Drawing.Font("MV Boli", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MT1_txt.LinkColor = System.Drawing.Color.MediumPurple;
+            this.MT1_txt.Location = new System.Drawing.Point(82, 322);
+            this.MT1_txt.Name = "MT1_txt";
+            this.MT1_txt.Size = new System.Drawing.Size(105, 22);
+            this.MT1_txt.TabIndex = 32;
+            this.MT1_txt.TabStop = true;
+            this.MT1_txt.Text = "Kit 6 marca textos\r\npastel- Stabilo\r\n";
+            this.MT1_txt.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.MT1_txt.VisitedLinkColor = System.Drawing.Color.MediumPurple;
+            this.MT1_txt.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.MT1_Clicked);
             // 
-            // Livro2_txt
+            // MT2_txt
             // 
-            this.Livro2_txt.ActiveLinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro2_txt.AutoSize = true;
-            this.Livro2_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro2_txt.Font = new System.Drawing.Font("MV Boli", 6.75F, System.Drawing.FontStyle.Bold);
-            this.Livro2_txt.LinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro2_txt.Location = new System.Drawing.Point(267, 322);
-            this.Livro2_txt.Name = "Livro2_txt";
-            this.Livro2_txt.Size = new System.Drawing.Size(110, 22);
-            this.Livro2_txt.TabIndex = 33;
-            this.Livro2_txt.TabStop = true;
-            this.Livro2_txt.Text = "Kit 6 marca textos \r\npastel- MasterPrint";
-            this.Livro2_txt.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Livro2_txt.VisitedLinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro2_txt.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Livro2_Clicked);
+            this.MT2_txt.ActiveLinkColor = System.Drawing.Color.MediumPurple;
+            this.MT2_txt.AutoSize = true;
+            this.MT2_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
+            this.MT2_txt.Font = new System.Drawing.Font("MV Boli", 6.75F, System.Drawing.FontStyle.Bold);
+            this.MT2_txt.LinkColor = System.Drawing.Color.MediumPurple;
+            this.MT2_txt.Location = new System.Drawing.Point(267, 322);
+            this.MT2_txt.Name = "MT2_txt";
+            this.MT2_txt.Size = new System.Drawing.Size(110, 22);
+            this.MT2_txt.TabIndex = 33;
+            this.MT2_txt.TabStop = true;
+            this.MT2_txt.Text = "Kit 6 marca textos \r\npastel- MasterPrint";
+            this.MT2_txt.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.MT2_txt.VisitedLinkColor = System.Drawing.Color.MediumPurple;
+            this.MT2_txt.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.MT2_Clicked);
             // 
-            // Livro3_txt
+            // MT3_txt
             // 
-            this.Livro3_txt.ActiveLinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro3_txt.AutoSize = true;
-            this.Livro3_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro3_txt.Font = new System.Drawing.Font("MV Boli", 6.75F, System.Drawing.FontStyle.Bold);
-            this.Livro3_txt.LinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro3_txt.Location = new System.Drawing.Point(448, 322);
-            this.Livro3_txt.Name = "Livro3_txt";
-            this.Livro3_txt.Size = new System.Drawing.Size(110, 22);
-            this.Livro3_txt.TabIndex = 34;
-            this.Livro3_txt.TabStop = true;
-            this.Livro3_txt.Text = "Kit 6 marca textos \r\npastel- Faber Castell";
-            this.Livro3_txt.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Livro3_txt.VisitedLinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro3_txt.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Livro3_Clicked);
+            this.MT3_txt.ActiveLinkColor = System.Drawing.Color.MediumPurple;
+            this.MT3_txt.AutoSize = true;
+            this.MT3_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
+            this.MT3_txt.Font = new System.Drawing.Font("MV Boli", 6.75F, System.Drawing.FontStyle.Bold);
+            this.MT3_txt.LinkColor = System.Drawing.Color.MediumPurple;
+            this.MT3_txt.Location = new System.Drawing.Point(448, 322);
+            this.MT3_txt.Name = "MT3_txt";
+            this.MT3_txt.Size = new System.Drawing.Size(110, 22);
+            this.MT3_txt.TabIndex = 34;
+            this.MT3_txt.TabStop = true;
+            this.MT3_txt.Text = "Kit 6 marca textos \r\npastel- Faber Castell";
+            this.MT3_txt.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.MT3_txt.VisitedLinkColor = System.Drawing.Color.MediumPurple;
+            this.MT3_txt.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.MT3_Clicked);
             // 
-            // Livro4_txt
+            // MT4_txt
             // 
-            this.Livro4_txt.ActiveLinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro4_txt.AutoSize = true;
-            this.Livro4_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro4_txt.Font = new System.Drawing.Font("MV Boli", 6.75F, System.Drawing.FontStyle.Bold);
-            this.Livro4_txt.LinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro4_txt.Location = new System.Drawing.Point(622, 322);
-            this.Livro4_txt.Name = "Livro4_txt";
-            this.Livro4_txt.Size = new System.Drawing.Size(110, 22);
-            this.Livro4_txt.TabIndex = 35;
-            this.Livro4_txt.TabStop = true;
-            this.Livro4_txt.Text = "Kit 6 marca textos-\r\nMasterPrint";
-            this.Livro4_txt.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Livro4_txt.VisitedLinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro4_txt.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Livro4_Clicked);
+            this.MT4_txt.ActiveLinkColor = System.Drawing.Color.MediumPurple;
+            this.MT4_txt.AutoSize = true;
+            this.MT4_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
+            this.MT4_txt.Font = new System.Drawing.Font("MV Boli", 6.75F, System.Drawing.FontStyle.Bold);
+            this.MT4_txt.LinkColor = System.Drawing.Color.MediumPurple;
+            this.MT4_txt.Location = new System.Drawing.Point(622, 322);
+            this.MT4_txt.Name = "MT4_txt";
+            this.MT4_txt.Size = new System.Drawing.Size(110, 22);
+            this.MT4_txt.TabIndex = 35;
+            this.MT4_txt.TabStop = true;
+            this.MT4_txt.Text = "Kit 6 marca textos-\r\nMasterPrint";
+            this.MT4_txt.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.MT4_txt.VisitedLinkColor = System.Drawing.Color.MediumPurple;
+            this.MT4_txt.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.MT4_Clicked);
             // 
             // new_txt
             // 
@@ -255,7 +255,7 @@
             this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox16.TabIndex = 23;
             this.pictureBox16.TabStop = false;
-            this.pictureBox16.Click += new System.EventHandler(this.Como_eu_era_antes_de_você_Click);
+            this.pictureBox16.Click += new System.EventHandler(this.MT8_Click);
             // 
             // pictureBox15
             // 
@@ -267,7 +267,7 @@
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox15.TabIndex = 22;
             this.pictureBox15.TabStop = false;
-            this.pictureBox15.Click += new System.EventHandler(this.A_garota_do_lago_Click);
+            this.pictureBox15.Click += new System.EventHandler(this.MT7_Click);
             // 
             // pictureBox14
             // 
@@ -279,7 +279,7 @@
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox14.TabIndex = 21;
             this.pictureBox14.TabStop = false;
-            this.pictureBox14.Click += new System.EventHandler(this.Bridgerton_Click);
+            this.pictureBox14.Click += new System.EventHandler(this.MT6_Click);
             // 
             // pictureBox13
             // 
@@ -291,7 +291,7 @@
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox13.TabIndex = 20;
             this.pictureBox13.TabStop = false;
-            this.pictureBox13.Click += new System.EventHandler(this.Além_da_fumaça_Click);
+            this.pictureBox13.Click += new System.EventHandler(this.MT5_Click);
             // 
             // pictureBox12
             // 
@@ -338,7 +338,7 @@
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 15;
             this.pictureBox8.TabStop = false;
-            this.pictureBox8.Click += new System.EventHandler(this.É_assim_que_começa_Click);
+            this.pictureBox8.Click += new System.EventHandler(this.MT4_Click);
             // 
             // pictureBox7
             // 
@@ -349,7 +349,7 @@
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 14;
             this.pictureBox7.TabStop = false;
-            this.pictureBox7.Click += new System.EventHandler(this.A_hipótese_do_amor_Click);
+            this.pictureBox7.Click += new System.EventHandler(this.MT3_Click);
             // 
             // pictureBox6
             // 
@@ -360,7 +360,7 @@
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 13;
             this.pictureBox6.TabStop = false;
-            this.pictureBox6.Click += new System.EventHandler(this.Mais_que_amigos_Click);
+            this.pictureBox6.Click += new System.EventHandler(this.MT2_Click);
             // 
             // pictureBox5
             // 
@@ -399,7 +399,7 @@
             this.Memórias_Póstumas_de_Brás_Cubas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Memórias_Póstumas_de_Brás_Cubas.TabIndex = 7;
             this.Memórias_Póstumas_de_Brás_Cubas.TabStop = false;
-            this.Memórias_Póstumas_de_Brás_Cubas.Click += new System.EventHandler(this.Memórias_Póstumas_Click);
+            this.Memórias_Póstumas_de_Brás_Cubas.Click += new System.EventHandler(this.MT1_Click);
             // 
             // Carrinho_Box
             // 
@@ -498,14 +498,14 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 700);
             this.Controls.Add(this.new_txt);
-            this.Controls.Add(this.Livro4_txt);
-            this.Controls.Add(this.Livro3_txt);
-            this.Controls.Add(this.Livro2_txt);
-            this.Controls.Add(this.Livro1_txt);
-            this.Controls.Add(this.Livro8_txt);
-            this.Controls.Add(this.Livro7_txt);
-            this.Controls.Add(this.Livro6_txt);
-            this.Controls.Add(this.Livro5_txt);
+            this.Controls.Add(this.MT4_txt);
+            this.Controls.Add(this.MT3_txt);
+            this.Controls.Add(this.MT2_txt);
+            this.Controls.Add(this.MT1_txt);
+            this.Controls.Add(this.MT8_txt);
+            this.Controls.Add(this.MT7_txt);
+            this.Controls.Add(this.MT6_txt);
+            this.Controls.Add(this.MT5_txt);
             this.Controls.Add(this.pictureBox16);
             this.Controls.Add(this.pictureBox15);
             this.Controls.Add(this.pictureBox14);
@@ -532,7 +532,7 @@
             this.Controls.Add(this.pictureBox17);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Loja_MarcaTexto";
-            this.Text = "20, ";
+            this.Text = "Loja";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
@@ -585,15 +585,15 @@
         private System.Windows.Forms.PictureBox pictureBox14;
         private System.Windows.Forms.PictureBox pictureBox15;
         private System.Windows.Forms.PictureBox pictureBox16;
-        private System.Windows.Forms.LinkLabel Livro5_txt;
-        private System.Windows.Forms.LinkLabel Livro6_txt;
+        private System.Windows.Forms.LinkLabel MT5_txt;
+        private System.Windows.Forms.LinkLabel MT6_txt;
         private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.LinkLabel Livro7_txt;
-        private System.Windows.Forms.LinkLabel Livro8_txt;
-        private System.Windows.Forms.LinkLabel Livro1_txt;
-        private System.Windows.Forms.LinkLabel Livro2_txt;
-        private System.Windows.Forms.LinkLabel Livro3_txt;
-        private System.Windows.Forms.LinkLabel Livro4_txt;
+        private System.Windows.Forms.LinkLabel MT7_txt;
+        private System.Windows.Forms.LinkLabel MT8_txt;
+        private System.Windows.Forms.LinkLabel MT1_txt;
+        private System.Windows.Forms.LinkLabel MT2_txt;
+        private System.Windows.Forms.LinkLabel MT3_txt;
+        private System.Windows.Forms.LinkLabel MT4_txt;
         private System.Windows.Forms.Label new_txt;
         private System.Windows.Forms.PictureBox pictureBox17;
     }

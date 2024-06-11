@@ -19,12 +19,23 @@ namespace Projeto___Designer
 
         private void Solicitar_Troca_Click(object sender, EventArgs e)
         {
-
+            Troca troca = new Troca();
+            troca.ShowDialog();
+            this.Close();
         }
 
         private void Solicitar_empréstimo_Click(object sender, EventArgs e)
         {
+            Empréstimo empréstimo = new Empréstimo();
+            empréstimo.ShowDialog();
+            this.Close();
+        }
 
+        private void Seta_Click(object sender, EventArgs e)
+        {
+            Troca_de_livros troca_De_Livros = new Troca_de_livros();
+            troca_De_Livros.ShowDialog();
+            this.Close();
         }
     }
 }

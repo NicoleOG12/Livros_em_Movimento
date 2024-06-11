@@ -42,12 +42,14 @@
             this.Imagem1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.Seta = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.Quantidade_numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Imagem1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Seta)).BeginInit();
             this.SuspendLayout();
             // 
             // Quantidade_numericUpDown1
@@ -184,12 +186,25 @@
             this.pictureBox3.TabIndex = 4;
             this.pictureBox3.TabStop = false;
             // 
+            // Seta
+            // 
+            this.Seta.BackColor = System.Drawing.Color.MediumPurple;
+            this.Seta.Image = global::Projeto___Designer.Properties.Resources.Seta1;
+            this.Seta.Location = new System.Drawing.Point(26, 27);
+            this.Seta.Name = "Seta";
+            this.Seta.Size = new System.Drawing.Size(74, 50);
+            this.Seta.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Seta.TabIndex = 13;
+            this.Seta.TabStop = false;
+            this.Seta.Click += new System.EventHandler(this.Seta_Click);
+            // 
             // MT2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(743, 425);
+            this.Controls.Add(this.Seta);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Descrição);
             this.Controls.Add(this.Número_de_itens_txt);
@@ -211,6 +226,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Imagem1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Seta)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -231,5 +247,6 @@
         private System.Windows.Forms.Label Descrição;
         private System.Diagnostics.EventLog eventLog1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox Seta;
     }
 }

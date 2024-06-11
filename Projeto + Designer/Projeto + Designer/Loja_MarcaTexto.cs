@@ -54,117 +54,116 @@ namespace Projeto___Designer
             this.Close();
         }
 
-        private void Memórias_Póstumas_Click(object sender, EventArgs e)
+        private void MT1_Click(object sender, EventArgs e)
         {
-            Memórias_Póstumas_de_Brás_Cubas livros = new Memórias_Póstumas_de_Brás_Cubas();
-            livros.ShowDialog();
+            MT1 mT1 = new MT1();
+            mT1.ShowDialog();
             this.Close();
         }
 
-        private void Livro1_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void MT1_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Memórias_Póstumas_de_Brás_Cubas livros = new Memórias_Póstumas_de_Brás_Cubas();
-            livros.ShowDialog();
+            MT1 mT1 = new MT1();
+            mT1.ShowDialog();
             this.Close();
         }
 
-        private void Mais_que_amigos_Click(object sender, EventArgs e)
+        private void MT2_Click(object sender, EventArgs e)
         {
-            Mais_que_amigos livros = new Mais_que_amigos();
-            livros.ShowDialog();
+            MT2 mT2 = new MT2();
+            mT2.ShowDialog();
             this.Close();
         }
 
-        private void Livro2_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void MT2_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Mais_que_amigos livros = new Mais_que_amigos();
-            livros.ShowDialog();
+            MT2 mT2 = new MT2();
+            mT2.ShowDialog();
             this.Close();
         }
 
-        private void A_hipótese_do_amor_Click(object sender, EventArgs e)
+        private void MT3_Click(object sender, EventArgs e)
         {
-            A_hipótese_do_amor livros = new A_hipótese_do_amor();
-            livros.ShowDialog();
+            MT3 mT3 = new MT3();
+            mT3.ShowDialog();
             this.Close();
         }
 
-        private void Livro3_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void MT3_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            A_hipótese_do_amor livros = new A_hipótese_do_amor();
-            livros.ShowDialog();
+            MT3 mT3 = new MT3();
+            mT3.ShowDialog();
             this.Close();
         }
 
-        private void É_assim_que_começa_Click(object sender, EventArgs e)
+        private void MT4_Click(object sender, EventArgs e)
         {
-            É_assim_que_começa livros = new É_assim_que_começa();
-            livros.ShowDialog();
+            MT4 mT4 = new MT4();
+            mT4.ShowDialog();
             this.Close();
         }
 
-        private void Livro4_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void MT4_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            É_assim_que_começa livros = new É_assim_que_começa();
-            livros.ShowDialog();
+            MT4 mT4 = new MT4();
+            mT4.ShowDialog();
             this.Close();
         }
 
-        private void Além_da_fumaça_Click(object sender, EventArgs e)
+        private void MT5_Click(object sender, EventArgs e)
         {
-            Além_da_Fumaça livros = new Além_da_Fumaça();
-            livros.ShowDialog();
+            MT5 mT5 = new MT5();
+            mT5.ShowDialog();
             this.Close();
         }
 
-        private void Livro5_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void MT5_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Além_da_Fumaça livros = new Além_da_Fumaça();
-            livros.ShowDialog();
+            MT5 mT5 = new MT5();
+            mT5.ShowDialog();
             this.Close();
         }
 
-        private void Bridgerton_Click(object sender, EventArgs e)
+        private void MT6_Click(object sender, EventArgs e)
         {
-            BridgertonO_Duque_e_Eu livros = new BridgertonO_Duque_e_Eu();
-            livros.ShowDialog();
+            MT6 mT6 = new MT6();
+            mT6.ShowDialog();
             this.Close();
         }
 
-        private void Livro6_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void MT6_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            BridgertonO_Duque_e_Eu livros = new BridgertonO_Duque_e_Eu();
-            livros.ShowDialog();
+            MT6 mT6 = new MT6();
+            mT6.ShowDialog();
             this.Close();
         }
 
-        private void A_garota_do_lago_Click(object sender, EventArgs e)
+        private void MT7_Click(object sender, EventArgs e)
         {
-            A_Garota_do_Lago livros = new A_Garota_do_Lago();
-            livros.ShowDialog();
+            MT7 mT7 = new MT7();
+            mT7.ShowDialog();
             this.Close();
         }
 
-        private void Livro7_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void MT7_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            A_Garota_do_Lago livros = new A_Garota_do_Lago();
-            livros.ShowDialog();
+            MT7 mT7 = new MT7();
+            mT7.ShowDialog();
             this.Close();
         }
 
-        private void Como_eu_era_antes_de_você_Click(object sender, EventArgs e)
+        private void MT8_Click(object sender, EventArgs e)
         {
-            Como_Eu_Era_Antes_de_Você livros = new Como_Eu_Era_Antes_de_Você();
-            livros.ShowDialog();
+            MT8 mT8 = new MT8();
+            mT8.ShowDialog();
             this.Close();
         }
 
-        private void Livro8_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void MT8_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Como_Eu_Era_Antes_de_Você livros = new Como_Eu_Era_Antes_de_Você();
-            livros.ShowDialog();
+            MT8 mT8 = new MT8();
+            mT8.ShowDialog();
             this.Close();
         }
-
     }
 }
