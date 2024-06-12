@@ -100,7 +100,7 @@
             this.Controls.Add(this.Troca_de_livros_box);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Solicitações";
-            this.Text = "Perfil";
+            this.Text = "Minhas Solicitações";
             ((System.ComponentModel.ISupportInitialize)(this.Carrinho_Box)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Perfil_Box)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Sacola_Box)).EndInit();

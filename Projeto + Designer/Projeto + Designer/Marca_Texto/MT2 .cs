@@ -26,14 +26,14 @@ namespace Projeto___Designer
         {
             Carrinho carrinho = new Carrinho();
             carrinho.ShowDialog();
-            this.Close();
+            this.Hide();
         }
 
         private void Seta_Click(object sender, EventArgs e)
         {
             Loja loja = new Loja();
             loja.ShowDialog();
-            this.Close();
+            this.Hide();
         }
     }
 }

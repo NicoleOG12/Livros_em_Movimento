@@ -22,7 +22,7 @@ namespace Projeto___Designer
         {
             Cadastro cadastro = new Cadastro();
             cadastro.ShowDialog();
-            this.Close();
+            this.Hide();
         }
 
         private void Logar_btn(object sender, EventArgs e)
@@ -38,7 +38,7 @@ namespace Projeto___Designer
             {
                 Troca_de_livros troca_de_livros= new Troca_de_livros();
                 troca_de_livros.ShowDialog();
-                this.Close();
+                this.Hide();
             }
             else
             {

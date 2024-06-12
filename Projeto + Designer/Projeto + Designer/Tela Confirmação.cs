@@ -21,7 +21,7 @@ namespace Projeto___Designer
         {
             Troca_de_livros troca_De_Livros = new Troca_de_livros();
             troca_De_Livros.ShowDialog();
-            this.Close();
+            this.Hide();
         }
     }
 }

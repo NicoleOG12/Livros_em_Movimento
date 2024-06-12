@@ -21,7 +21,7 @@ namespace Projeto___Designer
         {
             Login login = new Login();
             login.ShowDialog();
-            this.Close();
+            this.Hide();
         }
     }
 }

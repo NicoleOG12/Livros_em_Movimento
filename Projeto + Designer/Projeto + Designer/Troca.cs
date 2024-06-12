@@ -21,14 +21,14 @@ namespace Projeto___Designer
         {
             Tela_Confirmação tela_Confirmação = new Tela_Confirmação();
             tela_Confirmação.ShowDialog();
-            this.Close();
+            this.Hide();
         }
 
         private void Cancelar_Click(object sender, EventArgs e)
         {
             Troca_de_livros troca_De_Livros = new Troca_de_livros();
             troca_De_Livros.ShowDialog();
-            this.Close();
+            this.Hide();
         }
     }
 }
