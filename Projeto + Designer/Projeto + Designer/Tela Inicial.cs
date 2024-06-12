@@ -20,8 +20,8 @@ namespace Projeto___Designer
         private void Continuar_btn_Click(object sender, EventArgs e)
         {
             Login login = new Login();
-            login.ShowDialog();
             this.Hide();
+            login.ShowDialog();
         }
     }
 }

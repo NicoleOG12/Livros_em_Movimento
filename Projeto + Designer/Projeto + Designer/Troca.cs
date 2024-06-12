@@ -20,15 +20,15 @@ namespace Projeto___Designer
         private void Confirmar_Click(object sender, EventArgs e)
         {
             Tela_Confirmação tela_Confirmação = new Tela_Confirmação();
-            tela_Confirmação.ShowDialog();
             this.Hide();
+            tela_Confirmação.ShowDialog();
         }
 
         private void Cancelar_Click(object sender, EventArgs e)
         {
             Troca_de_livros troca_De_Livros = new Troca_de_livros();
-            troca_De_Livros.ShowDialog();
             this.Hide();
+            troca_De_Livros.ShowDialog();
         }
     }
 }

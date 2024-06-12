@@ -19,21 +19,26 @@ namespace Projeto___Designer
 
         private void Comprar_agora_Click(object sender, EventArgs e)
         {
+            DAO dao = new DAO();
+            dao.Conectar();
+            string comandoSql = $"Select id from Produto where nome= '{Nome_item_txt.Text}'";
 
+            dao.Desconectar();
         }
 
         private void Adicionar_ao_carrinho_Click(object sender, EventArgs e)
         {
             Carrinho carrinho = new Carrinho();
-            carrinho.ShowDialog();
             this.Hide();
+            carrinho.ShowDialog();
         }
 
         private void Seta_Click(object sender, EventArgs e)
         {
             Loja_Livros loja_Livros = new Loja_Livros();
-            loja_Livros.ShowDialog();
             this.Hide();
+            loja_Livros.ShowDialog();
+            
         }
     }
 }

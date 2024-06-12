@@ -21,8 +21,8 @@ namespace Projeto___Designer
         private void Cadastro_btn(object sender, EventArgs e)
         {
             Cadastro cadastro = new Cadastro();
-            cadastro.ShowDialog();
             this.Hide();
+            cadastro.ShowDialog();
         }
 
         private void Logar_btn(object sender, EventArgs e)
@@ -37,14 +37,14 @@ namespace Projeto___Designer
             if (count > 0)
             {
                 Troca_de_livros troca_de_livros= new Troca_de_livros();
-                troca_de_livros.ShowDialog();
                 this.Hide();
+                troca_de_livros.ShowDialog();
             }
             else
             {
                 Login login = new Login();
+                this.Hide();
                 login.ShowDialog();
-                this.Close();
                 resultado.Close();
                 dao.Desconectar();
             }

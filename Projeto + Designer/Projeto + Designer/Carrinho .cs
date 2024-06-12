@@ -22,37 +22,37 @@ namespace Projeto___Designer
         private void Troca_de_livros_Click(object sender, EventArgs e)
         {
             Troca_de_livros troca_de_livros = new Troca_de_livros();
-            troca_de_livros.ShowDialog();
             this.Hide();
+            troca_de_livros.ShowDialog();
 
         }
 
         private void Sacola_Click(object sender, EventArgs e)
         {
             Loja loja = new Loja();
-            loja.ShowDialog();
             this.Hide();
+            loja.ShowDialog();
         }
 
         private void Carrinho_Click(object sender, EventArgs e)
         {
             Carrinho carrinho = new Carrinho();
-            carrinho.ShowDialog();
             this.Hide();
+            carrinho.ShowDialog();
         }
 
         private void Perfil_Click(object sender, EventArgs e)
         {
             Perfil perfil= new Perfil();
-            perfil.ShowDialog();
             this.Hide();
+            perfil.ShowDialog();
         }
 
         private void Solicitações_Click(object sender, EventArgs e)
         {
             Solicitações solicitações = new Solicitações();
-            solicitações.ShowDialog();
             this.Hide();
+            solicitações.ShowDialog();
         }
 
     }

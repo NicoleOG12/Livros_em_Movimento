@@ -20,8 +20,8 @@ namespace Projeto___Designer
         private void Voltar_Click(object sender, EventArgs e)
         {
             Troca_de_livros troca_De_Livros = new Troca_de_livros();
-            troca_De_Livros.ShowDialog();
             this.Hide();
+            troca_De_Livros.ShowDialog();
         }
     }
 }

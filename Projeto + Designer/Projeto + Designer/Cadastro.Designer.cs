@@ -56,9 +56,10 @@
             this.Cadastro_txt.Location = new System.Drawing.Point(136, 16);
             this.Cadastro_txt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Cadastro_txt.Name = "Cadastro_txt";
-            this.Cadastro_txt.Size = new System.Drawing.Size(131, 34);
+            this.Cadastro_txt.Size = new System.Drawing.Size(195, 54);
             this.Cadastro_txt.TabIndex = 0;
             this.Cadastro_txt.Text = "Cadastro";
+            this.Cadastro_txt.Click += new System.EventHandler(this.Cadastro_txt_Click);
             // 
             // Nome_txt
             // 
@@ -69,7 +70,7 @@
             this.Nome_txt.Location = new System.Drawing.Point(65, 62);
             this.Nome_txt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Nome_txt.Name = "Nome_txt";
-            this.Nome_txt.Size = new System.Drawing.Size(47, 17);
+            this.Nome_txt.Size = new System.Drawing.Size(73, 26);
             this.Nome_txt.TabIndex = 1;
             this.Nome_txt.Text = "Nome:";
             // 
@@ -81,7 +82,7 @@
             this.Email_txt.Location = new System.Drawing.Point(65, 119);
             this.Email_txt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Email_txt.Name = "Email_txt";
-            this.Email_txt.Size = new System.Drawing.Size(44, 17);
+            this.Email_txt.Size = new System.Drawing.Size(68, 26);
             this.Email_txt.TabIndex = 4;
             this.Email_txt.Text = "Email:";
             // 
@@ -94,7 +95,7 @@
             this.Senha_txt.Location = new System.Drawing.Point(65, 176);
             this.Senha_txt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Senha_txt.Name = "Senha_txt";
-            this.Senha_txt.Size = new System.Drawing.Size(47, 17);
+            this.Senha_txt.Size = new System.Drawing.Size(73, 26);
             this.Senha_txt.TabIndex = 5;
             this.Senha_txt.Text = "Senha:";
             // 
@@ -106,8 +107,9 @@
             this.Nome_box.Location = new System.Drawing.Point(68, 82);
             this.Nome_box.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Nome_box.Name = "Nome_box";
-            this.Nome_box.Size = new System.Drawing.Size(266, 20);
+            this.Nome_box.Size = new System.Drawing.Size(266, 26);
             this.Nome_box.TabIndex = 6;
+            this.Nome_box.TextChanged += new System.EventHandler(this.Nome_box_TextChanged);
             // 
             // Email_box
             // 
@@ -116,7 +118,7 @@
             this.Email_box.Location = new System.Drawing.Point(68, 139);
             this.Email_box.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Email_box.Name = "Email_box";
-            this.Email_box.Size = new System.Drawing.Size(266, 20);
+            this.Email_box.Size = new System.Drawing.Size(266, 26);
             this.Email_box.TabIndex = 7;
             // 
             // Senha_box
@@ -126,7 +128,7 @@
             this.Senha_box.Location = new System.Drawing.Point(68, 196);
             this.Senha_box.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Senha_box.Name = "Senha_box";
-            this.Senha_box.Size = new System.Drawing.Size(266, 20);
+            this.Senha_box.Size = new System.Drawing.Size(266, 26);
             this.Senha_box.TabIndex = 8;
             // 
             // Cadastrar_btn
@@ -174,7 +176,7 @@
             "Outros"});
             this.GeneroInteresse.Location = new System.Drawing.Point(68, 235);
             this.GeneroInteresse.Name = "GeneroInteresse";
-            this.GeneroInteresse.Size = new System.Drawing.Size(156, 24);
+            this.GeneroInteresse.Size = new System.Drawing.Size(156, 30);
             this.GeneroInteresse.TabIndex = 10;
             this.GeneroInteresse.Text = "Gênero de interesse";
             // 
@@ -197,7 +199,7 @@
             this.label1.ForeColor = System.Drawing.Color.Azure;
             this.label1.Location = new System.Drawing.Point(73, 68);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(169, 34);
+            this.label1.Size = new System.Drawing.Size(252, 54);
             this.label1.TabIndex = 1;
             this.label1.Text = "Bem Vindo!";
             // 
@@ -213,7 +215,7 @@
             // 
             // Cadastro
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;

@@ -25,15 +25,15 @@ namespace Projeto___Designer
         private void Adicionar_ao_carrinho_Click(object sender, EventArgs e)
         {
             Carrinho carrinho = new Carrinho();
-            carrinho.ShowDialog();
             this.Hide();
+            carrinho.ShowDialog();
         }
 
         private void Seta_Click(object sender, EventArgs e)
         {
             Loja_Livros loja_Livros = new Loja_Livros();
-            loja_Livros.ShowDialog();
             this.Hide();
+            loja_Livros.ShowDialog();
         }
     }
 }

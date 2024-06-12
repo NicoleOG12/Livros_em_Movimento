@@ -63,6 +63,12 @@
       <DependentUpon>Cadastro.cs</DependentUpon>
     </Compile>
     <Compile Include="DAO.cs" />
+    <Compile Include="Compra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Compra.Designer.cs">
+      <DependentUpon>Compra.cs</DependentUpon>
+    </Compile>
     <Compile Include="Troca.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -364,6 +370,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Cadastro.resx">
       <DependentUpon>Cadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Compra.resx">
+      <DependentUpon>Compra.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Troca.resx">
       <DependentUpon>Troca.cs</DependentUpon>

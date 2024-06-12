@@ -26,8 +26,19 @@ namespace Projeto___Designer
             dao.ExecutarComando(comandoSql);
             dao.Desconectar();
             Troca_de_livros troca_de_livros = new Troca_de_livros();
-            troca_de_livros.ShowDialog();
+            
             this.Hide();
+            troca_de_livros.ShowDialog();
+        }
+
+        private void Cadastro_txt_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Nome_box_TextChanged(object sender, EventArgs e)
+        {
+            
         }
     }
    

@@ -55,9 +55,10 @@
             // Imagem1
             // 
             this.Imagem1.Image = ((System.Drawing.Image)(resources.GetObject("Imagem1.Image")));
-            this.Imagem1.Location = new System.Drawing.Point(86, 117);
+            this.Imagem1.Location = new System.Drawing.Point(129, 180);
+            this.Imagem1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Imagem1.Name = "Imagem1";
-            this.Imagem1.Size = new System.Drawing.Size(176, 244);
+            this.Imagem1.Size = new System.Drawing.Size(264, 375);
             this.Imagem1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Imagem1.TabIndex = 0;
             this.Imagem1.TabStop = false;
@@ -65,9 +66,10 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.MediumPurple;
-            this.pictureBox2.Location = new System.Drawing.Point(26, 12);
+            this.pictureBox2.Location = new System.Drawing.Point(39, 18);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(705, 76);
+            this.pictureBox2.Size = new System.Drawing.Size(1058, 117);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
@@ -75,17 +77,19 @@
             // Quantidade_numericUpDown1
             // 
             this.Quantidade_numericUpDown1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Quantidade_numericUpDown1.Location = new System.Drawing.Point(456, 348);
+            this.Quantidade_numericUpDown1.Location = new System.Drawing.Point(684, 535);
+            this.Quantidade_numericUpDown1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Quantidade_numericUpDown1.Name = "Quantidade_numericUpDown1";
-            this.Quantidade_numericUpDown1.Size = new System.Drawing.Size(70, 24);
+            this.Quantidade_numericUpDown1.Size = new System.Drawing.Size(105, 33);
             this.Quantidade_numericUpDown1.TabIndex = 3;
             // 
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.GhostWhite;
-            this.pictureBox3.Location = new System.Drawing.Point(26, 80);
+            this.pictureBox3.Location = new System.Drawing.Point(39, 123);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(705, 388);
+            this.pictureBox3.Size = new System.Drawing.Size(1058, 597);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 4;
             this.pictureBox3.TabStop = false;
@@ -94,9 +98,10 @@
             // 
             this.Preço_txt.AutoSize = true;
             this.Preço_txt.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Preço_txt.Location = new System.Drawing.Point(322, 321);
+            this.Preço_txt.Location = new System.Drawing.Point(483, 509);
+            this.Preço_txt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Preço_txt.Name = "Preço_txt";
-            this.Preço_txt.Size = new System.Drawing.Size(80, 21);
+            this.Preço_txt.Size = new System.Drawing.Size(118, 31);
             this.Preço_txt.TabIndex = 5;
             this.Preço_txt.Text = "R$44,90";
             // 
@@ -104,9 +109,10 @@
             // 
             this.Nome_item_txt.AutoSize = true;
             this.Nome_item_txt.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Nome_item_txt.Location = new System.Drawing.Point(321, 128);
+            this.Nome_item_txt.Location = new System.Drawing.Point(482, 197);
+            this.Nome_item_txt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Nome_item_txt.Name = "Nome_item_txt";
-            this.Nome_item_txt.Size = new System.Drawing.Size(187, 25);
+            this.Nome_item_txt.Size = new System.Drawing.Size(285, 39);
             this.Nome_item_txt.TabIndex = 6;
             this.Nome_item_txt.Text = "A hipótese do amor\r\n";
             // 
@@ -116,9 +122,10 @@
             this.Adicionar_ao_carrinho_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.Adicionar_ao_carrinho_btn.ForeColor = System.Drawing.Color.MediumPurple;
             this.Adicionar_ao_carrinho_btn.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Adicionar_ao_carrinho_btn.Location = new System.Drawing.Point(336, 400);
+            this.Adicionar_ao_carrinho_btn.Location = new System.Drawing.Point(504, 615);
+            this.Adicionar_ao_carrinho_btn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Adicionar_ao_carrinho_btn.Name = "Adicionar_ao_carrinho_btn";
-            this.Adicionar_ao_carrinho_btn.Size = new System.Drawing.Size(146, 34);
+            this.Adicionar_ao_carrinho_btn.Size = new System.Drawing.Size(219, 52);
             this.Adicionar_ao_carrinho_btn.TabIndex = 7;
             this.Adicionar_ao_carrinho_btn.Text = "          Adicionar ao carrinho";
             this.Adicionar_ao_carrinho_btn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -129,9 +136,10 @@
             // 
             this.Comprar_agora_btn.BackColor = System.Drawing.Color.MediumPurple;
             this.Comprar_agora_btn.ForeColor = System.Drawing.Color.GhostWhite;
-            this.Comprar_agora_btn.Location = new System.Drawing.Point(535, 400);
+            this.Comprar_agora_btn.Location = new System.Drawing.Point(802, 615);
+            this.Comprar_agora_btn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Comprar_agora_btn.Name = "Comprar_agora_btn";
-            this.Comprar_agora_btn.Size = new System.Drawing.Size(132, 34);
+            this.Comprar_agora_btn.Size = new System.Drawing.Size(198, 52);
             this.Comprar_agora_btn.TabIndex = 8;
             this.Comprar_agora_btn.Text = "Comprar agora";
             this.Comprar_agora_btn.UseVisualStyleBackColor = false;
@@ -143,9 +151,10 @@
             this.Quantidade_txt.BackColor = System.Drawing.Color.White;
             this.Quantidade_txt.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Quantidade_txt.ForeColor = System.Drawing.Color.MediumPurple;
-            this.Quantidade_txt.Location = new System.Drawing.Point(369, 351);
+            this.Quantidade_txt.Location = new System.Drawing.Point(554, 540);
+            this.Quantidade_txt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Quantidade_txt.Name = "Quantidade_txt";
-            this.Quantidade_txt.Size = new System.Drawing.Size(71, 17);
+            this.Quantidade_txt.Size = new System.Drawing.Size(105, 23);
             this.Quantidade_txt.TabIndex = 9;
             this.Quantidade_txt.Text = "Quantidade";
             // 
@@ -155,9 +164,10 @@
             this.Número_de_itens_txt.BackColor = System.Drawing.Color.White;
             this.Número_de_itens_txt.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Número_de_itens_txt.ForeColor = System.Drawing.Color.MediumPurple;
-            this.Número_de_itens_txt.Location = new System.Drawing.Point(546, 351);
+            this.Número_de_itens_txt.Location = new System.Drawing.Point(819, 540);
+            this.Número_de_itens_txt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Número_de_itens_txt.Name = "Número_de_itens_txt";
-            this.Número_de_itens_txt.Size = new System.Drawing.Size(121, 17);
+            this.Número_de_itens_txt.Size = new System.Drawing.Size(181, 23);
             this.Número_de_itens_txt.TabIndex = 10;
             this.Número_de_itens_txt.Text = "20 itens disponíveis";
             // 
@@ -166,9 +176,10 @@
             this.Descrição.AutoSize = true;
             this.Descrição.BackColor = System.Drawing.Color.Lavender;
             this.Descrição.Font = new System.Drawing.Font("MV Boli", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Descrição.Location = new System.Drawing.Point(324, 169);
+            this.Descrição.Location = new System.Drawing.Point(486, 260);
+            this.Descrição.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Descrição.Name = "Descrição";
-            this.Descrição.Size = new System.Drawing.Size(368, 143);
+            this.Descrição.Size = new System.Drawing.Size(601, 234);
             this.Descrição.TabIndex = 11;
             this.Descrição.Text = resources.GetString("Descrição.Text");
             // 
@@ -180,9 +191,10 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Lavender;
             this.pictureBox1.Image = global::Projeto___Designer.Properties.Resources.Carrinho;
-            this.pictureBox1.Location = new System.Drawing.Point(336, 400);
+            this.pictureBox1.Location = new System.Drawing.Point(504, 615);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(27, 34);
+            this.pictureBox1.Size = new System.Drawing.Size(40, 52);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
@@ -191,9 +203,10 @@
             // 
             this.Seta.BackColor = System.Drawing.Color.MediumPurple;
             this.Seta.Image = global::Projeto___Designer.Properties.Resources.Seta1;
-            this.Seta.Location = new System.Drawing.Point(26, 24);
+            this.Seta.Location = new System.Drawing.Point(39, 37);
+            this.Seta.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Seta.Name = "Seta";
-            this.Seta.Size = new System.Drawing.Size(74, 50);
+            this.Seta.Size = new System.Drawing.Size(111, 77);
             this.Seta.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Seta.TabIndex = 13;
             this.Seta.TabStop = false;
@@ -201,10 +214,10 @@
             // 
             // A_hipótese_do_amor
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
-            this.ClientSize = new System.Drawing.Size(743, 493);
+            this.ClientSize = new System.Drawing.Size(1114, 758);
             this.Controls.Add(this.Seta);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Descrição);
@@ -219,6 +232,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox3);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "A_hipótese_do_amor";
             this.Text = "A hipótese do amor";
             ((System.ComponentModel.ISupportInitialize)(this.Imagem1)).EndInit();

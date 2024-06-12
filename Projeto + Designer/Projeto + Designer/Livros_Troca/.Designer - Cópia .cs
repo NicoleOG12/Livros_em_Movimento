@@ -48,9 +48,10 @@
             // Imagem1
             // 
             this.Imagem1.Image = ((System.Drawing.Image)(resources.GetObject("Imagem1.Image")));
-            this.Imagem1.Location = new System.Drawing.Point(86, 117);
+            this.Imagem1.Location = new System.Drawing.Point(129, 180);
+            this.Imagem1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Imagem1.Name = "Imagem1";
-            this.Imagem1.Size = new System.Drawing.Size(176, 244);
+            this.Imagem1.Size = new System.Drawing.Size(264, 375);
             this.Imagem1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Imagem1.TabIndex = 0;
             this.Imagem1.TabStop = false;
@@ -58,9 +59,10 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.MediumPurple;
-            this.pictureBox2.Location = new System.Drawing.Point(26, 12);
+            this.pictureBox2.Location = new System.Drawing.Point(39, 18);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(705, 76);
+            this.pictureBox2.Size = new System.Drawing.Size(1058, 117);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
@@ -68,9 +70,10 @@
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.GhostWhite;
-            this.pictureBox3.Location = new System.Drawing.Point(26, 80);
+            this.pictureBox3.Location = new System.Drawing.Point(39, 123);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(705, 350);
+            this.pictureBox3.Size = new System.Drawing.Size(1058, 538);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 4;
             this.pictureBox3.TabStop = false;
@@ -79,10 +82,11 @@
             // 
             this.Nome_item_txt.AutoSize = true;
             this.Nome_item_txt.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Nome_item_txt.Location = new System.Drawing.Point(312, 128);
+            this.Nome_item_txt.Location = new System.Drawing.Point(447, 196);
+            this.Nome_item_txt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Nome_item_txt.Name = "Nome_item_txt";
             this.Nome_item_txt.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.Nome_item_txt.Size = new System.Drawing.Size(232, 25);
+            this.Nome_item_txt.Size = new System.Drawing.Size(352, 39);
             this.Nome_item_txt.TabIndex = 6;
             this.Nome_item_txt.Text = "A mente de Adolf Hitler";
             // 
@@ -92,9 +96,10 @@
             this.Solicitar_empréstimo_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.Solicitar_empréstimo_btn.ForeColor = System.Drawing.Color.MediumPurple;
             this.Solicitar_empréstimo_btn.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Solicitar_empréstimo_btn.Location = new System.Drawing.Point(343, 351);
+            this.Solicitar_empréstimo_btn.Location = new System.Drawing.Point(514, 540);
+            this.Solicitar_empréstimo_btn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Solicitar_empréstimo_btn.Name = "Solicitar_empréstimo_btn";
-            this.Solicitar_empréstimo_btn.Size = new System.Drawing.Size(118, 34);
+            this.Solicitar_empréstimo_btn.Size = new System.Drawing.Size(177, 52);
             this.Solicitar_empréstimo_btn.TabIndex = 7;
             this.Solicitar_empréstimo_btn.Text = "Solicitar empréstimo";
             this.Solicitar_empréstimo_btn.UseVisualStyleBackColor = false;
@@ -104,9 +109,10 @@
             // 
             this.Solicitar_Troca_btn.BackColor = System.Drawing.Color.MediumPurple;
             this.Solicitar_Troca_btn.ForeColor = System.Drawing.Color.GhostWhite;
-            this.Solicitar_Troca_btn.Location = new System.Drawing.Point(536, 351);
+            this.Solicitar_Troca_btn.Location = new System.Drawing.Point(804, 540);
+            this.Solicitar_Troca_btn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Solicitar_Troca_btn.Name = "Solicitar_Troca_btn";
-            this.Solicitar_Troca_btn.Size = new System.Drawing.Size(132, 34);
+            this.Solicitar_Troca_btn.Size = new System.Drawing.Size(198, 52);
             this.Solicitar_Troca_btn.TabIndex = 8;
             this.Solicitar_Troca_btn.Text = "Solicitar Troca";
             this.Solicitar_Troca_btn.UseVisualStyleBackColor = false;
@@ -117,9 +123,10 @@
             this.Descrição.AutoSize = true;
             this.Descrição.BackColor = System.Drawing.Color.Lavender;
             this.Descrição.Font = new System.Drawing.Font("MV Boli", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Descrição.Location = new System.Drawing.Point(314, 171);
+            this.Descrição.Location = new System.Drawing.Point(444, 261);
+            this.Descrição.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Descrição.Name = "Descrição";
-            this.Descrição.Size = new System.Drawing.Size(395, 143);
+            this.Descrição.Size = new System.Drawing.Size(630, 234);
             this.Descrição.TabIndex = 11;
             this.Descrição.Text = resources.GetString("Descrição.Text");
             // 
@@ -131,9 +138,10 @@
             // 
             this.Seta.BackColor = System.Drawing.Color.MediumPurple;
             this.Seta.Image = global::Projeto___Designer.Properties.Resources.Seta1;
-            this.Seta.Location = new System.Drawing.Point(26, 24);
+            this.Seta.Location = new System.Drawing.Point(39, 37);
+            this.Seta.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Seta.Name = "Seta";
-            this.Seta.Size = new System.Drawing.Size(74, 50);
+            this.Seta.Size = new System.Drawing.Size(111, 77);
             this.Seta.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Seta.TabIndex = 12;
             this.Seta.TabStop = false;
@@ -141,10 +149,10 @@
             // 
             // A_mente_de_Adolf_Hitler
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
-            this.ClientSize = new System.Drawing.Size(743, 493);
+            this.ClientSize = new System.Drawing.Size(1114, 758);
             this.Controls.Add(this.Seta);
             this.Controls.Add(this.Descrição);
             this.Controls.Add(this.Solicitar_Troca_btn);
@@ -154,6 +162,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox3);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "A_mente_de_Adolf_Hitler";
             this.Text = "A mente de Adolf Hitler";
             ((System.ComponentModel.ISupportInitialize)(this.Imagem1)).EndInit();
