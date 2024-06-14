@@ -257,3 +257,5 @@ C:\Users\Tecnico\Desktop\Livros_em_Movimento\Projeto + Designer\Projeto + Design
 C:\Users\Tecnico\Desktop\Livros_em_Movimento\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto + Designer.exe
 C:\Users\Tecnico\Desktop\Livros_em_Movimento\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto + Designer.pdb
 >>>>>>> 6239ee49fb207d6cddb1c5e540e6785a68ffef95
+C:\Users\nicole\Downloads\Livros_em_Movimento\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Cadastro_Livro.resources
+C:\Users\nicole\Downloads\Livros_em_Movimento\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Compra.resources

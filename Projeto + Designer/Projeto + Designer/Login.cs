@@ -27,29 +27,49 @@ namespace Projeto___Designer
 
         private void Logar_btn(object sender, EventArgs e)
         {
-            DAO dao = new DAO();
-            dao.Conectar();
-            string comandoSql = $"SELECT * FROM usuario WHERE email = '{email_box.Text}' AND senha = '{senha_box.Text}'";
-            var resultado = dao.LerDados(comandoSql);
-            resultado.Read();
-            int count = resultado.GetInt32(0);
-
-            if (count > 0)
+            try
             {
-                Troca_de_livros troca_de_livros= new Troca_de_livros();
-                this.Hide();
-                troca_de_livros.ShowDialog();
-            }
-            else
-            {
-                Login login = new Login();
-                this.Hide();
-                login.ShowDialog();
-                resultado.Close();
-                dao.Desconectar();
+                DAO dao = new DAO();
+                dao.Conectar();
+                string comandoSql = $"SELECT * FROM usuario WHERE email = '{email_box.Text}' AND senha = '{senha_box.Text}'";
+                var resultado = dao.LerDados(comandoSql);
+
+                if (resultado.Read())
+                {
+                    int count = resultado.GetInt32(0);
+
+                    if (count > 0)
+                    {
+                        Troca_de_livros troca_de_livros = new Troca_de_livros();
+                        this.Hide();
+                        troca_de_livros.ShowDialog();
+                    }
+
+                    else
+                    {
+                        MessageBox.Show("Email ou senha incorreto. Tente novamente");
+                        Login login = new Login();
+                        this.Hide();
+                        login.ShowDialog();
+                    }
+
+
+                    resultado.Close();
+                    dao.Desconectar();
+                }
             }
 
-         
+
+            catch (Exception)
+            {
+                MessageBox.Show("Ocorreu um erro ao tentar logar");
+            }
         }
     }
 }
+
+
+
+              
+
+ 
