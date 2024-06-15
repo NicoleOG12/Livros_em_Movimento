@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|c:\\users\\nicole\\downloads\\livros_em_movimento\\projeto \u002B designer\\projeto \u002B designer\\feed troca de livros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\nicole\\Downloads\\Livros_em_Movimento\\Projeto \u002B Designer\\projeto \u002B designer\\feed troca de livros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\feed troca de livros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -100,7 +100,7 @@
               "RelativeDocumentMoniker": "Projeto \u002B Designer\\DAO.cs",
               "ToolTip": "C:\\Users\\nicole\\Downloads\\Livros_em_Movimento\\Projeto \u002B Designer\\Projeto \u002B Designer\\DAO.cs",
               "RelativeToolTip": "Projeto \u002B Designer\\DAO.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowBAAAAAeAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAA4wEwAAABaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-14T18:41:42.049Z",
               "EditorCaption": ""
@@ -115,8 +115,7 @@
               "RelativeToolTip": "Projeto \u002B Designer\\Login.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAwwD4AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T20:06:57.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T20:06:57.063Z"
             },
             {
               "$type": "Document",
@@ -127,8 +126,7 @@
               "ToolTip": "C:\\Users\\nicole\\Downloads\\Livros_em_Movimento\\Projeto \u002B Designer\\Projeto \u002B Designer\\Feed Troca de Livros.cs [Design]",
               "RelativeToolTip": "Projeto \u002B Designer\\Feed Troca de Livros.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T20:02:23.53Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-12T20:02:23.53Z"
             },
             {
               "$type": "Document",
@@ -139,8 +137,7 @@
               "ToolTip": "C:\\Users\\nicole\\Downloads\\Livros_em_Movimento\\Projeto \u002B Designer\\Projeto \u002B Designer\\Login.cs [Design]",
               "RelativeToolTip": "Projeto \u002B Designer\\Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T20:06:55.316Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-12T20:06:55.316Z"
             },
             {
               "$type": "Document",
