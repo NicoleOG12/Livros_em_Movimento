@@ -22,23 +22,12 @@ namespace Projeto___Designer
         {
             DAO dao = new DAO();
             dao.Conectar();
-            string comandoSql = $"Insert into Usuario (nome, email, senha, generosdeinteresse) values ('{Nome_box.Text}', '{Email_box.Text}','{Senha_box.Text}','{GeneroInteresse.Text}')";
+            string comandoSql = $"Insert into Usuario (nome, email, senha) values ('{Nome_box.Text}', '{Email_box.Text}','{Senha_box.Text}')";
             dao.ExecutarComando(comandoSql);
             dao.Desconectar();
             Troca_de_livros troca_de_livros = new Troca_de_livros();
-            
             this.Hide();
             troca_de_livros.ShowDialog();
-        }
-
-        private void Cadastro_txt_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Nome_box_TextChanged(object sender, EventArgs e)
-        {
-            
         }
     }
    
