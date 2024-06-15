@@ -327,11 +327,11 @@
     <Compile Include="Marca_Texto\MT1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Solicitações.cs">
+    <Compile Include="Notificações.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Solicitações.Designer.cs">
-      <DependentUpon>Solicitações.cs</DependentUpon>
+    <Compile Include="Notificações.Designer.cs">
+      <DependentUpon>Notificações.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -485,8 +485,8 @@
     <EmbeddedResource Include="Marca_Texto\MT1.resx">
       <DependentUpon>MT1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Solicitações.resx">
-      <DependentUpon>Solicitações.cs</DependentUpon>
+    <EmbeddedResource Include="Notificações.resx">
+      <DependentUpon>Notificações.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

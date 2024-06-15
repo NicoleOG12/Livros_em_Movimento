@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Empréstimo));
             this.caixalogin2 = new System.Windows.Forms.GroupBox();
+            this.Cancelar = new System.Windows.Forms.Button();
             this.Confirmar = new System.Windows.Forms.Button();
             this.Email_box = new System.Windows.Forms.TextBox();
             this.Nome_box = new System.Windows.Forms.TextBox();
@@ -37,9 +38,8 @@
             this.Login_txt = new System.Windows.Forms.Label();
             this.Email_txt = new System.Windows.Forms.Label();
             this.caixalogin = new System.Windows.Forms.GroupBox();
-            this.Nome_do_Livro_Box = new System.Windows.Forms.TextBox();
             this.Livro_de_Emprestimo = new System.Windows.Forms.Label();
-            this.Cancelar = new System.Windows.Forms.Button();
+            this.Nome_do_Livro_Box = new System.Windows.Forms.TextBox();
             this.caixalogin2.SuspendLayout();
             this.caixalogin.SuspendLayout();
             this.SuspendLayout();
@@ -54,6 +54,20 @@
             this.caixalogin2.Size = new System.Drawing.Size(302, 48);
             this.caixalogin2.TabIndex = 9;
             this.caixalogin2.TabStop = false;
+            // 
+            // Cancelar
+            // 
+            this.Cancelar.BackColor = System.Drawing.Color.GhostWhite;
+            this.Cancelar.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Cancelar.ForeColor = System.Drawing.Color.MediumPurple;
+            this.Cancelar.Location = new System.Drawing.Point(37, 12);
+            this.Cancelar.Margin = new System.Windows.Forms.Padding(22, 24, 22, 24);
+            this.Cancelar.Name = "Cancelar";
+            this.Cancelar.Size = new System.Drawing.Size(84, 25);
+            this.Cancelar.TabIndex = 6;
+            this.Cancelar.Text = "Cancelar";
+            this.Cancelar.UseVisualStyleBackColor = false;
+            this.Cancelar.Click += new System.EventHandler(this.Cancelar_Click);
             // 
             // Confirmar
             // 
@@ -77,6 +91,7 @@
             this.Email_box.Name = "Email_box";
             this.Email_box.Size = new System.Drawing.Size(173, 20);
             this.Email_box.TabIndex = 0;
+            this.Email_box.TextChanged += new System.EventHandler(this.Email_box_TextChanged);
             // 
             // Nome_box
             // 
@@ -86,6 +101,7 @@
             this.Nome_box.Name = "Nome_box";
             this.Nome_box.Size = new System.Drawing.Size(173, 20);
             this.Nome_box.TabIndex = 1;
+            this.Nome_box.TextChanged += new System.EventHandler(this.Nome_box_TextChanged);
             // 
             // Nome_txt
             // 
@@ -138,15 +154,6 @@
             this.caixalogin.TabIndex = 8;
             this.caixalogin.TabStop = false;
             // 
-            // Nome_do_Livro_Box
-            // 
-            this.Nome_do_Livro_Box.BackColor = System.Drawing.SystemColors.Menu;
-            this.Nome_do_Livro_Box.Location = new System.Drawing.Point(61, 211);
-            this.Nome_do_Livro_Box.Margin = new System.Windows.Forms.Padding(2);
-            this.Nome_do_Livro_Box.Name = "Nome_do_Livro_Box";
-            this.Nome_do_Livro_Box.Size = new System.Drawing.Size(173, 20);
-            this.Nome_do_Livro_Box.TabIndex = 6;
-            // 
             // Livro_de_Emprestimo
             // 
             this.Livro_de_Emprestimo.AutoSize = true;
@@ -158,19 +165,15 @@
             this.Livro_de_Emprestimo.TabIndex = 7;
             this.Livro_de_Emprestimo.Text = "Nome do Livro";
             // 
-            // Cancelar
+            // Nome_do_Livro_Box
             // 
-            this.Cancelar.BackColor = System.Drawing.Color.GhostWhite;
-            this.Cancelar.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Cancelar.ForeColor = System.Drawing.Color.MediumPurple;
-            this.Cancelar.Location = new System.Drawing.Point(37, 12);
-            this.Cancelar.Margin = new System.Windows.Forms.Padding(22, 24, 22, 24);
-            this.Cancelar.Name = "Cancelar";
-            this.Cancelar.Size = new System.Drawing.Size(84, 25);
-            this.Cancelar.TabIndex = 6;
-            this.Cancelar.Text = "Cancelar";
-            this.Cancelar.UseVisualStyleBackColor = false;
-            this.Cancelar.Click += new System.EventHandler(this.Cancelar_Click);
+            this.Nome_do_Livro_Box.BackColor = System.Drawing.SystemColors.Menu;
+            this.Nome_do_Livro_Box.Location = new System.Drawing.Point(61, 211);
+            this.Nome_do_Livro_Box.Margin = new System.Windows.Forms.Padding(2);
+            this.Nome_do_Livro_Box.Name = "Nome_do_Livro_Box";
+            this.Nome_do_Livro_Box.Size = new System.Drawing.Size(173, 20);
+            this.Nome_do_Livro_Box.TabIndex = 6;
+            this.Nome_do_Livro_Box.TextChanged += new System.EventHandler(this.Nome_do_Livro_Box_TextChanged);
             // 
             // Empréstimo
             // 

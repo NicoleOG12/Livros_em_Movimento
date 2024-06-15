@@ -127,6 +127,7 @@
             this.Senha_box.Name = "Senha_box";
             this.Senha_box.Size = new System.Drawing.Size(266, 20);
             this.Senha_box.TabIndex = 8;
+            this.Senha_box.UseSystemPasswordChar = true;
             // 
             // Cadastrar_btn
             // 

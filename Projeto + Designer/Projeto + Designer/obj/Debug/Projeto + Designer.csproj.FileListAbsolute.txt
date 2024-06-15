@@ -260,3 +260,4 @@ C:\Users\Tecnico\Desktop\Livros_em_Movimento\Projeto + Designer\Projeto + Design
 C:\Users\nicole\Downloads\Livros_em_Movimento\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Cadastro_Livro.resources
 C:\Users\nicole\Downloads\Livros_em_Movimento\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Compra.resources
 C:\Users\nicole\Downloads\Livros_em_Movimento\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Form1.resources
+C:\Users\nicole\Downloads\Livros_em_Movimento\Projeto + Designer\Projeto + Designer\obj\Debug\Projeto___Designer.Notificações.resources

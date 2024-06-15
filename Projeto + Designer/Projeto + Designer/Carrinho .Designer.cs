@@ -29,41 +29,21 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Carrinho));
-            this.Carrinho_Box = new System.Windows.Forms.PictureBox();
-            this.Perfil_Box = new System.Windows.Forms.PictureBox();
             this.Solicitação_Box = new System.Windows.Forms.PictureBox();
-            this.Sacola_Box = new System.Windows.Forms.PictureBox();
-            this.Troca_de_livros_box = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.Carrinho_Box)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Perfil_Box)).BeginInit();
+            this.Menu = new System.Windows.Forms.GroupBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Solicitação_Box)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Sacola_Box)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Troca_de_livros_box)).BeginInit();
+            this.Menu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
-            // 
-            // Carrinho_Box
-            // 
-            this.Carrinho_Box.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Carrinho_Box.Image = global::Projeto___Designer.Properties.Resources.Carrinho;
-            this.Carrinho_Box.Location = new System.Drawing.Point(450, 666);
-            this.Carrinho_Box.Name = "Carrinho_Box";
-            this.Carrinho_Box.Size = new System.Drawing.Size(67, 74);
-            this.Carrinho_Box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Carrinho_Box.TabIndex = 6;
-            this.Carrinho_Box.TabStop = false;
-            this.Carrinho_Box.Click += new System.EventHandler(this.Carrinho_Click);
-            // 
-            // Perfil_Box
-            // 
-            this.Perfil_Box.BackColor = System.Drawing.Color.Transparent;
-            this.Perfil_Box.Image = global::Projeto___Designer.Properties.Resources.Perfil;
-            this.Perfil_Box.Location = new System.Drawing.Point(617, 666);
-            this.Perfil_Box.Name = "Perfil_Box";
-            this.Perfil_Box.Size = new System.Drawing.Size(80, 74);
-            this.Perfil_Box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Perfil_Box.TabIndex = 4;
-            this.Perfil_Box.TabStop = false;
-            this.Perfil_Box.Click += new System.EventHandler(this.Perfil_Click);
             // 
             // Solicitação_Box
             // 
@@ -77,29 +57,84 @@
             this.Solicitação_Box.TabStop = false;
             this.Solicitação_Box.Click += new System.EventHandler(this.Solicitações_Click);
             // 
-            // Sacola_Box
+            // Menu
             // 
-            this.Sacola_Box.BackColor = System.Drawing.Color.Transparent;
-            this.Sacola_Box.Image = global::Projeto___Designer.Properties.Resources.Sacola;
-            this.Sacola_Box.Location = new System.Drawing.Point(269, 666);
-            this.Sacola_Box.Name = "Sacola_Box";
-            this.Sacola_Box.Size = new System.Drawing.Size(76, 74);
-            this.Sacola_Box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Sacola_Box.TabIndex = 2;
-            this.Sacola_Box.TabStop = false;
-            this.Sacola_Box.Click += new System.EventHandler(this.Sacola_Click);
+            this.Menu.BackColor = System.Drawing.Color.GhostWhite;
+            this.Menu.Controls.Add(this.pictureBox1);
+            this.Menu.Controls.Add(this.pictureBox2);
+            this.Menu.Controls.Add(this.pictureBox3);
+            this.Menu.Controls.Add(this.pictureBox4);
+            this.Menu.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Menu.ForeColor = System.Drawing.Color.MediumPurple;
+            this.Menu.Location = new System.Drawing.Point(1, 24);
+            this.Menu.Name = "Menu";
+            this.Menu.Size = new System.Drawing.Size(81, 284);
+            this.Menu.TabIndex = 11;
+            this.Menu.TabStop = false;
+            this.Menu.Text = "  Menu";
             // 
-            // Troca_de_livros_box
+            // pictureBox1
             // 
-            this.Troca_de_livros_box.BackColor = System.Drawing.Color.Transparent;
-            this.Troca_de_livros_box.Image = global::Projeto___Designer.Properties.Resources.Troca_de_Livros;
-            this.Troca_de_livros_box.Location = new System.Drawing.Point(86, 666);
-            this.Troca_de_livros_box.Name = "Troca_de_livros_box";
-            this.Troca_de_livros_box.Size = new System.Drawing.Size(77, 74);
-            this.Troca_de_livros_box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Troca_de_livros_box.TabIndex = 1;
-            this.Troca_de_livros_box.TabStop = false;
-            this.Troca_de_livros_box.Click += new System.EventHandler(this.Troca_de_livros_Click);
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Image = global::Projeto___Designer.Properties.Resources.Carrinho;
+            this.pictureBox1.Location = new System.Drawing.Point(10, 157);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(54, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::Projeto___Designer.Properties.Resources.Perfil;
+            this.pictureBox2.Location = new System.Drawing.Point(9, 225);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(55, 49);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 4;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Image = global::Projeto___Designer.Properties.Resources.Sacola;
+            this.pictureBox3.Location = new System.Drawing.Point(10, 90);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(55, 50);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 2;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.Image = global::Projeto___Designer.Properties.Resources.Troca_de_Livros;
+            this.pictureBox4.Location = new System.Drawing.Point(10, 27);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(54, 50);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 1;
+            this.pictureBox4.TabStop = false;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.MediumPurple;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(202, 147);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(422, 242);
+            this.flowLayoutPanel1.TabIndex = 12;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("MV Boli", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.MediumPurple;
+            this.label1.Location = new System.Drawing.Point(319, 70);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(197, 34);
+            this.label1.TabIndex = 13;
+            this.label1.Text = "Meu Carrinho";
             // 
             // Carrinho
             // 
@@ -107,29 +142,33 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 734);
-            this.Controls.Add(this.Carrinho_Box);
-            this.Controls.Add(this.Perfil_Box);
+            this.ClientSize = new System.Drawing.Size(800, 428);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.flowLayoutPanel1);
+            this.Controls.Add(this.Menu);
             this.Controls.Add(this.Solicitação_Box);
-            this.Controls.Add(this.Sacola_Box);
-            this.Controls.Add(this.Troca_de_livros_box);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Carrinho";
             this.Text = "Carrinho";
-            ((System.ComponentModel.ISupportInitialize)(this.Carrinho_Box)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Perfil_Box)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Solicitação_Box)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Sacola_Box)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Troca_de_livros_box)).EndInit();
+            this.Menu.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.PictureBox Troca_de_livros_box;
-        private System.Windows.Forms.PictureBox Sacola_Box;
         private System.Windows.Forms.PictureBox Solicitação_Box;
-        private System.Windows.Forms.PictureBox Perfil_Box;
-        private System.Windows.Forms.PictureBox Carrinho_Box;
+        private new System.Windows.Forms.GroupBox Menu;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Label label1;
     }
 }

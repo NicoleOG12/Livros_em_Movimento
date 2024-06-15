@@ -48,7 +48,7 @@ namespace Projeto___Designer
 
         private void Solicitações_Click(object sender, EventArgs e)
         {
-            Solicitações solicitações = new Solicitações();
+            Notificações solicitações = new Notificações();
             this.Hide();
             solicitações.ShowDialog();
         }

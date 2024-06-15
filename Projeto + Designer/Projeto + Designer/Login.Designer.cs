@@ -51,6 +51,7 @@
             this.senha_box.Name = "senha_box";
             this.senha_box.Size = new System.Drawing.Size(173, 20);
             this.senha_box.TabIndex = 0;
+            this.senha_box.UseSystemPasswordChar = true;
             // 
             // email_box
             // 
