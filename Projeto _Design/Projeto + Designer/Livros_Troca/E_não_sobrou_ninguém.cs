@@ -13,6 +13,7 @@ namespace Projeto___Designer
     public partial class E_não_sobrou_ninguém : Form
     {
         private int idUsuario;
+        private string nomeLivro;
         public E_não_sobrou_ninguém()
         {
             InitializeComponent();
@@ -20,14 +21,14 @@ namespace Projeto___Designer
 
         private void Solicitar_empréstimo_Click(object sender, EventArgs e)
         {
-            Empréstimo empréstimo = new Empréstimo(idUsuario);
+            Empréstimo empréstimo = new Empréstimo(idUsuario, nomeLivro);
             empréstimo.ShowDialog();
             this.Hide();
         }
 
         private void Solicitar_Troca_Click(object sender, EventArgs e)
         {
-            Troca troca = new Troca(idUsuario);
+            Troca troca = new Troca(idUsuario, nomeLivro);
             troca.ShowDialog();
             this.Hide();
         }

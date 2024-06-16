@@ -49,9 +49,9 @@
             this.caixalogin2.BackColor = System.Drawing.Color.MediumPurple;
             this.caixalogin2.Controls.Add(this.Cancelar);
             this.caixalogin2.Controls.Add(this.Confirmar);
-            this.caixalogin2.Location = new System.Drawing.Point(232, 375);
+            this.caixalogin2.Location = new System.Drawing.Point(232, 356);
             this.caixalogin2.Name = "caixalogin2";
-            this.caixalogin2.Size = new System.Drawing.Size(302, 48);
+            this.caixalogin2.Size = new System.Drawing.Size(302, 49);
             this.caixalogin2.TabIndex = 9;
             this.caixalogin2.TabStop = false;
             // 
@@ -148,9 +148,9 @@
             this.caixalogin.Controls.Add(this.Nome_txt);
             this.caixalogin.Controls.Add(this.Nome_box);
             this.caixalogin.Controls.Add(this.Email_box);
-            this.caixalogin.Location = new System.Drawing.Point(232, 108);
+            this.caixalogin.Location = new System.Drawing.Point(232, 68);
             this.caixalogin.Name = "caixalogin";
-            this.caixalogin.Size = new System.Drawing.Size(302, 275);
+            this.caixalogin.Size = new System.Drawing.Size(302, 292);
             this.caixalogin.TabIndex = 8;
             this.caixalogin.TabStop = false;
             // 

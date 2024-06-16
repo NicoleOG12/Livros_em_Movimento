@@ -14,10 +14,12 @@ namespace Projeto___Designer
     public partial class Empréstimo : Form
     {
         private int idUsuario;
-        public Empréstimo(int idUsuario)
+        private string nomeLivro;
+        public Empréstimo(int idUsuario, string nomeLivro)
         {
             InitializeComponent();
             this.idUsuario = idUsuario;
+            this.nomeLivro = nomeLivro;
         }
 
         private void Confirmar_Click(object sender, EventArgs e)

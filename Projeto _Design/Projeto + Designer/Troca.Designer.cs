@@ -38,12 +38,15 @@
             this.Login_txt = new System.Windows.Forms.Label();
             this.Email_txt = new System.Windows.Forms.Label();
             this.caixalogin = new System.Windows.Forms.GroupBox();
-            this.Livro_do_seu_livro = new System.Windows.Forms.Label();
-            this.Nome_do_Livro1_Box = new System.Windows.Forms.TextBox();
-            this.Nome_do_livro_solicitado = new System.Windows.Forms.Label();
+            this.Anexar = new System.Windows.Forms.Button();
+            this.ImagemLivro = new System.Windows.Forms.PictureBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.Livro_do_Usuario = new System.Windows.Forms.Label();
+            this.Livro_Selecionado = new System.Windows.Forms.Label();
+            this.Nome_do_Livro_Box = new System.Windows.Forms.TextBox();
             this.caixalogin2.SuspendLayout();
             this.caixalogin.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ImagemLivro)).BeginInit();
             this.SuspendLayout();
             // 
             // caixalogin2
@@ -51,7 +54,7 @@
             this.caixalogin2.BackColor = System.Drawing.Color.MediumPurple;
             this.caixalogin2.Controls.Add(this.Cancelar);
             this.caixalogin2.Controls.Add(this.Confirmar);
-            this.caixalogin2.Location = new System.Drawing.Point(232, 410);
+            this.caixalogin2.Location = new System.Drawing.Point(232, 488);
             this.caixalogin2.Name = "caixalogin2";
             this.caixalogin2.Size = new System.Drawing.Size(302, 48);
             this.caixalogin2.TabIndex = 9;
@@ -141,60 +144,83 @@
             // caixalogin
             // 
             this.caixalogin.BackColor = System.Drawing.Color.GhostWhite;
+            this.caixalogin.Controls.Add(this.Anexar);
+            this.caixalogin.Controls.Add(this.ImagemLivro);
             this.caixalogin.Controls.Add(this.textBox1);
-            this.caixalogin.Controls.Add(this.Nome_do_livro_solicitado);
-            this.caixalogin.Controls.Add(this.Livro_do_seu_livro);
-            this.caixalogin.Controls.Add(this.Nome_do_Livro1_Box);
+            this.caixalogin.Controls.Add(this.Livro_do_Usuario);
+            this.caixalogin.Controls.Add(this.Livro_Selecionado);
+            this.caixalogin.Controls.Add(this.Nome_do_Livro_Box);
             this.caixalogin.Controls.Add(this.Email_txt);
             this.caixalogin.Controls.Add(this.Login_txt);
             this.caixalogin.Controls.Add(this.Nome_txt);
             this.caixalogin.Controls.Add(this.Nome_box);
             this.caixalogin.Controls.Add(this.Email_box);
-            this.caixalogin.Location = new System.Drawing.Point(232, 108);
+            this.caixalogin.Location = new System.Drawing.Point(232, 63);
             this.caixalogin.Name = "caixalogin";
-            this.caixalogin.Size = new System.Drawing.Size(302, 305);
+            this.caixalogin.Size = new System.Drawing.Size(302, 433);
             this.caixalogin.TabIndex = 8;
             this.caixalogin.TabStop = false;
             // 
-            // Livro_do_seu_livro
+            // Anexar
             // 
-            this.Livro_do_seu_livro.AutoSize = true;
-            this.Livro_do_seu_livro.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Livro_do_seu_livro.ForeColor = System.Drawing.Color.MediumPurple;
-            this.Livro_do_seu_livro.Location = new System.Drawing.Point(58, 181);
-            this.Livro_do_seu_livro.Name = "Livro_do_seu_livro";
-            this.Livro_do_seu_livro.Size = new System.Drawing.Size(117, 17);
-            this.Livro_do_seu_livro.TabIndex = 7;
-            this.Livro_do_seu_livro.Text = "Nome do seu livro";
+            this.Anexar.BackColor = System.Drawing.SystemColors.Menu;
+            this.Anexar.Location = new System.Drawing.Point(93, 289);
+            this.Anexar.Name = "Anexar";
+            this.Anexar.Size = new System.Drawing.Size(98, 23);
+            this.Anexar.TabIndex = 11;
+            this.Anexar.Text = "Anexar Imagem";
+            this.Anexar.UseVisualStyleBackColor = false;
+            this.Anexar.Click += new System.EventHandler(this.Anexar_Click);
             // 
-            // Nome_do_Livro1_Box
+            // ImagemLivro
             // 
-            this.Nome_do_Livro1_Box.BackColor = System.Drawing.SystemColors.Menu;
-            this.Nome_do_Livro1_Box.Location = new System.Drawing.Point(61, 200);
-            this.Nome_do_Livro1_Box.Margin = new System.Windows.Forms.Padding(2);
-            this.Nome_do_Livro1_Box.Name = "Nome_do_Livro1_Box";
-            this.Nome_do_Livro1_Box.Size = new System.Drawing.Size(173, 20);
-            this.Nome_do_Livro1_Box.TabIndex = 6;
-            // 
-            // Nome_do_livro_solicitado
-            // 
-            this.Nome_do_livro_solicitado.AutoSize = true;
-            this.Nome_do_livro_solicitado.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Nome_do_livro_solicitado.ForeColor = System.Drawing.Color.MediumPurple;
-            this.Nome_do_livro_solicitado.Location = new System.Drawing.Point(58, 240);
-            this.Nome_do_livro_solicitado.Name = "Nome_do_livro_solicitado";
-            this.Nome_do_livro_solicitado.Size = new System.Drawing.Size(150, 17);
-            this.Nome_do_livro_solicitado.TabIndex = 8;
-            this.Nome_do_livro_solicitado.Text = "Nome do livro de troca";
+            this.ImagemLivro.Location = new System.Drawing.Point(107, 318);
+            this.ImagemLivro.Name = "ImagemLivro";
+            this.ImagemLivro.Size = new System.Drawing.Size(74, 92);
+            this.ImagemLivro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ImagemLivro.TabIndex = 10;
+            this.ImagemLivro.TabStop = false;
+            this.ImagemLivro.UseWaitCursor = true;
             // 
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.SystemColors.Menu;
-            this.textBox1.Location = new System.Drawing.Point(61, 259);
+            this.textBox1.Location = new System.Drawing.Point(61, 253);
             this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(173, 20);
             this.textBox1.TabIndex = 9;
+            // 
+            // Livro_do_Usuario
+            // 
+            this.Livro_do_Usuario.AutoSize = true;
+            this.Livro_do_Usuario.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Livro_do_Usuario.ForeColor = System.Drawing.Color.MediumPurple;
+            this.Livro_do_Usuario.Location = new System.Drawing.Point(58, 234);
+            this.Livro_do_Usuario.Name = "Livro_do_Usuario";
+            this.Livro_do_Usuario.Size = new System.Drawing.Size(123, 17);
+            this.Livro_do_Usuario.TabIndex = 8;
+            this.Livro_do_Usuario.Text = "Nome do seu livro ";
+            // 
+            // Livro_Selecionado
+            // 
+            this.Livro_Selecionado.AutoSize = true;
+            this.Livro_Selecionado.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Livro_Selecionado.ForeColor = System.Drawing.Color.MediumPurple;
+            this.Livro_Selecionado.Location = new System.Drawing.Point(58, 181);
+            this.Livro_Selecionado.Name = "Livro_Selecionado";
+            this.Livro_Selecionado.Size = new System.Drawing.Size(162, 17);
+            this.Livro_Selecionado.TabIndex = 7;
+            this.Livro_Selecionado.Text = "Nome do livro selecionado";
+            // 
+            // Nome_do_Livro_Box
+            // 
+            this.Nome_do_Livro_Box.BackColor = System.Drawing.SystemColors.Menu;
+            this.Nome_do_Livro_Box.Location = new System.Drawing.Point(61, 200);
+            this.Nome_do_Livro_Box.Margin = new System.Windows.Forms.Padding(2);
+            this.Nome_do_Livro_Box.Name = "Nome_do_Livro_Box";
+            this.Nome_do_Livro_Box.Size = new System.Drawing.Size(173, 20);
+            this.Nome_do_Livro_Box.TabIndex = 6;
             // 
             // Troca
             // 
@@ -202,7 +228,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Projeto___Designer.Properties.Resources.wallpaperflare_com_wallpaper;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(767, 470);
+            this.ClientSize = new System.Drawing.Size(767, 548);
             this.Controls.Add(this.caixalogin2);
             this.Controls.Add(this.caixalogin);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -211,6 +237,7 @@
             this.caixalogin2.ResumeLayout(false);
             this.caixalogin.ResumeLayout(false);
             this.caixalogin.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ImagemLivro)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -224,10 +251,12 @@
         private System.Windows.Forms.Label Login_txt;
         private System.Windows.Forms.Label Email_txt;
         private System.Windows.Forms.GroupBox caixalogin;
-        private System.Windows.Forms.Label Livro_do_seu_livro;
-        private System.Windows.Forms.TextBox Nome_do_Livro1_Box;
+        private System.Windows.Forms.Label Livro_Selecionado;
+        private System.Windows.Forms.TextBox Nome_do_Livro_Box;
         private System.Windows.Forms.Button Cancelar;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label Nome_do_livro_solicitado;
+        private System.Windows.Forms.Label Livro_do_Usuario;
+        private System.Windows.Forms.Button Anexar;
+        private System.Windows.Forms.PictureBox ImagemLivro;
     }
 }

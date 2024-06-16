@@ -238,7 +238,7 @@ namespace Projeto___Designer
                 Desconectar();
             }
         }
-        public int ObterIdProduto(string nomeLivro)
+        public int ObterIdProduto(string nomeProduto)
         {
             int idProduto = -1;
             try
@@ -247,7 +247,7 @@ namespace Projeto___Designer
                 string query = "SELECT id FROM Produtos WHERE nome = @Nome";
                 using (cmd = new MySqlCommand(query, conn))
                 {
-                    cmd.Parameters.AddWithValue("@Nome", nomeLivro);
+                    cmd.Parameters.AddWithValue("@Nome", nomeProduto);
                     object result = cmd.ExecuteScalar();
                     if (result != null)
                     {
@@ -257,7 +257,7 @@ namespace Projeto___Designer
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Erro ao obter ID do livro: " + ex.Message);
+                Console.WriteLine("Erro ao obter ID do Produto: " + ex.Message);
             }
             finally
             {
@@ -293,6 +293,37 @@ namespace Projeto___Designer
             return usuarioExiste;
         }
 
+        public int ObterIdLivroPeloNome(string nomeLivro)
+        {
+            int idLivro = -1; 
+
+            try
+            {
+                Conectar();
+
+                string query = "SELECT Id FROM Livros WHERE Nome = @Nome";
+                using (cmd = new MySqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@Nome", nomeLivro);
+
+                    object result = cmd.ExecuteScalar();
+                    if (result != null)
+                    {
+                        idLivro = Convert.ToInt32(result);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Erro ao obter ID do livro: " + ex.Message);
+            }
+            finally
+            {
+                Desconectar();
+            }
+
+            return idLivro;
+        }
     }
 }
 

@@ -13,6 +13,7 @@ namespace Projeto___Designer
     public partial class Assinato_na_casa_do_pastor : Form
     {
         private int idUsuario;
+        private string nomeLivro;
         public Assinato_na_casa_do_pastor(int idUsuario)
         {
             InitializeComponent();
@@ -21,14 +22,14 @@ namespace Projeto___Designer
 
         private void Solicitar_empréstimo_Click(object sender, EventArgs e)
         {
-            Empréstimo empréstimo = new Empréstimo(idUsuario);
+            Empréstimo empréstimo = new Empréstimo(idUsuario, nomeLivro);
             empréstimo.ShowDialog();
             this.Hide();
         }
 
         private void Solicitar_Troca_Click(object sender, EventArgs e)
         {
-            Empréstimo empréstimo = new Empréstimo(idUsuario);
+            Empréstimo empréstimo = new Empréstimo(idUsuario, nomeLivro);
             empréstimo.ShowDialog();
             this.Hide();
         }
