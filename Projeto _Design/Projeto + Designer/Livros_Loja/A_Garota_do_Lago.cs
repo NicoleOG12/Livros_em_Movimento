@@ -34,7 +34,6 @@ namespace Projeto___Designer
 
         public void Adicionar_ao_carrinho_Click(object sender, EventArgs e)
         {
-
             DAO dao = new DAO();
             dao.Conectar();
 
