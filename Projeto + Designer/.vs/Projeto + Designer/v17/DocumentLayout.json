@@ -3,26 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\nicole\\Downloads\\Livros_em_Movimento\\Projeto \u002B Designer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|c:\\users\\nicole\\downloads\\livros_em_movimento\\projeto \u002B designer\\projeto \u002B designer\\notifica\u00E7\u00F5es.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\notifica\u00E7\u00F5es.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\nicole\\Downloads\\Livros_em_Movimento\\Projeto \u002B Designer\\projeto \u002B designer\\carrinho .designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\carrinho .designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\nicole\\Downloads\\Livros_em_Movimento\\Projeto \u002B Designer\\projeto \u002B designer\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\nicole\\Downloads\\Livros_em_Movimento\\Projeto \u002B Designer\\projeto \u002B designer\\compra.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\compra.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\nicole\\Downloads\\Livros_em_Movimento\\Projeto \u002B Designer\\projeto \u002B designer\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\nicole\\Downloads\\Livros_em_Movimento\\Projeto \u002B Designer\\projeto \u002B designer\\dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -39,74 +19,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Notifica\u00E7\u00F5es.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\nicole\\Downloads\\Livros_em_Movimento\\Projeto \u002B Designer\\Projeto \u002B Designer\\Notifica\u00E7\u00F5es.Designer.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Notifica\u00E7\u00F5es.Designer.cs",
-              "ToolTip": "C:\\Users\\nicole\\Downloads\\Livros_em_Movimento\\Projeto \u002B Designer\\Projeto \u002B Designer\\Notifica\u00E7\u00F5es.Designer.cs",
-              "RelativeToolTip": "Projeto \u002B Designer\\Notifica\u00E7\u00F5es.Designer.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAYwJ0AAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T20:58:11.797Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Carrinho .Designer.cs",
-              "DocumentMoniker": "C:\\Users\\nicole\\Downloads\\Livros_em_Movimento\\Projeto \u002B Designer\\Projeto \u002B Designer\\Carrinho .Designer.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Carrinho .Designer.cs",
-              "ToolTip": "C:\\Users\\nicole\\Downloads\\Livros_em_Movimento\\Projeto \u002B Designer\\Projeto \u002B Designer\\Carrinho .Designer.cs",
-              "RelativeToolTip": "Projeto \u002B Designer\\Carrinho .Designer.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAwwKUAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T20:57:28.351Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Compra.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\nicole\\Downloads\\Livros_em_Movimento\\Projeto \u002B Designer\\Projeto \u002B Designer\\Compra.Designer.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Compra.Designer.cs",
-              "ToolTip": "C:\\Users\\nicole\\Downloads\\Livros_em_Movimento\\Projeto \u002B Designer\\Projeto \u002B Designer\\Compra.Designer.cs",
-              "RelativeToolTip": "Projeto \u002B Designer\\Compra.Designer.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAnwE4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T20:55:20.046Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Compra.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nicole\\Downloads\\Livros_em_Movimento\\Projeto \u002B Designer\\Projeto \u002B Designer\\Compra.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Compra.cs",
-              "ToolTip": "C:\\Users\\nicole\\Downloads\\Livros_em_Movimento\\Projeto \u002B Designer\\Projeto \u002B Designer\\Compra.cs [Design]",
-              "RelativeToolTip": "Projeto \u002B Designer\\Compra.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T20:26:59.066Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "DAO.cs",
               "DocumentMoniker": "C:\\Users\\nicole\\Downloads\\Livros_em_Movimento\\Projeto \u002B Designer\\Projeto \u002B Designer\\DAO.cs",
               "RelativeDocumentMoniker": "Projeto \u002B Designer\\DAO.cs",
               "ToolTip": "C:\\Users\\nicole\\Downloads\\Livros_em_Movimento\\Projeto \u002B Designer\\Projeto \u002B Designer\\DAO.cs",
               "RelativeToolTip": "Projeto \u002B Designer\\DAO.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAowBoAAAAAAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAArwB4AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T20:19:52.17Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Compra.cs",
-              "DocumentMoniker": "C:\\Users\\nicole\\Downloads\\Livros_em_Movimento\\Projeto \u002B Designer\\Projeto \u002B Designer\\Compra.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Compra.cs",
-              "ToolTip": "C:\\Users\\nicole\\Downloads\\Livros_em_Movimento\\Projeto \u002B Designer\\Projeto \u002B Designer\\Compra.cs",
-              "RelativeToolTip": "Projeto \u002B Designer\\Compra.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAowBYAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T20:19:35.7Z"
+              "WhenOpened": "2024-06-15T20:19:52.17Z",
+              "EditorCaption": ""
             }
           ]
         }

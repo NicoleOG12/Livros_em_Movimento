@@ -22,7 +22,7 @@ namespace Projeto___Designer
         {
             DAO dao = new DAO();
             dao.Conectar();
-            string comandoSql = $"Insert into Usuario (nome, email, senha) values ('{Nome_box.Text}', '{Email_box.Text}','{Senha_box.Text}')";
+            string comandoSql = $"Insert into Usuarios (nome, email, senha) values ('{Nome_box.Text}', '{Email_box.Text}','{Senha_box.Text}')";
             dao.ExecutarComando(comandoSql);
             dao.Desconectar();
             Troca_de_livros troca_de_livros = new Troca_de_livros();

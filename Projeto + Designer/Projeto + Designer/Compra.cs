@@ -26,7 +26,7 @@ namespace Projeto___Designer
 
             try
             {
-                string comandoSql = "INSERT INTO Pedidos (nome, cpf, celular, email, nome_do_livro, quantidade, forma_de_pagamento) " +
+                string comandoSql = "INSERT INTO Pedidos (nome, cpf, celular, email,nome_do_livro, quantidade, forma_de_pagamento) " +
                                     "VALUES (@Nome, @CPF, @Celular, @Email, @NomeLivro, @Quantidade, @FormaPagamento)";
 
                 using (MySqlCommand cmd = new MySqlCommand(comandoSql, dao.Conectar()))

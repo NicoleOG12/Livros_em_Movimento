@@ -54,16 +54,17 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.Memórias_Póstumas_de_Brás_Cubas = new System.Windows.Forms.PictureBox();
-            this.Carrinho_Box = new System.Windows.Forms.PictureBox();
-            this.Perfil_Box = new System.Windows.Forms.PictureBox();
             this.Solicitação_Box = new System.Windows.Forms.PictureBox();
-            this.Sacola_Box = new System.Windows.Forms.PictureBox();
-            this.Troca_de_livros_box = new System.Windows.Forms.PictureBox();
             this.Lupa_box = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
-            this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.Menu = new System.Windows.Forms.GroupBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.pictureBox19 = new System.Windows.Forms.PictureBox();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
@@ -79,14 +80,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Memórias_Póstumas_de_Brás_Cubas)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Carrinho_Box)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Perfil_Box)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Solicitação_Box)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Sacola_Box)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Troca_de_livros_box)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Lupa_box)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            this.Menu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             this.SuspendLayout();
             // 
             // Pesquisa_barra
@@ -101,10 +103,11 @@
             // 
             this.Livro5_txt.ActiveLinkColor = System.Drawing.Color.MediumPurple;
             this.Livro5_txt.AutoSize = true;
+            this.Livro5_txt.BackColor = System.Drawing.Color.Lavender;
             this.Livro5_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
             this.Livro5_txt.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Livro5_txt.LinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro5_txt.Location = new System.Drawing.Point(83, 577);
+            this.Livro5_txt.Location = new System.Drawing.Point(30, 456);
             this.Livro5_txt.Name = "Livro5_txt";
             this.Livro5_txt.Size = new System.Drawing.Size(115, 17);
             this.Livro5_txt.TabIndex = 28;
@@ -118,10 +121,11 @@
             // 
             this.Livro6_txt.ActiveLinkColor = System.Drawing.Color.MediumPurple;
             this.Livro6_txt.AutoSize = true;
+            this.Livro6_txt.BackColor = System.Drawing.Color.Lavender;
             this.Livro6_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
             this.Livro6_txt.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Livro6_txt.LinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro6_txt.Location = new System.Drawing.Point(266, 562);
+            this.Livro6_txt.Location = new System.Drawing.Point(214, 447);
             this.Livro6_txt.Name = "Livro6_txt";
             this.Livro6_txt.Size = new System.Drawing.Size(113, 34);
             this.Livro6_txt.TabIndex = 29;
@@ -136,10 +140,11 @@
             // 
             this.Livro7_txt.ActiveLinkColor = System.Drawing.Color.MediumPurple;
             this.Livro7_txt.AutoSize = true;
+            this.Livro7_txt.BackColor = System.Drawing.Color.Lavender;
             this.Livro7_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
             this.Livro7_txt.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Livro7_txt.LinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro7_txt.Location = new System.Drawing.Point(464, 562);
+            this.Livro7_txt.Location = new System.Drawing.Point(414, 447);
             this.Livro7_txt.Name = "Livro7_txt";
             this.Livro7_txt.Size = new System.Drawing.Size(72, 34);
             this.Livro7_txt.TabIndex = 30;
@@ -154,10 +159,11 @@
             // 
             this.Livro8_txt.ActiveLinkColor = System.Drawing.Color.MediumPurple;
             this.Livro8_txt.AutoSize = true;
+            this.Livro8_txt.BackColor = System.Drawing.Color.Lavender;
             this.Livro8_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
             this.Livro8_txt.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Livro8_txt.LinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro8_txt.Location = new System.Drawing.Point(628, 562);
+            this.Livro8_txt.Location = new System.Drawing.Point(581, 442);
             this.Livro8_txt.Name = "Livro8_txt";
             this.Livro8_txt.Size = new System.Drawing.Size(99, 34);
             this.Livro8_txt.TabIndex = 31;
@@ -172,10 +178,11 @@
             // 
             this.Livro1_txt.ActiveLinkColor = System.Drawing.Color.MediumPurple;
             this.Livro1_txt.AutoSize = true;
+            this.Livro1_txt.BackColor = System.Drawing.Color.Lavender;
             this.Livro1_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
             this.Livro1_txt.Font = new System.Drawing.Font("MV Boli", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Livro1_txt.LinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro1_txt.Location = new System.Drawing.Point(82, 322);
+            this.Livro1_txt.Location = new System.Drawing.Point(32, 212);
             this.Livro1_txt.Name = "Livro1_txt";
             this.Livro1_txt.Size = new System.Drawing.Size(106, 22);
             this.Livro1_txt.TabIndex = 32;
@@ -189,10 +196,11 @@
             // 
             this.Livro2_txt.ActiveLinkColor = System.Drawing.Color.MediumPurple;
             this.Livro2_txt.AutoSize = true;
+            this.Livro2_txt.BackColor = System.Drawing.Color.Lavender;
             this.Livro2_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
             this.Livro2_txt.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Livro2_txt.LinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro2_txt.Location = new System.Drawing.Point(290, 315);
+            this.Livro2_txt.Location = new System.Drawing.Point(240, 205);
             this.Livro2_txt.Name = "Livro2_txt";
             this.Livro2_txt.Size = new System.Drawing.Size(66, 34);
             this.Livro2_txt.TabIndex = 33;
@@ -206,10 +214,11 @@
             // 
             this.Livro3_txt.ActiveLinkColor = System.Drawing.Color.MediumPurple;
             this.Livro3_txt.AutoSize = true;
+            this.Livro3_txt.BackColor = System.Drawing.Color.Lavender;
             this.Livro3_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
             this.Livro3_txt.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Livro3_txt.LinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro3_txt.Location = new System.Drawing.Point(464, 318);
+            this.Livro3_txt.Location = new System.Drawing.Point(414, 208);
             this.Livro3_txt.Name = "Livro3_txt";
             this.Livro3_txt.Size = new System.Drawing.Size(78, 32);
             this.Livro3_txt.TabIndex = 34;
@@ -223,10 +232,11 @@
             // 
             this.Livro4_txt.ActiveLinkColor = System.Drawing.Color.MediumPurple;
             this.Livro4_txt.AutoSize = true;
+            this.Livro4_txt.BackColor = System.Drawing.Color.Lavender;
             this.Livro4_txt.DisabledLinkColor = System.Drawing.Color.MediumPurple;
             this.Livro4_txt.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Livro4_txt.LinkColor = System.Drawing.Color.MediumPurple;
-            this.Livro4_txt.Location = new System.Drawing.Point(631, 316);
+            this.Livro4_txt.Location = new System.Drawing.Point(583, 206);
             this.Livro4_txt.Name = "Livro4_txt";
             this.Livro4_txt.Size = new System.Drawing.Size(79, 32);
             this.Livro4_txt.TabIndex = 35;
@@ -241,7 +251,7 @@
             this.new_txt.AutoSize = true;
             this.new_txt.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.new_txt.ForeColor = System.Drawing.Color.MediumPurple;
-            this.new_txt.Location = new System.Drawing.Point(64, 85);
+            this.new_txt.Location = new System.Drawing.Point(109, 100);
             this.new_txt.Name = "new_txt";
             this.new_txt.Size = new System.Drawing.Size(66, 31);
             this.new_txt.TabIndex = 36;
@@ -251,7 +261,7 @@
             // 
             this.pictureBox16.BackColor = System.Drawing.Color.MediumPurple;
             this.pictureBox16.Image = global::Projeto___Designer.Properties.Resources.livros_de_romance_como_eu_era_antes_de_voce_20240326165339;
-            this.pictureBox16.Location = new System.Drawing.Point(624, 415);
+            this.pictureBox16.Location = new System.Drawing.Point(577, 295);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(103, 144);
             this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -263,7 +273,7 @@
             // 
             this.pictureBox15.BackColor = System.Drawing.Color.MediumPurple;
             this.pictureBox15.Image = global::Projeto___Designer.Properties.Resources._81LRk6_p1HL__AC_UF1000_1000_QL80_;
-            this.pictureBox15.Location = new System.Drawing.Point(450, 415);
+            this.pictureBox15.Location = new System.Drawing.Point(400, 296);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(103, 144);
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -275,7 +285,7 @@
             // 
             this.pictureBox14.BackColor = System.Drawing.Color.MediumPurple;
             this.pictureBox14.Image = global::Projeto___Designer.Properties.Resources.o_duque_e_eu;
-            this.pictureBox14.Location = new System.Drawing.Point(269, 415);
+            this.pictureBox14.Location = new System.Drawing.Point(219, 296);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(103, 144);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -287,7 +297,7 @@
             // 
             this.pictureBox13.BackColor = System.Drawing.Color.MediumPurple;
             this.pictureBox13.Image = global::Projeto___Designer.Properties.Resources.alem_da_fumaca;
-            this.pictureBox13.Location = new System.Drawing.Point(86, 415);
+            this.pictureBox13.Location = new System.Drawing.Point(34, 296);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(103, 144);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -298,7 +308,7 @@
             // pictureBox12
             // 
             this.pictureBox12.BackColor = System.Drawing.Color.GhostWhite;
-            this.pictureBox12.Location = new System.Drawing.Point(610, 400);
+            this.pictureBox12.Location = new System.Drawing.Point(560, 281);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(134, 207);
             this.pictureBox12.TabIndex = 19;
@@ -307,7 +317,7 @@
             // pictureBox11
             // 
             this.pictureBox11.BackColor = System.Drawing.Color.GhostWhite;
-            this.pictureBox11.Location = new System.Drawing.Point(434, 400);
+            this.pictureBox11.Location = new System.Drawing.Point(384, 281);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(134, 207);
             this.pictureBox11.TabIndex = 18;
@@ -316,7 +326,7 @@
             // pictureBox10
             // 
             this.pictureBox10.BackColor = System.Drawing.Color.GhostWhite;
-            this.pictureBox10.Location = new System.Drawing.Point(253, 400);
+            this.pictureBox10.Location = new System.Drawing.Point(203, 281);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(134, 207);
             this.pictureBox10.TabIndex = 17;
@@ -325,7 +335,7 @@
             // pictureBox9
             // 
             this.pictureBox9.BackColor = System.Drawing.Color.GhostWhite;
-            this.pictureBox9.Location = new System.Drawing.Point(70, 400);
+            this.pictureBox9.Location = new System.Drawing.Point(20, 281);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(134, 207);
             this.pictureBox9.TabIndex = 16;
@@ -334,7 +344,7 @@
             // pictureBox8
             // 
             this.pictureBox8.Image = global::Projeto___Designer.Properties.Resources._51jiQtSEwDL;
-            this.pictureBox8.Location = new System.Drawing.Point(624, 168);
+            this.pictureBox8.Location = new System.Drawing.Point(574, 58);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(101, 144);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -345,7 +355,7 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = global::Projeto___Designer.Properties.Resources._81LTEfXYgcL;
-            this.pictureBox7.Location = new System.Drawing.Point(450, 168);
+            this.pictureBox7.Location = new System.Drawing.Point(400, 58);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(101, 144);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -356,7 +366,7 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::Projeto___Designer.Properties.Resources._3703693f_2eb2_4de1_89d4_a3092c038ef5;
-            this.pictureBox6.Location = new System.Drawing.Point(269, 168);
+            this.pictureBox6.Location = new System.Drawing.Point(219, 58);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(101, 144);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -367,7 +377,7 @@
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.GhostWhite;
-            this.pictureBox5.Location = new System.Drawing.Point(610, 147);
+            this.pictureBox5.Location = new System.Drawing.Point(560, 37);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(134, 207);
             this.pictureBox5.TabIndex = 12;
@@ -376,7 +386,7 @@
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.GhostWhite;
-            this.pictureBox4.Location = new System.Drawing.Point(434, 147);
+            this.pictureBox4.Location = new System.Drawing.Point(384, 37);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(134, 207);
             this.pictureBox4.TabIndex = 11;
@@ -385,7 +395,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.GhostWhite;
-            this.pictureBox2.Location = new System.Drawing.Point(253, 147);
+            this.pictureBox2.Location = new System.Drawing.Point(203, 37);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(134, 207);
             this.pictureBox2.TabIndex = 10;
@@ -395,7 +405,7 @@
             // 
             this.Memórias_Póstumas_de_Brás_Cubas.BackColor = System.Drawing.Color.MediumPurple;
             this.Memórias_Póstumas_de_Brás_Cubas.Image = global::Projeto___Designer.Properties.Resources.memorias_postumas_bras_cubas;
-            this.Memórias_Póstumas_de_Brás_Cubas.Location = new System.Drawing.Point(85, 168);
+            this.Memórias_Póstumas_de_Brás_Cubas.Location = new System.Drawing.Point(35, 58);
             this.Memórias_Póstumas_de_Brás_Cubas.Name = "Memórias_Póstumas_de_Brás_Cubas";
             this.Memórias_Póstumas_de_Brás_Cubas.Size = new System.Drawing.Size(103, 144);
             this.Memórias_Póstumas_de_Brás_Cubas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -403,65 +413,17 @@
             this.Memórias_Póstumas_de_Brás_Cubas.TabStop = false;
             this.Memórias_Póstumas_de_Brás_Cubas.Click += new System.EventHandler(this.Memórias_Póstumas_Click);
             // 
-            // Carrinho_Box
-            // 
-            this.Carrinho_Box.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Carrinho_Box.Image = global::Projeto___Designer.Properties.Resources.Carrinho;
-            this.Carrinho_Box.Location = new System.Drawing.Point(450, 637);
-            this.Carrinho_Box.Name = "Carrinho_Box";
-            this.Carrinho_Box.Size = new System.Drawing.Size(67, 74);
-            this.Carrinho_Box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Carrinho_Box.TabIndex = 6;
-            this.Carrinho_Box.TabStop = false;
-            this.Carrinho_Box.Click += new System.EventHandler(this.Carrinho_Click);
-            // 
-            // Perfil_Box
-            // 
-            this.Perfil_Box.BackColor = System.Drawing.Color.Transparent;
-            this.Perfil_Box.Image = global::Projeto___Designer.Properties.Resources.Perfil;
-            this.Perfil_Box.Location = new System.Drawing.Point(624, 637);
-            this.Perfil_Box.Name = "Perfil_Box";
-            this.Perfil_Box.Size = new System.Drawing.Size(80, 74);
-            this.Perfil_Box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Perfil_Box.TabIndex = 4;
-            this.Perfil_Box.TabStop = false;
-            this.Perfil_Box.Click += new System.EventHandler(this.Perfil_Click);
-            // 
             // Solicitação_Box
             // 
             this.Solicitação_Box.BackColor = System.Drawing.Color.Transparent;
             this.Solicitação_Box.Image = global::Projeto___Designer.Properties.Resources.Notificações;
-            this.Solicitação_Box.Location = new System.Drawing.Point(717, 24);
+            this.Solicitação_Box.Location = new System.Drawing.Point(766, 31);
             this.Solicitação_Box.Name = "Solicitação_Box";
             this.Solicitação_Box.Size = new System.Drawing.Size(47, 46);
             this.Solicitação_Box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Solicitação_Box.TabIndex = 3;
             this.Solicitação_Box.TabStop = false;
             this.Solicitação_Box.Click += new System.EventHandler(this.Solicitações_Click);
-            // 
-            // Sacola_Box
-            // 
-            this.Sacola_Box.BackColor = System.Drawing.Color.Transparent;
-            this.Sacola_Box.Image = global::Projeto___Designer.Properties.Resources.Sacola;
-            this.Sacola_Box.Location = new System.Drawing.Point(269, 637);
-            this.Sacola_Box.Name = "Sacola_Box";
-            this.Sacola_Box.Size = new System.Drawing.Size(76, 74);
-            this.Sacola_Box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Sacola_Box.TabIndex = 2;
-            this.Sacola_Box.TabStop = false;
-            this.Sacola_Box.Click += new System.EventHandler(this.Sacola_Click);
-            // 
-            // Troca_de_livros_box
-            // 
-            this.Troca_de_livros_box.BackColor = System.Drawing.Color.Transparent;
-            this.Troca_de_livros_box.Image = global::Projeto___Designer.Properties.Resources.Troca_de_Livros;
-            this.Troca_de_livros_box.Location = new System.Drawing.Point(86, 637);
-            this.Troca_de_livros_box.Name = "Troca_de_livros_box";
-            this.Troca_de_livros_box.Size = new System.Drawing.Size(77, 74);
-            this.Troca_de_livros_box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Troca_de_livros_box.TabIndex = 1;
-            this.Troca_de_livros_box.TabStop = false;
-            this.Troca_de_livros_box.Click += new System.EventHandler(this.Troca_de_livros_Click);
             // 
             // Lupa_box
             // 
@@ -477,83 +439,151 @@
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.GhostWhite;
-            this.pictureBox3.Location = new System.Drawing.Point(70, 147);
+            this.pictureBox3.Location = new System.Drawing.Point(20, 37);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(134, 207);
             this.pictureBox3.TabIndex = 9;
             this.pictureBox3.TabStop = false;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.GhostWhite;
+            this.button1.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.MediumPurple;
+            this.button1.Location = new System.Drawing.Point(273, 70);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(95, 27);
+            this.button1.TabIndex = 38;
+            this.button1.Text = "Marca Texto";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.MarcaTexto_Click);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.BackColor = System.Drawing.Color.MediumPurple;
+            this.groupBox1.Controls.Add(this.Livro4_txt);
+            this.groupBox1.Controls.Add(this.Livro3_txt);
+            this.groupBox1.Controls.Add(this.Livro2_txt);
+            this.groupBox1.Controls.Add(this.Livro8_txt);
+            this.groupBox1.Controls.Add(this.Livro1_txt);
+            this.groupBox1.Controls.Add(this.pictureBox16);
+            this.groupBox1.Controls.Add(this.Livro7_txt);
+            this.groupBox1.Controls.Add(this.pictureBox8);
+            this.groupBox1.Controls.Add(this.Livro6_txt);
+            this.groupBox1.Controls.Add(this.pictureBox15);
+            this.groupBox1.Controls.Add(this.pictureBox7);
+            this.groupBox1.Controls.Add(this.pictureBox11);
+            this.groupBox1.Controls.Add(this.Livro5_txt);
+            this.groupBox1.Controls.Add(this.pictureBox6);
+            this.groupBox1.Controls.Add(this.pictureBox12);
+            this.groupBox1.Controls.Add(this.pictureBox14);
+            this.groupBox1.Controls.Add(this.pictureBox5);
+            this.groupBox1.Controls.Add(this.pictureBox4);
+            this.groupBox1.Controls.Add(this.pictureBox10);
+            this.groupBox1.Controls.Add(this.pictureBox2);
+            this.groupBox1.Controls.Add(this.pictureBox13);
+            this.groupBox1.Controls.Add(this.Memórias_Póstumas_de_Brás_Cubas);
+            this.groupBox1.Controls.Add(this.pictureBox3);
+            this.groupBox1.Controls.Add(this.pictureBox9);
+            this.groupBox1.Location = new System.Drawing.Point(115, 134);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(727, 512);
+            this.groupBox1.TabIndex = 40;
+            this.groupBox1.TabStop = false;
+            // 
+            // Menu
+            // 
+            this.Menu.BackColor = System.Drawing.Color.GhostWhite;
+            this.Menu.Controls.Add(this.pictureBox1);
+            this.Menu.Controls.Add(this.pictureBox17);
+            this.Menu.Controls.Add(this.pictureBox18);
+            this.Menu.Controls.Add(this.pictureBox19);
+            this.Menu.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Menu.ForeColor = System.Drawing.Color.MediumPurple;
+            this.Menu.Location = new System.Drawing.Point(8, 43);
+            this.Menu.Name = "Menu";
+            this.Menu.Size = new System.Drawing.Size(81, 284);
+            this.Menu.TabIndex = 41;
+            this.Menu.TabStop = false;
+            this.Menu.Text = "  Menu";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Image = global::Projeto___Designer.Properties.Resources.Carrinho;
+            this.pictureBox1.Location = new System.Drawing.Point(10, 157);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(54, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.Carrinho_Click);
+            // 
             // pictureBox17
             // 
-            this.pictureBox17.BackColor = System.Drawing.Color.MediumPurple;
-            this.pictureBox17.Location = new System.Drawing.Point(45, 119);
+            this.pictureBox17.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox17.Image = global::Projeto___Designer.Properties.Resources.Perfil;
+            this.pictureBox17.Location = new System.Drawing.Point(9, 225);
             this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(728, 512);
-            this.pictureBox17.TabIndex = 37;
+            this.pictureBox17.Size = new System.Drawing.Size(55, 49);
+            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox17.TabIndex = 4;
             this.pictureBox17.TabStop = false;
+            this.pictureBox17.Click += new System.EventHandler(this.Perfil_Click);
+            // 
+            // pictureBox18
+            // 
+            this.pictureBox18.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox18.Image = global::Projeto___Designer.Properties.Resources.Sacola;
+            this.pictureBox18.Location = new System.Drawing.Point(10, 90);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(55, 50);
+            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox18.TabIndex = 2;
+            this.pictureBox18.TabStop = false;
+            this.pictureBox18.Click += new System.EventHandler(this.Sacola_Click);
+            // 
+            // pictureBox19
+            // 
+            this.pictureBox19.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox19.Image = global::Projeto___Designer.Properties.Resources.Troca_de_Livros;
+            this.pictureBox19.Location = new System.Drawing.Point(10, 27);
+            this.pictureBox19.Name = "pictureBox19";
+            this.pictureBox19.Size = new System.Drawing.Size(54, 50);
+            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox19.TabIndex = 1;
+            this.pictureBox19.TabStop = false;
+            this.pictureBox19.Click += new System.EventHandler(this.Troca_de_livros_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(273, 78);
+            this.button2.BackColor = System.Drawing.Color.GhostWhite;
+            this.button2.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.MediumPurple;
+            this.button2.Location = new System.Drawing.Point(442, 70);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(113, 34);
-            this.button2.TabIndex = 39;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(447, 79);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(120, 34);
-            this.button1.TabIndex = 38;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button2.Size = new System.Drawing.Size(95, 27);
+            this.button2.TabIndex = 42;
+            this.button2.Text = "Marca Página";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.MarcaPagina_Click);
             // 
             // Loja
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.Lavender;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 700);
+            this.ClientSize = new System.Drawing.Size(854, 700);
             this.Controls.Add(this.button2);
+            this.Controls.Add(this.Menu);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.new_txt);
-            this.Controls.Add(this.Livro4_txt);
-            this.Controls.Add(this.Livro3_txt);
-            this.Controls.Add(this.Livro2_txt);
-            this.Controls.Add(this.Livro1_txt);
-            this.Controls.Add(this.Livro8_txt);
-            this.Controls.Add(this.Livro7_txt);
-            this.Controls.Add(this.Livro6_txt);
-            this.Controls.Add(this.Livro5_txt);
-            this.Controls.Add(this.pictureBox16);
-            this.Controls.Add(this.pictureBox15);
-            this.Controls.Add(this.pictureBox14);
-            this.Controls.Add(this.pictureBox13);
-            this.Controls.Add(this.pictureBox12);
-            this.Controls.Add(this.pictureBox11);
-            this.Controls.Add(this.pictureBox10);
-            this.Controls.Add(this.pictureBox9);
-            this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.Memórias_Póstumas_de_Brás_Cubas);
-            this.Controls.Add(this.Carrinho_Box);
             this.Controls.Add(this.Pesquisa_barra);
-            this.Controls.Add(this.Perfil_Box);
             this.Controls.Add(this.Solicitação_Box);
-            this.Controls.Add(this.Sacola_Box);
-            this.Controls.Add(this.Troca_de_livros_box);
             this.Controls.Add(this.Lupa_box);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox17);
+            this.Controls.Add(this.groupBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Loja";
             this.Text = "Loja";
@@ -572,14 +602,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Memórias_Póstumas_de_Brás_Cubas)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Carrinho_Box)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Perfil_Box)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Solicitação_Box)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Sacola_Box)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Troca_de_livros_box)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Lupa_box)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.Menu.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -588,12 +620,8 @@
         #endregion
 
         private System.Windows.Forms.PictureBox Lupa_box;
-        private System.Windows.Forms.PictureBox Troca_de_livros_box;
-        private System.Windows.Forms.PictureBox Sacola_Box;
         private System.Windows.Forms.PictureBox Solicitação_Box;
-        private System.Windows.Forms.PictureBox Perfil_Box;
         private System.Windows.Forms.TextBox Pesquisa_barra;
-        private System.Windows.Forms.PictureBox Carrinho_Box;
         private System.Windows.Forms.PictureBox Memórias_Póstumas_de_Brás_Cubas;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
@@ -619,8 +647,13 @@
         private System.Windows.Forms.LinkLabel Livro3_txt;
         private System.Windows.Forms.LinkLabel Livro4_txt;
         private System.Windows.Forms.Label new_txt;
-        private System.Windows.Forms.PictureBox pictureBox17;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox Menu;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox17;
+        private System.Windows.Forms.PictureBox pictureBox18;
+        private System.Windows.Forms.PictureBox pictureBox19;
+        private System.Windows.Forms.Button button2;
     }
 }

@@ -24,7 +24,6 @@ namespace Projeto___Designer
             conn = new MySqlConnection(connection);
             conn.Open();
             return conn;
-
         }
 
         public void Desconectar()

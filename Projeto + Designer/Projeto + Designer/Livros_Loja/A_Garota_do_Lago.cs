@@ -24,6 +24,9 @@ namespace Projeto___Designer
             string comandoSql = $"Select id from Produto where nome= '{Nome_item_txt.Text}'";
 
             dao.Desconectar();
+            Compra compra = new Compra();
+            this.Hide();
+            compra.ShowDialog();
         }
 
         private void Adicionar_ao_carrinho_Click(object sender, EventArgs e)

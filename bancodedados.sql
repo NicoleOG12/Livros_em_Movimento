@@ -1,4 +1,3 @@
-drop database gerenciamento;
 
 create database Gerenciamento;
 use Gerenciamento;
@@ -6,6 +5,8 @@ use Gerenciamento;
 create table Usuarios (
 id int auto_increment unique not null,
 nome varchar(50) not null,
+cpf int,
+celular int,
 email varchar(50) not null,
 senha varchar(50) not null,
 primary key (id)
@@ -16,6 +17,7 @@ id int auto_increment unique not null,
 nome varchar(50) not null,
 autor varchar(50) not null,
 genero varchar(25) not null,
+estoque int not null,
 primary key (id)
 );
 
@@ -45,7 +47,7 @@ constraint foreign key (idLivro) references Livros (id)
 create table Produtos (
 id int auto_increment unique not null,
 nome varchar(250) not null,
-quantidade int not null,
+estoque int not null,
 valor decimal(10,2) not null,
 primary key (id)
 );
@@ -54,6 +56,8 @@ create table Pedidos (
 id int auto_increment unique not null,
 idUsuario int not null,
 idProduto int not null,
+quantidade int not null,
+formaPagamento enum ('pix', 'cartão', 'boleto'),
 dataPedido date not null,
 statusPedido enum('pendente', 'processando', 'entregue') not null,
 primary key (id),
@@ -81,16 +85,15 @@ constraint foreign key (idUsuario) references Usuarios (id),
 constraint foreign key (idProduto) references Produtos (id)
 ); 
 
-insert into Usuario values
-(1, "Maria Flor", "mariazinha@gmail.com", "maria123", "Romance"),
-(2, "Chico Souza", "chiquinho@gmail.com", "chico123", "Comédia"),
-(3, "Paulo Gomes", "paulo@gmail.com", "paulo123", "Literatura"),
-(4, "Manuela Ferreira", "manu@gmail.com", "manu123", "Ficção"),
-(5, "Larissa Lopes", "laris@gmail.com", "lari123", "Drama");
+insert into Usuarios values
+(1, "Maria Flor", "mariazinha@gmail.com", "maria123"),
+(2, "Chico Souza", "chiquinho@gmail.com", "chico123"),
+(3, "Paulo Gomes", "paulo@gmail.com", "paulo123"),
+(4, "Manuela Ferreira", "manu@gmail.com", "manu123"),
+(5, "Larissa Lopes", "laris@gmail.com", "lari123");
 
 
-
-insert into Livros_Emprestimos values
+insert into Livros values
 (1, 1, "Para além do diário", "Anne Frank", "Diário", true),
 (2, 1, "A mente de Adolf Hitler", "Walter C.", "História", true),
 (3, 2, "Assassinato na casa do pastor", "Agatha Christie", "Ficção", true),
@@ -125,3 +128,6 @@ insert into Produtos values
 (22, "Kit 4 marca textos com cheirinho- Mentos", "43.10", 10),
 (23, "Kit 6 marca textos pastel- Cis", "26.70", 35),
 (24, "Kit 5 marca textos neon- Bic", "40.00", 30);
+
+
+

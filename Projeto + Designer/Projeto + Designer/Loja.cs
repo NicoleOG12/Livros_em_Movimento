@@ -166,19 +166,18 @@ namespace Projeto___Designer
             livros.ShowDialog();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void MarcaTexto_Click(object sender, EventArgs e)
         {
             Loja_MarcaTexto loja = new Loja_MarcaTexto();
             this.Hide();
             loja.ShowDialog();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void MarcaPagina_Click(object sender, EventArgs e)
         {
             Loja_MarcaPágina loja1 = new Loja_MarcaPágina();
             this.Hide();
             loja1.ShowDialog();
         }
-
     }
 }
