@@ -13,11 +13,10 @@ namespace Projeto___Designer
     public partial class Carrinho : Form
     {
         private int idUsuario;
+
         public Carrinho(int idUsuario)
         {
-
             InitializeComponent();
-         
         }
 
         private void Troca_de_livros_Click(object sender, EventArgs e)
@@ -56,5 +55,9 @@ namespace Projeto___Designer
             solicitações.ShowDialog();
         }
 
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

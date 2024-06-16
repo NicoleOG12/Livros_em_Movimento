@@ -13,10 +13,10 @@ namespace Projeto___Designer
     public partial class Loja_MarcaTexto : Form
     {
         private int idUsuario;
-        public Loja_MarcaTexto()
+        public Loja_MarcaTexto(int idUsuario)
         {
-
             InitializeComponent();
+            this.idUsuario = idUsuario;
          
         }
 
@@ -71,28 +71,28 @@ namespace Projeto___Designer
 
         private void MT2_Click(object sender, EventArgs e)
         {
-            MT2 mT2 = new MT2();
+            MT2 mT2 = new MT2(idUsuario);
             this.Hide();
             mT2.ShowDialog();
         }
 
         private void MT2_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            MT2 mT2 = new MT2();
+            MT2 mT2 = new MT2(idUsuario);
             this.Hide();
             mT2.ShowDialog();
         }
 
         private void MT3_Click(object sender, EventArgs e)
         {
-            MT3 mT3 = new MT3();
+            MT3 mT3 = new MT3(idUsuario);
             this.Hide();
             mT3.ShowDialog();
         }
 
         private void MT3_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            MT3 mT3 = new MT3();
+            MT3 mT3 = new MT3(idUsuario);
             this.Hide();
             mT3.ShowDialog();
         }

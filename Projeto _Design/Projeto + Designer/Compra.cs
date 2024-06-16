@@ -27,66 +27,80 @@ namespace Projeto___Designer
 
             try
             {
-                string comandoSqlUsuario = "SELECT id FROM Usuarios WHERE nome = @Nome AND cpf = @CPF AND celular = @Celular AND email = @Email";
-                MySqlCommand cmdUsuario = new MySqlCommand(comandoSqlUsuario, dao.Conectar());
-                cmdUsuario.Parameters.AddWithValue("@Nome", Nome_box.Text);
-                cmdUsuario.Parameters.AddWithValue("@CPF", CPF_box.Text);
-                cmdUsuario.Parameters.AddWithValue("@Celular", Celular_Box.Text);
-                cmdUsuario.Parameters.AddWithValue("@Email", Email_Box.Text);
+                string comandoSqlAtualizar = "UPDATE Usuarios SET cpf = @CPF, celular = @Celular " +
+                                             "WHERE nome = @Nome AND email = @Email";
+                MySqlCommand cmdAtualizar = new MySqlCommand(comandoSqlAtualizar, dao.Conectar());
+                cmdAtualizar.Parameters.AddWithValue("@CPF", CPF_box.Text);
+                cmdAtualizar.Parameters.AddWithValue("@Celular", Celular_Box.Text);
+                cmdAtualizar.Parameters.AddWithValue("@Nome", Nome_box.Text);
+                cmdAtualizar.Parameters.AddWithValue("@Email", Email_Box.Text);
 
-                var resultadoUsuario = cmdUsuario.ExecuteReader();
+                int linhasAtualizadas = cmdAtualizar.ExecuteNonQuery();
 
-                if (resultadoUsuario.Read())
+                if (linhasAtualizadas > 0)
                 {
-                    int idUsuario = Convert.ToInt32(resultadoUsuario["id"]);
+                    string comandoSqlVerificarUsuario = "SELECT id FROM Usuarios WHERE nome = @Nome AND email = @Email";
+                    MySqlCommand cmdVerificarUsuario = new MySqlCommand(comandoSqlVerificarUsuario, dao.Conectar());
+                    cmdVerificarUsuario.Parameters.AddWithValue("@Nome", Nome_box.Text);
+                    cmdVerificarUsuario.Parameters.AddWithValue("@Email", Email_Box.Text);
 
-                    string comandoSqlLivro = "SELECT id FROM Livros WHERE nome = @NomeLivro";
-                    MySqlCommand cmdLivro = new MySqlCommand(comandoSqlLivro, dao.Conectar());
-                    cmdLivro.Parameters.AddWithValue("@NomeLivro", NomedoLivro_Box.Text);
+                    var resultadoUsuario = cmdVerificarUsuario.ExecuteScalar();
 
-                    var resultadoLivro = cmdLivro.ExecuteReader();
-
-                    if (resultadoLivro.Read())
+                    if (resultadoUsuario != null)
                     {
-                        int idLivro = Convert.ToInt32(resultadoLivro["id"]);
+                        int idUsuario = Convert.ToInt32(resultadoUsuario);
 
-                        string comandoSqlPedido = "INSERT INTO Pedidos (idUsuario, idProduto, quantidade, forma_de_pagamento) " +
-                                                  "VALUES (@IdUsuario, @IdLivro, @Quantidade, @FormaPagamento)";
+                        string comandoSqlProduto = "SELECT id FROM Produtos WHERE nome = @NomeProduto";
+                        MySqlCommand cmdProduto = new MySqlCommand(comandoSqlProduto, dao.Conectar());
+                        cmdProduto.Parameters.AddWithValue("@NomeProduto", NomedoProduto_Box.Text);
 
-                        using (MySqlCommand cmdPedido = new MySqlCommand(comandoSqlPedido, dao.Conectar()))
+                        var resultadoProduto = cmdProduto.ExecuteReader();
+
+                        if (resultadoProduto.Read())
                         {
-                            cmdPedido.Parameters.AddWithValue("@IdUsuario", idUsuario);
-                            cmdPedido.Parameters.AddWithValue("@IdLivro", idLivro);
-                            cmdPedido.Parameters.AddWithValue("@Quantidade",Quantidade.Text);
-                            cmdPedido.Parameters.AddWithValue("@FormaPagamento", Forma_de_pagamento.Text);
+                            int idProduto = Convert.ToInt32(resultadoProduto["id"]);
 
-                            cmdPedido.ExecuteNonQuery();
+                            string comandoSqlPedido = "INSERT INTO Pedidos (idUsuario, idProduto, quantidade, forma_de_pagamento) " +
+                                                      "VALUES (@IdUsuario, @IdProduto, @Quantidade, @FormaPagamento)";
+
+                            using (MySqlCommand cmdPedido = new MySqlCommand(comandoSqlPedido, dao.Conectar()))
+                            {
+                                cmdPedido.Parameters.AddWithValue("@IdUsuario", idUsuario);
+                                cmdPedido.Parameters.AddWithValue("@IdProduto", idProduto);
+                                cmdPedido.Parameters.AddWithValue("@Quantidade", Quantidade.Text);
+                                cmdPedido.Parameters.AddWithValue("@FormaPagamento", Forma_de_pagamento.Text);
+
+                                cmdPedido.ExecuteNonQuery();
+                            }
+
+                            string comandoSqlEstoque = "UPDATE Produtos SET estoque = estoque - 1 WHERE id = @IdProduto";
+                            using (MySqlCommand cmdEstoque = new MySqlCommand(comandoSqlEstoque, dao.Conectar()))
+                            {
+                                cmdEstoque.Parameters.AddWithValue("@IdProduto", idProduto);
+                                cmdEstoque.ExecuteNonQuery();
+                            }
+
+                            Tela_Confirmação tela_Confirmação = new Tela_Confirmação(idUsuario);
+                            this.Hide();
+                            tela_Confirmação.ShowDialog();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Produto não encontrado. Verifique o nome do Produto fornecido.");
                         }
 
-                        string comandoSqlEstoque = "UPDATE Livros SET estoque = estoque - 1 WHERE id = @IdLivro";
-                        using (MySqlCommand cmdEstoque = new MySqlCommand(comandoSqlEstoque, dao.Conectar()))
-                        {
-                            cmdEstoque.Parameters.AddWithValue("@IdLivro", idLivro);
-                            cmdEstoque.ExecuteNonQuery();
-                        }
-
-                        Tela_Confirmação tela_Confirmação = new Tela_Confirmação(idUsuario);
-                        this.Hide();
-                        tela_Confirmação.ShowDialog();
+                        resultadoProduto.Close();
                     }
                     else
                     {
-                        MessageBox.Show("Livro não encontrado. Verifique o nome do livro fornecido.");
+                        MessageBox.Show("Usuário não encontrado. Verifique os dados fornecidos.");
                     }
 
-                    resultadoLivro.Close();
                 }
                 else
                 {
-                    MessageBox.Show("Usuário não encontrado. Verifique os dados fornecidos.");
+                    MessageBox.Show("Falha ao atualizar CPF e celular do usuário.");
                 }
-
-                resultadoUsuario.Close();
             }
             catch (Exception ex)
             {
@@ -97,6 +111,7 @@ namespace Projeto___Designer
                 dao.Desconectar();
             }
         }
+
 
         private void Cancelar_Click(object sender, EventArgs e)
         {

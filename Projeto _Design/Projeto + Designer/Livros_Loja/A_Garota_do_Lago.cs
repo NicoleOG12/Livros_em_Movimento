@@ -20,7 +20,7 @@ namespace Projeto___Designer
             this.idUsuario = idUsuario;
         }
 
-        private void Comprar_agora_Click(object sender, EventArgs e)
+        public void Comprar_agora_Click(object sender, EventArgs e)
         {
             DAO dao = new DAO();
             dao.Conectar();
@@ -32,36 +32,39 @@ namespace Projeto___Designer
             compra.ShowDialog();
         }
 
-        private void Adicionar_ao_carrinho_Click(object sender, EventArgs e)
+        public void Adicionar_ao_carrinho_Click(object sender, EventArgs e)
         {
-            
+
             DAO dao = new DAO();
             dao.Conectar();
 
             try
             {
-                string nome = Nome_item_txt.Text;
-                int idLivro = dao.ObterIdLivro(nome);
-
-                if (idLivro != -1)
+                if (dao.VerificarExistenciaUsuario(idUsuario))
                 {
-                    string comandoSql = "INSERT INTO Carrinho (idUsuario, idProduto, quantidade) " +
-                                        "VALUES (@IdUsuario, @IdLivro, @Quantidade)";
+                    string nome = Nome_item_txt.Text;
+                    int idProduto = dao.ObterIdProduto(nome);
 
-                    using (MySqlCommand cmd = new MySqlCommand(comandoSql, dao.Conectar()))
+                    if (idProduto != -1)
                     {
-                        cmd.Parameters.AddWithValue("@IdUsuario", idUsuario);
-                        cmd.Parameters.AddWithValue("@IdLivro", idLivro);
-                        cmd.Parameters.AddWithValue("@Quantidade", Quantidade_numericUpDown1.Text);
+                        string comandoSql = "INSERT INTO Carrinho (idUsuario, idProduto, quantidade) " +
+                                            "VALUES (@IdUsuario, @IdProduto, @Quantidade)";
 
-                        cmd.ExecuteNonQuery();
+                        using (MySqlCommand cmd = new MySqlCommand(comandoSql, dao.Conectar()))
+                        {
+                            cmd.Parameters.AddWithValue("@IdUsuario", idUsuario);
+                            cmd.Parameters.AddWithValue("@IdProduto", idProduto);
+                            cmd.Parameters.AddWithValue("@Quantidade", Quantidade_numericUpDown1.Text);
+
+                            cmd.ExecuteNonQuery();
+                        }
+
+                        MessageBox.Show("Pedido adicionado ao carrinho com sucesso!");
                     }
-
-                    MessageBox.Show("Pedido adicionado ao carrinho com sucesso!");
-                }
-                else
-                {
-                    MessageBox.Show($"Livro '{nome}' não encontrado.");
+                    else
+                    {
+                        MessageBox.Show($"Livro '{nome}' não encontrado.");
+                    }
                 }
             }
             catch (Exception ex)
@@ -74,12 +77,12 @@ namespace Projeto___Designer
             }
         }
 
-        private void Seta_Click(object sender, EventArgs e)
+        public void Seta_Click(object sender, EventArgs e)
         {
             Loja_Livros loja_Livros = new Loja_Livros(idUsuario);
             this.Hide();
             loja_Livros.ShowDialog();
-            
+
         }
     }
 }

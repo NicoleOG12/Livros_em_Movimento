@@ -238,20 +238,20 @@ namespace Projeto___Designer
                 Desconectar();
             }
         }
-        public int ObterIdLivro(string nomeLivro)
+        public int ObterIdProduto(string nomeLivro)
         {
-            int idLivro = -1;
+            int idProduto = -1;
             try
             {
                 Conectar();
-                string query = "SELECT id FROM Livros WHERE nome = @Nome";
+                string query = "SELECT id FROM Produtos WHERE nome = @Nome";
                 using (cmd = new MySqlCommand(query, conn))
                 {
                     cmd.Parameters.AddWithValue("@Nome", nomeLivro);
                     object result = cmd.ExecuteScalar();
                     if (result != null)
                     {
-                        idLivro = Convert.ToInt32(result);
+                        idProduto = Convert.ToInt32(result);
                     }
                 }
             }
@@ -263,8 +263,36 @@ namespace Projeto___Designer
             {
                 Desconectar();
             }
-            return idLivro;
+            return idProduto;
         }
+        public bool VerificarExistenciaUsuario(int idUsuario)
+        {
+            bool usuarioExiste = false;
+            try
+            {
+                Conectar();
+                string query = "SELECT COUNT(*) FROM Usuarios WHERE id = @IdUsuario";
+                using (cmd = new MySqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@IdUsuario", idUsuario);
+                    int count = Convert.ToInt32(cmd.ExecuteScalar());
+                    if (count > 0)
+                    {
+                        usuarioExiste = true;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Erro ao verificar existência do usuário: " + ex.Message);
+            }
+            finally
+            {
+                Desconectar();
+            }
+            return usuarioExiste;
+        }
+
     }
 }
 

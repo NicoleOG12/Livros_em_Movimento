@@ -40,10 +40,10 @@
             this.caixalogin = new System.Windows.Forms.GroupBox();
             this.Quantidade = new System.Windows.Forms.NumericUpDown();
             this.label2 = new System.Windows.Forms.Label();
-            this.NomedoLivro_Box = new System.Windows.Forms.TextBox();
+            this.NomedoProduto_Box = new System.Windows.Forms.TextBox();
             this.CPF = new System.Windows.Forms.Label();
             this.Forma_de_pagamento = new System.Windows.Forms.ComboBox();
-            this.Nome_do_livro = new System.Windows.Forms.Label();
+            this.Nome_do_produto = new System.Windows.Forms.Label();
             this.Celular = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.Email_Box = new System.Windows.Forms.TextBox();
@@ -150,10 +150,10 @@
             this.caixalogin.BackColor = System.Drawing.Color.GhostWhite;
             this.caixalogin.Controls.Add(this.Quantidade);
             this.caixalogin.Controls.Add(this.label2);
-            this.caixalogin.Controls.Add(this.NomedoLivro_Box);
+            this.caixalogin.Controls.Add(this.NomedoProduto_Box);
             this.caixalogin.Controls.Add(this.CPF);
             this.caixalogin.Controls.Add(this.Forma_de_pagamento);
-            this.caixalogin.Controls.Add(this.Nome_do_livro);
+            this.caixalogin.Controls.Add(this.Nome_do_produto);
             this.caixalogin.Controls.Add(this.Celular);
             this.caixalogin.Controls.Add(this.label1);
             this.caixalogin.Controls.Add(this.Email_Box);
@@ -188,14 +188,14 @@
             this.label2.TabIndex = 13;
             this.label2.Text = "Quantidade";
             // 
-            // NomedoLivro_Box
+            // NomedoProduto_Box
             // 
-            this.NomedoLivro_Box.BackColor = System.Drawing.SystemColors.Menu;
-            this.NomedoLivro_Box.Location = new System.Drawing.Point(61, 322);
-            this.NomedoLivro_Box.Margin = new System.Windows.Forms.Padding(2);
-            this.NomedoLivro_Box.Name = "NomedoLivro_Box";
-            this.NomedoLivro_Box.Size = new System.Drawing.Size(173, 20);
-            this.NomedoLivro_Box.TabIndex = 12;
+            this.NomedoProduto_Box.BackColor = System.Drawing.SystemColors.Menu;
+            this.NomedoProduto_Box.Location = new System.Drawing.Point(61, 322);
+            this.NomedoProduto_Box.Margin = new System.Windows.Forms.Padding(2);
+            this.NomedoProduto_Box.Name = "NomedoProduto_Box";
+            this.NomedoProduto_Box.Size = new System.Drawing.Size(173, 20);
+            this.NomedoProduto_Box.TabIndex = 12;
             // 
             // CPF
             // 
@@ -221,16 +221,16 @@
             this.Forma_de_pagamento.Size = new System.Drawing.Size(121, 21);
             this.Forma_de_pagamento.TabIndex = 10;
             // 
-            // Nome_do_livro
+            // Nome_do_produto
             // 
-            this.Nome_do_livro.AutoSize = true;
-            this.Nome_do_livro.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Nome_do_livro.ForeColor = System.Drawing.Color.MediumPurple;
-            this.Nome_do_livro.Location = new System.Drawing.Point(58, 303);
-            this.Nome_do_livro.Name = "Nome_do_livro";
-            this.Nome_do_livro.Size = new System.Drawing.Size(99, 17);
-            this.Nome_do_livro.TabIndex = 8;
-            this.Nome_do_livro.Text = "Nome do livro ";
+            this.Nome_do_produto.AutoSize = true;
+            this.Nome_do_produto.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Nome_do_produto.ForeColor = System.Drawing.Color.MediumPurple;
+            this.Nome_do_produto.Location = new System.Drawing.Point(58, 303);
+            this.Nome_do_produto.Name = "Nome_do_produto";
+            this.Nome_do_produto.Size = new System.Drawing.Size(116, 17);
+            this.Nome_do_produto.TabIndex = 8;
+            this.Nome_do_produto.Text = "Nome do produto";
             // 
             // Celular
             // 
@@ -306,11 +306,11 @@
         private System.Windows.Forms.TextBox Celular_Box;
         private System.Windows.Forms.Button Cancelar;
         private System.Windows.Forms.TextBox Email_Box;
-        private System.Windows.Forms.Label Nome_do_livro;
+        private System.Windows.Forms.Label Nome_do_produto;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox Forma_de_pagamento;
         private System.Windows.Forms.Label CPF;
-        private System.Windows.Forms.TextBox NomedoLivro_Box;
+        private System.Windows.Forms.TextBox NomedoProduto_Box;
         private System.Windows.Forms.NumericUpDown Quantidade;
         private System.Windows.Forms.Label label2;
     }

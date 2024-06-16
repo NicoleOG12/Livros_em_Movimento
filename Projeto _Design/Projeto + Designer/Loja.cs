@@ -169,7 +169,7 @@ namespace Projeto___Designer
 
         private void MarcaTexto_Click(object sender, EventArgs e)
         {
-            Loja_MarcaTexto loja = new Loja_MarcaTexto();
+            Loja_MarcaTexto loja = new Loja_MarcaTexto(idUsuario);
             this.Hide();
             loja.ShowDialog();
         }

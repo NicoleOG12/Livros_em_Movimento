@@ -35,7 +35,7 @@ namespace Projeto___Designer
             {
                 dao.Conectar();
 
-                string comandoSql = "SELECT id FROM usuario WHERE email = @Email AND senha = @Senha";
+                string comandoSql = "SELECT id FROM usuarios WHERE email = @Email AND senha = @Senha";
                 MySqlCommand cmd = new MySqlCommand(comandoSql, dao.Conectar());
                 cmd.Parameters.AddWithValue("@Email", email_box.Text);
                 cmd.Parameters.AddWithValue("@Senha", senha_box.Text);
