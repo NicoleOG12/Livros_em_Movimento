@@ -48,6 +48,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.Email_Box = new System.Windows.Forms.TextBox();
             this.Celular_Box = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.caixalogin2.SuspendLayout();
             this.caixalogin.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Quantidade)).BeginInit();
@@ -148,6 +150,8 @@
             // caixalogin
             // 
             this.caixalogin.BackColor = System.Drawing.Color.GhostWhite;
+            this.caixalogin.Controls.Add(this.textBox1);
+            this.caixalogin.Controls.Add(this.label3);
             this.caixalogin.Controls.Add(this.Quantidade);
             this.caixalogin.Controls.Add(this.label2);
             this.caixalogin.Controls.Add(this.NomedoProduto_Box);
@@ -163,9 +167,9 @@
             this.caixalogin.Controls.Add(this.Nome_txt);
             this.caixalogin.Controls.Add(this.Nome_box);
             this.caixalogin.Controls.Add(this.CPF_box);
-            this.caixalogin.Location = new System.Drawing.Point(232, 70);
+            this.caixalogin.Location = new System.Drawing.Point(232, 39);
             this.caixalogin.Name = "caixalogin";
-            this.caixalogin.Size = new System.Drawing.Size(302, 487);
+            this.caixalogin.Size = new System.Drawing.Size(302, 518);
             this.caixalogin.TabIndex = 8;
             this.caixalogin.TabStop = false;
             // 
@@ -216,7 +220,7 @@
             "Pix",
             "Cartão",
             "Boleto"});
-            this.Forma_de_pagamento.Location = new System.Drawing.Point(61, 430);
+            this.Forma_de_pagamento.Location = new System.Drawing.Point(61, 482);
             this.Forma_de_pagamento.Name = "Forma_de_pagamento";
             this.Forma_de_pagamento.Size = new System.Drawing.Size(121, 21);
             this.Forma_de_pagamento.TabIndex = 10;
@@ -248,7 +252,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.MediumPurple;
-            this.label1.Location = new System.Drawing.Point(58, 410);
+            this.label1.Location = new System.Drawing.Point(60, 462);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(133, 17);
             this.label1.TabIndex = 10;
@@ -272,6 +276,26 @@
             this.Celular_Box.Size = new System.Drawing.Size(173, 20);
             this.Celular_Box.TabIndex = 6;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.MediumPurple;
+            this.label3.Location = new System.Drawing.Point(58, 409);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(38, 17);
+            this.label3.TabIndex = 14;
+            this.label3.Text = "Valor";
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.Menu;
+            this.textBox1.Location = new System.Drawing.Point(61, 428);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(173, 20);
+            this.textBox1.TabIndex = 15;
+            // 
             // Compra
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -279,7 +303,7 @@
             this.AutoScroll = true;
             this.BackgroundImage = global::Projeto___Designer.Properties.Resources.wallpaperflare_com_wallpaper;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(767, 614);
+            this.ClientSize = new System.Drawing.Size(767, 636);
             this.Controls.Add(this.caixalogin2);
             this.Controls.Add(this.caixalogin);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -313,5 +337,7 @@
         private System.Windows.Forms.TextBox NomedoProduto_Box;
         private System.Windows.Forms.NumericUpDown Quantidade;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label3;
     }
 }

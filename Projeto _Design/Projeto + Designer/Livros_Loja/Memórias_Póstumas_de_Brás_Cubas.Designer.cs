@@ -41,15 +41,15 @@
             this.Número_de_itens_txt = new System.Windows.Forms.Label();
             this.Descrição = new System.Windows.Forms.Label();
             this.eventLog1 = new System.Diagnostics.EventLog();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Seta = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.Imagem1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Quantidade_numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Seta)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // Imagem1
@@ -176,17 +176,6 @@
             // 
             this.eventLog1.SynchronizingObject = this;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Lavender;
-            this.pictureBox1.Image = global::Projeto___Designer.Properties.Resources.Carrinho;
-            this.pictureBox1.Location = new System.Drawing.Point(336, 360);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(27, 34);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 12;
-            this.pictureBox1.TabStop = false;
-            // 
             // Seta
             // 
             this.Seta.BackColor = System.Drawing.Color.MediumPurple;
@@ -199,14 +188,25 @@
             this.Seta.TabStop = false;
             this.Seta.Click += new System.EventHandler(this.Seta_Click);
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Lavender;
+            this.pictureBox4.Image = global::Projeto___Designer.Properties.Resources.Carrinho;
+            this.pictureBox4.Location = new System.Drawing.Point(339, 364);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(27, 26);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 15;
+            this.pictureBox4.TabStop = false;
+            // 
             // Memórias_Póstumas_de_Brás_Cubas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(743, 493);
+            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.Seta);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Descrição);
             this.Controls.Add(this.Número_de_itens_txt);
             this.Controls.Add(this.Quantidade_txt);
@@ -226,8 +226,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.Quantidade_numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Seta)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -247,7 +247,7 @@
         private System.Windows.Forms.Label Número_de_itens_txt;
         private System.Windows.Forms.Label Descrição;
         private System.Diagnostics.EventLog eventLog1;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox Seta;
+        private System.Windows.Forms.PictureBox pictureBox4;
     }
 }
