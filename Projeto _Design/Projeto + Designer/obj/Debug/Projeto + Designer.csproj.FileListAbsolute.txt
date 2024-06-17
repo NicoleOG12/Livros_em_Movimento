@@ -323,7 +323,6 @@ C:\Users\nicole\Downloads\Livros_em_Movimento\Projeto _Design\Projeto + Designer
 C:\Users\nicole\Downloads\Livros_em_Movimento\Projeto _Design\Projeto + Designer\obj\Debug\Projeto .D0265652.Up2Date
 C:\Users\nicole\Downloads\Livros_em_Movimento\Projeto _Design\Projeto + Designer\obj\Debug\Projeto + Designer.exe
 C:\Users\nicole\Downloads\Livros_em_Movimento\Projeto _Design\Projeto + Designer\obj\Debug\Projeto + Designer.pdb
-<<<<<<< HEAD
 C:\Users\Tecnico\Downloads\Livros_em_Movimento\Projeto _Design\Projeto + Designer\obj\Debug\Projeto + Designer.csproj.AssemblyReference.cache
 C:\Users\Tecnico\Downloads\Livros_em_Movimento\Projeto _Design\Projeto + Designer\obj\Debug\Projeto___Designer.Cadastro.resources
 C:\Users\Tecnico\Downloads\Livros_em_Movimento\Projeto _Design\Projeto + Designer\obj\Debug\Projeto___Designer.Compra.resources
@@ -387,7 +386,6 @@ C:\Users\Tecnico\Downloads\Livros_em_Movimento\Projeto _Design\Projeto + Designe
 C:\Users\Tecnico\Downloads\Livros_em_Movimento\Projeto _Design\Projeto + Designer\bin\Debug\System.Buffers.dll
 C:\Users\Tecnico\Downloads\Livros_em_Movimento\Projeto _Design\Projeto + Designer\bin\Debug\MySql.Data.xml
 C:\Users\Tecnico\Downloads\Livros_em_Movimento\Projeto _Design\Projeto + Designer\obj\Debug\Projeto .D0265652.Up2Date
-=======
 C:\Users\Tecnico\Desktop\Livros_em_Movimento\Projeto _Design\Projeto + Designer\obj\Debug\Projeto + Designer.csproj.AssemblyReference.cache
 C:\Users\Tecnico\Desktop\Livros_em_Movimento\Projeto _Design\Projeto + Designer\obj\Debug\Projeto___Designer.Cadastro.resources
 C:\Users\Tecnico\Desktop\Livros_em_Movimento\Projeto _Design\Projeto + Designer\obj\Debug\Projeto___Designer.Compra.resources

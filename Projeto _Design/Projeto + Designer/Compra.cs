@@ -15,20 +15,25 @@ namespace Projeto___Designer
     public partial class Compra : Form
     {
         private int idUsuario;
+        DAO dao = new DAO();
         public Compra(int idUsuario, string Nome_item_txt, string Preço_txt, int Quantidade_numericUpDown1)
         {
             InitializeComponent();
+            dao.Conectar();
             this.idUsuario = idUsuario;
             this.NomedoProduto_Box.Text = Nome_item_txt;
             this.Quantidade.Text = Quantidade_numericUpDown1 + "%";
-            this.Preco.Text= Preço_txt;
+            this.Preco.Text = teste().ToString();
         }
-
+        public double teste()
+        {
+            double teste2=0;
+            DataTable dt = dao.GetProdutos(NomedoProduto_Box.Text);
+            teste2 = double.Parse(dt.Rows[0].ItemArray[3].ToString()); 
+            return teste2;
+        }
         private void Confirmar_Click(object sender, EventArgs e)
         {
-            DAO dao = new DAO();
-            dao.Conectar();
-
             try
             {
                 string comandoSqlAtualizar = "UPDATE Usuarios SET cpf = @CPF, celular = @Celular " +
@@ -72,11 +77,7 @@ namespace Projeto___Designer
                                 cmdPedido.Parameters.AddWithValue("@IdUsuario", idUsuario);
                                 cmdPedido.Parameters.AddWithValue("@IdProduto", idProduto);
                                 cmdPedido.Parameters.AddWithValue("@Quantidade", Quantidade.Text);
-<<<<<<< HEAD
                                 cmdPedido.Parameters.AddWithValue("@Valor", Preco.Text);
-=======
-                                cmdPedido.Parameters.AddWithValue("@Valor", textBox1.Text);
->>>>>>> 9e18b8b7400b7614d035445c7a79c2eea92fb8d4
                                 cmdPedido.Parameters.AddWithValue("@FormaPagamento", Forma_de_pagamento.Text);
 
                                 cmdPedido.ExecuteNonQuery();

@@ -114,10 +114,10 @@ namespace Projeto___Designer
             return solicitacoes;
         }
 
-        public DataTable GetProdutos()
+        public DataTable GetProdutos(string nome)
         {
             Conectar();
-            string query = "SELECT Id, Nome, Quantidade, Valor FROM Produtos";
+            string query = $"SELECT Id, Nome, estoque, Valor FROM Produtos where nome='{nome}'";
             MySqlDataAdapter adapter = new MySqlDataAdapter(query, conn);
             DataTable produtos = new DataTable();
             adapter.Fill(produtos);
