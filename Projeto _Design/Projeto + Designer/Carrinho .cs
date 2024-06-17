@@ -13,10 +13,12 @@ namespace Projeto___Designer
     public partial class Carrinho : Form
     {
         private int idUsuario;
-
+        DAO dao = new DAO();
+   
         public Carrinho(int idUsuario)
         {
             InitializeComponent();
+            Painel.DataSource = dao.GetCarrinho(idUsuario);
         }
 
         private void Troca_de_livros_Click(object sender, EventArgs e)
