@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,7 @@ namespace Projeto___Designer
     {
         private int idUsuario;
         private string nomeLivro;
+
         public Empréstimo(int idUsuario, string nomeLivro)
         {
             InitializeComponent();
@@ -25,10 +27,42 @@ namespace Projeto___Designer
         private void Confirmar_Click(object sender, EventArgs e)
         {
             DAO dao = new DAO();
-            dao.SolicitarEmprestimo();
-            Tela_Confirmação tela_Confirmação = new Tela_Confirmação(idUsuario);
-            tela_Confirmação.ShowDialog();
-            this.Hide();
+            dao.Conectar();
+
+            try
+            {
+                if (dao.VerificarExistenciaUsuario(idUsuario))
+                {
+                    int idLivro = dao.ObterIdLivroPeloNome(nomeLivro);
+
+                    if (idLivro != -1)
+                    {
+                        dao.SolicitarEmprestimo(idUsuario, idLivro);
+
+                        MessageBox.Show("Empréstimo solicitado com sucesso!");
+
+                        Tela_Confirmação telaConfirmacao = new Tela_Confirmação(idUsuario);
+                        this.Hide();
+                        telaConfirmacao.ShowDialog();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Livro não encontrado. Verifique o nome do livro.");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Usuário não encontrado. Verifique o ID do usuário.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao solicitar empréstimo: " + ex.Message);
+            }
+            finally
+            {
+                dao.Desconectar();
+            }
         }
 
         private void Cancelar_Click(object sender, EventArgs e)
@@ -36,33 +70,6 @@ namespace Projeto___Designer
             Troca_de_livros troca_De_Livros = new Troca_de_livros(idUsuario);
             troca_De_Livros.ShowDialog();
             this.Hide();
-        }
-
-        private void Nome_box_TextChanged(object sender, EventArgs e)
-        {
-            DAO dao = new DAO();
-            dao.Conectar();
-            string comandoSql = $"Select * from Usuarios (nome) values ('{Nome_box.Text}')";
-            dao.ExecutarComando(comandoSql);
-            dao.Desconectar();
-        }
-
-        private void Email_box_TextChanged(object sender, EventArgs e)
-        {
-            DAO dao = new DAO();
-            dao.Conectar();
-            string comandoSql = $"Select * from Usuarios (email) values ('{Email_box.Text}')";
-            dao.ExecutarComando(comandoSql);
-            dao.Desconectar();
-        }
-
-        private void Nome_do_Livro_Box_TextChanged(object sender, EventArgs e)
-        {
-            DAO dao = new DAO();
-            dao.Conectar();
-            string comandoSql = $"Select * from Usuarios (nome do livro) values (' {Nome_do_Livro_Box.Text}')";
-            dao.ExecutarComando(comandoSql);
-            dao.Desconectar();
         }
     }
 }

@@ -43,17 +43,19 @@ namespace Projeto___Designer
                 {
                     string nome = Nome_item_txt.Text;
                     int idProduto = dao.ObterIdProduto(nome);
+                    int preco = Convert.ToInt32(Preço_txt.Text);
 
                     if (idProduto != -1)
                     {
-                        string comandoSql = "INSERT INTO Carrinho (idUsuario, idProduto, quantidade) " +
-                                            "VALUES (@IdUsuario, @IdProduto, @Quantidade)";
+                        string comandoSql = "INSERT INTO Carrinho (idUsuario, idProduto, quantidade, valor) " +
+                                            "VALUES (@IdUsuario, @IdProduto, @Quantidade, @Valor)";
 
                         using (MySqlCommand cmd = new MySqlCommand(comandoSql, dao.Conectar()))
                         {
                             cmd.Parameters.AddWithValue("@IdUsuario", idUsuario);
                             cmd.Parameters.AddWithValue("@IdProduto", idProduto);
                             cmd.Parameters.AddWithValue("@Quantidade", Quantidade_numericUpDown1.Text);
+                            cmd.Parameters.AddWithValue("@Valor", Preço_txt.Text);
 
                             cmd.ExecuteNonQuery();
                         }

@@ -32,6 +32,7 @@ namespace Projeto___Designer
             string emailUsuario = Email_txt.Text;
 
             DAO dao = new DAO();
+            dao.Conectar();
 
             if (dao.VerificarExistenciaUsuario(idUsuario))
             {

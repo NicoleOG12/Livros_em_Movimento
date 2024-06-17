@@ -60,14 +60,15 @@ namespace Projeto___Designer
                         {
                             int idProduto = Convert.ToInt32(resultadoProduto["id"]);
 
-                            string comandoSqlPedido = "INSERT INTO Pedidos (idUsuario, idProduto, quantidade, forma_de_pagamento) " +
-                                                      "VALUES (@IdUsuario, @IdProduto, @Quantidade, @FormaPagamento)";
+                            string comandoSqlPedido = "INSERT INTO Pedidos (idUsuario, idProduto, quantidade,valo, formaPagamento) " +
+                                                      "VALUES (@IdUsuario, @IdProduto, @Quantidade,@Valor, @FormaPagamento)";
 
                             using (MySqlCommand cmdPedido = new MySqlCommand(comandoSqlPedido, dao.Conectar()))
                             {
                                 cmdPedido.Parameters.AddWithValue("@IdUsuario", idUsuario);
                                 cmdPedido.Parameters.AddWithValue("@IdProduto", idProduto);
                                 cmdPedido.Parameters.AddWithValue("@Quantidade", Quantidade.Text);
+                                cmdPedido.Parameters.AddWithValue("@Valor", Preço.Text);
                                 cmdPedido.Parameters.AddWithValue("@FormaPagamento", Forma_de_pagamento.Text);
 
                                 cmdPedido.ExecuteNonQuery();

@@ -83,7 +83,7 @@ namespace Projeto___Designer
             Desconectar();
         }
 
-        public void SolicitarEmprestimo()
+        public void SolicitarEmprestimo(int idUsuario, int idLivro)
         {
             Conectar();
             string query = "INSERT INTO Emprestimo (idUsuario, idLivro, dataDeSolicitacao, statusDaSolicitacao, dataDeDevolucao) " +
@@ -124,6 +124,45 @@ namespace Projeto___Designer
             Desconectar();
             return produtos;
         }
+
+        public bool AtualizarUsuario(int idUsuario, string cpf, string celular)
+        {
+            bool sucesso = false;
+            try
+            {
+                Conectar();
+
+                string comandoSqlAtualizar = "UPDATE Usuarios SET cpf = @CPF, celular = @Celular " +
+                                             "WHERE id = @IdUsuario";
+
+                MySqlCommand cmdAtualizar = new MySqlCommand(comandoSqlAtualizar, conn);
+                cmdAtualizar.Parameters.AddWithValue("@CPF", cpf);
+                cmdAtualizar.Parameters.AddWithValue("@Celular", celular);
+                cmdAtualizar.Parameters.AddWithValue("@IdUsuario", idUsuario);
+
+                int linhasAtualizadas = cmdAtualizar.ExecuteNonQuery();
+
+                if (linhasAtualizadas > 0)
+                {
+                    sucesso = true;
+                }
+                else
+                {
+                    Console.WriteLine("Nenhuma linha foi atualizada. Verifique o ID do usuário.");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Erro ao atualizar usuário: " + ex.Message);
+            }
+            finally
+            {
+                Desconectar();
+            }
+
+            return sucesso;
+        }
+
 
         public void AdicionarAoCarrinho(int idUsuario, int idProduto, int quantidade)
         {

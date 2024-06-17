@@ -91,7 +91,6 @@
             this.Email_box.Name = "Email_box";
             this.Email_box.Size = new System.Drawing.Size(173, 20);
             this.Email_box.TabIndex = 0;
-            this.Email_box.TextChanged += new System.EventHandler(this.Email_box_TextChanged);
             // 
             // Nome_box
             // 
@@ -101,7 +100,6 @@
             this.Nome_box.Name = "Nome_box";
             this.Nome_box.Size = new System.Drawing.Size(173, 20);
             this.Nome_box.TabIndex = 1;
-            this.Nome_box.TextChanged += new System.EventHandler(this.Nome_box_TextChanged);
             // 
             // Nome_txt
             // 
@@ -173,7 +171,6 @@
             this.Nome_do_Livro_Box.Name = "Nome_do_Livro_Box";
             this.Nome_do_Livro_Box.Size = new System.Drawing.Size(173, 20);
             this.Nome_do_Livro_Box.TabIndex = 6;
-            this.Nome_do_Livro_Box.TextChanged += new System.EventHandler(this.Nome_do_Livro_Box_TextChanged);
             // 
             // Empréstimo
             // 
