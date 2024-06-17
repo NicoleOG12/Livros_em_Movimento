@@ -33,16 +33,17 @@
             this.Perfil_Box = new System.Windows.Forms.PictureBox();
             this.Sacola_Box = new System.Windows.Forms.PictureBox();
             this.Troca_de_livros_box = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.fotoperfil = new System.Windows.Forms.PictureBox();
             this.Nome = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.Email = new System.Windows.Forms.Label();
+            this.btn_fotoperfil = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Carrinho_Box)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Perfil_Box)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Sacola_Box)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Troca_de_livros_box)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fotoperfil)).BeginInit();
             this.SuspendLayout();
             // 
             // Carrinho_Box
@@ -85,7 +86,7 @@
             // 
             this.Troca_de_livros_box.BackColor = System.Drawing.Color.Transparent;
             this.Troca_de_livros_box.Image = global::Projeto___Designer.Properties.Resources.Troca_de_Livros;
-            this.Troca_de_livros_box.Location = new System.Drawing.Point(34, 666);
+            this.Troca_de_livros_box.Location = new System.Drawing.Point(28, 666);
             this.Troca_de_livros_box.Name = "Troca_de_livros_box";
             this.Troca_de_livros_box.Size = new System.Drawing.Size(77, 74);
             this.Troca_de_livros_box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -93,13 +94,13 @@
             this.Troca_de_livros_box.TabStop = false;
             this.Troca_de_livros_box.Click += new System.EventHandler(this.Troca_de_livros_Click);
             // 
-            // pictureBox1
+            // fotoperfil
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(182, 34);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(134, 104);
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
+            this.fotoperfil.Location = new System.Drawing.Point(182, 34);
+            this.fotoperfil.Name = "fotoperfil";
+            this.fotoperfil.Size = new System.Drawing.Size(122, 104);
+            this.fotoperfil.TabIndex = 7;
+            this.fotoperfil.TabStop = false;
             // 
             // Nome
             // 
@@ -139,6 +140,17 @@
             this.Email.TabIndex = 11;
             this.Email.Text = "Email:";
             // 
+            // btn_fotoperfil
+            // 
+            this.btn_fotoperfil.BackColor = System.Drawing.SystemColors.Menu;
+            this.btn_fotoperfil.Location = new System.Drawing.Point(182, 144);
+            this.btn_fotoperfil.Name = "btn_fotoperfil";
+            this.btn_fotoperfil.Size = new System.Drawing.Size(122, 23);
+            this.btn_fotoperfil.TabIndex = 12;
+            this.btn_fotoperfil.Text = "Anexar foto de perfil";
+            this.btn_fotoperfil.UseVisualStyleBackColor = false;
+            this.btn_fotoperfil.Click += new System.EventHandler(this.Anexar_Click);
+            // 
             // Perfil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -146,11 +158,12 @@
             this.BackColor = System.Drawing.Color.Lavender;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(511, 734);
+            this.Controls.Add(this.btn_fotoperfil);
             this.Controls.Add(this.Email);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.Nome);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.fotoperfil);
             this.Controls.Add(this.Carrinho_Box);
             this.Controls.Add(this.Perfil_Box);
             this.Controls.Add(this.Sacola_Box);
@@ -162,7 +175,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Perfil_Box)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Sacola_Box)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Troca_de_livros_box)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fotoperfil)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -173,10 +186,11 @@
         private System.Windows.Forms.PictureBox Sacola_Box;
         private System.Windows.Forms.PictureBox Perfil_Box;
         private System.Windows.Forms.PictureBox Carrinho_Box;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox fotoperfil;
         private System.Windows.Forms.Label Nome;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label Email;
+        private System.Windows.Forms.Button btn_fotoperfil;
     }
 }
