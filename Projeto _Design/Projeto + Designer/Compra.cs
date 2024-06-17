@@ -8,16 +8,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Projeto___Designer
 {
     public partial class Compra : Form
     {
         private int idUsuario;
-        public Compra(int idUsuario)
+        public Compra(int idUsuario, string Nome_item_txt, string Preço_txt, int Quantidade_numericUpDown1)
         {
             InitializeComponent();
             this.idUsuario = idUsuario;
+            this.NomedoProduto_Box.Text = Nome_item_txt;
+            this.Quantidade.Text = Quantidade_numericUpDown1 + "%";
+            this.Preco.Text= Preço_txt;
         }
 
         private void Confirmar_Click(object sender, EventArgs e)
@@ -60,7 +64,7 @@ namespace Projeto___Designer
                         {
                             int idProduto = Convert.ToInt32(resultadoProduto["id"]);
 
-                            string comandoSqlPedido = "INSERT INTO Pedidos (idUsuario, idProduto, quantidade,valo, formaPagamento) " +
+                            string comandoSqlPedido = "INSERT INTO Pedidos (idUsuario, idProduto, quantidade,valor, formaPagamento) " +
                                                       "VALUES (@IdUsuario, @IdProduto, @Quantidade,@Valor, @FormaPagamento)";
 
                             using (MySqlCommand cmdPedido = new MySqlCommand(comandoSqlPedido, dao.Conectar()))
@@ -68,7 +72,7 @@ namespace Projeto___Designer
                                 cmdPedido.Parameters.AddWithValue("@IdUsuario", idUsuario);
                                 cmdPedido.Parameters.AddWithValue("@IdProduto", idProduto);
                                 cmdPedido.Parameters.AddWithValue("@Quantidade", Quantidade.Text);
-                                cmdPedido.Parameters.AddWithValue("@Valor", Preço.Text);
+                                cmdPedido.Parameters.AddWithValue("@Valor", Preco.Text);
                                 cmdPedido.Parameters.AddWithValue("@FormaPagamento", Forma_de_pagamento.Text);
 
                                 cmdPedido.ExecuteNonQuery();

@@ -38,6 +38,8 @@
             this.Login_txt = new System.Windows.Forms.Label();
             this.Email_txt = new System.Windows.Forms.Label();
             this.caixalogin = new System.Windows.Forms.GroupBox();
+            this.Preco = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.Quantidade = new System.Windows.Forms.NumericUpDown();
             this.label2 = new System.Windows.Forms.Label();
             this.NomedoProduto_Box = new System.Windows.Forms.TextBox();
@@ -48,8 +50,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.Email_Box = new System.Windows.Forms.TextBox();
             this.Celular_Box = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.caixalogin2.SuspendLayout();
             this.caixalogin.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Quantidade)).BeginInit();
@@ -150,7 +150,7 @@
             // caixalogin
             // 
             this.caixalogin.BackColor = System.Drawing.Color.GhostWhite;
-            this.caixalogin.Controls.Add(this.textBox1);
+            this.caixalogin.Controls.Add(this.Preco);
             this.caixalogin.Controls.Add(this.label3);
             this.caixalogin.Controls.Add(this.Quantidade);
             this.caixalogin.Controls.Add(this.label2);
@@ -172,6 +172,26 @@
             this.caixalogin.Size = new System.Drawing.Size(302, 518);
             this.caixalogin.TabIndex = 8;
             this.caixalogin.TabStop = false;
+            // 
+            // Preco
+            // 
+            this.Preco.BackColor = System.Drawing.SystemColors.Menu;
+            this.Preco.Location = new System.Drawing.Point(61, 428);
+            this.Preco.Margin = new System.Windows.Forms.Padding(2);
+            this.Preco.Name = "Preco";
+            this.Preco.Size = new System.Drawing.Size(173, 20);
+            this.Preco.TabIndex = 15;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.MediumPurple;
+            this.label3.Location = new System.Drawing.Point(58, 409);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(38, 17);
+            this.label3.TabIndex = 14;
+            this.label3.Text = "Valor";
             // 
             // Quantidade
             // 
@@ -276,26 +296,6 @@
             this.Celular_Box.Size = new System.Drawing.Size(173, 20);
             this.Celular_Box.TabIndex = 6;
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.MediumPurple;
-            this.label3.Location = new System.Drawing.Point(58, 409);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(38, 17);
-            this.label3.TabIndex = 14;
-            this.label3.Text = "Valor";
-            // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.Menu;
-            this.textBox1.Location = new System.Drawing.Point(61, 428);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(173, 20);
-            this.textBox1.TabIndex = 15;
-            // 
             // Compra
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -337,7 +337,7 @@
         private System.Windows.Forms.TextBox NomedoProduto_Box;
         private System.Windows.Forms.NumericUpDown Quantidade;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox Preco;
         private System.Windows.Forms.Label label3;
     }
 }
