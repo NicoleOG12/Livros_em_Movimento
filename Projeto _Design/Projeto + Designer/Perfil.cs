@@ -17,9 +17,19 @@ namespace Projeto___Designer
         private int idUsuario;
         public Perfil(int idUsuario)
         {
-
             InitializeComponent();
             this.idUsuario = idUsuario;
+            MostrarDados();
+        }
+        private void MostrarDados()
+        {
+            DAO dao = new DAO();
+            dao.Conectar();
+            DataTable dados = dao.GetUsuario(idUsuario);
+            nomeperfil.Text = dados.Rows[0].ItemArray[1].ToString();
+            nomeperfil.ReadOnly = true;
+            emailperfil.Text = dados.Rows[0].ItemArray[4].ToString();
+            emailperfil.ReadOnly = true;
         }
 
         private void Troca_de_livros_Click(object sender, EventArgs e)

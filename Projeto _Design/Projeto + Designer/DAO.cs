@@ -56,6 +56,17 @@ namespace Projeto___Designer
             return livros;
         }
 
+        public DataTable GetUsuario(int id)
+        {
+            Conectar();
+            string query = $"SELECT * FROM Usuarios where id={id}";
+            MySqlDataAdapter adapter = new MySqlDataAdapter(query, conn);
+            DataTable Usuarios = new DataTable();
+            adapter.Fill(Usuarios);
+            Desconectar();
+            return Usuarios;
+        }
+
         public DataTable BuscarLivros(string filtro)
         {
             Conectar();

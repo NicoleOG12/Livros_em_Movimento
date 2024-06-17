@@ -35,8 +35,8 @@
             this.Troca_de_livros_box = new System.Windows.Forms.PictureBox();
             this.fotoperfil = new System.Windows.Forms.PictureBox();
             this.Nome = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.nomeperfil = new System.Windows.Forms.TextBox();
+            this.emailperfil = new System.Windows.Forms.TextBox();
             this.Email = new System.Windows.Forms.Label();
             this.btn_fotoperfil = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Carrinho_Box)).BeginInit();
@@ -108,25 +108,25 @@
             this.Nome.BackColor = System.Drawing.Color.Transparent;
             this.Nome.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nome.ForeColor = System.Drawing.Color.MediumPurple;
-            this.Nome.Location = new System.Drawing.Point(119, 215);
+            this.Nome.Location = new System.Drawing.Point(214, 215);
             this.Nome.Name = "Nome";
             this.Nome.Size = new System.Drawing.Size(47, 17);
             this.Nome.TabIndex = 8;
             this.Nome.Text = "Nome:";
             // 
-            // textBox1
+            // nomeperfil
             // 
-            this.textBox1.Location = new System.Drawing.Point(122, 235);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(250, 20);
-            this.textBox1.TabIndex = 9;
+            this.nomeperfil.Location = new System.Drawing.Point(122, 235);
+            this.nomeperfil.Name = "nomeperfil";
+            this.nomeperfil.Size = new System.Drawing.Size(250, 20);
+            this.nomeperfil.TabIndex = 9;
             // 
-            // textBox2
+            // emailperfil
             // 
-            this.textBox2.Location = new System.Drawing.Point(122, 308);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(250, 20);
-            this.textBox2.TabIndex = 10;
+            this.emailperfil.Location = new System.Drawing.Point(122, 308);
+            this.emailperfil.Name = "emailperfil";
+            this.emailperfil.Size = new System.Drawing.Size(250, 20);
+            this.emailperfil.TabIndex = 10;
             // 
             // Email
             // 
@@ -134,7 +134,7 @@
             this.Email.BackColor = System.Drawing.Color.Transparent;
             this.Email.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Email.ForeColor = System.Drawing.Color.MediumPurple;
-            this.Email.Location = new System.Drawing.Point(122, 288);
+            this.Email.Location = new System.Drawing.Point(214, 288);
             this.Email.Name = "Email";
             this.Email.Size = new System.Drawing.Size(44, 17);
             this.Email.TabIndex = 11;
@@ -160,8 +160,8 @@
             this.ClientSize = new System.Drawing.Size(511, 734);
             this.Controls.Add(this.btn_fotoperfil);
             this.Controls.Add(this.Email);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.emailperfil);
+            this.Controls.Add(this.nomeperfil);
             this.Controls.Add(this.Nome);
             this.Controls.Add(this.fotoperfil);
             this.Controls.Add(this.Carrinho_Box);
@@ -188,8 +188,8 @@
         private System.Windows.Forms.PictureBox Carrinho_Box;
         private System.Windows.Forms.PictureBox fotoperfil;
         private System.Windows.Forms.Label Nome;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox nomeperfil;
+        private System.Windows.Forms.TextBox emailperfil;
         private System.Windows.Forms.Label Email;
         private System.Windows.Forms.Button btn_fotoperfil;
     }
