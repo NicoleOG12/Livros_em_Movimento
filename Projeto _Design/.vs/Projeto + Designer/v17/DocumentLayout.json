@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|c:\\users\\tecnico\\downloads\\livros_em_movimento\\projeto _design\\projeto \u002B designer\\perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,6 +26,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+=======
+      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|c:\\users\\tecnico\\downloads\\livros_em_movimento\\projeto _design\\projeto \u002B designer\\carrinho .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\carrinho .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|c:\\users\\tecnico\\downloads\\livros_em_movimento\\projeto _design\\projeto \u002B designer\\livros_loja\\a_garota_do_lago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\livros_loja\\a_garota_do_lago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+>>>>>>> 1e86f1c3358478ce533a7fa3eed43f96bcaa8ed2
     }
   ],
   "DocumentGroupContainers": [
@@ -34,14 +43,26 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
+=======
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Bookmark",
+>>>>>>> 1e86f1c3358478ce533a7fa3eed43f96bcaa8ed2
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 0,
               "Title": "Perfil.cs",
               "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Perfil.cs",
@@ -110,6 +131,29 @@
               "RelativeToolTip": "Projeto \u002B Designer\\Perfil.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-17T20:25:29.858Z"
+=======
+              "DocumentIndex": 1,
+              "Title": "A_Garota_do_Lago.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Livros_Loja\\A_Garota_do_Lago.cs",
+              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Livros_Loja\\A_Garota_do_Lago.cs",
+              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Livros_Loja\\A_Garota_do_Lago.cs [Design]",
+              "RelativeToolTip": "Projeto \u002B Designer\\Livros_Loja\\A_Garota_do_Lago.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T20:38:54.896Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Carrinho .cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Carrinho .cs",
+              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Carrinho .cs",
+              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Carrinho .cs [Design]",
+              "RelativeToolTip": "Projeto \u002B Designer\\Carrinho .cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T20:38:46.538Z",
+              "EditorCaption": " [Design]"
+>>>>>>> 1e86f1c3358478ce533a7fa3eed43f96bcaa8ed2
             }
           ]
         }
