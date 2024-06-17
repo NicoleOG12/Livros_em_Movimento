@@ -1,162 +1,30 @@
 {
   "Version": 1,
-<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|c:\\users\\tecnico\\downloads\\livros_em_movimento\\projeto _design\\projeto \u002B designer\\marca_texto\\mt6 .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\marca_texto\\mt6 .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|c:\\users\\tecnico\\downloads\\livros_em_movimento\\projeto _design\\projeto \u002B designer\\perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\marca_texto\\mt2 .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\marca_texto\\mt2 .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\marca_texto\\mt1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\marca_texto\\mt1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\marca_p\u00E1ginas\\mp8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\marca_p\u00E1ginas\\mp8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\marca_p\u00E1ginas\\mp5 .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\marca_p\u00E1ginas\\mp5 .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\marca_p\u00E1ginas\\mp3 .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\marca_p\u00E1ginas\\mp3 .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\marca_texto\\mt7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\marca_texto\\mt7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\marca_p\u00E1ginas\\mp4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\marca_p\u00E1ginas\\mp4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\livros_troca\\assinato_na_casa_do_pastor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\livros_troca\\assinato_na_casa_do_pastor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\marca_p\u00E1ginas\\mp1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\marca_p\u00E1ginas\\mp1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\marca_p\u00E1ginas\\mp2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\marca_p\u00E1ginas\\mp2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\livros_loja\\\u00E9_assim_que_come\u00E7a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\livros_loja\\\u00E9_assim_que_come\u00E7a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\livros_loja\\al\u00E9m_da_fuma\u00E7a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\livros_loja\\al\u00E9m_da_fuma\u00E7a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\marca_p\u00E1ginas\\mp6 .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\marca_p\u00E1ginas\\mp6 .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\livros_loja\\mem\u00F3rias_p\u00F3stumas_de_br\u00E1s_cubas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\livros_loja\\mem\u00F3rias_p\u00F3stumas_de_br\u00E1s_cubas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\marca_p\u00E1ginas\\mp7 .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\marca_p\u00E1ginas\\mp7 .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\livros_loja\\mais_que_amigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\livros_loja\\mais_que_amigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\livros_loja\\bridgerton_o_duque_e_eu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\livros_loja\\bridgerton_o_duque_e_eu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\marca_texto\\mt5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\marca_texto\\mt5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\marca_texto\\mt4 .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\marca_texto\\mt4 .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\marca_texto\\mt3 .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\marca_texto\\mt3 .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\marca_texto\\mt8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\marca_texto\\mt8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\livros_loja\\como_eu_era_antes_de_voc\u00EA.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\livros_loja\\como_eu_era_antes_de_voc\u00EA.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\livros_loja\\a_garota_do_lago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\livros_loja\\a_garota_do_lago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\livros_loja\\a_hip\u00F3tese_do_amor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\livros_loja\\a_hip\u00F3tese_do_amor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\livros_loja\\a_garota_do_lago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\livros_loja\\a_garota_do_lago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-=======
-  "WorkspaceRootPath": "C:\\Users\\Tecnico\\Desktop\\Livros_em_Movimento\\Projeto _Design\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|c:\\users\\tecnico\\desktop\\livros_em_movimento\\projeto _design\\projeto \u002B designer\\perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Desktop\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Desktop\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\troca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\troca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Desktop\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\troca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\troca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Desktop\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Desktop\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Desktop\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Desktop\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\livros_loja\\a_garota_do_lago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\livros_loja\\a_garota_do_lago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Desktop\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\livros_loja\\a_garota_do_lago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\livros_loja\\a_garota_do_lago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Desktop\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\carrinho .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\carrinho .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
->>>>>>> 9e18b8b7400b7614d035445c7a79c2eea92fb8d4
+      "AbsoluteMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\projeto \u002B designer\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{76792E0C-BD92-4C40-BF47-51B949D8DF48}|Projeto \u002B Designer\\Projeto \u002B Designer.csproj|solutionrelative:projeto \u002B designer\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -166,53 +34,6 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< HEAD
-          "SelectedChildIndex": 23,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MT2 .cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Marca_Texto\\MT2 .cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Marca_Texto\\MT2 .cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Marca_Texto\\MT2 .cs",
-              "RelativeToolTip": "Projeto \u002B Designer\\Marca_Texto\\MT2 .cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAAB0AAAB2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T19:36:17.963Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MP1.cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Marca_P\u00E1ginas\\MP1.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Marca_P\u00E1ginas\\MP1.cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Marca_P\u00E1ginas\\MP1.cs",
-              "RelativeToolTip": "Projeto \u002B Designer\\Marca_P\u00E1ginas\\MP1.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAYwBwAAAB2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T18:31:12.113Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MP3 .cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Marca_P\u00E1ginas\\MP3 .cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Marca_P\u00E1ginas\\MP3 .cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Marca_P\u00E1ginas\\MP3 .cs",
-              "RelativeToolTip": "Projeto \u002B Designer\\Marca_P\u00E1ginas\\MP3 .cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAqwBwAAAB2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T18:31:07.802Z"
-=======
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -223,410 +44,72 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Perfil.cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Desktop\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Perfil.cs",
+              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Perfil.cs",
               "RelativeDocumentMoniker": "Projeto \u002B Designer\\Perfil.cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Desktop\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Perfil.cs",
+              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Perfil.cs",
               "RelativeToolTip": "Projeto \u002B Designer\\Perfil.cs",
-              "ViewState": "AQIAAFcAAAAAAAAAAAAwwGEAAAANAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T19:10:17.167Z",
+              "WhenOpened": "2024-06-17T20:25:31.139Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Troca.cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Desktop\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Troca.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Troca.cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Desktop\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Troca.cs",
-              "RelativeToolTip": "Projeto \u002B Designer\\Troca.cs",
-              "ViewState": "AQIAAFcAAAAAAAAAAADgv4QAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T19:13:16.199Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Perfil.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Desktop\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Perfil.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Perfil.cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Desktop\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Perfil.cs [Design]",
-              "RelativeToolTip": "Projeto \u002B Designer\\Perfil.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T18:30:57.512Z"
->>>>>>> 9e18b8b7400b7614d035445c7a79c2eea92fb8d4
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-<<<<<<< HEAD
-              "Title": "MT1.cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Marca_Texto\\MT1.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Marca_Texto\\MT1.cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Marca_Texto\\MT1.cs",
-              "RelativeToolTip": "Projeto \u002B Designer\\Marca_Texto\\MT1.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAqwBwAAAB2AAAA",
-=======
-              "Title": "Troca.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Desktop\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Troca.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Troca.cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Desktop\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Troca.cs [Design]",
-              "RelativeToolTip": "Projeto \u002B Designer\\Troca.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T19:09:51.127Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DAO.cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Desktop\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\DAO.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\DAO.cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Desktop\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\DAO.cs",
-              "RelativeToolTip": "Projeto \u002B Designer\\DAO.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAIwCUAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T18:17:19.602Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Compra.cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Desktop\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Compra.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Compra.cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Desktop\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Compra.cs",
-              "RelativeToolTip": "Projeto \u002B Designer\\Compra.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAowEYAAABZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T00:48:42.72Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Compra.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Desktop\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Compra.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Compra.cs",
-              "ToolTip": "C:\\Users\\nicole\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Compra.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\nicole\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Compra.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T00:48:41.049Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "A_Garota_do_Lago.cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Desktop\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Livros_Loja\\A_Garota_do_Lago.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Livros_Loja\\A_Garota_do_Lago.cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Desktop\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Livros_Loja\\A_Garota_do_Lago.cs",
-              "RelativeToolTip": "Projeto \u002B Designer\\Livros_Loja\\A_Garota_do_Lago.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwD0AAAAAAAAA",
->>>>>>> 9e18b8b7400b7614d035445c7a79c2eea92fb8d4
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T18:31:03.867Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "\u00C9_assim_que_come\u00E7a.cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Livros_Loja\\\u00C9_assim_que_come\u00E7a.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Livros_Loja\\\u00C9_assim_que_come\u00E7a.cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Livros_Loja\\\u00C9_assim_que_come\u00E7a.cs",
-              "RelativeToolTip": "Projeto \u002B Designer\\Livros_Loja\\\u00C9_assim_que_come\u00E7a.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAzwB0AAAB2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T19:34:49.075Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Bridgerton_O_Duque_e_Eu.cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Livros_Loja\\Bridgerton_O_Duque_e_Eu.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Livros_Loja\\Bridgerton_O_Duque_e_Eu.cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Livros_Loja\\Bridgerton_O_Duque_e_Eu.cs",
-              "RelativeToolTip": "Projeto \u002B Designer\\Livros_Loja\\Bridgerton_O_Duque_e_Eu.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAowB0AAAB2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T19:33:19.668Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "A_Garota_do_Lago.cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Livros_Loja\\A_Garota_do_Lago.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Livros_Loja\\A_Garota_do_Lago.cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Livros_Loja\\A_Garota_do_Lago.cs",
-              "RelativeToolTip": "Projeto \u002B Designer\\Livros_Loja\\A_Garota_do_Lago.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAADwvx0AAAB2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T19:32:24.645Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "A_Garota_do_Lago.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Livros_Loja\\A_Garota_do_Lago.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Livros_Loja\\A_Garota_do_Lago.cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Livros_Loja\\A_Garota_do_Lago.cs [Design]",
-              "RelativeToolTip": "Projeto \u002B Designer\\Livros_Loja\\A_Garota_do_Lago.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T19:30:11.452Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Compra.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Compra.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Compra.cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Compra.cs [Design]",
-              "RelativeToolTip": "Projeto \u002B Designer\\Compra.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T00:48:41.049Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
               "Title": "Compra.cs",
               "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Compra.cs",
               "RelativeDocumentMoniker": "Projeto \u002B Designer\\Compra.cs",
               "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Compra.cs",
               "RelativeToolTip": "Projeto \u002B Designer\\Compra.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAYwBAAAAAeAAAA",
+              "ViewState": "AQIAAD0AAAAAAAAAAAApwEwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T00:48:42.72Z"
+              "WhenOpened": "2024-06-17T20:45:43.439Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Mem\u00F3rias_P\u00F3stumas_de_Br\u00E1s_Cubas.cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Livros_Loja\\Mem\u00F3rias_P\u00F3stumas_de_Br\u00E1s_Cubas.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Livros_Loja\\Mem\u00F3rias_P\u00F3stumas_de_Br\u00E1s_Cubas.cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Livros_Loja\\Mem\u00F3rias_P\u00F3stumas_de_Br\u00E1s_Cubas.cs",
-              "RelativeToolTip": "Projeto \u002B Designer\\Livros_Loja\\Mem\u00F3rias_P\u00F3stumas_de_Br\u00E1s_Cubas.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAzwB0AAAB2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T18:31:25.066Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Mais_que_amigos.cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Livros_Loja\\Mais_que_amigos.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Livros_Loja\\Mais_que_amigos.cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Livros_Loja\\Mais_que_amigos.cs",
-              "RelativeToolTip": "Projeto \u002B Designer\\Livros_Loja\\Mais_que_amigos.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAowB0AAAB2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T18:31:56.897Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MP4.cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Marca_P\u00E1ginas\\MP4.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Marca_P\u00E1ginas\\MP4.cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Marca_P\u00E1ginas\\MP4.cs",
-              "RelativeToolTip": "Projeto \u002B Designer\\Marca_P\u00E1ginas\\MP4.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAYwBwAAAB2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T18:31:00.452Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MP2.cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Marca_P\u00E1ginas\\MP2.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Marca_P\u00E1ginas\\MP2.cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Marca_P\u00E1ginas\\MP2.cs",
-              "RelativeToolTip": "Projeto \u002B Designer\\Marca_P\u00E1ginas\\MP2.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAYwBwAAAB2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T18:30:56.547Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Assinato_na_casa_do_pastor.cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Livros_Troca\\Assinato_na_casa_do_pastor.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Livros_Troca\\Assinato_na_casa_do_pastor.cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Livros_Troca\\Assinato_na_casa_do_pastor.cs",
-              "RelativeToolTip": "Projeto \u002B Designer\\Livros_Troca\\Assinato_na_casa_do_pastor.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAYwA8AAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T18:30:51.31Z"
-            },
-            {
-              "$type": "Document",
-<<<<<<< HEAD
               "DocumentIndex": 3,
-              "Title": "MP8.cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Marca_P\u00E1ginas\\MP8.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Marca_P\u00E1ginas\\MP8.cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Marca_P\u00E1ginas\\MP8.cs",
-              "RelativeToolTip": "Projeto \u002B Designer\\Marca_P\u00E1ginas\\MP8.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAqwBwAAAB2AAAA",
-=======
-              "DocumentIndex": 8,
-              "Title": "A_Garota_do_Lago.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Desktop\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Livros_Loja\\A_Garota_do_Lago.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Livros_Loja\\A_Garota_do_Lago.cs",
-              "ToolTip": "C:\\Users\\nicole\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Livros_Loja\\A_Garota_do_Lago.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\nicole\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Livros_Loja\\A_Garota_do_Lago.cs [Design]",
->>>>>>> 9e18b8b7400b7614d035445c7a79c2eea92fb8d4
+              "Title": "DAO.cs",
+              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\DAO.cs",
+              "RelativeDocumentMoniker": "Projeto \u002B Designer\\DAO.cs",
+              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\DAO.cs",
+              "RelativeToolTip": "Projeto \u002B Designer\\DAO.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAqwDoAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T18:30:45.452Z"
+              "WhenOpened": "2024-06-17T20:30:55.682Z"
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
               "DocumentIndex": 4,
-              "Title": "MP5 .cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Marca_P\u00E1ginas\\MP5 .cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Marca_P\u00E1ginas\\MP5 .cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Marca_P\u00E1ginas\\MP5 .cs",
-              "RelativeToolTip": "Projeto \u002B Designer\\Marca_P\u00E1ginas\\MP5 .cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAqwBwAAAB2AAAA",
-=======
-              "DocumentIndex": 9,
-              "Title": "Carrinho .cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Desktop\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Carrinho .cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Carrinho .cs",
-              "ToolTip": "C:\\Users\\nicole\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Carrinho .cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\nicole\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Carrinho .cs [Design]",
->>>>>>> 9e18b8b7400b7614d035445c7a79c2eea92fb8d4
+              "Title": "Cadastro.cs",
+              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Cadastro.cs",
+              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Cadastro.cs",
+              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Cadastro.cs",
+              "RelativeToolTip": "Projeto \u002B Designer\\Cadastro.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T18:30:37.587Z"
+              "WhenOpened": "2024-06-17T20:27:58.092Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "MP7 .cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Marca_P\u00E1ginas\\MP7 .cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Marca_P\u00E1ginas\\MP7 .cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Marca_P\u00E1ginas\\MP7 .cs",
-              "RelativeToolTip": "Projeto \u002B Designer\\Marca_P\u00E1ginas\\MP7 .cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAowBwAAAB2AAAA",
+              "DocumentIndex": 5,
+              "Title": "Cadastro.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Cadastro.cs",
+              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Cadastro.cs",
+              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Cadastro.cs [Design]",
+              "RelativeToolTip": "Projeto \u002B Designer\\Cadastro.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T18:30:31.97Z"
+              "WhenOpened": "2024-06-17T20:27:55.204Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MP6 .cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Marca_P\u00E1ginas\\MP6 .cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Marca_P\u00E1ginas\\MP6 .cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Marca_P\u00E1ginas\\MP6 .cs",
-              "RelativeToolTip": "Projeto \u002B Designer\\Marca_P\u00E1ginas\\MP6 .cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAYwBwAAAB2AAAA",
+              "DocumentIndex": 1,
+              "Title": "Perfil.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Perfil.cs",
+              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Perfil.cs",
+              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Perfil.cs [Design]",
+              "RelativeToolTip": "Projeto \u002B Designer\\Perfil.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T18:30:21.213Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "MT3 .cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Marca_Texto\\MT3 .cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Marca_Texto\\MT3 .cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Marca_Texto\\MT3 .cs",
-              "RelativeToolTip": "Projeto \u002B Designer\\Marca_Texto\\MT3 .cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAowB0AAAB2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T18:30:14.796Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "MT4 .cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Marca_Texto\\MT4 .cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Marca_Texto\\MT4 .cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Marca_Texto\\MT4 .cs",
-              "RelativeToolTip": "Projeto \u002B Designer\\Marca_Texto\\MT4 .cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA5wBsAAAB2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T18:30:08.402Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MT6 .cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Marca_Texto\\MT6 .cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Marca_Texto\\MT6 .cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Marca_Texto\\MT6 .cs",
-              "RelativeToolTip": "Projeto \u002B Designer\\Marca_Texto\\MT6 .cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAA6wBwAAAB2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T18:29:59.939Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MT7.cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Marca_Texto\\MT7.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Marca_Texto\\MT7.cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Marca_Texto\\MT7.cs",
-              "RelativeToolTip": "Projeto \u002B Designer\\Marca_Texto\\MT7.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAzwB0AAAB2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T18:29:56.723Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "MT5.cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Marca_Texto\\MT5.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Marca_Texto\\MT5.cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Marca_Texto\\MT5.cs",
-              "RelativeToolTip": "Projeto \u002B Designer\\Marca_Texto\\MT5.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAowB0AAAB2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T18:29:51.475Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "MT8.cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Marca_Texto\\MT8.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Marca_Texto\\MT8.cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Marca_Texto\\MT8.cs",
-              "RelativeToolTip": "Projeto \u002B Designer\\Marca_Texto\\MT8.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAowB0AAAB2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T18:29:47.194Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Como_Eu_Era_Antes_de_Voc\u00EA.cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Livros_Loja\\Como_Eu_Era_Antes_de_Voc\u00EA.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Livros_Loja\\Como_Eu_Era_Antes_de_Voc\u00EA.cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Livros_Loja\\Como_Eu_Era_Antes_de_Voc\u00EA.cs",
-              "RelativeToolTip": "Projeto \u002B Designer\\Livros_Loja\\Como_Eu_Era_Antes_de_Voc\u00EA.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAowBwAAAB2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T18:29:39.691Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "A_hip\u00F3tese_do_amor.cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Livros_Loja\\A_hip\u00F3tese_do_amor.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Livros_Loja\\A_hip\u00F3tese_do_amor.cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Livros_Loja\\A_hip\u00F3tese_do_amor.cs",
-              "RelativeToolTip": "Projeto \u002B Designer\\Livros_Loja\\A_hip\u00F3tese_do_amor.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAADwvx8AAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T18:29:35.454Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Al\u00E9m_da_Fuma\u00E7a.cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Livros_Loja\\Al\u00E9m_da_Fuma\u00E7a.cs",
-              "RelativeDocumentMoniker": "Projeto \u002B Designer\\Livros_Loja\\Al\u00E9m_da_Fuma\u00E7a.cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Downloads\\Livros_em_Movimento\\Projeto _Design\\Projeto \u002B Designer\\Livros_Loja\\Al\u00E9m_da_Fuma\u00E7a.cs",
-              "RelativeToolTip": "Projeto \u002B Designer\\Livros_Loja\\Al\u00E9m_da_Fuma\u00E7a.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAmwB0AAAB2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T18:29:22.915Z"
+              "WhenOpened": "2024-06-17T20:25:29.858Z"
             }
           ]
         }
