@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Imaging;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -55,5 +57,45 @@ namespace Projeto___Designer
             solicitações.ShowDialog();
         }
 
+        private void Anexar_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "Arquivos de Imagem|*.jpg;*.jpeg;*.png;*.gif";
+
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                try
+                {
+                    fotoperfil.Image = Image.FromFile(openFileDialog.FileName);
+                    string caminhoImagem = openFileDialog.FileName;
+                    ConverterImagem(); 
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Erro ao carregar a imagem: " + ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
+        public void ConverterImagem()
+        {
+            try
+            {
+                byte[] imagemBytes = ImageToByteArray(btn_fotoperfil.Image);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao converter imagem: " + ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private byte[] ImageToByteArray(Image image)
+        {
+            using (MemoryStream ms = new MemoryStream())
+            {
+                image.Save(ms, ImageFormat.Jpeg);
+                return ms.ToArray();
+            }
+        }
     }
 }

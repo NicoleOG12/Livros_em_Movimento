@@ -68,7 +68,7 @@ namespace Projeto___Designer
                                 cmdPedido.Parameters.AddWithValue("@IdUsuario", idUsuario);
                                 cmdPedido.Parameters.AddWithValue("@IdProduto", idProduto);
                                 cmdPedido.Parameters.AddWithValue("@Quantidade", Quantidade.Text);
-                                cmdPedido.Parameters.AddWithValue("@Valor", Preço.Text);
+                                cmdPedido.Parameters.AddWithValue("@Valor", textBox1.Text);
                                 cmdPedido.Parameters.AddWithValue("@FormaPagamento", Forma_de_pagamento.Text);
 
                                 cmdPedido.ExecuteNonQuery();
