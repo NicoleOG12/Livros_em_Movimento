@@ -1,4 +1,4 @@
-
+drop database gerenciamento;
 create database Gerenciamento;
 use Gerenciamento;
 
@@ -37,6 +37,8 @@ create table Troca(
 id int auto_increment unique not null,
 idUsuario int not null,
 idLivro int not null,
+nomeDoLivrodeTroca varchar(100),
+imagem longblob not null,
 dataDeSolicitacao date not null,
 primary key (id),
 constraint foreign key (idUsuario) references Usuarios (id),
@@ -57,10 +59,9 @@ id int auto_increment unique not null,
 idUsuario int not null,
 idProduto int not null,
 quantidade int not null,
-formaPagamento enum ('pix', 'cartão', 'boleto'),
+valor int not null,
+formaPagamento varchar(20) not null,
 dataPedido date not null,
-statusPedido enum('pendente', 'processando', 'entregue') not null,
-primary key (id),
 constraint foreign key (idUsuario) references Usuarios (id),
 constraint foreign key (idProduto) references Produtos (id)
 );
@@ -70,6 +71,7 @@ id int auto_increment not null,
 idPedido int not null,
 idProduto int not null,
 quantidade int not null,
+valorTotal int not null,
 primary key (id),
 constraint foreign key (idPedido) references Pedidos (id),
 constraint foreign key (idProduto) references Produtos (id)
@@ -79,7 +81,8 @@ create table Carrinho (
 id int auto_increment unique not null,
 idUsuario int not null,
 idProduto int not null,
-quantidade int not null, 
+quantidade int not null,
+valor int not null,
 primary key (id),
 constraint foreign key (idUsuario) references Usuarios (id),
 constraint foreign key (idProduto) references Produtos (id)
@@ -92,16 +95,15 @@ insert into Usuarios values
 (4, "Manuela Ferreira", "manu@gmail.com", "manu123"),
 (5, "Larissa Lopes", "laris@gmail.com", "lari123");
 
-
 insert into Livros values
-(1, 1, "Para além do diário", "Anne Frank", "Diário", true),
-(2, 1, "A mente de Adolf Hitler", "Walter C.", "História", true),
-(3, 2, "Assassinato na casa do pastor", "Agatha Christie", "Ficção", true),
-(4, 3, "E não sobrou nenhum", "Agatha Christie", "Investigação", true),
-(5, 3, "O homem de giz", "C.J Tudor", "Mistério", true),
-(6, 4, "Pessoas normais", "Sally Rooney", "Romance", true),
-(7, 4, "A vida invisível de Addie Larue", "V.E. Schawab", "Literatura", true),
-(8, 5, "Um de nós está mentindo", "Karen M.", "Ficção", true);
+(1, "Para além do diário", "Anne Frank", "Diário", '2'),
+(2, "A mente de Adolf Hitler", "Walter C.", "História", '3'),
+(3, "Assassinato na casa do pastor", "Agatha Christie", "Ficção", '1'),
+(4, "E não sobrou nenhum", "Agatha Christie", "Investigação", '1'),
+(5, "O homem de giz", "C.J Tudor", "Mistério", '4'),
+(6, "Pessoas normais", "Sally Rooney", "Romance", '2'),
+(7, "A vida invisível de Addie Larue", "V.E. Schawab", "Literatura", '1'),
+(8, "Um de nós está mentindo", "Karen M.", "Ficção", '2');
 
 insert into Produtos values
 (1, "Memórias póstumas de Brás Cubas", "29.99", 15),
@@ -110,7 +112,7 @@ insert into Produtos values
 (4, "É assim que começa", "73.63", 20),
 (5, "Além da fumaça", "41.38", 10),
 (6, "Bridgerton (O duque e eu)", "48.52", 16),
-(7, "A garota do lago", "21.80", 12),
+(7, "A Garota do Lago", "21.80", 12),
 (8, "Como eu era antes de você", "44.92", 15),
 (9, "Kit 4 marca páginas florido", "13.99", 40),
 (10, "Marca páginas floral", "4.00", 30),
@@ -129,5 +131,7 @@ insert into Produtos values
 (23, "Kit 6 marca textos pastel- Cis", "26.70", 35),
 (24, "Kit 5 marca textos neon- Bic", "40.00", 30);
 
-
+select * from usuarios;
+select * from Produtos;
+select * from Livros;
 
