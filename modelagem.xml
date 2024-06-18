@@ -1,8 +1,65 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
-<!--modelagem.xml
-Generated 2024-06-17 22:57
--->
-<database>
-<name>Noname2</name>
-<create>1</create>
-</database>
+CREATE TABLE Livros (
+  idLivros INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  idUsuario INT NULL,
+  nome VARCHAR(50) NULL,
+  autor VARCHAR(50) NULL,
+  genero VARCHAR(25) NULL,
+  disponibilidade BOOL NULL,
+  primarykey INTEGER UNSIGNED NULL,
+  PRIMARY KEY(idLivros)
+);
+
+CREATE TABLE Livro_Usuario (
+  idLivro_Usuario INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  Usuario_idUsuario INTEGER UNSIGNED NOT NULL,
+  idUsuario INTEGER UNSIGNED NULL,
+  idLivro INTEGER UNSIGNED NULL,
+  PRIMARY KEY(idLivro_Usuario),
+  INDEX Livro_Usuario_FKIndex1(Usuario_idUsuario)
+);
+
+CREATE TABLE Pedido (
+  idPedido INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  idUsuario INTEGER UNSIGNED NULL,
+  idProduto INTEGER UNSIGNED NULL,
+  dataPedido DATE NULL,
+  statusPedido ENUM NULL,
+  PRIMARY KEY(idPedido)
+);
+
+CREATE TABLE Produtos (
+  idProdutos INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  nome VARCHAR(255) NULL,
+  valor DECIMAL NULL,
+  estoque INT NULL,
+  PRIMARY KEY(idProdutos)
+);
+
+CREATE TABLE Solicitacao (
+  idSolicitacao INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  idUsuario INTEGER UNSIGNED NULL,
+  idLivro INTEGER UNSIGNED NULL,
+  dataDeSolicitacao DATE NULL,
+  statusDaSolicitacao ENUM NULL,
+  dataDevolucao DATE NULL,
+  PRIMARY KEY(idSolicitacao)
+);
+
+CREATE TABLE Usuario (
+  idUsuario INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  nome VARCHAR(50) NULL,
+  email VARCHAR(50) NULL,
+  senha VARCHAR(20) NULL,
+  generosDeInteresse VARCHAR(45) NULL,
+  primarykey INTEGER UNSIGNED NULL,
+  PRIMARY KEY(idUsuario)
+);
+
+CREATE TABLE Usuario_has_Pedido (
+  Usuario_idUsuario INTEGER UNSIGNED NOT NULL,
+  Pedido_idPedido INTEGER UNSIGNED NOT NULL,
+  PRIMARY KEY(Usuario_idUsuario, Pedido_idPedido),
+  INDEX Usuario_has_Pedido_FKIndex1(Usuario_idUsuario)
+);
+
+
