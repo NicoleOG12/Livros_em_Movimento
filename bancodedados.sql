@@ -26,7 +26,6 @@ nome varchar(50) not null,
 autor varchar(50) not null,
 genero varchar(25) not null,
 sinopse text,
-imagem longblob not null,
 estoque int not null,
 primary key (id)
 );
@@ -60,11 +59,8 @@ constraint foreign key (idLivro) references Livros (id)
 create table Produtos (
 id int auto_increment unique not null,
 nome varchar(250) not null,
-autor varchar(50),
-sinopse text,
 estoque int not null,
 preço decimal(10,2) not null,
-imagem longblob not null,
 primary key (id)
 );
 
@@ -112,14 +108,14 @@ insert into Usuarios values
 (5, "Larissa Lopes", "laris@gmail.com", "lari123");
 
 insert into Livros values
-(1, "Para além do diário", "Anne Frank", "Diário", '2'),
-(2, "A mente de Adolf Hitler", "Walter C.", "História", '3'),
-(3, "Assassinato na casa do pastor", "Agatha Christie", "Ficção", '1'),
-(4, "E não sobrou nenhum", "Agatha Christie", "Investigação", '1'),
-(5, "O homem de giz", "C.J Tudor", "Mistério", '4'),
-(6, "Pessoas normais", "Sally Rooney", "Romance", '2'),
-(7, "A vida invisível de Addie Larue", "V.E. Schawab", "Literatura", '1'),
-(8, "Um de nós está mentindo", "Karen M.", "Ficção", '2');
+(1, "Para além do diário", "Anne Frank", "Diário", "", 2),
+(2, "A mente de Adolf Hitler", "Walter C.", "História", "", 3),
+(3, "Assassinato na casa do pastor", "Agatha Christie", "Ficção", "", 1),
+(4, "E não sobrou nenhum", "Agatha Christie", "Investigação", "", 1),
+(5, "O homem de giz", "C.J Tudor", "Mistério", "", 4),
+(6, "Pessoas normais", "Sally Rooney", "Romance", "", 2),
+(7, "A vida invisível de Addie Larue", "V.E. Schawab", "Literatura", "", 1),
+(8, "Um de nós está mentindo", "Karen M.", "Ficção", "", 2);
 
 insert into Produtos values
 (1, "Memórias póstumas de Brás Cubas", "29.99", 15),
