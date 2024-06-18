@@ -126,9 +126,9 @@ namespace Projeto___Designer
 
         private void Cancelar_Click(object sender, EventArgs e)
         {
-            Troca_de_livros troca_De_Livros = new Troca_de_livros(idUsuario);
-            troca_De_Livros.ShowDialog();
+            Feed feed = new Feed(idUsuario);
             this.Hide();
+            feed.ShowDialog();
         }
     }
 }

@@ -25,9 +25,9 @@ namespace Projeto___Designer
 
         private void Troca_de_livros_Click(object sender, EventArgs e)
         {
-            Troca_de_livros troca_de_livros = new Troca_de_livros(idUsuario);
+            Feed feed = new Feed(idUsuario);
             this.Hide();
-            troca_de_livros.ShowDialog();
+            feed.ShowDialog();
         }
 
         private void Sacola_Click(object sender, EventArgs e)

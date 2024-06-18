@@ -417,6 +417,36 @@ namespace Projeto___Designer
             return livro;
         }
 
+        public DataRow UltimoProdutoCadastrado()
+        {
+            DataRow produto = null;
+            try
+            {
+                Conectar();
+                string query = "SELECT Id, Nome, Imagem FROM Produto ORDER BY Id DESC LIMIT 1";
+                DataTable result = new DataTable();
+                using (MySqlDataAdapter adapter = new MySqlDataAdapter(query, conn))
+                {
+                    adapter.Fill(result);
+                }
+
+                if (result.Rows.Count > 0)
+                {
+                    produto = result.Rows[0];
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Erro ao obter último produto cadastrado: " + ex.Message);
+            }
+            finally
+            {
+                Desconectar();
+            }
+
+            return produto;
+        }
+
         public DataTable GetNotificacoes(int idUsuario)
         {
             DataTable notificacoes = new DataTable();

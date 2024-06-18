@@ -7,6 +7,7 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices.ComTypes;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -57,9 +58,9 @@ namespace Projeto___Designer
 
                         MessageBox.Show("Troca solicitada com sucesso!");
 
-                        Troca_de_livros troca_De_Livros = new Troca_de_livros(idUsuario);
+                        Feed feed = new Feed(idUsuario);
                         this.Hide();
-                        troca_De_Livros.ShowDialog();
+                        feed.ShowDialog();
                     }
                     catch (Exception ex)
                     {
@@ -84,9 +85,9 @@ namespace Projeto___Designer
 
         private void Cancelar_Click(object sender, EventArgs e)
         {
-            Troca_de_livros troca_De_Livros = new Troca_de_livros(idUsuario);
+            Feed feed = new Feed(idUsuario);
             this.Hide();
-            troca_De_Livros.ShowDialog();
+            feed.ShowDialog();
         }
 
         private void Anexar_Click(object sender, EventArgs e)
