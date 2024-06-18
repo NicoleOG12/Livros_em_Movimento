@@ -12,14 +12,25 @@ senha varchar(50) not null,
 primary key (id)
 );
 
+create table Administradores (
+id int auto_increment unique not null,
+nome varchar(50) not null,
+email varchar(50) not null,
+senha varchar(50) not null,
+primary key (id)
+);
+
 create table Livros (
 id int auto_increment unique not null,
 nome varchar(50) not null,
 autor varchar(50) not null,
 genero varchar(25) not null,
+sinopse text,
+imagem longblob not null,
 estoque int not null,
 primary key (id)
 );
+
 
 create table Emprestimo (
 id int auto_increment unique not null,
@@ -49,8 +60,11 @@ constraint foreign key (idLivro) references Livros (id)
 create table Produtos (
 id int auto_increment unique not null,
 nome varchar(250) not null,
+autor varchar(50),
+sinopse text,
 estoque int not null,
-valor decimal(10,2) not null,
+preço decimal(10,2) not null,
+imagem longblob not null,
 primary key (id)
 );
 
@@ -87,6 +101,8 @@ primary key (id),
 constraint foreign key (idUsuario) references Usuarios (id),
 constraint foreign key (idProduto) references Produtos (id)
 ); 
+
+
 
 insert into Usuarios values
 (1, "Maria Flor", "mariazinha@gmail.com", "maria123"),
@@ -130,6 +146,9 @@ insert into Produtos values
 (22, "Kit 4 marca textos com cheirinho- Mentos", "43.10", 10),
 (23, "Kit 6 marca textos pastel- Cis", "26.70", 35),
 (24, "Kit 5 marca textos neon- Bic", "40.00", 30);
+
+insert into Administradores values
+(1, "Nicole", "nicole@gmail.com", "123456");
 
 select * from usuarios;
 select * from Produtos;
