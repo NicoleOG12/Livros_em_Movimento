@@ -15,6 +15,7 @@ namespace Projeto___Designer
     public partial class Login : Form
     {
         private int idUsuario;
+
         public Login(int idUsuario)
         {
             InitializeComponent();

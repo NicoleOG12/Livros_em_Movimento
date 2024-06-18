@@ -16,6 +16,7 @@ namespace Projeto___Designer
     {
         private int idUsuario;
         DAO dao = new DAO();
+
         public Compra(int idUsuario, string Nome_item_txt, string Preço_txt, int Quantidade_numericUpDown1)
         {
             InitializeComponent();
@@ -23,14 +24,14 @@ namespace Projeto___Designer
             this.idUsuario = idUsuario;
             this.NomedoProduto_Box.Text = Nome_item_txt;
             this.Quantidade.Text = Quantidade_numericUpDown1 + "%";
-            this.Preco.Text = teste().ToString();
+            this.Preco.Text = Preço().ToString();
         }
-        public double teste()
+        public double Preço()
         {
-            double teste2=0;
+            double preco1= 0;
             DataTable dt = dao.GetProdutos(NomedoProduto_Box.Text);
-            teste2 = double.Parse(dt.Rows[0].ItemArray[3].ToString()); 
-            return teste2;
+            preco1 = double.Parse(dt.Rows[0].ItemArray[3].ToString()); 
+            return preco1;
         }
         private void Confirmar_Click(object sender, EventArgs e)
         {

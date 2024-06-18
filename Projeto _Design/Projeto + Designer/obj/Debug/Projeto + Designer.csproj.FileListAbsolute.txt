@@ -449,3 +449,9 @@ C:\Users\Tecnico\Desktop\Livros_em_Movimento\Projeto _Design\Projeto + Designer\
 C:\Users\Tecnico\Desktop\Livros_em_Movimento\Projeto _Design\Projeto + Designer\bin\Debug\MySql.Data.xml
 C:\Users\Tecnico\Desktop\Livros_em_Movimento\Projeto _Design\Projeto + Designer\obj\Debug\Projeto .D0265652.Up2Date
 >>>>>>> 9e18b8b7400b7614d035445c7a79c2eea92fb8d4
+C:\Users\nicole\Downloads\Livros_em_Movimento\Projeto _Design\Projeto + Designer\obj\Debug\Projeto___Designer.TipoLogin.resources
+C:\Users\nicole\Downloads\Livros_em_Movimento\Projeto _Design\Projeto + Designer\obj\Debug\Projeto___Designer.CadastroProdutos.resources
+C:\Users\nicole\Downloads\Livros_em_Movimento\Projeto _Design\Projeto + Designer\obj\Debug\Projeto___Designer.LoginADM.resources
+C:\Users\nicole\Downloads\Livros_em_Movimento\Projeto _Design\Projeto + Designer\obj\Debug\Projeto___Designer.CadastroLivros.resources
+C:\Users\nicole\Downloads\Livros_em_Movimento\Projeto _Design\Projeto + Designer\obj\Debug\Projeto___Designer.ConfirmaçãoCadastro.resources
+C:\Users\nicole\Downloads\Livros_em_Movimento\Projeto _Design\Projeto + Designer\obj\Debug\Projeto___Designer.TipoCadastro.resources

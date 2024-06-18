@@ -63,6 +63,42 @@
     <Compile Include="Compra.Designer.cs">
       <DependentUpon>Compra.cs</DependentUpon>
     </Compile>
+    <Compile Include="Telas_ADM\CadastroLivros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas_ADM\CadastroLivros.Designer.cs">
+      <DependentUpon>CadastroLivros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas_ADM\ConfirmaçãoCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas_ADM\ConfirmaçãoCadastro.Designer.cs">
+      <DependentUpon>ConfirmaçãoCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tipo_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tipo_Login.Designer.cs">
+      <DependentUpon>Tipo_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas_ADM\CadastroProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas_ADM\CadastroProdutos.Designer.cs">
+      <DependentUpon>CadastroProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas_ADM\Login_ADM .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas_ADM\Login_ADM .Designer.cs">
+      <DependentUpon>Login_ADM .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas_ADM\TipoCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas_ADM\TipoCadastro.Designer.cs">
+      <DependentUpon>TipoCadastro.cs</DependentUpon>
+    </Compile>
     <Compile Include="Troca.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -364,6 +400,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Compra.resx">
       <DependentUpon>Compra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas_ADM\CadastroLivros.resx">
+      <DependentUpon>CadastroLivros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas_ADM\ConfirmaçãoCadastro.resx">
+      <DependentUpon>ConfirmaçãoCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tipo_Login.resx">
+      <DependentUpon>Tipo_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas_ADM\CadastroProdutos.resx">
+      <DependentUpon>CadastroProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas_ADM\Login_ADM .resx">
+      <DependentUpon>Login_ADM .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas_ADM\TipoCadastro.resx">
+      <DependentUpon>TipoCadastro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Troca.resx">
       <DependentUpon>Troca.cs</DependentUpon>

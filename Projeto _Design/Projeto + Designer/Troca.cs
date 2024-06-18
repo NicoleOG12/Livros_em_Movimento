@@ -16,14 +16,13 @@ namespace Projeto___Designer
     public partial class Troca : Form
     {
         private int idUsuario;
-        private string nomeLivro;
+        DAO dao = new DAO();
 
-        public Troca(int idUsuario, string nomeLivro)
+        public Troca(int idUsuario, string Nome_item_txt)
         {
             InitializeComponent();
             this.idUsuario = idUsuario;
-            this.nomeLivro = nomeLivro;
-            Nome_do_Livro_Box.Text = nomeLivro;
+            this.Nome_do_Livro_Box.Text = Nome_item_txt;
         }
 
         private void Confirmar_Click(object sender, EventArgs e)
@@ -31,7 +30,6 @@ namespace Projeto___Designer
             string nomeUsuario = Nome_txt.Text;
             string emailUsuario = Email_txt.Text;
 
-            DAO dao = new DAO();
             dao.Conectar();
 
             if (dao.VerificarExistenciaUsuario(idUsuario))
