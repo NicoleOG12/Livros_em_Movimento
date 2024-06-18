@@ -34,7 +34,7 @@ namespace Projeto___Designer
 
             if (dao.VerificarExistenciaUsuario(idUsuario))
             {
-                int idLivro = dao.ObterIdLivroPeloNome(nomeLivro);
+                int idLivro = dao.ObterIdLivroPeloNome(Nome_do_Livro_Box.Text);
 
                 if (idLivro != -1)
                 {
@@ -128,6 +128,11 @@ namespace Projeto___Designer
                 image.Save(ms, ImageFormat.Jpeg); 
                 return ms.ToArray(); 
             }
+        }
+
+        private void Livro_Selecionado_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

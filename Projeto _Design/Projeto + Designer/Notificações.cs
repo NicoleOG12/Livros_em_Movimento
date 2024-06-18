@@ -13,11 +13,14 @@ namespace Projeto___Designer
     public partial class Notificações : Form
     {
         private int idUsuario;
+        DAO dao = new DAO();
+
         public Notificações(int idUsuario)
         {
 
             InitializeComponent();
             this.idUsuario = idUsuario;
+            Painel.DataSource = dao.GetNotificacoes(idUsuario);
         }
 
         private void Troca_de_livros_Click(object sender, EventArgs e)

@@ -125,10 +125,22 @@ namespace Projeto___Designer
             return solicitacoes;
         }
 
+        public DataTable BuscarProdutos(string filtro)
+        {
+            Conectar();
+            string query = "SELECT Id, Nome FROM Produtos WHERE Nome LIKE @Filtro";
+            MySqlDataAdapter adapter = new MySqlDataAdapter(query, conn);
+            adapter.SelectCommand.Parameters.AddWithValue("@Filtro", "%" + filtro + "%");
+            DataTable produtos = new DataTable();
+            adapter.Fill(produtos);
+            Desconectar();
+            return produtos;
+        }
+
         public DataTable GetProdutos(string nome)
         {
             Conectar();
-            string query = $"SELECT Id, Nome, estoque, Valor FROM Produtos where nome='{nome}'";
+            string query = $"SELECT Id, nome, estoque, Valor FROM Produtos where nome='{nome}'";
             MySqlDataAdapter adapter = new MySqlDataAdapter(query, conn);
             DataTable produtos = new DataTable();
             adapter.Fill(produtos);
@@ -374,8 +386,75 @@ namespace Projeto___Designer
 
             return idLivro;
         }
+
+        public DataRow UltimoLivroCadastrado()
+        {
+            DataRow livro = null;
+            try
+            {
+                Conectar();
+                string query = "SELECT Id, Nome, Imagem FROM Livros ORDER BY Id DESC LIMIT 1";
+                DataTable result = new DataTable();
+                using (MySqlDataAdapter adapter = new MySqlDataAdapter(query, conn))
+                {
+                    adapter.Fill(result);
+                }
+
+                if (result.Rows.Count > 0)
+                {
+                    livro = result.Rows[0];
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Erro ao obter último livro cadastrado: " + ex.Message);
+            }
+            finally
+            {
+                Desconectar();
+            }
+
+            return livro;
+        }
+
+        public DataTable GetNotificacoes(int idUsuario)
+        {
+            DataTable notificacoes = new DataTable();
+
+            try
+            {
+                Conectar();
+
+                string queryEmprestimo = @"SELECT e.id AS IdNotificacao, u.Nome AS NomeUsuario, l.Nome AS NomeLivro, e.dataDeSolicitacao, 'Emprestimo' AS Tipo
+                                   FROM Emprestimo e
+                                   JOIN Usuarios u ON e.idUsuario = u.id
+                                   JOIN Livros l ON e.idLivro = l.id
+                                   WHERE e.statusDaSolicitacao = 'pendente'";
+
+                string queryTroca = @"SELECT t.id AS IdNotificacao, u.Nome AS NomeUsuario, l.Nome AS NomeLivro, t.dataDeSolicitacao, 'Troca' AS Tipo
+                              FROM Troca t
+                              JOIN Usuarios u ON t.idUsuario = u.id
+                              JOIN Livros l ON t.idLivro = l.id";
+
+                MySqlCommand cmd = new MySqlCommand(queryEmprestimo + " UNION ALL " + queryTroca, conn);
+                MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
+                adapter.Fill(notificacoes);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Erro ao obter notificações: " + ex.Message);
+            }
+            finally
+            {
+                Desconectar();
+            }
+
+            return notificacoes;
+        }
+
     }
 }
+
 
 
 

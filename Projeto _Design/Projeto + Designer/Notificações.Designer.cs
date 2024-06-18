@@ -33,14 +33,15 @@
             this.Perfil_Box = new System.Windows.Forms.PictureBox();
             this.Sacola_Box = new System.Windows.Forms.PictureBox();
             this.Troca_de_livros_box = new System.Windows.Forms.PictureBox();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.Menu = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.Painel = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.Carrinho_Box)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Perfil_Box)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Sacola_Box)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Troca_de_livros_box)).BeginInit();
             this.Menu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Painel)).BeginInit();
             this.SuspendLayout();
             // 
             // Carrinho_Box
@@ -91,14 +92,6 @@
             this.Troca_de_livros_box.TabStop = false;
             this.Troca_de_livros_box.Click += new System.EventHandler(this.Troca_de_livros_Click);
             // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.MediumPurple;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(207, 131);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(428, 252);
-            this.flowLayoutPanel1.TabIndex = 9;
-            // 
             // Menu
             // 
             this.Menu.BackColor = System.Drawing.Color.GhostWhite;
@@ -126,6 +119,15 @@
             this.label1.TabIndex = 11;
             this.label1.Text = "Notificações";
             // 
+            // Painel
+            // 
+            this.Painel.BackgroundColor = System.Drawing.Color.MediumPurple;
+            this.Painel.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.Painel.Location = new System.Drawing.Point(233, 135);
+            this.Painel.Name = "Painel";
+            this.Painel.Size = new System.Drawing.Size(415, 244);
+            this.Painel.TabIndex = 15;
+            // 
             // Notificações
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -133,9 +135,9 @@
             this.BackColor = System.Drawing.Color.Lavender;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 445);
+            this.Controls.Add(this.Painel);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Menu);
-            this.Controls.Add(this.flowLayoutPanel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Notificações";
             this.Text = "Minhas Solicitações";
@@ -144,6 +146,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Sacola_Box)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Troca_de_livros_box)).EndInit();
             this.Menu.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Painel)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -154,8 +157,8 @@
         private System.Windows.Forms.PictureBox Sacola_Box;
         private System.Windows.Forms.PictureBox Perfil_Box;
         private System.Windows.Forms.PictureBox Carrinho_Box;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private new System.Windows.Forms.GroupBox Menu;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DataGridView Painel;
     }
 }

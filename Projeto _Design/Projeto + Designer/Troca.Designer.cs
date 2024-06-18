@@ -212,6 +212,7 @@
             this.Livro_Selecionado.Size = new System.Drawing.Size(162, 17);
             this.Livro_Selecionado.TabIndex = 7;
             this.Livro_Selecionado.Text = "Nome do livro selecionado";
+            this.Livro_Selecionado.Click += new System.EventHandler(this.Livro_Selecionado_Click);
             // 
             // Nome_do_Livro_Box
             // 

@@ -1,0 +1,704 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{76792E0C-BD92-4C40-BF47-51B949D8DF48}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Projeto___Designer</RootNamespace>
+    <AssemblyName>Projeto + Designer</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\mysql-connector-net-8.3.0-noinstall\v4.8\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastro.Designer.cs">
+      <DependentUpon>Cadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAO.cs" />
+    <Compile Include="Compra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Compra.Designer.cs">
+      <DependentUpon>Compra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teste.Designer.cs">
+      <DependentUpon>Teste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas_ADM\CadastroLivros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas_ADM\CadastroLivros.Designer.cs">
+      <DependentUpon>CadastroLivros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas_ADM\ConfirmaçãoCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas_ADM\ConfirmaçãoCadastro.Designer.cs">
+      <DependentUpon>ConfirmaçãoCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tipo_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tipo_Login.Designer.cs">
+      <DependentUpon>Tipo_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas_ADM\CadastroProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas_ADM\CadastroProdutos.Designer.cs">
+      <DependentUpon>CadastroProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas_ADM\Login_ADM .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas_ADM\Login_ADM .Designer.cs">
+      <DependentUpon>Login_ADM .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas_ADM\TipoCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas_ADM\TipoCadastro.Designer.cs">
+      <DependentUpon>TipoCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Troca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Troca.Designer.cs">
+      <DependentUpon>Troca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tela Confirmação.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tela Confirmação.Designer.cs">
+      <DependentUpon>Tela Confirmação.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Empréstimo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empréstimo.Designer.cs">
+      <DependentUpon>Empréstimo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Livros_Loja\Como_Eu_Era_Antes_de_Você.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Loja\Como_Eu_Era_Antes_de_Você.Designer.cs">
+      <DependentUpon>Como_Eu_Era_Antes_de_Você.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Livros_Loja\A_Garota_do_Lago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Loja\A_Garota_do_Lago.Designer.cs">
+      <DependentUpon>A_Garota_do_Lago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Livros_Loja\Bridgerton_O_Duque_e_Eu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Loja\Bridgerton_O_Duque_e_Eu.Designer.cs">
+      <DependentUpon>Bridgerton_O_Duque_e_Eu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Livros_Loja\Além_da_Fumaça.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Loja\Além_da_Fumaça.Designer.cs">
+      <DependentUpon>Além_da_Fumaça.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Livros_Troca\.Designer - Cópia %282%29.cs">
+      <DependentUpon>Assinato_na_casa_do_pastor.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Troca\.Designer - Cópia %283%29.cs">
+      <DependentUpon>E_não_sobrou_ninguém.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Troca\.Designer - Cópia %284%29.cs">
+      <DependentUpon>O_homem_de_giz.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Troca\.Designer - Cópia %285%29.cs">
+      <DependentUpon>Pessoas_normais.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Troca\.Designer - Cópia %286%29.cs">
+      <DependentUpon>A_vida_invisível_de_Addie_Larue.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Troca\.Designer - Cópia %287%29.cs">
+      <DependentUpon>Um_de_nós_está_mentindo.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Troca\.Designer - Cópia .cs">
+      <DependentUpon>A_mente_de_Adolf_Hitler.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Troca\Assinato_na_casa_do_pastor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Troca\E_não_sobrou_ninguém.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Troca\O_homem_de_giz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Troca\Pessoas_normais.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Troca\A_vida_invisível_de_Addie_Larue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Troca\Um_de_nós_está_mentindo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Troca\A_mente_de_Adolf_Hitler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Troca\Para_além_do_diário_de_Anne_Frank.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Troca\.Designer.cs">
+      <DependentUpon>Para_além_do_diário_de_Anne_Frank.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loja_MarcaTexto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loja_MarcaTexto.Designer.cs">
+      <DependentUpon>Loja_MarcaTexto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loja_MarcaPágina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loja_MarcaPágina.Designer.cs">
+      <DependentUpon>Loja_MarcaPágina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loja_Livros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loja_Livros.Designer.cs">
+      <DependentUpon>Loja_Livros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loja.Designer.cs">
+      <DependentUpon>Loja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Livros_Loja\É_assim_que_começa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Loja\É_assim_que_começa.Designer.cs">
+      <DependentUpon>É_assim_que_começa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Livros_Loja\A_hipótese_do_amor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Loja\A_hipótese_do_amor.Designer.cs">
+      <DependentUpon>A_hipótese_do_amor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Livros_Loja\Mais_que_amigos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Loja\Mais_que_amigos.Designer.cs">
+      <DependentUpon>Mais_que_amigos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Livros_Loja\Memórias_Póstumas_de_Brás_Cubas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livros_Loja\Memórias_Póstumas_de_Brás_Cubas.Designer.cs">
+      <DependentUpon>Memórias_Póstumas_de_Brás_Cubas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Marca_Páginas\.Designer - Cópia  - Cópia  - Cópia  - Cópia  - Cópia  - Cópia  - Cópia .cs">
+      <DependentUpon>MP8.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Páginas\.Designer - Cópia  - Cópia  - Cópia  - Cópia  - Cópia  - Cópia .cs">
+      <DependentUpon>MP7 .cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Páginas\.Designer - Cópia  - Cópia  - Cópia  - Cópia  - Cópia .cs">
+      <DependentUpon>MP6 .cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Páginas\.Designer - Cópia  - Cópia  - Cópia  - Cópia .cs">
+      <DependentUpon>MP5 .cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Páginas\.Designer - Cópia  - Cópia  - Cópia .cs">
+      <DependentUpon>MP4.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Páginas\.Designer - Cópia  - Cópia .cs">
+      <DependentUpon>MP3 .cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Páginas\.Designer - Cópia .cs">
+      <DependentUpon>MP2.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Páginas\MP8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Páginas\MP7 .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Páginas\MP6 .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Páginas\MP5 .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Páginas\MP4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Páginas\MP3 .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Páginas\MP2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Páginas\MP1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Páginas\.Designer.cs">
+      <DependentUpon>MP1.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Texto\.Designer - Cópia %282%29.cs">
+      <DependentUpon>MT3 .cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Texto\.Designer - Cópia %283%29.cs">
+      <DependentUpon>MT4 .cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Texto\.Designer - Cópia %284%29.cs">
+      <DependentUpon>MT5.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Texto\.Designer - Cópia %285%29.cs">
+      <DependentUpon>MT6 .cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Texto\.Designer - Cópia %286%29.cs">
+      <DependentUpon>MT7.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Texto\.Designer - Cópia %287%29.cs">
+      <DependentUpon>MT8.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Texto\.Designer - Cópia .cs">
+      <DependentUpon>MT2 .cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Texto\.Designer.cs">
+      <DependentUpon>MT1.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Texto\MT8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Texto\MT7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Texto\MT6 .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Texto\MT5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Texto\MT4 .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Texto\MT3 .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Texto\MT2 .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca_Texto\MT1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Notificações.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Notificações.Designer.cs">
+      <DependentUpon>Notificações.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Carrinho .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Carrinho .Designer.cs">
+      <DependentUpon>Carrinho .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Perfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Perfil.Designer.cs">
+      <DependentUpon>Perfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Feed Troca de Livros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Feed Troca de Livros.Designer.cs">
+      <DependentUpon>Feed Troca de Livros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tela Inicial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tela Inicial.Designer.cs">
+      <DependentUpon>Tela Inicial.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Cadastro.resx">
+      <DependentUpon>Cadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Compra.resx">
+      <DependentUpon>Compra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teste.resx">
+      <DependentUpon>Teste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas_ADM\CadastroLivros.resx">
+      <DependentUpon>CadastroLivros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas_ADM\ConfirmaçãoCadastro.resx">
+      <DependentUpon>ConfirmaçãoCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tipo_Login.resx">
+      <DependentUpon>Tipo_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas_ADM\CadastroProdutos.resx">
+      <DependentUpon>CadastroProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas_ADM\Login_ADM .resx">
+      <DependentUpon>Login_ADM .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas_ADM\TipoCadastro.resx">
+      <DependentUpon>TipoCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Troca.resx">
+      <DependentUpon>Troca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela Confirmação.resx">
+      <DependentUpon>Tela Confirmação.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empréstimo.resx">
+      <DependentUpon>Empréstimo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Livros_Loja\Como_Eu_Era_Antes_de_Você.resx">
+      <DependentUpon>Como_Eu_Era_Antes_de_Você.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Livros_Loja\A_Garota_do_Lago.resx">
+      <DependentUpon>A_Garota_do_Lago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Livros_Loja\Bridgerton_O_Duque_e_Eu.resx">
+      <DependentUpon>Bridgerton_O_Duque_e_Eu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Livros_Loja\Além_da_Fumaça.resx">
+      <DependentUpon>Além_da_Fumaça.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Livros_Troca\Assinato_na_casa_do_pastor.resx">
+      <DependentUpon>Assinato_na_casa_do_pastor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Livros_Troca\E_não_sobrou_ninguém.resx">
+      <DependentUpon>E_não_sobrou_ninguém.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Livros_Troca\O_homem_de_giz.resx">
+      <DependentUpon>O_homem_de_giz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Livros_Troca\Pessoas_normais.resx">
+      <DependentUpon>Pessoas_normais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Livros_Troca\A_vida_invisível_de_Addie_Larue.resx">
+      <DependentUpon>A_vida_invisível_de_Addie_Larue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Livros_Troca\Um_de_nós_está_mentindo.resx">
+      <DependentUpon>Um_de_nós_está_mentindo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Livros_Troca\A_mente_de_Adolf_Hitler.resx">
+      <DependentUpon>A_mente_de_Adolf_Hitler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Livros_Troca\Para_além_do_diário_de_Anne_Frank.resx">
+      <DependentUpon>Para_além_do_diário_de_Anne_Frank.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loja_MarcaTexto.resx">
+      <DependentUpon>Loja_MarcaTexto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loja_MarcaPágina.resx">
+      <DependentUpon>Loja_MarcaPágina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loja_Livros.resx">
+      <DependentUpon>Loja_Livros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loja.resx">
+      <DependentUpon>Loja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Livros_Loja\É_assim_que_começa.resx">
+      <DependentUpon>É_assim_que_começa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Livros_Loja\A_hipótese_do_amor.resx">
+      <DependentUpon>A_hipótese_do_amor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Livros_Loja\Mais_que_amigos.resx">
+      <DependentUpon>Mais_que_amigos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Livros_Loja\Memórias_Póstumas_de_Brás_Cubas.resx">
+      <DependentUpon>Memórias_Póstumas_de_Brás_Cubas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marca_Páginas\MP8.resx">
+      <DependentUpon>MP8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marca_Páginas\MP7 .resx">
+      <DependentUpon>MP7 .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marca_Páginas\MP6 .resx">
+      <DependentUpon>MP6 .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marca_Páginas\MP5 .resx">
+      <DependentUpon>MP5 .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marca_Páginas\MP4.resx">
+      <DependentUpon>MP4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marca_Páginas\MP3 .resx">
+      <DependentUpon>MP3 .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marca_Páginas\MP2.resx">
+      <DependentUpon>MP2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marca_Páginas\MP1.resx">
+      <DependentUpon>MP1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marca_Texto\MT8.resx">
+      <DependentUpon>MT8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marca_Texto\MT7.resx">
+      <DependentUpon>MT7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marca_Texto\MT6 .resx">
+      <DependentUpon>MT6 .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marca_Texto\MT5.resx">
+      <DependentUpon>MT5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marca_Texto\MT4 .resx">
+      <DependentUpon>MT4 .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marca_Texto\MT3 .resx">
+      <DependentUpon>MT3 .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marca_Texto\MT2 .resx">
+      <DependentUpon>MT2 .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marca_Texto\MT1.resx">
+      <DependentUpon>MT1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notificações.resx">
+      <DependentUpon>Notificações.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Carrinho .resx">
+      <DependentUpon>Carrinho .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Perfil.resx">
+      <DependentUpon>Perfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Feed Troca de Livros.resx">
+      <DependentUpon>Feed Troca de Livros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela Inicial.resx">
+      <DependentUpon>Tela Inicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images 3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wallpaperflare.com_wallpaper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lupa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Troca de Livros.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sacola.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo tela principal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Notificações.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Perfil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carrinho.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\315 Sem Título_20240608235402.jpg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\315 Sem Título_20240608235402.jpg1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\315 Sem Título_20240608235402.jpg2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marca página6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\livro7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marca página7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marca página8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marca texto stabilo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marca texto cis fun.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marca texto mentos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marca texto bic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\315 Sem Título_20240609164634.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\315 Sem Título_202406091646341.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Seta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\livro1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\livro2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\livro3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\livro4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\livro5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\livro6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\livro71.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\livro8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\314 Sem Título_20240610215324.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Seta1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -63,6 +63,12 @@
     <Compile Include="Compra.Designer.cs">
       <DependentUpon>Compra.cs</DependentUpon>
     </Compile>
+    <Compile Include="Teste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teste.Designer.cs">
+      <DependentUpon>Teste.cs</DependentUpon>
+    </Compile>
     <Compile Include="Telas_ADM\CadastroLivros.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -400,6 +406,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Compra.resx">
       <DependentUpon>Compra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teste.resx">
+      <DependentUpon>Teste.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Telas_ADM\CadastroLivros.resx">
       <DependentUpon>CadastroLivros.cs</DependentUpon>
