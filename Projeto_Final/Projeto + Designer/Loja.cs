@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,79 +13,18 @@ namespace Projeto___Designer
     public partial class Loja : Form
     {
         private int idUsuario;
-        private DAO dao;
-
         public Loja(int idUsuario)
         {
 
             InitializeComponent();
             this.idUsuario = idUsuario;
-            dao = new DAO();
-        }
-
-        private void FormLivros_Load(object sender, EventArgs e)
-        {
-            CarregarLivrosDoBanco();
-        }
-
-        private void CarregarLivrosDoBanco()
-        {
-            try
-            {
-                DataRow produto = dao.UltimoProdutoCadastrado();
-
-                if (produto != null)
-                {
-                    int produtoId = Convert.ToInt32(produto["Id"]);
-                    string nomeProduto = produto["Nome"].ToString();
-                    byte[] imagemBytes = (byte[])produto["Imagem"];
-
-                    GroupBox groupBox = new GroupBox();
-                    groupBox.Width = 130;
-                    groupBox.Height = 204;
-                    groupBox.Margin = new Padding(15, 15, 15, 15);
-
-                    PictureBox pictureBox = new PictureBox();
-                    pictureBox.Width = 103;
-                    pictureBox.Height = 144;
-                    pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
-
-                    if (imagemBytes != null && imagemBytes.Length > 0)
-                    {
-                        using (MemoryStream ms = new MemoryStream(imagemBytes))
-                        {
-                            pictureBox.Image = Image.FromStream(ms);
-                        }
-                    }
-
-                    Label labelNome = new Label();
-                    labelNome.Text = nomeProduto;
-                    labelNome.AutoSize = true;
-                    labelNome.Location = new Point(10, pictureBox.Bottom + 10);
-
-                    groupBox.Controls.Add(pictureBox);
-                    groupBox.Controls.Add(labelNome);
-
-                    flowLayoutPanel1.Controls.Clear();
-                    flowLayoutPanel1.Controls.Add(groupBox);
-                }
-                else
-                {
-                    MessageBox.Show("Nenhum produto cadastrado.");
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Erro ao carregar último produto cadastrado: " + ex.Message);
-            }
-
         }
 
         private void Troca_de_livros_Click(object sender, EventArgs e)
         {
-            Feed feed = new Feed(idUsuario);
+            Troca_de_livros troca_de_livros = new Troca_de_livros(idUsuario);
             this.Hide();
-            feed.ShowDialog();
+            troca_de_livros.ShowDialog();
 
         }
 
@@ -117,62 +55,130 @@ namespace Projeto___Designer
             solicitações.ShowDialog();
         }
 
-
-        private void Lupa_box_Click(object sender, EventArgs e)
+        private void Memórias_Póstumas_Click(object sender, EventArgs e)
         {
-            ExecutarPesquisa();
+            Memórias_Póstumas_de_Brás_Cubas livros = new Memórias_Póstumas_de_Brás_Cubas(idUsuario);
+            this.Hide();
+            livros.ShowDialog();
         }
 
-        private void ExecutarPesquisa()
+        private void Livro1_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            string filtro = Pesquisa_barra.Text.Trim();
+            Memórias_Póstumas_de_Brás_Cubas livros = new Memórias_Póstumas_de_Brás_Cubas(idUsuario);
+            this.Hide();
+            livros.ShowDialog();
+        }
 
-            if (!string.IsNullOrEmpty(filtro))
-            {
-                DataTable livrosFiltrados = dao.BuscarLivros(filtro);
+        private void Mais_que_amigos_Click(object sender, EventArgs e)
+        {
+            Mais_que_amigos livros = new Mais_que_amigos(idUsuario);
+            this.Hide();
+            livros.ShowDialog();
+        }
 
-                flowLayoutPanel1.Controls.Clear();
+        private void Livro2_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Mais_que_amigos livros = new Mais_que_amigos(idUsuario);
+            this.Hide();
+            livros.ShowDialog();
+        }
 
-                foreach (DataRow row in livrosFiltrados.Rows)
-                {
-                    int livroId = Convert.ToInt32(row["Id"]);
-                    string nomeLivro = row["Nome"].ToString();
-                    byte[] imagemBytes = (byte[])row["Imagem"];
+        private void A_hipótese_do_amor_Click(object sender, EventArgs e)
+        {
+            A_hipótese_do_amor livros = new A_hipótese_do_amor(idUsuario);
+            this.Hide();
+            livros.ShowDialog();
+        }
 
-                    GroupBox groupBox = new GroupBox();
-                    groupBox.Width = 130;
-                    groupBox.Height = 204;
-                    groupBox.Margin = new Padding(15, 15, 15, 15);
+        private void Livro3_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            A_hipótese_do_amor livros = new A_hipótese_do_amor(idUsuario);
+            this.Hide();
+            livros.ShowDialog();
+        }
 
-                    PictureBox pictureBox = new PictureBox();
-                    pictureBox.Width = 103;
-                    pictureBox.Height = 144;
-                    pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
+        private void É_assim_que_começa_Click(object sender, EventArgs e)
+        {
+            É_assim_que_começa livros = new É_assim_que_começa(idUsuario);
+            this.Hide();
+            livros.ShowDialog();
+        }
 
-                    if (imagemBytes != null && imagemBytes.Length > 0)
-                    {
-                        using (MemoryStream ms = new MemoryStream(imagemBytes))
-                        {
-                            pictureBox.Image = Image.FromStream(ms);
-                        }
-                    }
+        private void Livro4_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            É_assim_que_começa livros = new É_assim_que_começa(idUsuario);
+            this.Hide();
+            livros.ShowDialog();
+        }
 
-                    Label labelNome = new Label();
-                    labelNome.Text = nomeLivro;
-                    labelNome.AutoSize = true;
-                    labelNome.Location = new Point(10, pictureBox.Bottom + 10);
+        private void Além_da_fumaça_Click(object sender, EventArgs e)
+        {
+            Além_da_Fumaça livros = new Além_da_Fumaça(idUsuario);
+            this.Hide();
+            livros.ShowDialog();
+        }
 
-                    groupBox.Controls.Add(pictureBox);
-                    groupBox.Controls.Add(labelNome);
+        private void Livro5_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Além_da_Fumaça livros = new Além_da_Fumaça(idUsuario);
+            this.Hide();
+            livros.ShowDialog();
+        }
 
-                    flowLayoutPanel1.Controls.Add(groupBox);
-                }
-            }
+        private void Bridgerton_Click(object sender, EventArgs e)
+        {
+            BridgertonO_Duque_e_Eu livros = new BridgertonO_Duque_e_Eu(idUsuario);
+            this.Hide();
+            livros.ShowDialog();
+        }
 
-            else
-            {
-                CarregarLivrosDoBanco(); 
-            }
+        private void Livro6_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            BridgertonO_Duque_e_Eu livros = new BridgertonO_Duque_e_Eu(idUsuario);
+            this.Hide();
+            livros.ShowDialog();
+        }
+
+        private void A_garota_do_lago_Click(object sender, EventArgs e)
+        {
+            A_Garota_do_Lago livros = new A_Garota_do_Lago(idUsuario);
+            this.Hide();
+            livros.ShowDialog();
+        }
+
+        private void Livro7_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            A_Garota_do_Lago livros = new A_Garota_do_Lago(idUsuario);
+            this.Hide();
+            livros.ShowDialog();
+        }
+
+        private void Como_eu_era_antes_de_você_Click(object sender, EventArgs e)
+        {
+            Como_Eu_Era_Antes_de_Você livros = new Como_Eu_Era_Antes_de_Você();
+            this.Hide();
+            livros.ShowDialog();
+        }
+
+        private void Livro8_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Como_Eu_Era_Antes_de_Você livros = new Como_Eu_Era_Antes_de_Você();
+            this.Hide();
+            livros.ShowDialog();
+        }
+
+        private void MarcaTexto_Click(object sender, EventArgs e)
+        {
+            Loja_MarcaTexto loja = new Loja_MarcaTexto(idUsuario);
+            this.Hide();
+            loja.ShowDialog();
+        }
+
+        private void MarcaPagina_Click(object sender, EventArgs e)
+        {
+            Loja_MarcaPágina loja1 = new Loja_MarcaPágina(idUsuario);
+            this.Hide();
+            loja1.ShowDialog();
         }
     }
 }

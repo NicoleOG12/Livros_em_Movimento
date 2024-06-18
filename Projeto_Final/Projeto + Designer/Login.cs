@@ -47,10 +47,10 @@ namespace Projeto___Designer
                 {
                     int id = Convert.ToInt32(idUsuario);
 
-                    Feed feed = new Feed(id);
+                    Troca_de_livros troca_De_Livros = new Troca_de_livros(id);
                     this.Hide();
-                    feed.ShowDialog();
-                   
+                    troca_De_Livros.ShowDialog();
+
                 }
                 else
                 {

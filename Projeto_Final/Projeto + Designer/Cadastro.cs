@@ -27,9 +27,9 @@ namespace Projeto___Designer
             string comandoSql = $"Insert into Usuarios (nome, email, senha) values ('{Nome_box.Text}', '{Email_box.Text}','{Senha_box.Text}')";
             dao.ExecutarComando(comandoSql);
             dao.Desconectar();
-            Feed feed = new Feed(idUsuario);
+            Troca_de_livros troca_De_Livros = new Troca_de_livros(idUsuario);
             this.Hide();
-            feed.ShowDialog();
+            troca_De_Livros.ShowDialog();
         }
     }
    

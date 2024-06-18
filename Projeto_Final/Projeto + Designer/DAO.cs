@@ -17,7 +17,7 @@ namespace Projeto___Designer
 
         MySqlConnection conn;
         MySqlCommand cmd;
-        string connection = "server=localhost; port=3306; database=Gerenciamento; uid=root; pwd='FuscaAzuL123.'";
+        string connection = "server=localhost; port=3306; database=Gerenciamento; uid=root;";
 
         public MySqlConnection Conectar()
         {
@@ -387,13 +387,13 @@ namespace Projeto___Designer
             return idLivro;
         }
 
-        public DataRow UltimoLivroCadastrado()
+        public DataTable UltimoLivroCadastrado()
         {
-            DataRow livro = null;
+            DataTable livro = null;
             try
             {
                 Conectar();
-                string query = "SELECT Id, Nome, Imagem FROM Livros ORDER BY Id DESC LIMIT 1";
+                string query = "SELECT Id, Nome FROM Produtos ORDER BY Id DESC";
                 DataTable result = new DataTable();
                 using (MySqlDataAdapter adapter = new MySqlDataAdapter(query, conn))
                 {
@@ -402,7 +402,7 @@ namespace Projeto___Designer
 
                 if (result.Rows.Count > 0)
                 {
-                    livro = result.Rows[0];
+                    livro = result;
                 }
             }
             catch (Exception ex)
@@ -423,7 +423,7 @@ namespace Projeto___Designer
             try
             {
                 Conectar();
-                string query = "SELECT Id, Nome, Imagem FROM Produto ORDER BY Id DESC LIMIT 1";
+                string query = "SELECT Id, Nome, Imagem FROM Produtos ORDER BY Id DESC LIMIT 1";
                 DataTable result = new DataTable();
                 using (MySqlDataAdapter adapter = new MySqlDataAdapter(query, conn))
                 {
