@@ -24,7 +24,7 @@ namespace Projeto___Designer
 
         private void Livro_btn_Click(object sender, EventArgs e)
         {
-            CadastroLivros cadastroLivros = new CadastroLivros();
+            CadastroLivrosGratuitos cadastroLivros = new CadastroLivrosGratuitos();
             this.Hide();
             cadastroLivros.ShowDialog();
         }
@@ -34,6 +34,11 @@ namespace Projeto___Designer
             CadastroProdutos cadastroProdutos = new CadastroProdutos();
             this.Hide();
             cadastroProdutos.ShowDialog();
+        }
+
+        private void LivrosVenda_btn_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

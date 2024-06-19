@@ -17,7 +17,7 @@ namespace Projeto___Designer
 
         MySqlConnection conn;
         MySqlCommand cmd;
-        string connection = "server=localhost; port=3306; database=Gerenciamento; uid=root;  pwd='FuscaAzuL123.'";
+        string connection = "server=localhost; port=3306; database=Gerenciamento; uid=root;  pwd=''";
 
         public MySqlConnection Conectar()
         {
