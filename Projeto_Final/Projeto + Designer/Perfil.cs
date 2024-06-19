@@ -107,5 +107,12 @@ namespace Projeto___Designer
                 return ms.ToArray();
             }
         }
+
+        private void btn_sair_Click(object sender, EventArgs e)
+        {
+            TipoLogin voltar = new TipoLogin();
+            this.Hide();
+            voltar.ShowDialog();
+        }
     }
 }
