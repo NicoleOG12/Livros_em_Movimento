@@ -35,9 +35,9 @@ namespace Projeto___Designer
 
                 using (MySqlCommand cmd = new MySqlCommand(query, dao.Conectar()))
                 {
-                    cmd.Parameters.AddWithValue("@Nome", Nome_do_Livro_Box );
-                    cmd.Parameters.AddWithValue("@Estoque", Quantidade);
-                    cmd.Parameters.AddWithValue("@Preço", Preço_Box);
+                    cmd.Parameters.AddWithValue("@Nome", Nome_do_Livro_Box.Text );
+                    cmd.Parameters.AddWithValue("@Estoque", Quantidade.Text);
+                    cmd.Parameters.AddWithValue("@Preço", Preço_Box.Text);
                     cmd.Parameters.AddWithValue("@Imagem", imagemBytes);
                     cmd.ExecuteNonQuery();
                 }

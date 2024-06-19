@@ -17,7 +17,7 @@ namespace Projeto___Designer
 
         MySqlConnection conn;
         MySqlCommand cmd;
-        string connection = "server=localhost; port=3306; database=Gerenciamento; uid=root;";
+        string connection = "server=localhost; port=3306; database=Gerenciamento; uid=root;  pwd='FuscaAzuL123.'";
 
         public MySqlConnection Conectar()
         {
@@ -219,7 +219,7 @@ namespace Projeto___Designer
         public DataTable GetCarrinho(int idUsuario)
         {
             Conectar();
-            string query = "SELECT c.idProduto, p.Nome, p.Valor, c.quantidade " +
+            string query = "SELECT c.idProduto, p.Nome, p.Preço, c.quantidade " +
                            "FROM Carrinho c " +
                            "JOIN Produtos p ON c.idProduto = p.id " +
                            "WHERE c.idUsuario = @idUsuario";
@@ -455,13 +455,13 @@ namespace Projeto___Designer
             {
                 Conectar();
 
-                string queryEmprestimo = @"SELECT e.id AS IdNotificacao, u.Nome AS NomeUsuario, l.Nome AS NomeLivro, e.dataDeSolicitacao, 'Emprestimo' AS Tipo
+                string queryEmprestimo = @"SELECT l.Nome AS NomeLivro, e.dataDeSolicitacao, 'Emprestimo' AS Tipo
                                    FROM Emprestimo e
                                    JOIN Usuarios u ON e.idUsuario = u.id
                                    JOIN Livros l ON e.idLivro = l.id
                                    WHERE e.statusDaSolicitacao = 'pendente'";
 
-                string queryTroca = @"SELECT t.id AS IdNotificacao, u.Nome AS NomeUsuario, l.Nome AS NomeLivro, t.dataDeSolicitacao, 'Troca' AS Tipo
+                string queryTroca = @"SELECT l.Nome AS NomeLivro, t.dataDeSolicitacao, 'Troca' AS Tipo
                               FROM Troca t
                               JOIN Usuarios u ON t.idUsuario = u.id
                               JOIN Livros l ON t.idLivro = l.id";

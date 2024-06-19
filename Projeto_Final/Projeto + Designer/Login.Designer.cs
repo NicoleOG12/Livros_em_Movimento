@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
-            this.senha_box = new System.Windows.Forms.TextBox();
-            this.email_box = new System.Windows.Forms.TextBox();
+            this.Email_Box = new System.Windows.Forms.TextBox();
+            this.Senha_Box = new System.Windows.Forms.TextBox();
             this.senha_txt = new System.Windows.Forms.Label();
             this.Login_txt = new System.Windows.Forms.Label();
             this.btn_cadastrar = new System.Windows.Forms.Button();
@@ -43,24 +43,24 @@
             this.caixalogin2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // senha_box
+            // Email_Box
             // 
-            this.senha_box.BackColor = System.Drawing.SystemColors.Menu;
-            this.senha_box.Location = new System.Drawing.Point(71, 157);
-            this.senha_box.Margin = new System.Windows.Forms.Padding(2);
-            this.senha_box.Name = "senha_box";
-            this.senha_box.Size = new System.Drawing.Size(173, 20);
-            this.senha_box.TabIndex = 0;
-            this.senha_box.UseSystemPasswordChar = true;
+            this.Email_Box.BackColor = System.Drawing.SystemColors.Menu;
+            this.Email_Box.Location = new System.Drawing.Point(73, 104);
+            this.Email_Box.Margin = new System.Windows.Forms.Padding(2);
+            this.Email_Box.Name = "Email_Box";
+            this.Email_Box.Size = new System.Drawing.Size(173, 20);
+            this.Email_Box.TabIndex = 0;
             // 
-            // email_box
+            // Senha_Box
             // 
-            this.email_box.BackColor = System.Drawing.SystemColors.Menu;
-            this.email_box.Location = new System.Drawing.Point(71, 104);
-            this.email_box.Margin = new System.Windows.Forms.Padding(2);
-            this.email_box.Name = "email_box";
-            this.email_box.Size = new System.Drawing.Size(173, 20);
-            this.email_box.TabIndex = 1;
+            this.Senha_Box.BackColor = System.Drawing.SystemColors.Menu;
+            this.Senha_Box.Location = new System.Drawing.Point(71, 157);
+            this.Senha_Box.Margin = new System.Windows.Forms.Padding(2);
+            this.Senha_Box.Name = "Senha_Box";
+            this.Senha_Box.Size = new System.Drawing.Size(173, 20);
+            this.Senha_Box.TabIndex = 1;
+            this.Senha_Box.UseSystemPasswordChar = true;
             // 
             // senha_txt
             // 
@@ -107,8 +107,8 @@
             this.caixalogin.Controls.Add(this.email_txt);
             this.caixalogin.Controls.Add(this.Login_txt);
             this.caixalogin.Controls.Add(this.senha_txt);
-            this.caixalogin.Controls.Add(this.email_box);
-            this.caixalogin.Controls.Add(this.senha_box);
+            this.caixalogin.Controls.Add(this.Senha_Box);
+            this.caixalogin.Controls.Add(this.Email_Box);
             this.caixalogin.Location = new System.Drawing.Point(258, 71);
             this.caixalogin.Name = "caixalogin";
             this.caixalogin.Size = new System.Drawing.Size(302, 244);
@@ -189,8 +189,8 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox senha_box;
-        private System.Windows.Forms.TextBox email_box;
+        private System.Windows.Forms.TextBox Email_Box;
+        private System.Windows.Forms.TextBox Senha_Box;
         private System.Windows.Forms.Label senha_txt;
         private System.Windows.Forms.Label Login_txt;
         private System.Windows.Forms.Button btn_cadastrar;

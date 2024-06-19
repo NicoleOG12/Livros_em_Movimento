@@ -29,8 +29,8 @@ namespace Projeto___Designer
 
                 string comandoSql = "SELECT id FROM administradores WHERE email = @Email AND senha = @Senha";
                 MySqlCommand cmd = new MySqlCommand(comandoSql, dao.Conectar());
-                cmd.Parameters.AddWithValue("@Email", email_box.Text);
-                cmd.Parameters.AddWithValue("@Senha", senha_box.Text);
+                cmd.Parameters.AddWithValue("@Email", Senha_Box.Text);
+                cmd.Parameters.AddWithValue("@Senha", Email_box.Text);
 
                 object idADM = cmd.ExecuteScalar();
 

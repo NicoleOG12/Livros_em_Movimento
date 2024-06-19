@@ -58,6 +58,12 @@
       <DependentUpon>Produto.cs</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Teste\Exibir_Produtos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teste\Exibir_Produtos.Designer.cs">
+      <DependentUpon>Exibir_Produtos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Feed Troca de Livros.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,6 +118,22 @@
     <Compile Include="Livros_Loja\É_assim_que_começa.Designer.cs">
       <DependentUpon>É_assim_que_começa.cs</DependentUpon>
     </Compile>
+    <Compile Include="Livro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastro.Designer.cs">
+      <DependentUpon>Cadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAO.cs" />
+    <Compile Include="Compra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Compra.Designer.cs">
+      <DependentUpon>Compra.cs</DependentUpon>
+    </Compile>
     <Compile Include="Livros_Troca\.Designer - Cópia %282%29.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -159,22 +181,6 @@
     </Compile>
     <Compile Include="Livros_Troca\Um_de_nós_está_mentindo.cs">
       <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Livro.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Cadastro.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Cadastro.Designer.cs">
-      <DependentUpon>Cadastro.cs</DependentUpon>
-    </Compile>
-    <Compile Include="DAO.cs" />
-    <Compile Include="Compra.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Compra.Designer.cs">
-      <DependentUpon>Compra.cs</DependentUpon>
     </Compile>
     <Compile Include="Loja.cs">
       <SubType>Form</SubType>
@@ -311,6 +317,12 @@
     <Compile Include="Telas_ADM\ConfirmaçãoCadastro.Designer.cs">
       <DependentUpon>ConfirmaçãoCadastro.cs</DependentUpon>
     </Compile>
+    <Compile Include="Teste\Feed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teste\Feed.Designer.cs">
+      <DependentUpon>Feed.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tipo_Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -391,6 +403,9 @@
     <Compile Include="Tela Inicial.Designer.cs">
       <DependentUpon>Tela Inicial.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Teste\Exibir_Produtos.resx">
+      <DependentUpon>Exibir_Produtos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Feed Troca de Livros.resx">
       <DependentUpon>Feed Troca de Livros.cs</DependentUpon>
     </EmbeddedResource>
@@ -418,6 +433,15 @@
     <EmbeddedResource Include="Livros_Loja\É_assim_que_começa.resx">
       <DependentUpon>É_assim_que_começa.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Livro.resx">
+      <DependentUpon>Livro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastro.resx">
+      <DependentUpon>Cadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Compra.resx">
+      <DependentUpon>Compra.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Livros_Troca\Assinato_na_casa_do_pastor.resx">
       <DependentUpon>Assinato_na_casa_do_pastor.cs</DependentUpon>
     </EmbeddedResource>
@@ -441,15 +465,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Livros_Troca\Um_de_nós_está_mentindo.resx">
       <DependentUpon>Um_de_nós_está_mentindo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Livro.resx">
-      <DependentUpon>Livro.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Cadastro.resx">
-      <DependentUpon>Cadastro.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Compra.resx">
-      <DependentUpon>Compra.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Loja.resx">
       <DependentUpon>Loja.cs</DependentUpon>
@@ -519,6 +534,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Telas_ADM\ConfirmaçãoCadastro.resx">
       <DependentUpon>ConfirmaçãoCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teste\Feed.resx">
+      <DependentUpon>Feed.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tipo_Login.resx">
       <DependentUpon>Tipo_Login.cs</DependentUpon>

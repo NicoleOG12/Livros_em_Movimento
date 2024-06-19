@@ -39,7 +39,7 @@
             this.Email_txt = new System.Windows.Forms.Label();
             this.caixalogin = new System.Windows.Forms.GroupBox();
             this.Preco = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.Preço_txt = new System.Windows.Forms.Label();
             this.Quantidade = new System.Windows.Forms.NumericUpDown();
             this.label2 = new System.Windows.Forms.Label();
             this.NomedoProduto_Box = new System.Windows.Forms.TextBox();
@@ -151,7 +151,7 @@
             // 
             this.caixalogin.BackColor = System.Drawing.Color.GhostWhite;
             this.caixalogin.Controls.Add(this.Preco);
-            this.caixalogin.Controls.Add(this.label3);
+            this.caixalogin.Controls.Add(this.Preço_txt);
             this.caixalogin.Controls.Add(this.Quantidade);
             this.caixalogin.Controls.Add(this.label2);
             this.caixalogin.Controls.Add(this.NomedoProduto_Box);
@@ -182,16 +182,16 @@
             this.Preco.Size = new System.Drawing.Size(173, 20);
             this.Preco.TabIndex = 15;
             // 
-            // label3
+            // Preço_txt
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.MediumPurple;
-            this.label3.Location = new System.Drawing.Point(58, 409);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(38, 17);
-            this.label3.TabIndex = 14;
-            this.label3.Text = "Valor";
+            this.Preço_txt.AutoSize = true;
+            this.Preço_txt.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Preço_txt.ForeColor = System.Drawing.Color.MediumPurple;
+            this.Preço_txt.Location = new System.Drawing.Point(58, 409);
+            this.Preço_txt.Name = "Preço_txt";
+            this.Preço_txt.Size = new System.Drawing.Size(38, 17);
+            this.Preço_txt.TabIndex = 14;
+            this.Preço_txt.Text = "Valor";
             // 
             // Quantidade
             // 
@@ -338,6 +338,6 @@
         private System.Windows.Forms.NumericUpDown Quantidade;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox Preco;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label Preço_txt;
     }
 }

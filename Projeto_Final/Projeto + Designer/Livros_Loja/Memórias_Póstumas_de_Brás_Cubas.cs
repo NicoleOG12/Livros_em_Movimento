@@ -27,7 +27,7 @@ namespace Projeto___Designer
             string comandoSql = $"Select id from Produto where nome= '{Nome_item_txt.Text}'";
 
             dao.Desconectar();
-            Compra compra = new Compra(idUsuario, Nome_item_txt.Text, Preço_txt.Text, Quantidade_numericUpDown1.Bottom);
+            Compra compra = new Compra(idUsuario, Nome_item_txt.Text, Quantidade_numericUpDown1.Bottom, Preço_txt.Text);
             this.Hide();
             compra.ShowDialog();
         }

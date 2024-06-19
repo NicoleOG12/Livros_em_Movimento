@@ -17,7 +17,9 @@ namespace Projeto___Designer
     public partial class Troca : Form
     {
         private int idUsuario;
+
         DAO dao = new DAO();
+       
 
         public Troca(int idUsuario, string Nome_item_txt)
         {
@@ -26,8 +28,10 @@ namespace Projeto___Designer
             this.Nome_do_Livro_Box.Text = Nome_item_txt;
         }
 
+       
         private void Confirmar_Click(object sender, EventArgs e)
         {
+
             string nomeUsuario = Nome_txt.Text;
             string emailUsuario = Email_txt.Text;
 

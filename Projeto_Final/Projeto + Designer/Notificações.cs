@@ -57,6 +57,5 @@ namespace Projeto___Designer
             this.Hide();
             solicitações.ShowDialog();
         }
-
     }
 }
