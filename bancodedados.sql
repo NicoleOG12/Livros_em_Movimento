@@ -9,6 +9,7 @@ cpf int,
 celular int,
 email varchar(50) not null,
 senha varchar(50) not null,
+imagem longblob,
 primary key (id)
 );
 
@@ -24,9 +25,9 @@ create table Livros (
 id int auto_increment unique not null,
 nome varchar(50) not null,
 autor varchar(50) not null,
-genero varchar(25) not null,
 sinopse text,
 estoque int not null,
+imagem longblob not null,
 primary key (id)
 );
 
@@ -55,12 +56,14 @@ constraint foreign key (idUsuario) references Usuarios (id),
 constraint foreign key (idLivro) references Livros (id)
 );
 
----------------------------------------------------------------------------------
 create table Produtos (
 id int auto_increment unique not null,
 nome varchar(250) not null,
+autor varchar(50),
+sinopse text,
 estoque int not null,
 preço decimal(10,2) not null,
+imagem longblob not null,
 primary key (id)
 );
 
@@ -71,7 +74,7 @@ idProduto int not null,
 quantidade int not null,
 valor int not null,
 formaPagamento varchar(20) not null,
-dataPedido date not null,
+dataPedido datetime not null,
 constraint foreign key (idUsuario) references Usuarios (id),
 constraint foreign key (idProduto) references Produtos (id)
 );

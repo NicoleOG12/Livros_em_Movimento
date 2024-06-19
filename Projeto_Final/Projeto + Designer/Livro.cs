@@ -37,9 +37,9 @@ namespace Projeto___Designer
 
         private void Seta_Click(object sender, EventArgs e)
         {
-            Troca_de_livros troca_De_Livros = new Troca_de_livros(idUsuario);
+            Feed feed = new Feed(idUsuario);
             this.Hide();
-            troca_De_Livros.ShowDialog();
+            feed.ShowDialog();
         }
     }
 }

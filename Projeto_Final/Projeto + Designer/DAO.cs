@@ -45,10 +45,21 @@ namespace Projeto___Designer
             return cmd.ExecuteReader();
         }
 
+        public DataTable GetProdutos()
+        {
+            Conectar();
+            string query = "SELECT Id, Nome, imagem FROM Produtos";
+            MySqlDataAdapter adapter = new MySqlDataAdapter(query, conn);
+            DataTable produtos = new DataTable();
+            adapter.Fill(produtos);
+            Desconectar();
+            return produtos;
+        }
+
         public DataTable GetLivros()
         {
             Conectar();
-            string query = "SELECT Id, Nome FROM Livros";
+            string query = "SELECT Id, Nome, imagem FROM Livros";
             MySqlDataAdapter adapter = new MySqlDataAdapter(query, conn);
             DataTable livros = new DataTable();
             adapter.Fill(livros);
@@ -70,7 +81,7 @@ namespace Projeto___Designer
         public DataTable BuscarLivros(string filtro)
         {
             Conectar();
-            string query = "SELECT Id, Nome FROM Livros WHERE Nome LIKE @Filtro";
+            string query = "SELECT Id, Nome FROM Produtos WHERE Nome LIKE @Filtro";
             MySqlDataAdapter adapter = new MySqlDataAdapter(query, conn);
             adapter.SelectCommand.Parameters.AddWithValue("@Filtro", "%" + filtro + "%");
             DataTable livros = new DataTable();

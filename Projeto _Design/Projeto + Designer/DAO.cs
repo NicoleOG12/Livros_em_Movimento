@@ -48,7 +48,7 @@ namespace Projeto___Designer
         public DataTable GetLivros()
         {
             Conectar();
-            string query = "SELECT Id, Nome FROM Livros";
+            string query = "SELECT Id, Nome, Imagem  FROM Livros";
             MySqlDataAdapter adapter = new MySqlDataAdapter(query, conn);
             DataTable livros = new DataTable();
             adapter.Fill(livros);

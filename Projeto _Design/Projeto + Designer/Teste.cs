@@ -26,61 +26,44 @@ namespace Projeto___Designer
 
         private void FormLivros_Load(object sender, EventArgs e)
         {
-            CarregarLivrosDoBanco();
+            CarregarLivros();
         }
 
-        private void CarregarLivrosDoBanco()
+        private void CarregarLivros()
         {
-            try
+            DAO dao = new DAO();
+            DataTable livros = dao.GetLivros();
+
+            foreach (DataRow row in livros.Rows)
             {
-                DataRow livro = dao.UltimoLivroCadastrado();
-
-                if (livro != null)
+                // Cria um GroupBox para cada livro
+                GroupBox groupBox = new GroupBox
                 {
-                    int livroId = Convert.ToInt32(livro["Id"]);
-                    string nomeLivro = livro["Nome"].ToString();
-                    byte[] imagemBytes = (byte[])livro["Imagem"];
+                    Width = 150,
+                    Height = 250,
+                    Margin = new Padding(10),
+                    Text = row["Nome"].ToString()
+                };
 
-                    GroupBox groupBox = new GroupBox();
-                    groupBox.Width = 130;
-                    groupBox.Height = 204;
-                    groupBox.Margin = new Padding(15, 15, 15, 15);
-
-                    PictureBox pictureBox = new PictureBox();
-                    pictureBox.Width = 103;
-                    pictureBox.Height = 144;
-                    pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
-
-                    if (imagemBytes != null && imagemBytes.Length > 0)
-                    {
-                        using (MemoryStream ms = new MemoryStream(imagemBytes))
-                        {
-                            pictureBox.Image = Image.FromStream(ms);
-                        }
-                    }
-
-                    Label labelNome = new Label();
-                    labelNome.Text = nomeLivro;
-                    labelNome.AutoSize = true;
-                    labelNome.Location = new Point(10, pictureBox.Bottom + 10);
-
-                    groupBox.Controls.Add(pictureBox);
-                    groupBox.Controls.Add(labelNome);
-
-                    flowLayoutPanel1.Controls.Clear();
-                    flowLayoutPanel1.Controls.Add(groupBox);
-                }
-                else
+                // Cria um PictureBox para a imagem do livro
+                PictureBox pictureBox = new PictureBox
                 {
-                    MessageBox.Show("Nenhum livro cadastrado.");
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Erro ao carregar último livro cadastrado: " + ex.Message);
-            }
+                    Width = 130,
+                    Height = 200,
+                    ImageLocation = row["CaminhoImagem"].ToString(),
+                    SizeMode = PictureBoxSizeMode.StretchImage,
+                    Location = new Point(10, 20)  // Ajusta a localização do PictureBox dentro do GroupBox
+                };
 
+                // Adiciona o PictureBox ao GroupBox
+                groupBox.Controls.Add(pictureBox);
+
+                // Adiciona o GroupBox ao FlowLayoutPanel
+                flowLayoutPanel1.Controls.Add(groupBox);
+            }
         }
+
+    
 
         private void Troca_de_livros_Click(object sender, EventArgs e)
         {
@@ -171,7 +154,7 @@ namespace Projeto___Designer
 
             else
             {
-                CarregarLivrosDoBanco(); 
+                CarregarLivros(); 
             }
         }
     }

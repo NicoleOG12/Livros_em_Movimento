@@ -36,14 +36,13 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.Painel = new System.Windows.Forms.DataGridView();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)(this.Solicitação_Box)).BeginInit();
             this.Menu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Painel)).BeginInit();
             this.SuspendLayout();
             // 
             // Solicitação_Box
@@ -127,34 +126,33 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MV Boli", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.MediumPurple;
-            this.label1.Location = new System.Drawing.Point(319, 70);
+            this.label1.Location = new System.Drawing.Point(333, 67);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(197, 34);
             this.label1.TabIndex = 13;
             this.label1.Text = "Meu Carrinho";
             // 
-            // Painel
+            // flowLayoutPanel1
             // 
-            this.Painel.BackgroundColor = System.Drawing.Color.MediumPurple;
-            this.Painel.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.Painel.Location = new System.Drawing.Point(218, 126);
-            this.Painel.Name = "Painel";
-            this.Painel.Size = new System.Drawing.Size(415, 244);
-            this.Painel.TabIndex = 14;
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.MediumPurple;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(194, 129);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(498, 221);
+            this.flowLayoutPanel1.TabIndex = 14;
             // 
-            // Carrinho
+            // CarrinhoTeste
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 428);
-            this.Controls.Add(this.Painel);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.Menu);
             this.Controls.Add(this.Solicitação_Box);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Carrinho";
+            this.Name = "CarrinhoTeste";
             this.Text = "Carrinho";
             ((System.ComponentModel.ISupportInitialize)(this.Solicitação_Box)).EndInit();
             this.Menu.ResumeLayout(false);
@@ -162,7 +160,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Painel)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -176,6 +173,6 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView Painel;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
     }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,18 +14,20 @@ namespace Projeto___Designer
     public partial class Loja : Form
     {
         private int idUsuario;
+
         public Loja(int idUsuario)
         {
 
             InitializeComponent();
             this.idUsuario = idUsuario;
+            this.CarregarProdutos();
         }
 
         private void Troca_de_livros_Click(object sender, EventArgs e)
         {
-            Troca_de_livros troca_de_livros = new Troca_de_livros(idUsuario);
+            Feed feed = new Feed(idUsuario);
             this.Hide();
-            troca_de_livros.ShowDialog();
+            feed.ShowDialog();
 
         }
 
@@ -55,130 +58,92 @@ namespace Projeto___Designer
             solicitações.ShowDialog();
         }
 
-        private void Memórias_Póstumas_Click(object sender, EventArgs e)
+
+        private void CarregarProdutos()
         {
-            Memórias_Póstumas_de_Brás_Cubas livros = new Memórias_Póstumas_de_Brás_Cubas(idUsuario);
-            this.Hide();
-            livros.ShowDialog();
+            try
+            {
+                DAO dao = new DAO();
+                DataTable produtos = dao.GetProdutos();
+
+                if (produtos.Rows.Count == 0)
+                {
+                    MessageBox.Show("Nenhum produto encontrado no banco de dados.");
+                    return;
+                }
+
+                foreach (DataRow row in produtos.Rows)
+                {
+                    GroupBox groupBox = new GroupBox
+                    {
+                        Width = 134,
+                        Height = 207,
+                        Margin = new Padding(15),
+                        BackColor = Color.White
+                    };
+
+                    PictureBox pictureBox = new PictureBox
+                    {
+                        Width = 103,
+                        Height = 144,
+                        SizeMode = PictureBoxSizeMode.StretchImage,
+                        Location = new Point(15, 15)
+                    };
+
+                    byte[] imagemBytes = (byte[])row["Imagem"];
+                    if (imagemBytes != null && imagemBytes.Length > 0)
+                    {
+                        using (MemoryStream ms = new MemoryStream(imagemBytes))
+                        {
+                            pictureBox.Image = Image.FromStream(ms);
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Imagem não encontrada.");
+                    }
+
+                    Label label = new Label
+                    {
+                        Text = row["Nome"].ToString(),
+                        AutoSize = true,
+                        Width = 109,
+                        Height = 22,
+                        TextAlign = ContentAlignment.MiddleCenter,
+                        Location = new Point(40, 165),
+                        BackColor = Color.Lavender,
+                        ForeColor = Color.MediumPurple,
+                        Cursor= Cursors.Hand
+                    };
+
+                    groupBox.Controls.Add(pictureBox);
+                    groupBox.Controls.Add(label);
+                    flowLayoutPanel1.Controls.Add(groupBox);
+
+                    string nomeProduto = row["Nome"].ToString();
+                    pictureBox.Click += (sender, e) =>
+                    {
+                        ExibirProduto(idUsuario, nomeProduto);
+                    };
+                    label.Click += (sender, e) =>
+                    {
+                        ExibirProduto(idUsuario, nomeProduto);
+                    };
+
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao carregar produtos: " + ex.Message);
+            }
         }
 
-        private void Livro1_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            Memórias_Póstumas_de_Brás_Cubas livros = new Memórias_Póstumas_de_Brás_Cubas(idUsuario);
-            this.Hide();
-            livros.ShowDialog();
-        }
 
-        private void Mais_que_amigos_Click(object sender, EventArgs e)
+        public void ExibirProduto(int idUsuario, string nomeProduto)
         {
-            Mais_que_amigos livros = new Mais_que_amigos(idUsuario);
+            Exibir_Produtos produtos = new Exibir_Produtos(idUsuario, nomeProduto );
             this.Hide();
-            livros.ShowDialog();
-        }
-
-        private void Livro2_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            Mais_que_amigos livros = new Mais_que_amigos(idUsuario);
-            this.Hide();
-            livros.ShowDialog();
-        }
-
-        private void A_hipótese_do_amor_Click(object sender, EventArgs e)
-        {
-            A_hipótese_do_amor livros = new A_hipótese_do_amor(idUsuario);
-            this.Hide();
-            livros.ShowDialog();
-        }
-
-        private void Livro3_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            A_hipótese_do_amor livros = new A_hipótese_do_amor(idUsuario);
-            this.Hide();
-            livros.ShowDialog();
-        }
-
-        private void É_assim_que_começa_Click(object sender, EventArgs e)
-        {
-            É_assim_que_começa livros = new É_assim_que_começa(idUsuario);
-            this.Hide();
-            livros.ShowDialog();
-        }
-
-        private void Livro4_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            É_assim_que_começa livros = new É_assim_que_começa(idUsuario);
-            this.Hide();
-            livros.ShowDialog();
-        }
-
-        private void Além_da_fumaça_Click(object sender, EventArgs e)
-        {
-            Além_da_Fumaça livros = new Além_da_Fumaça(idUsuario);
-            this.Hide();
-            livros.ShowDialog();
-        }
-
-        private void Livro5_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            Além_da_Fumaça livros = new Além_da_Fumaça(idUsuario);
-            this.Hide();
-            livros.ShowDialog();
-        }
-
-        private void Bridgerton_Click(object sender, EventArgs e)
-        {
-            BridgertonO_Duque_e_Eu livros = new BridgertonO_Duque_e_Eu(idUsuario);
-            this.Hide();
-            livros.ShowDialog();
-        }
-
-        private void Livro6_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            BridgertonO_Duque_e_Eu livros = new BridgertonO_Duque_e_Eu(idUsuario);
-            this.Hide();
-            livros.ShowDialog();
-        }
-
-        private void A_garota_do_lago_Click(object sender, EventArgs e)
-        {
-            A_Garota_do_Lago livros = new A_Garota_do_Lago(idUsuario);
-            this.Hide();
-            livros.ShowDialog();
-        }
-
-        private void Livro7_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            A_Garota_do_Lago livros = new A_Garota_do_Lago(idUsuario);
-            this.Hide();
-            livros.ShowDialog();
-        }
-
-        private void Como_eu_era_antes_de_você_Click(object sender, EventArgs e)
-        {
-            Como_Eu_Era_Antes_de_Você livros = new Como_Eu_Era_Antes_de_Você();
-            this.Hide();
-            livros.ShowDialog();
-        }
-
-        private void Livro8_Clicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            Como_Eu_Era_Antes_de_Você livros = new Como_Eu_Era_Antes_de_Você();
-            this.Hide();
-            livros.ShowDialog();
-        }
-
-        private void MarcaTexto_Click(object sender, EventArgs e)
-        {
-            Loja_MarcaTexto loja = new Loja_MarcaTexto(idUsuario);
-            this.Hide();
-            loja.ShowDialog();
-        }
-
-        private void MarcaPagina_Click(object sender, EventArgs e)
-        {
-            Loja_MarcaPágina loja1 = new Loja_MarcaPágina(idUsuario);
-            this.Hide();
-            loja1.ShowDialog();
+            produtos.ShowDialog();
         }
     }
 }

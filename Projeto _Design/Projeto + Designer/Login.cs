@@ -47,9 +47,9 @@ namespace Projeto___Designer
                 {
                     int id = Convert.ToInt32(idUsuario);
 
-                    Troca_de_livros troca_de_livros = new Troca_de_livros(id);
+                    Teste teste = new Teste(id);
                     this.Hide();
-                    troca_de_livros.ShowDialog();
+                    teste.ShowDialog();
                 }
                 else
                 {
