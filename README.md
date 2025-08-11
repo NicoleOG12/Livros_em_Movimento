@@ -1,21 +1,72 @@
-Projeto n°9
-📚Livros em Movimento📚
+<h1 align="center">📚 Projeto n°9 — Livros em Movimento 📚</h1>
 
-Nosso projeto será um sistema que permite aos usuários trocar seus livros pelos que estão disponiveis no feed, solicitar o emprestimo de livros do feed e comprar livros, marca páginas e marca texto. Ele terá uma interface intuitiva com recursos fáceis e acessíveis.
+<p align="center">
+  <em>Sistema de troca, empréstimo e compra de livros e produtos literários.</em>
+</p>
 
-*Recursos*
+---
 
-Login Administradores: Os administradores possuem um login especifico para entrar no sistema, onde eles poderam cadastrar novos livros e produtos.
+<h2>📜 Descrição</h2>
+<p>
+  O <strong>Livros em Movimento</strong> é um sistema que permite aos usuários:
+</p>
+<ul>
+  <li>🔄 Trocar livros disponíveis no feed</li>
+  <li>📖 Solicitar <strong>empréstimo</strong> de livros</li>
+  <li>🛒 Comprar livros, marcadores de página e marca-textos</li>
+</ul>
+<p>
+  A plataforma oferece <strong>uma interface intuitiva</strong> e recursos acessíveis para tornar a experiência prática e agradável.
+</p>
 
-Cadastro de Usuários: Os usuários podem criar perfis no sistema com suas informações pessoais.
+---
 
-Menu: O menu contém quatro icones, sendo eles um botão de feed onde os livros para troca/ empréstimos estão expostos; sacola de compras para abrir o feed de novos produtos adicionados a loja; o carrinho onde o usuário pode ver onde estão seus produtos que foram adicionados nele e por fim o icone do perfil, que apresenta os dados do usuário.
+<h2>✨ Recursos Principais</h2>
 
-Busca de Livros e Produtos: Os usuários podem pesquisar produtos pelo nome e livros por título, autor ou gênero.
+<h3>🔑 Login de Administradores</h3>
+<ul>
+  <li>Acesso exclusivo para administradores</li>
+  <li>Cadastro de <strong>novos livros</strong> e <strong>novos produtos</strong></li>
+</ul>
 
-Sistema de Empréstimo: Os usuários podem solicitar empréstimos e troca de livros disponíveis na plataforma. A sede será notificada, podendo aceitá-la ou recusá-la.
+<h3>📝 Cadastro de Usuários</h3>
+<ul>
+  <li>Criação de perfil com informações pessoais</li>
+</ul>
 
-Notificações: O sistema envia notificações aos usuários sobre solicitações de empréstimo/troca, confirmações de empréstimo/troca, datas de devolução e etc.
+<h3>📂 Menu de Navegação</h3>
+<p>O menu possui <strong>quatro ícones principais</strong>:</p>
+<ol>
+  <li>📚 <strong>Feed de Livros</strong> — livros para troca ou empréstimo</li>
+  <li>🛍️ <strong>Sacola de Compras</strong> — novos produtos da loja</li>
+  <li>🛒 <strong>Carrinho</strong> — produtos adicionados para compra</li>
+  <li>👤 <strong>Perfil</strong> — informações do usuário</li>
+</ol>
 
-Alunas: Eduarda Barbosa e Nicole Oliveira/
-Grupo ADM: Maria Marcena, Sthe e Júlia Aparecida
+<h3>🔍 Busca de Livros e Produtos</h3>
+<ul>
+  <li>Pesquisar <strong>produtos</strong> pelo nome</li>
+  <li>Pesquisar <strong>livros</strong> por título, autor ou gênero</li>
+</ul>
+
+<h3>📖 Sistema de Empréstimo e Troca</h3>
+<ul>
+  <li>Solicitar empréstimos ou trocas de livros disponíveis</li>
+  <li>Sede pode <strong>aceitar</strong> ou <strong>recusar</strong> solicitações</li>
+</ul>
+
+<h3>🔔 Notificações</h3>
+<ul>
+  <li>Solicitações de empréstimo/troca</li>
+  <li>Confirmações de transações</li>
+  <li>Datas de devolução</li>
+  <li>Outras atualizações relevantes</li>
+</ul>
+
+---
+
+<h2>👩‍💻 Equipe</h2>
+<ul>
+  <li><strong>Alunas:</strong> Eduarda Barbosa, Nicole Oliveira</li>
+  <li><strong>Grupo ADM:</strong> Maria Marcena, Sthe, Júlia Aparecida</li>
+</ul>
